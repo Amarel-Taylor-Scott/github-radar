@@ -1,6 +1,14 @@
 # github-radar
 
+[![CI](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml)
+[![Daily feed](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Dependencies: none](https://img.shields.io/badge/deps-stdlib--only-brightgreen)](pyproject.toml)
+
 **A momentum-aware feed of popular & AI-related GitHub repositories.**
+
+📈 **[See today's feed → `feeds/latest.md`](feeds/latest.md)** — regenerated daily by a GitHub Action.
 
 `github-radar` answers one question well: **"what's actually hot on GitHub right
 now, especially in AI?"** — not "what has the most all-time stars" (that list
@@ -142,21 +150,47 @@ python -m github_radar --config config.example.toml -v
 
 ---
 
+## Live daily feed
+
+This repo **publishes its own output**. A scheduled GitHub Action
+([`.github/workflows/daily.yml`](.github/workflows/daily.yml)) runs `github-radar`
+once a day and commits the fresh Markdown digest to
+**[`feeds/latest.md`](feeds/latest.md)** — so the project is its own best demo.
+
+- **Schedule:** daily at 07:13 UTC (plus a manual *Run workflow* button).
+- **Auth:** the run uses the workflow's built-in `GITHUB_TOKEN`, which only
+  raises the Search API rate limit (10 → 30 req/min) and is scoped to this repo.
+  No personal token, no secrets to configure.
+- **Commit-on-change:** the step diffs `feeds/latest.md` and only commits when it
+  actually changed, so the history stays clean on quiet days.
+
+> **Honest caveats.** GitHub has **no official trending API** — the trending
+> signal is a light, read-only scrape of the public HTML page, so it can drift if
+> the layout changes (`--trending-rss` is the fallback). The Search API is
+> rate-limited and capped at 1,000 results per query. The feed reflects those
+> free, public signals — nothing more.
+
 ## Sample output
+
+A real, committed snapshot lives at **[`feeds/sample-digest.md`](feeds/sample-digest.md)**
+(generated from a **live** run, not fixtures). A trimmed view:
 
 ```
 # github-radar — popular & AI GitHub repositories
 
-_Generated 2026-06-20 17:30 UTC — 12 repositories, ranked by momentum-aware score._
+_Generated 2026-06-20 20:51 UTC — 30 repositories, ranked by momentum-aware score._
 
 | # | Repo | ⭐ | Lang | Score | Description |
 |--:|------|--:|:-----|------:|:------------|
-| 1 | langgenius/dify         | 145,947 | TypeScript | 43.4 | Production-ready platform for agentic workflow development. |
-| 2 | langchain-ai/langchain  | 139,764 | Python     | 43.0 | The agent engineering platform. |
-| 3 | open-webui/open-webui   | 142,385 | Python     | 42.5 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) |
-| 4 | BerriAI/litellm         |  50,976 | Python     | 42.1 | Call 100+ LLM APIs in the OpenAI format. |
+| 1 | openclaw/openclaw          | 379,664 | TypeScript | 44.7 | Your own personal AI assistant. Any OS. Any Platform. |
+| 2 | affaan-m/ECC               | 218,786 | JavaScript | 44.0 | The agent harness performance optimization system. |
+| 3 | NousResearch/hermes-agent  | 198,226 | Python     | 43.9 | The agent that grows with you |
+| 4 | n8n-io/n8n                 | 193,339 | TypeScript | 43.9 | Fair-code workflow automation platform with native AI. |
+| 5 | tensorflow/tensorflow      | 195,784 | C++        | 43.8 | An Open Source Machine Learning Framework for Everyone |
 ...
 ```
+
+Reproduce it yourself with `python -m github_radar --top 30`.
 
 JSON carries a metadata envelope (`generated_at`, `count`) and the full per-repo
 record including `score`, `sources`, `stars_today`, and `topics`. The Atom feed
@@ -209,6 +243,10 @@ python -m unittest discover -s tests        # 44 tests, all offline
 # or, if you prefer pytest:
 pip install -e ".[dev]" && pytest
 ```
+
+CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the same suite
+on Python 3.10–3.12 for every push and pull request, via both `unittest` and
+`pytest`.
 
 ---
 
