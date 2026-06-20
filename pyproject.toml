@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-radar"
+version = "0.1.0"
+description = "A momentum-aware feed of popular / AI-related GitHub repositories."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Amarel Taylor Scott", email = "amarel.taylor.s@gmail.com" }]
+keywords = ["github", "trending", "ai", "llm", "feed", "rss", "radar", "discovery"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Internet",
+]
+# Zero runtime dependencies — everything is on the Python standard library.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/amareltaylor/github-radar"
+Repository = "https://github.com/amareltaylor/github-radar"
+Issues = "https://github.com/amareltaylor/github-radar/issues"
+
+[project.scripts]
+github-radar = "github_radar.cli:main"
+
+[project.optional-dependencies]
+# Tests run on the stdlib `unittest`; pytest is optional and just for convenience.
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["github_radar", "github_radar.sources"]
+
+[tool.setuptools.package-data]
+github_radar = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

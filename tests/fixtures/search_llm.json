@@ -1,0 +1,66 @@
+{
+  "total_count": 32,
+  "incomplete_results": false,
+  "items": [
+    {
+      "full_name": "affaan-m/ECC",
+      "name": "ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stargazers_count": 218720,
+      "forks_count": 33545,
+      "language": "JavaScript",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "created_at": "2026-01-18T00:51:51Z",
+      "pushed_at": "2026-06-19T02:16:07Z",
+      "updated_at": "2026-06-20T17:18:52Z",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "open_issues_count": 51,
+      "owner": {
+        "login": "affaan-m"
+      }
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "name": "hermes-agent",
+      "description": "The agent that grows with you",
+      "stargazers_count": 198145,
+      "forks_count": 35121,
+      "language": "Python",
+      "html_url": "https://github.com/NousResearch/hermes-agent",
+      "created_at": "2025-07-22T22:22:28Z",
+      "pushed_at": "2026-06-20T17:20:48Z",
+      "updated_at": "2026-06-20T17:21:42Z",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "open_issues_count": 22599,
+      "owner": {
+        "login": "NousResearch"
+      }
+    }
+  ]
+}

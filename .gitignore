@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+develop-eggs/
+.installed.cfg
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Secrets / config (never commit tokens) ---
+.env
+.env.*
+*.local.toml
+secrets.toml
+
+# --- Test / coverage / type artifacts ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Generated feed artifacts ---
+# github-radar writes feeds into output/ by default; never commit run artifacts.
+output/
+*.run.json
+
+# --- Editor / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>GitHub Python Daily Trending</title>
+    <description>Daily Trending of Python in GitHub</description>
+    <pubDate>Sat, 20 Jun 2026 01:46:01 GMT</pubDate>
+    <link>http://mshibanami.github.io/GitHubTrendingRSS</link>
+    
+        <item>
+      <title>google-research/timesfm</title>
+      <link>https://github.com/google-research/timesfm</link>
+      <description>Trending repository.</description>
+    </item>
+    <item>
+      <title>chopratejas/headroom</title>
+      <link>https://github.com/chopratejas/headroom</link>
+      <description>Trending repository.</description>
+    </item>
+    <item>
+      <title>calesthio/OpenMontage</title>
+      <link>https://github.com/calesthio/OpenMontage</link>
+      <description>Trending repository.</description>
+    </item>
+  </channel>
+</rss>

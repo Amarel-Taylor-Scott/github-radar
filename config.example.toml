@@ -1,0 +1,38 @@
+# github-radar example configuration.
+# Copy to `config.toml` and pass with `--config config.toml`.
+# Every key is optional — omit any to keep the built-in default.
+# CLI flags override these; these override the built-in defaults.
+
+[github_radar]
+# Topics to OR together. github-radar issues one Search API query per topic
+# (GitHub can't OR `topic:` qualifiers in a single query) and merges the results.
+topics = ["llm", "ai", "machine-learning", "agents", "rag", "llmops", "generative-ai"]
+
+# Minimum stargazers for the Search API source.
+min_stars = 100
+
+# Recency window (days) for the `pushed:>` filter — only repos active this recently.
+window_days = 30
+
+# Optionally also require the repo was *created* within this many days
+# (great for catching brand-new breakouts). Omit / null to disable.
+# created_within_days = 30
+
+# Max Search API results to keep (GitHub hard-caps Search at 1000).
+search_limit = 100
+
+# Trending languages to scrape. "" means the all-languages trending page.
+trending_languages = ["", "python", "typescript"]
+
+# Trending window: "daily" | "weekly" | "monthly".
+trending_since = "daily"
+
+# Toggle sources.
+enable_search = true
+enable_trending = true
+enable_trending_rss = false   # community RSS fallback for trending
+enable_huggingface = false    # Hugging Face trending (GitHub-linked entries)
+enable_arxiv = false          # arXiv cs.AI papers that link a GitHub repo
+
+# Final feed size.
+top_n = 50
