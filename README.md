@@ -99,7 +99,7 @@ structured so a future GH-Archive velocity number can drop in unchanged.
 ## Quickstart
 
 ```bash
-git clone https://github.com/amareltaylor/github-radar
+git clone https://github.com/Amarel-Taylor-Scott/github-radar
 cd github-radar
 python -m github_radar                 # no install, no deps — just run it
 ```

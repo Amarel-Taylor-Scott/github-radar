@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/amareltaylor/github-radar"
-Repository = "https://github.com/amareltaylor/github-radar"
-Issues = "https://github.com/amareltaylor/github-radar/issues"
+Homepage = "https://github.com/Amarel-Taylor-Scott/github-radar"
+Repository = "https://github.com/Amarel-Taylor-Scott/github-radar"
+Issues = "https://github.com/Amarel-Taylor-Scott/github-radar/issues"
 
 [project.scripts]
 github-radar = "github_radar.cli:main"

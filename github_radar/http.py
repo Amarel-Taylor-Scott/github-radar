@@ -22,7 +22,7 @@ from typing import Any, Optional
 
 LOGGER = logging.getLogger("github_radar.http")
 
-DEFAULT_USER_AGENT = "github-radar/0.1 (+https://github.com/amareltaylor/github-radar)"
+DEFAULT_USER_AGENT = "github-radar/0.1 (+https://github.com/Amarel-Taylor-Scott/github-radar)"
 
 
 class FetchError(Exception):
