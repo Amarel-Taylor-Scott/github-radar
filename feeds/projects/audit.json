@@ -1,55 +1,55 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T18:07:40+00:00",
-  "source_commit": "d86b5991149f05342b3670cd88f38c6b99148096",
+  "generated_at": "2026-08-31T18:36:16+00:00",
+  "source_commit": "7008d5d00f7c5582da308097c186aabce75ed7ef",
   "catalogs": [
     {
       "id": "interesting-projects",
       "title": "Interesting GitHub Projects Radar",
-      "count": 2649,
-      "leaderboard_eligible": 2422,
+      "count": 2653,
+      "leaderboard_eligible": 2429,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 220,
-      "verified_licenses": 2074,
-      "descriptive_records": 2272,
-      "active_30d": 2282,
+      "community_profiles": 202,
+      "verified_licenses": 2085,
+      "descriptive_records": 2280,
+      "active_30d": 2286,
       "flagged_for_review": 1707,
       "coverage": {
-        "leaderboard_eligible_pct": 91.4,
+        "leaderboard_eligible_pct": 91.6,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 8.3,
-        "verified_license_pct": 78.3,
-        "descriptive_pct": 85.8,
-        "active_30d_pct": 86.1,
-        "review_flag_pct": 64.4
+        "community_profile_pct": 7.6,
+        "verified_license_pct": 78.6,
+        "descriptive_pct": 85.9,
+        "active_30d_pct": 86.2,
+        "review_flag_pct": 64.3
       },
-      "median_quality": 50.1
+      "median_quality": 50.08
     },
     {
       "id": "ai-agents",
       "title": "AI Agents Radar",
       "count": 211,
-      "leaderboard_eligible": 185,
+      "leaderboard_eligible": 187,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 43,
-      "verified_licenses": 174,
-      "descriptive_records": 184,
+      "community_profiles": 41,
+      "verified_licenses": 177,
+      "descriptive_records": 185,
       "active_30d": 187,
-      "flagged_for_review": 180,
+      "flagged_for_review": 175,
       "coverage": {
-        "leaderboard_eligible_pct": 87.7,
+        "leaderboard_eligible_pct": 88.6,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 20.4,
-        "verified_license_pct": 82.5,
-        "descriptive_pct": 87.2,
+        "community_profile_pct": 19.4,
+        "verified_license_pct": 83.9,
+        "descriptive_pct": 87.7,
         "active_30d_pct": 88.6,
-        "review_flag_pct": 85.3
+        "review_flag_pct": 82.9
       },
-      "median_quality": 49.74
+      "median_quality": 49.23
     },
     {
       "id": "ai-engineering",
@@ -58,7 +58,7 @@
       "leaderboard_eligible": 193,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 29,
+      "community_profiles": 26,
       "verified_licenses": 174,
       "descriptive_records": 186,
       "active_30d": 178,
@@ -67,37 +67,37 @@
         "leaderboard_eligible_pct": 92.8,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 13.9,
+        "community_profile_pct": 12.5,
         "verified_license_pct": 83.7,
         "descriptive_pct": 89.4,
         "active_30d_pct": 85.6,
         "review_flag_pct": 74.5
       },
-      "median_quality": 50.37
+      "median_quality": 50.18
     },
     {
       "id": "developer-tools",
       "title": "Developer Tools Radar",
       "count": 180,
-      "leaderboard_eligible": 171,
+      "leaderboard_eligible": 173,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 30,
-      "verified_licenses": 149,
-      "descriptive_records": 141,
+      "community_profiles": 26,
+      "verified_licenses": 151,
+      "descriptive_records": 143,
       "active_30d": 163,
-      "flagged_for_review": 154,
+      "flagged_for_review": 150,
       "coverage": {
-        "leaderboard_eligible_pct": 95.0,
+        "leaderboard_eligible_pct": 96.1,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 16.7,
-        "verified_license_pct": 82.8,
-        "descriptive_pct": 78.3,
+        "community_profile_pct": 14.4,
+        "verified_license_pct": 83.9,
+        "descriptive_pct": 79.4,
         "active_30d_pct": 90.6,
-        "review_flag_pct": 85.6
+        "review_flag_pct": 83.3
       },
-      "median_quality": 49.92
+      "median_quality": 49.97
     },
     {
       "id": "data-engineering",
@@ -106,7 +106,7 @@
       "leaderboard_eligible": 155,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 17,
+      "community_profiles": 16,
       "verified_licenses": 130,
       "descriptive_records": 140,
       "active_30d": 139,
@@ -115,13 +115,13 @@
         "leaderboard_eligible_pct": 95.1,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 10.4,
+        "community_profile_pct": 9.8,
         "verified_license_pct": 79.8,
         "descriptive_pct": 85.9,
         "active_30d_pct": 85.3,
         "review_flag_pct": 57.7
       },
-      "median_quality": 51.7
+      "median_quality": 51.76
     },
     {
       "id": "cybersecurity",
@@ -130,7 +130,7 @@
       "leaderboard_eligible": 159,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 13,
+      "community_profiles": 12,
       "verified_licenses": 135,
       "descriptive_records": 161,
       "active_30d": 151,
@@ -139,37 +139,37 @@
         "leaderboard_eligible_pct": 89.8,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 7.3,
+        "community_profile_pct": 6.8,
         "verified_license_pct": 76.3,
         "descriptive_pct": 91.0,
         "active_30d_pct": 85.3,
         "review_flag_pct": 56.5
       },
-      "median_quality": 50.39
+      "median_quality": 50.34
     },
     {
       "id": "robotics",
       "title": "Robotics and Embodied AI Radar",
       "count": 140,
-      "leaderboard_eligible": 124,
+      "leaderboard_eligible": 125,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 15,
+      "community_profiles": 14,
       "verified_licenses": 114,
       "descriptive_records": 119,
       "active_30d": 129,
-      "flagged_for_review": 86,
+      "flagged_for_review": 85,
       "coverage": {
-        "leaderboard_eligible_pct": 88.6,
+        "leaderboard_eligible_pct": 89.3,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 10.7,
+        "community_profile_pct": 10.0,
         "verified_license_pct": 81.4,
         "descriptive_pct": 85.0,
         "active_30d_pct": 92.1,
-        "review_flag_pct": 61.4
+        "review_flag_pct": 60.7
       },
-      "median_quality": 50.55
+      "median_quality": 50.98
     },
     {
       "id": "geospatial",
@@ -178,7 +178,7 @@
       "leaderboard_eligible": 141,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 18,
+      "community_profiles": 17,
       "verified_licenses": 125,
       "descriptive_records": 133,
       "active_30d": 134,
@@ -187,13 +187,13 @@
         "leaderboard_eligible_pct": 90.4,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 11.5,
+        "community_profile_pct": 10.9,
         "verified_license_pct": 80.1,
         "descriptive_pct": 85.3,
         "active_30d_pct": 85.9,
         "review_flag_pct": 66.0
       },
-      "median_quality": 50.0
+      "median_quality": 50.05
     },
     {
       "id": "creative-computing",
@@ -202,7 +202,7 @@
       "leaderboard_eligible": 166,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 14,
+      "community_profiles": 13,
       "verified_licenses": 133,
       "descriptive_records": 149,
       "active_30d": 133,
@@ -211,7 +211,7 @@
         "leaderboard_eligible_pct": 91.2,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 7.7,
+        "community_profile_pct": 7.1,
         "verified_license_pct": 73.1,
         "descriptive_pct": 81.9,
         "active_30d_pct": 73.1,
@@ -222,26 +222,26 @@
     {
       "id": "self-hosted",
       "title": "Self-Hosted and Local-First Radar",
-      "count": 183,
+      "count": 184,
       "leaderboard_eligible": 176,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 22,
-      "verified_licenses": 139,
-      "descriptive_records": 166,
-      "active_30d": 174,
-      "flagged_for_review": 155,
+      "community_profiles": 20,
+      "verified_licenses": 144,
+      "descriptive_records": 170,
+      "active_30d": 175,
+      "flagged_for_review": 153,
       "coverage": {
-        "leaderboard_eligible_pct": 96.2,
+        "leaderboard_eligible_pct": 95.7,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 12.0,
-        "verified_license_pct": 76.0,
-        "descriptive_pct": 90.7,
+        "community_profile_pct": 10.9,
+        "verified_license_pct": 78.3,
+        "descriptive_pct": 92.4,
         "active_30d_pct": 95.1,
-        "review_flag_pct": 84.7
+        "review_flag_pct": 83.2
       },
-      "median_quality": 50.03
+      "median_quality": 49.31
     },
     {
       "id": "scientific-computing",
@@ -250,22 +250,22 @@
       "leaderboard_eligible": 152,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 25,
+      "community_profiles": 24,
       "verified_licenses": 122,
       "descriptive_records": 146,
       "active_30d": 142,
-      "flagged_for_review": 88,
+      "flagged_for_review": 89,
       "coverage": {
         "leaderboard_eligible_pct": 93.3,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 15.3,
+        "community_profile_pct": 14.7,
         "verified_license_pct": 74.8,
         "descriptive_pct": 89.6,
         "active_30d_pct": 87.1,
-        "review_flag_pct": 54.0
+        "review_flag_pct": 54.6
       },
-      "median_quality": 48.95
+      "median_quality": 48.96
     },
     {
       "id": "databases",
@@ -289,7 +289,7 @@
         "active_30d_pct": 93.8,
         "review_flag_pct": 71.4
       },
-      "median_quality": 47.73
+      "median_quality": 47.67
     },
     {
       "id": "cloud-native",
@@ -313,7 +313,7 @@
         "active_30d_pct": 92.2,
         "review_flag_pct": 79.9
       },
-      "median_quality": 50.74
+      "median_quality": 50.77
     },
     {
       "id": "bioinformatics",
@@ -322,7 +322,7 @@
       "leaderboard_eligible": 139,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 15,
+      "community_profiles": 14,
       "verified_licenses": 129,
       "descriptive_records": 140,
       "active_30d": 124,
@@ -331,13 +331,13 @@
         "leaderboard_eligible_pct": 85.3,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 9.2,
+        "community_profile_pct": 8.6,
         "verified_license_pct": 79.1,
         "descriptive_pct": 85.9,
         "active_30d_pct": 76.1,
         "review_flag_pct": 35.6
       },
-      "median_quality": 50.06
+      "median_quality": 49.8
     },
     {
       "id": "civic-tech",
@@ -346,7 +346,7 @@
       "leaderboard_eligible": 99,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 13,
+      "community_profiles": 12,
       "verified_licenses": 87,
       "descriptive_records": 105,
       "active_30d": 102,
@@ -355,13 +355,13 @@
         "leaderboard_eligible_pct": 83.9,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 11.0,
+        "community_profile_pct": 10.2,
         "verified_license_pct": 73.7,
         "descriptive_pct": 89.0,
         "active_30d_pct": 86.4,
         "review_flag_pct": 21.2
       },
-      "median_quality": 50.47
+      "median_quality": 50.5
     },
     {
       "id": "accessibility",
@@ -370,22 +370,22 @@
       "leaderboard_eligible": 146,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 14,
+      "community_profiles": 13,
       "verified_licenses": 140,
       "descriptive_records": 155,
       "active_30d": 140,
-      "flagged_for_review": 76,
+      "flagged_for_review": 77,
       "coverage": {
         "leaderboard_eligible_pct": 85.9,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 8.2,
+        "community_profile_pct": 7.6,
         "verified_license_pct": 82.4,
         "descriptive_pct": 91.2,
         "active_30d_pct": 82.4,
-        "review_flag_pct": 44.7
+        "review_flag_pct": 45.3
       },
-      "median_quality": 50.17
+      "median_quality": 50.05
     },
     {
       "id": "game-development",
@@ -394,7 +394,7 @@
       "leaderboard_eligible": 110,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 17,
+      "community_profiles": 14,
       "verified_licenses": 87,
       "descriptive_records": 95,
       "active_30d": 110,
@@ -403,13 +403,13 @@
         "leaderboard_eligible_pct": 89.4,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 13.8,
+        "community_profile_pct": 11.4,
         "verified_license_pct": 70.7,
         "descriptive_pct": 77.2,
         "active_30d_pct": 89.4,
         "review_flag_pct": 73.2
       },
-      "median_quality": 47.84
+      "median_quality": 48.06
     },
     {
       "id": "business-automation",
@@ -418,8 +418,8 @@
       "leaderboard_eligible": 128,
       "observed_history": 0,
       "fully_measured_7d": 0,
-      "community_profiles": 19,
-      "verified_licenses": 95,
+      "community_profiles": 18,
+      "verified_licenses": 94,
       "descriptive_records": 132,
       "active_30d": 122,
       "flagged_for_review": 103,
@@ -427,13 +427,13 @@
         "leaderboard_eligible_pct": 89.5,
         "observed_history_pct": 0.0,
         "fully_measured_7d_pct": 0.0,
-        "community_profile_pct": 13.3,
-        "verified_license_pct": 66.4,
+        "community_profile_pct": 12.6,
+        "verified_license_pct": 65.7,
         "descriptive_pct": 92.3,
         "active_30d_pct": 85.3,
         "review_flag_pct": 72.0
       },
-      "median_quality": 49.8
+      "median_quality": 49.46
     }
   ]
 }

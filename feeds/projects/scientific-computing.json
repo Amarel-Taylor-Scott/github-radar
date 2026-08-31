@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T18:07:40+00:00",
-  "source_commit": "d86b5991149f05342b3670cd88f38c6b99148096",
+  "generated_at": "2026-08-31T18:36:16+00:00",
+  "source_commit": "7008d5d00f7c5582da308097c186aabce75ed7ef",
   "catalog": {
     "id": "scientific-computing",
     "title": "Scientific Computing Radar",
@@ -246,13 +246,13 @@
       "repo:gonum/gonum",
       "repo:stdlib-js/stdlib",
       "repo:projectphysx/fluidx3d",
+      "repo:scipy/scipy",
       "repo:spack/spack",
       "repo:shuxiachai/academic-commercialization-agent",
       "repo:petoicamp/opencat-quadruped-robot",
       "repo:quantumlib/cirq",
       "repo:eclipse-sumo/sumo",
       "repo:pshenok/server-survival",
-      "repo:scipy/scipy",
       "repo:gem5/gem5",
       "repo:k-dense-ai/k-dense-byok",
       "repo:davidmonterocrespo24/velxio"
@@ -320,8 +320,8 @@
       "repo:neeraip/hydra",
       "repo:rlguy/blender-flip-fluids",
       "repo:simpeg/simpeg",
-      "repo:xuzhougeng/wisp-science",
       "repo:insightsoftwareconsortium/itk",
+      "repo:xuzhougeng/wisp-science",
       "repo:nvidia/skills",
       "repo:rekin226/aquascope",
       "repo:qfoldit/qfoldit.github.io",
@@ -333,8 +333,8 @@
       "repo:optiland/optiland",
       "repo:amilworks/ultra",
       "repo:pharmai/plip",
-      "repo:xi-zhao/openquantum",
       "repo:gemsciencetools/oq-vmtk",
+      "repo:xi-zhao/openquantum",
       "repo:temple-compute/pantheon",
       "repo:fabricix/mpm-geomechanics"
     ],
@@ -346,9 +346,9 @@
       "repo:tracel-ai/burn",
       "repo:goplus/xgo",
       "repo:openrct2/openrct2",
+      "repo:scipy/scipy",
       "repo:synthetic-sciences/openscience",
       "repo:spack/spack",
-      "repo:scipy/scipy",
       "repo:gonum/gonum",
       "repo:nvidia/skills",
       "repo:stdlib-js/stdlib",
@@ -363,7 +363,7 @@
       "repo:the-powder-toy/the-powder-toy",
       "repo:gem5/gem5",
       "repo:lammps/lammps",
-      "repo:openttd/openttd"
+      "repo:mani-skill/maniskill"
     ],
     "new_projects": [
       "repo:future-agi/future-agi",

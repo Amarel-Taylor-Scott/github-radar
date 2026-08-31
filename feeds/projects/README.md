@@ -1,6 +1,6 @@
 # GitHub Project Radars
 
-_Generated 2026-08-31T18:07:40+00:00._
+_Generated 2026-08-31T18:36:16+00:00._
 
 One read-only engine publishes domain-specific catalogs of high-quality, confidence-aware high-momentum, novel, up-and-coming, and interesting GitHub projects.
 
@@ -8,7 +8,7 @@ One read-only engine publishes domain-specific catalogs of high-quality, confide
 
 | Catalog | Projects | Description |
 |:--------|---------:|:------------|
-| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,649 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
+| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,653 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
 | [AI Agents Radar](ai-agents.md) | 211 | Agent runtimes, coding agents, multi-agent systems, tool-using assistants, orchestration engines, and agent infrastructure. |
 | [AI Engineering Radar](ai-engineering.md) | 208 | LLM infrastructure, RAG, inference, evaluation, observability, model serving, vector systems, and production ML tooling. |
 | [Developer Tools Radar](developer-tools.md) | 180 | Editors, terminals, CLIs, debuggers, API clients, build tools, code intelligence, testing, and developer-experience projects. |
@@ -17,7 +17,7 @@ One read-only engine publishes domain-specific catalogs of high-quality, confide
 | [Robotics and Embodied AI Radar](robotics.md) | 140 | Robotics frameworks, simulation, ROS, autonomy, drones, control, embodied AI, sensing, and real-world machine intelligence. |
 | [Geospatial and Mapping Radar](geospatial.md) | 156 | GIS, mapping, routing, spatial databases, Earth observation, geospatial analytics, and digital-twin infrastructure. |
 | [Creative Computing Radar](creative-computing.md) | 182 | Creative coding, graphics, animation, video, audio, generative art, design tools, 3D engines, and programmable media. |
-| [Self-Hosted and Local-First Radar](self-hosted.md) | 183 | Self-hosted applications, personal clouds, local-first software, homelab infrastructure, privacy tools, and independent automation. |
+| [Self-Hosted and Local-First Radar](self-hosted.md) | 184 | Self-hosted applications, personal clouds, local-first software, homelab infrastructure, privacy tools, and independent automation. |
 | [Scientific Computing Radar](scientific-computing.md) | 163 | Numerical computing, simulation, solvers, research software, reproducible science, and scientific-machine-learning infrastructure. |
 | [Databases and Storage Radar](databases.md) | 161 | SQL, NoSQL, distributed databases, vector databases, storage engines, search systems, caches, and data infrastructure. |
 | [Cloud-Native Infrastructure Radar](cloud-native.md) | 179 | Kubernetes, containers, service meshes, observability, platform engineering, deployment, and cloud-native runtime infrastructure. |

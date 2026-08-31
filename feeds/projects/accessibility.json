@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T18:07:40+00:00",
-  "source_commit": "d86b5991149f05342b3670cd88f38c6b99148096",
+  "generated_at": "2026-08-31T18:36:16+00:00",
+  "source_commit": "7008d5d00f7c5582da308097c186aabce75ed7ef",
   "catalog": {
     "id": "accessibility",
     "title": "Accessibility and Assistive Technology Radar",
@@ -236,7 +236,7 @@
       "repo:a11yproject/a11yproject.com",
       "repo:asterics/asterics-aac",
       "repo:1999azzar/the-designer",
-      "repo:fecarrico/a11y.md"
+      "repo:diegomn98/dmaster-ui"
     ],
     "high_momentum": [
       "repo:opendataloader-project/opendataloader-pdf",
@@ -284,12 +284,12 @@
       "repo:jdevalk/specification.website",
       "repo:xa11y/xa11y",
       "repo:mudb0y/openevv",
-      "repo:webkubor/dsh-bloom-theme",
       "repo:guokaigdg/animal-island-ui",
+      "repo:webkubor/dsh-bloom-theme",
       "repo:spaceamoeba-t/tapq",
       "repo:cvs-health/ios-swiftui-accessibility-techniques",
-      "repo:quangtruong2003/smoothscroll",
       "repo:diegomn98/dmaster-ui",
+      "repo:quangtruong2003/smoothscroll",
       "repo:1999azzar/the-designer"
     ],
     "high_quality": [
@@ -327,8 +327,8 @@
       "repo:ahmedthebest31/navsounds",
       "repo:community-access/accessibility-agents",
       "repo:nateherkai/scroll-craft",
-      "repo:asterics/asterics-aac",
       "repo:xujialiu/zotero-tts",
+      "repo:asterics/asterics-aac",
       "repo:falsebookin/genshin-impact-cutscene-dialogue-helper",
       "repo:sl5net/sl5-aura-service",
       "repo:sololabstr/uisight",
@@ -391,14 +391,14 @@
       "repo:jdevalk/specification.website",
       "repo:xa11y/xa11y",
       "repo:mudb0y/openevv",
-      "repo:webkubor/dsh-bloom-theme",
       "repo:guokaigdg/animal-island-ui",
+      "repo:webkubor/dsh-bloom-theme",
       "repo:spaceamoeba-t/tapq",
-      "repo:quangtruong2003/smoothscroll",
       "repo:diegomn98/dmaster-ui",
+      "repo:quangtruong2003/smoothscroll",
       "repo:1999azzar/the-designer",
       "repo:lycorp-jp/sim-use",
-      "repo:iannuttall/barkeep"
+      "repo:rh-uxd/ai-helpers"
     ],
     "daily_movers": []
   }

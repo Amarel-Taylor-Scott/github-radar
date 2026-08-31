@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T18:07:40+00:00",
-  "source_commit": "d86b5991149f05342b3670cd88f38c6b99148096",
+  "generated_at": "2026-08-31T18:36:16+00:00",
+  "source_commit": "7008d5d00f7c5582da308097c186aabce75ed7ef",
   "catalog": {
     "id": "geospatial",
     "title": "Geospatial and Mapping Radar",
@@ -349,8 +349,8 @@
       "repo:teslamate-org/teslamate",
       "repo:opengeos/leafmap",
       "repo:bigbodycobain/shadowbroker",
-      "repo:marceloprates/prettymaps",
       "repo:antvis/l7",
+      "repo:marceloprates/prettymaps",
       "repo:maplibre/maputnik",
       "repo:geopandas/geopandas",
       "repo:originalankur/maptoposter",
