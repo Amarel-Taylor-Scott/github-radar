@@ -1,0 +1,56 @@
+name: Nominate a GitHub project
+description: Suggest a high-quality, interesting, or fast-rising project for an existing or proposed radar.
+title: "[Nomination]: "
+labels: ["project-nomination"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Project Radar. A nomination is discovery evidence, not guaranteed placement. The automated ranking remains based on public repository metadata, measured history, relevance, and quality signals.
+  - type: input
+    id: repository
+    attributes:
+      label: GitHub repository
+      description: Use the canonical owner/repository form.
+      placeholder: owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: catalog
+    attributes:
+      label: Best-fit catalog
+      options:
+        - AI Agents
+        - AI Engineering
+        - Developer Tools
+        - Data Engineering
+        - Cybersecurity
+        - Robotics and Embodied AI
+        - Geospatial and Mapping
+        - Creative Computing
+        - Self-Hosted and Local-First
+        - A new catalog should be created
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is it unusually useful or interesting?
+      description: Describe the problem solved, technical novelty, practical use cases, and why it deserves attention now.
+      placeholder: This project is notable because...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Optional releases, benchmarks, adoption signals, demonstrations, independent references, or recent milestones.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I disclosed any affiliation with this project in the rationale.
+          required: true
+        - label: I understand that projects are never installed or executed by the collector.
+          required: true
