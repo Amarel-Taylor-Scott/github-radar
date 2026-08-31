@@ -5,7 +5,7 @@
   "history_days": 45,
   "discovery_window_days": 120,
   "max_repository_enrichments": 600,
-  "max_metadata_fetches": 180,
+  "max_metadata_fetches": 300,
   "leaderboard_size": 25,
   "max_items_per_repo_per_leaderboard": 1,
   "include_all_catalog_id": "agent-extensions",
@@ -68,6 +68,24 @@
       "platforms": ["claude"],
       "catalogs": ["claude-plugins"],
       "trust": 1.0
+    },
+    {
+      "id": "openai-codex-official",
+      "url": "https://raw.githubusercontent.com/openai/plugins/main/.agents/plugins/marketplace.json",
+      "repository": "openai/plugins",
+      "kind": "plugin",
+      "platforms": ["codex"],
+      "catalogs": ["agent-extensions"],
+      "trust": 1.0
+    },
+    {
+      "id": "openai-role-specific",
+      "url": "https://raw.githubusercontent.com/openai/role-specific-plugins/main/.agents/plugins/marketplace.json",
+      "repository": "openai/role-specific-plugins",
+      "kind": "plugin",
+      "platforms": ["codex"],
+      "catalogs": ["agent-extensions"],
+      "trust": 1.0
     }
   ],
   "repository_seeds": [
@@ -82,14 +100,24 @@
       "max_artifacts": 150
     },
     {
-      "id": "openai-curated-skills",
-      "repository": "openai/skills",
-      "include": ["skills/**/SKILL.md"],
+      "id": "openai-codex-plugin-skills",
+      "repository": "openai/plugins",
+      "include": ["plugins/**/skills/**/SKILL.md", ".agents/skills/**/SKILL.md"],
       "kind": "skill",
       "platforms": ["codex", "universal-agent-skill"],
       "catalogs": ["agent-extensions"],
       "trust": 1.0,
-      "max_artifacts": 180
+      "max_artifacts": 500
+    },
+    {
+      "id": "openai-role-specific-skills",
+      "repository": "openai/role-specific-plugins",
+      "include": ["plugins/**/skills/**/SKILL.md"],
+      "kind": "skill",
+      "platforms": ["codex", "universal-agent-skill"],
+      "catalogs": ["agent-extensions"],
+      "trust": 1.0,
+      "max_artifacts": 200
     },
     {
       "id": "vercel-agent-skills",
@@ -142,6 +170,16 @@
       "catalogs": ["claude-plugins"],
       "trust": 0.52,
       "max_results": 60
+    },
+    {
+      "id": "codex-plugin-manifest",
+      "query": "name filename:plugin.json path:.codex-plugin",
+      "path_regex": "(^|/)\\.codex-plugin/plugin\\.json$",
+      "kind": "plugin",
+      "platforms": ["codex"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.55,
+      "max_results": 80
     },
     {
       "id": "gemini-extension-manifest",
