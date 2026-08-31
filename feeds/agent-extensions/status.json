@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "generated_at": "2026-08-31T14:52:33+00:00",
+  "items": 3111,
+  "catalogs": {
+    "claude-skills": 58,
+    "claude-tools": 204,
+    "claude-plugins": 2589,
+    "agent-extensions": 3111
+  }
+}

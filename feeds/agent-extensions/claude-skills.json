@@ -1,0 +1,3840 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-31T14:52:33+00:00",
+  "catalog": {
+    "id": "claude-skills",
+    "title": "Claude Skills Radar",
+    "description": "Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components."
+  },
+  "count": 58,
+  "leaderboards": {
+    "high_momentum": [
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:anthropics/skills:skills/algorithmic-art",
+      "skill:anthropics/skills:skills/brand-guidelines",
+      "skill:anthropics/skills:skills/canvas-design",
+      "skill:anthropics/skills:skills/claude-api",
+      "skill:anthropics/skills:skills/discernment-nudge",
+      "skill:anthropics/skills:skills/doc-coauthoring",
+      "skill:anthropics/skills:skills/docx",
+      "skill:getstream/vision-agents:.claude/skills/pr",
+      "skill:flowglad/flowglad:.claude/skills/pm",
+      "skill:typeddevs/bashunit:.claude/skills/pr",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:gacela-project/gacela:.claude/skills/pr",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:metamask/ocap-kernel:.claude/skills/pr",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "skill:ohah/hwpjs:.claude/skills/pr",
+      "skill:nwiizo/cargo-coupling:.claude/skills/web",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:talmolab/sleap-nn:.claude/skills/pr",
+      "skill:plan4better/goat:.claude/skills/db"
+    ],
+    "rising": [
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:anthropics/skills:skills/algorithmic-art",
+      "skill:anthropics/skills:skills/brand-guidelines",
+      "skill:anthropics/skills:skills/canvas-design",
+      "skill:anthropics/skills:skills/claude-api",
+      "skill:anthropics/skills:skills/discernment-nudge",
+      "skill:anthropics/skills:skills/doc-coauthoring",
+      "skill:anthropics/skills:skills/docx",
+      "skill:getstream/vision-agents:.claude/skills/pr",
+      "skill:flowglad/flowglad:.claude/skills/pm",
+      "skill:typeddevs/bashunit:.claude/skills/pr",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:gacela-project/gacela:.claude/skills/pr",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:metamask/ocap-kernel:.claude/skills/pr",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "skill:ohah/hwpjs:.claude/skills/pr",
+      "skill:nwiizo/cargo-coupling:.claude/skills/web",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:talmolab/sleap-nn:.claude/skills/pr",
+      "skill:plan4better/goat:.claude/skills/db"
+    ],
+    "popular": [
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:anthropics/skills:skills/algorithmic-art",
+      "skill:anthropics/skills:skills/brand-guidelines",
+      "skill:anthropics/skills:skills/canvas-design",
+      "skill:anthropics/skills:skills/claude-api",
+      "skill:anthropics/skills:skills/discernment-nudge",
+      "skill:anthropics/skills:skills/doc-coauthoring",
+      "skill:anthropics/skills:skills/docx",
+      "skill:getstream/vision-agents:.claude/skills/pr",
+      "skill:flowglad/flowglad:.claude/skills/pm",
+      "skill:typeddevs/bashunit:.claude/skills/pr",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:gacela-project/gacela:.claude/skills/pr",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:metamask/ocap-kernel:.claude/skills/pr",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "skill:ohah/hwpjs:.claude/skills/pr",
+      "skill:nwiizo/cargo-coupling:.claude/skills/web",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:talmolab/sleap-nn:.claude/skills/pr",
+      "skill:plan4better/goat:.claude/skills/db"
+    ],
+    "new": []
+  },
+  "items": [
+    {
+      "id": "skill:anthropics/skills:skills/academy-guide",
+      "name": "academy-guide",
+      "kind": "skill",
+      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/academy-guide/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/academy-guide",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/academy-guide/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "academy-guide",
+        "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/algorithmic-art",
+      "name": "algorithmic-art",
+      "kind": "skill",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/algorithmic-art/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/algorithmic-art/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "algorithmic-art",
+        "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/brand-guidelines",
+      "name": "brand-guidelines",
+      "kind": "skill",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/brand-guidelines/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/brand-guidelines/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "brand-guidelines",
+        "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/canvas-design",
+      "name": "canvas-design",
+      "kind": "skill",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/canvas-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/canvas-design/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "canvas-design",
+        "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/claude-api",
+      "name": "claude-api",
+      "kind": "skill",
+      "description": "|-",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/claude-api/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/claude-api/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "claude-api",
+        "description": "|-",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/discernment-nudge",
+      "name": "discernment-nudge",
+      "kind": "skill",
+      "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/discernment-nudge/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/discernment-nudge/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "discernment-nudge",
+        "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/doc-coauthoring",
+      "name": "doc-coauthoring",
+      "kind": "skill",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/doc-coauthoring/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/doc-coauthoring/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "doc-coauthoring",
+        "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/docx",
+      "name": "docx",
+      "kind": "skill",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/docx/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/docx/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "docx",
+        "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+        "license": "Proprietary. LICENSE.txt has complete terms"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/frontend-design",
+      "name": "frontend-design",
+      "kind": "skill",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/frontend-design/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/frontend-design/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "frontend-design",
+        "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/internal-comms",
+      "name": "internal-comms",
+      "kind": "skill",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/internal-comms/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/internal-comms/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "internal-comms",
+        "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/mcp-builder",
+      "name": "mcp-builder",
+      "kind": "skill",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/mcp-builder/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/mcp-builder/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "mcp-builder",
+        "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/pdf",
+      "name": "pdf",
+      "kind": "skill",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/pdf/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/pdf/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pdf",
+        "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+        "license": "Proprietary. LICENSE.txt has complete terms"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/pptx",
+      "name": "pptx",
+      "kind": "skill",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/pptx/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/pptx/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pptx",
+        "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+        "license": "Proprietary. LICENSE.txt has complete terms"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/skill-creator",
+      "name": "skill-creator",
+      "kind": "skill",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/skill-creator/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/skill-creator/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "skill-creator",
+        "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/slack-gif-creator",
+      "name": "slack-gif-creator",
+      "kind": "skill",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/slack-gif-creator/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/slack-gif-creator/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "slack-gif-creator",
+        "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/theme-factory",
+      "name": "theme-factory",
+      "kind": "skill",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/theme-factory/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/theme-factory/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "theme-factory",
+        "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "kind": "skill",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/web-artifacts-builder/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/web-artifacts-builder/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "web-artifacts-builder",
+        "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/webapp-testing",
+      "name": "webapp-testing",
+      "kind": "skill",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/webapp-testing/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/webapp-testing/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "webapp-testing",
+        "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:anthropics/skills:skills/xlsx",
+      "name": "xlsx",
+      "kind": "skill",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "platforms": [
+        "claude",
+        "universal-agent-skill"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "anthropics/skills",
+        "html_url": "https://github.com/anthropics/skills",
+        "description": "Public repository for Agent Skills",
+        "stars": 172762,
+        "forks": 20522,
+        "open_issues": 1191,
+        "watchers": 1113,
+        "created_at": "2025-09-22T15:53:31Z",
+        "pushed_at": "2026-08-21T17:10:55Z",
+        "updated_at": "2026-08-31T14:45:57Z",
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": true
+      },
+      "path": "skills/xlsx/SKILL.md",
+      "source_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+      "provenance": [
+        "seed:anthropic-skills"
+      ],
+      "evidence": [
+        "path:skills/xlsx/SKILL.md",
+        "valid-skill-frontmatter"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 1.0,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "xlsx",
+        "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+        "license": "Proprietary. LICENSE.txt has complete terms"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 505.15204678362574,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 94.9,
+        "momentum": 87.42,
+        "rising": 84.18,
+        "overall": 88.91
+      }
+    },
+    {
+      "id": "skill:getstream/vision-agents:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Create a draft pull request for the Vision-Agents repo using gh CLI.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "GetStream/Vision-Agents",
+        "html_url": "https://github.com/GetStream/Vision-Agents",
+        "description": "Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/GetStream/Vision-Agents/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Create a draft pull request for the Vision-Agents repo using gh CLI."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:flowglad/flowglad:.claude/skills/pm",
+      "name": "pm",
+      "kind": "skill",
+      "description": "Create incident postmortems by reading Slack incident channels and creating structured postmortem documents in Notion. Use when conducting postmortem reviews or documenting incident responses.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "flowglad/flowglad",
+        "html_url": "https://github.com/flowglad/flowglad",
+        "description": "Open source, zero webhooks payment provider",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pm/SKILL.md",
+      "source_url": "https://github.com/flowglad/flowglad/tree/main/.claude/skills/pm",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pm/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pm",
+        "description": "Create incident postmortems by reading Slack incident channels and creating structured postmortem documents in Notion. Use when conducting postmortem reviews or documenting incident responses."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:typeddevs/bashunit:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Push branch and create a GitHub PR with concise, issue-linked description",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "TypedDevs/bashunit",
+        "html_url": "https://github.com/TypedDevs/bashunit",
+        "description": "A simple yet powerfull testing library for bash scripts.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/TypedDevs/bashunit/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Push branch and create a GitHub PR with concise, issue-linked description",
+        "user-invocable": "true",
+        "argument-hint": "[#issue]",
+        "allowed-tools": "Bash, Read, Grep, Glob"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "name": "qa",
+      "kind": "skill",
+      "description": "quant.cpp의 통합 정합성을 검증한다. 모듈 간 경계면 불일치, 타입 시스템 정합성, quantize→attention 파이프라인, cache 무결성을 교차 비교한다. '검증', 'QA', '테스트', '정합성 확인', 'validate' 요청 시, 또는 코드 변경 후 머지 전에 자동으로 사용.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "quantumaikr/quant.cpp",
+        "html_url": "https://github.com/quantumaikr/quant.cpp",
+        "description": "LLM inference with 7x longer context. Pure C, zero dependencies. Lossless KV cache compression + single-header library.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/qa/skill.md",
+      "source_url": "https://github.com/quantumaikr/quant.cpp/tree/main/.claude/skills/qa",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/qa/skill.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "qa",
+        "description": "quant.cpp의 통합 정합성을 검증한다. 모듈 간 경계면 불일치, 타입 시스템 정합성, quantize→attention 파이프라인, cache 무결성을 교차 비교한다. '검증', 'QA', '테스트', '정합성 확인', 'validate' 요청 시, 또는 코드 변경 후 머지 전에 자동으로 사용."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Create or update a pull request for the current git changes. Use when the user wants a PR, commit/push for review, or gh pr create flow.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "boundless-xyz/boundless",
+        "html_url": "https://github.com/boundless-xyz/boundless",
+        "description": "Monorepo for Boundless, the universal ZK protocol.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/boundless-xyz/boundless/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Create or update a pull request for the current git changes. Use when the user wants a PR, commit/push for review, or gh pr create flow.",
+        "disable-model-invocation": "true"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:iopsystems/rezolus:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Create a feature branch, commit changes, push, and open a PR against iopsystems/rezolus",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "iopsystems/rezolus",
+        "html_url": "https://github.com/iopsystems/rezolus",
+        "description": "High-resolution, low-overhead systems and service telemetry",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/iopsystems/rezolus/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Create a feature branch, commit changes, push, and open a PR against iopsystems/rezolus"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:gacela-project/gacela:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Push branch and create a PR with concise description and labels",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "gacela-project/gacela",
+        "html_url": "https://github.com/gacela-project/gacela",
+        "description": "Build modular PHP applications.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/gacela-project/gacela/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "description": "Push branch and create a PR with concise description and labels",
+        "argument-hint": "[issue-number]",
+        "disable-model-invocation": "true",
+        "allowed-tools": "Read, Edit, Bash(git *), Bash(gh *)"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Use when the user wants to open a pull request or finish a branch handoff. Read the PR template, inspect changes vs main, run the release skill first if the branch name looks like a version, validate the branch with the shared repo checks, open a draft PR targeting main, and return the preview deployment URL when one applies.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "zacharyfmarion/openscad-studio",
+        "html_url": "https://github.com/zacharyfmarion/openscad-studio",
+        "description": "Create 2D and 3D designs with AI",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/zacharyfmarion/openscad-studio/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Use when the user wants to open a pull request or finish a branch handoff. Read the PR template, inspect changes vs main, run the release skill first if the branch name looks like a version, validate the branch with the shared repo checks, open a draft PR targeting main, and return the preview deployment URL when one applies."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:dexforce/embodichain:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Claude adapter for the canonical EmbodiChain PR skill.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "DexForce/EmbodiChain",
+        "html_url": "https://github.com/DexForce/EmbodiChain",
+        "description": "An end-to-end, GPU-accelerated, and modular platform for building generalized Embodied Intelligence.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Claude adapter for the canonical EmbodiChain PR skill."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:alamenai/terrae:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Commit, push, and open a pull request on GitHub",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "alamenai/terrae",
+        "html_url": "https://github.com/alamenai/terrae",
+        "description": "Composable and animated components that replace imperative layers with simple props. The perfect companion for shadcn/ui.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/alamenai/terrae/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Commit, push, and open a pull request on GitHub",
+        "allowed-tools": "Bash(git *), Bash(gh *)"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:metamask/ocap-kernel:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Creates a pull request for the current branch.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "MetaMask/ocap-kernel",
+        "html_url": "https://github.com/MetaMask/ocap-kernel",
+        "description": "The MetaMask Ocap Kernel monorepo.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/MetaMask/ocap-kernel/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Creates a pull request for the current branch.",
+        "unsandboxed": "true"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "name": "pm",
+      "kind": "skill",
+      "description": "Backward-compat alias for @horizon (this skill was renamed from `pm` to `Horizon` on 2026-07-05). USE THIS only when invoked directly as `/pm` or via an existing `@pm` delegation reference — it redirects immediately to @horizon, the strategic owner of the VNX future-state layer (roadmap -> tracks -> deliverables) and the plan-first gate. Prefer `@horizon` / `vnx horizon` for anything new; this alias exists only for transition safety.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Vinix24/vnx-orchestration",
+        "html_url": "https://github.com/Vinix24/vnx-orchestration",
+        "description": "Governance-first orchestration for Claude Code, Codex, and Gemini CLI — parallel workers, receipts, quality gates, and full provenance.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pm/SKILL.md",
+      "source_url": "https://github.com/Vinix24/vnx-orchestration/tree/main/.claude/skills/pm",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pm/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pm",
+        "description": "Backward-compat alias for @horizon (this skill was renamed from `pm` to `Horizon` on 2026-07-05). USE THIS only when invoked directly as `/pm` or via an existing `@pm` delegation reference — it redirects immediately to @horizon, the strategic owner of the VNX future-state layer (roadmap -> tracks -> deliverables) and the plan-first gate. Prefer `@horizon` / `vnx horizon` for anything new; this alias exists only for transition safety.",
+        "user-invocable": "true",
+        "allowed-tools": "[Read, Grep, Glob, Bash]",
+        "paths": "[\".vnx-data/**\", \"claudedocs/**\", \"ROADMAP.yaml\"]"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:ohah/hwpjs:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "현재 브랜치의 변경사항을 기반으로 GitHub Pull Request를 생성해주세요.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "ohah/hwpjs",
+        "html_url": "https://github.com/ohah/hwpjs",
+        "description": "hwpjs",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/ohah/hwpjs/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "description": "현재 브랜치의 변경사항을 기반으로 GitHub Pull Request를 생성해주세요.",
+        "user_invocable": "true"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:nwiizo/cargo-coupling:.claude/skills/web",
+      "name": "web",
+      "kind": "skill",
+      "description": "Start interactive web UI for coupling analysis visualization. Graph exploration with filters, hotspots, and export.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "nwiizo/cargo-coupling",
+        "html_url": "https://github.com/nwiizo/cargo-coupling",
+        "description": "A coupling analysis tool for Rust projects - measuring the 'right distance' in your code",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/web/SKILL.md",
+      "source_url": "https://github.com/nwiizo/cargo-coupling/tree/main/.claude/skills/web",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/web/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "web",
+        "description": "Start interactive web UI for coupling analysis visualization. Graph exploration with filters, hotspots, and export.",
+        "argument-hint": "[path] [--port PORT] [--no-open]",
+        "disable-model-invocation": "true"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "name": "gt",
+      "kind": "skill",
+      "description": ">-",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "DAAF-Contribution-Community/daaf",
+        "html_url": "https://github.com/DAAF-Contribution-Community/daaf",
+        "description": "The Data Analyst Augmentation Framework (DAAF) is a free, open-source toolkit that turns Claude Code into a rigorous quantitative research engine with you at the helm: every step auditable, every output verifiable, every decision yours to make. Built by researchers, for researchers.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/gt/SKILL.md",
+      "source_url": "https://github.com/DAAF-Contribution-Community/daaf/tree/main/.claude/skills/gt",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/gt/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "gt",
+        "description": ">-",
+        "autoload": "never",
+        "metadata": ""
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:talmolab/sleap-nn:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Create a well-structured GitHub PR with proper branching, testing, formatting, and documentation. Use when the user says \"create a PR\", \"make a PR\", \"open a pull request\", or wants to submit changes for review. Handles the full workflow: branch creation, implementation, testing, formatting, committing, and PR creation with comprehensive descriptions.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "talmolab/sleap-nn",
+        "html_url": "https://github.com/talmolab/sleap-nn",
+        "description": "Neural network backend for training and inference for animal pose estimation.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/talmolab/sleap-nn/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Create a well-structured GitHub PR with proper branching, testing, formatting, and documentation. Use when the user says \"create a PR\", \"make a PR\", \"open a pull request\", or wants to submit changes for review. Handles the full workflow: branch creation, implementation, testing, formatting, committing, and PR creation with comprehensive descriptions."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:plan4better/goat:.claude/skills/db",
+      "name": "db",
+      "kind": "skill",
+      "description": "Use when inspecting, debugging, or understanding the GOAT PostgreSQL database — querying projects, layers, users, orgs, teams, roles, scenarios, jobs, or checking data state during local dev.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "plan4better/goat",
+        "html_url": "https://github.com/plan4better/goat",
+        "description": "WebGIS with Planning Intelligence",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/db/SKILL.md",
+      "source_url": "https://github.com/plan4better/goat/tree/main/.claude/skills/db",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/db/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "db",
+        "description": "Use when inspecting, debugging, or understanding the GOAT PostgreSQL database — querying projects, layers, users, orgs, teams, roles, scenarios, jobs, or checking data state during local dev."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:doit-artificial-intelligence/youtube-to-docs:.claude/skills/ks",
+      "name": "ks",
+      "kind": "skill",
+      "description": "(Kitchen Sink) Process a YouTube video with all features (summary, Q&A, infographic, audio, and video).",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "DoIT-Artificial-Intelligence/youtube-to-docs",
+        "html_url": "https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs",
+        "description": "Convert YouTube videos into structured docs, summaries, audio, and visual assets for easier discovery.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/ks/SKILL.md",
+      "source_url": "https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs/tree/main/.claude/skills/ks",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/ks/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "description": "(Kitchen Sink) Process a YouTube video with all features (summary, Q&A, infographic, audio, and video)."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:doit-artificial-intelligence/youtube-to-docs:.claude/skills/scc",
+      "name": "scc",
+      "kind": "skill",
+      "description": "Suggest WCAG 2.1 / Section 508 corrected captions for a YouTube video.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "DoIT-Artificial-Intelligence/youtube-to-docs",
+        "html_url": "https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs",
+        "description": "Convert YouTube videos into structured docs, summaries, audio, and visual assets for easier discovery.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/scc/SKILL.md",
+      "source_url": "https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs/tree/main/.claude/skills/scc",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/scc/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "description": "Suggest WCAG 2.1 / Section 508 corrected captions for a YouTube video."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:buddiesofbudgie/docs:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Create a pull request for the current branch",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "BuddiesOfBudgie/docs",
+        "html_url": "https://github.com/BuddiesOfBudgie/docs",
+        "description": "Buddies of Budgie documentation, built with Docusaurus.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/BuddiesOfBudgie/docs/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Create a pull request for the current branch",
+        "disable-model-invocation": "false",
+        "allowed-tools": "Bash(git *), Bash(gh pr create *), Skill(commit)"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:chemaclass/bashdep:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "Push branch and create a GitHub PR following the bashdep PR template",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Chemaclass/bashdep",
+        "html_url": "https://github.com/Chemaclass/bashdep",
+        "description": "A simple dependency manager for bash",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/Chemaclass/bashdep/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "pr",
+        "description": "Push branch and create a GitHub PR following the bashdep PR template",
+        "user-invocable": "true",
+        "argument-hint": "[#issue]",
+        "disable-model-invocation": "true",
+        "allowed-tools": "Bash, Read, Grep, Glob"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:mad-labs-org/tbh-meter:.claude/skills/dev",
+      "name": "dev",
+      "kind": "skill",
+      "description": "Boot and drive the tbh-meter app + reader locally to see a change working — what runs on macOS (UI only; the reader is win32-only) and how to feed the overlay/list fake data. Use when asked to run/start the meter, verify a change in the running app, screenshot the overlay, or reproduce a bug locally.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "mad-labs-org/tbh-meter",
+        "html_url": "https://github.com/mad-labs-org/tbh-meter",
+        "description": "Live DPS / Gold / EXP meter & run-tracker overlay for Task Bar Hero — Electron overlay + Python memory reader. Open-source (MIT), Windows.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/dev/SKILL.md",
+      "source_url": "https://github.com/mad-labs-org/tbh-meter/tree/main/.claude/skills/dev",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/dev/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "dev",
+        "description": "Boot and drive the tbh-meter app + reader locally to see a change working — what runs on macOS (UI only; the reader is win32-only) and how to feed the overlay/list fake data. Use when asked to run/start the meter, verify a change in the running app, screenshot the overlay, or reproduce a bug locally."
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:posva/dotfiles:.claude/skills/gh",
+      "name": "gh",
+      "kind": "skill",
+      "description": "Commit, push, and open a PR using the cheap low-token git-ops agent. Use for git/github wrap-up — git commit, git push, gh pr create, \"ship it\", \"open a PR\", \"create the PR\", \"push and PR\", end-of-task git handoff.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "posva/dotfiles",
+        "html_url": "https://github.com/posva/dotfiles",
+        "description": "📁 My dotfiles",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/gh/SKILL.md",
+      "source_url": "https://github.com/posva/dotfiles/tree/main/.claude/skills/gh",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/gh/SKILL.md",
+        "metadata-parsed"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": true,
+      "metadata": {
+        "name": "gh",
+        "description": "Commit, push, and open a PR using the cheap low-token git-ops agent. Use for git/github wrap-up — git commit, git push, gh pr create, \"ship it\", \"open a PR\", \"create the PR\", \"push and PR\", end-of-task git handoff.",
+        "disable-model-invocation": "true",
+        "context": "fork",
+        "agent": "git-ops"
+      },
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 22.5,
+        "momentum": 24.86,
+        "rising": 24.81,
+        "overall": 24.09
+      }
+    },
+    {
+      "id": "skill:woocommerce/woocommerce-ios:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "WooCommerce iOS app",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "woocommerce/woocommerce-ios",
+        "html_url": "https://github.com/woocommerce/woocommerce-ios",
+        "description": "WooCommerce iOS app",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/woocommerce/woocommerce-ios/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:wp-media/wp-rocket:.claude/skills/qa",
+      "name": "qa",
+      "kind": "skill",
+      "description": "Performance optimization plugin for WordPress",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "wp-media/wp-rocket",
+        "html_url": "https://github.com/wp-media/wp-rocket",
+        "description": "Performance optimization plugin for WordPress",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/qa/SKILL.md",
+      "source_url": "https://github.com/wp-media/wp-rocket/tree/main/.claude/skills/qa",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/qa/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:talmolab/sleap:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "A deep learning framework for multi-animal pose tracking.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "talmolab/sleap",
+        "html_url": "https://github.com/talmolab/sleap",
+        "description": "A deep learning framework for multi-animal pose tracking.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/skill.md",
+      "source_url": "https://github.com/talmolab/sleap/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/skill.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:srid/emanote:.claude/skills/pu",
+      "name": "pu",
+      "kind": "skill",
+      "description": "Emanate a structured view of your plain-text notes",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "srid/emanote",
+        "html_url": "https://github.com/srid/emanote",
+        "description": "Emanate a structured view of your plain-text notes",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pu/SKILL.md",
+      "source_url": "https://github.com/srid/emanote/tree/main/.claude/skills/pu",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pu/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "name": "qa",
+      "kind": "skill",
+      "description": "A package for using GTD with org-mode ",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Trevoke/org-gtd.el",
+        "html_url": "https://github.com/Trevoke/org-gtd.el",
+        "description": "A package for using GTD with org-mode ",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/qa/SKILL.md",
+      "source_url": "https://github.com/Trevoke/org-gtd.el/tree/main/.claude/skills/qa",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/qa/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:srid/emanote:.claude/skills/do",
+      "name": "do",
+      "kind": "skill",
+      "description": "Emanate a structured view of your plain-text notes",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "srid/emanote",
+        "html_url": "https://github.com/srid/emanote",
+        "description": "Emanate a structured view of your plain-text notes",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/do/SKILL.md",
+      "source_url": "https://github.com/srid/emanote/tree/main/.claude/skills/do",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/do/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:srid/emanote:.claude/skills/be",
+      "name": "be",
+      "kind": "skill",
+      "description": "Emanate a structured view of your plain-text notes",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "srid/emanote",
+        "html_url": "https://github.com/srid/emanote",
+        "description": "Emanate a structured view of your plain-text notes",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/be/SKILL.md",
+      "source_url": "https://github.com/srid/emanote/tree/main/.claude/skills/be",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/be/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:markuplint/markuplint:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "An HTML linter for all markup developers.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "markuplint/markuplint",
+        "html_url": "https://github.com/markuplint/markuplint",
+        "description": "An HTML linter for all markup developers.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/markuplint/markuplint/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:harperreed/dotfiles:.claude/skills/uv",
+      "name": "uv",
+      "kind": "skill",
+      "description": "Dotfiles. Managed by YADM",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "harperreed/dotfiles",
+        "html_url": "https://github.com/harperreed/dotfiles",
+        "description": "Dotfiles. Managed by YADM",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/uv/SKILL.md",
+      "source_url": "https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/uv/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:srid/haskell-flake:.claude/skills/do",
+      "name": "do",
+      "kind": "skill",
+      "description": "A `flake-parts` Nix module for Haskell development",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "srid/haskell-flake",
+        "html_url": "https://github.com/srid/haskell-flake",
+        "description": "A `flake-parts` Nix module for Haskell development",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/do/SKILL.md",
+      "source_url": "https://github.com/srid/haskell-flake/tree/main/.claude/skills/do",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/do/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:datagrok-ai/public:.claude/skills/ui",
+      "name": "ui",
+      "kind": "skill",
+      "description": "Public package repository for the Datagrok.ai platform",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "datagrok-ai/public",
+        "html_url": "https://github.com/datagrok-ai/public",
+        "description": "Public package repository for the Datagrok.ai platform",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/ui/SKILL.md",
+      "source_url": "https://github.com/datagrok-ai/public/tree/main/.claude/skills/ui",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/ui/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:mlrun/ce:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "MLRun Community Edition",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "mlrun/ce",
+        "html_url": "https://github.com/mlrun/ce",
+        "description": "MLRun Community Edition",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/mlrun/ce/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:tatsh/youtube-unofficial:.claude/skills/ci",
+      "name": "ci",
+      "kind": "skill",
+      "description": "Access parts of your account unavailable through normal YouTube API access.",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Tatsh/youtube-unofficial",
+        "html_url": "https://github.com/Tatsh/youtube-unofficial",
+        "description": "Access parts of your account unavailable through normal YouTube API access.",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/ci/SKILL.md",
+      "source_url": "https://github.com/Tatsh/youtube-unofficial/tree/main/.claude/skills/ci",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/ci/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:automattic/wordpress-atmosphere:.claude/skills/pr",
+      "name": "pr",
+      "kind": "skill",
+      "description": "ATmosphere connects your WordPress site to the AT Protocol network. When you publish a post, it is automatically cross-posted to Bluesky and registered as a standard.site document on your Personal Data Server (PDS).",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Automattic/wordpress-atmosphere",
+        "html_url": "https://github.com/Automattic/wordpress-atmosphere",
+        "description": "ATmosphere connects your WordPress site to the AT Protocol network. When you publish a post, it is automatically cross-posted to Bluesky and registered as a standard.site document on your Personal Data Server (PDS).",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/pr/SKILL.md",
+      "source_url": "https://github.com/Automattic/wordpress-atmosphere/tree/main/.claude/skills/pr",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/pr/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:tim-hub/powerball-harness:.claude/skills/ui",
+      "name": "ui",
+      "kind": "skill",
+      "description": "A claude code harness flow, autonomous Plan→Work→Review Cycle ",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "tim-hub/powerball-harness",
+        "html_url": "https://github.com/tim-hub/powerball-harness",
+        "description": "A claude code harness flow, autonomous Plan→Work→Review Cycle ",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "User",
+        "api_complete": false
+      },
+      "path": ".claude/skills/ui/SKILL.md",
+      "source_url": "https://github.com/tim-hub/powerball-harness/tree/main/.claude/skills/ui",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/ui/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 19.17,
+        "momentum": 22.27,
+        "rising": 22.96,
+        "overall": 21.47
+      }
+    },
+    {
+      "id": "skill:actual-chat/actual-chat:.claude/skills/qa",
+      "name": "qa",
+      "kind": "skill",
+      "description": "",
+      "platforms": [
+        "claude"
+      ],
+      "catalogs": [
+        "claude-skills",
+        "agent-extensions"
+      ],
+      "repo": {
+        "full_name": "Actual-Chat/actual-chat",
+        "html_url": "https://github.com/Actual-Chat/actual-chat",
+        "description": "",
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "created_at": "",
+        "pushed_at": "",
+        "updated_at": "",
+        "language": "",
+        "topics": [],
+        "license_spdx": "",
+        "archived": false,
+        "default_branch": "main",
+        "owner_type": "Organization",
+        "api_complete": false
+      },
+      "path": ".claude/skills/qa/SKILL.md",
+      "source_url": "https://github.com/Actual-Chat/actual-chat/tree/main/.claude/skills/qa",
+      "provenance": [
+        "code-search:claude-skill-layout"
+      ],
+      "evidence": [
+        "path:.claude/skills/qa/SKILL.md"
+      ],
+      "category": "",
+      "author": "",
+      "trust": 0.55,
+      "manifest_valid": false,
+      "metadata": {},
+      "growth": {
+        "delta_1d": null,
+        "delta_7d": null,
+        "delta_30d": null,
+        "stars_per_day": 0.0,
+        "acceleration": 0.0,
+        "relative_7d": null,
+        "signal_source": "lifetime-estimate"
+      },
+      "scores": {
+        "popular": 18.85,
+        "momentum": 22.03,
+        "rising": 22.78,
+        "overall": 21.22
+      }
+    }
+  ]
+}
