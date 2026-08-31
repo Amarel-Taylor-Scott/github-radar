@@ -1,0 +1,62 @@
+name: Contribute Project Radar ranking labels
+description: Submit evidence-backed relevance, usefulness, novelty, or quality labels for the recurring v3 ranking benchmark.
+title: "[V3 benchmark]: "
+labels: ["project-radar-v3", "ranking-evaluation"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      placeholder: owner/repository
+    validations:
+      required: true
+  - type: input
+    id: catalog
+    attributes:
+      label: Catalog being evaluated
+      placeholder: ai-agents, geospatial, accessibility...
+    validations:
+      required: true
+  - type: dropdown
+    id: label
+    attributes:
+      label: Evaluation dimension
+      options:
+        - Domain relevance
+        - Practical usefulness
+        - Stewardship quality
+        - Descriptive novelty
+        - New-project recall
+        - False positive / contamination
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Rating
+      options:
+        - 0 — clearly does not satisfy the dimension
+        - 1 — weak or ambiguous
+        - 2 — moderate
+        - 3 — strong
+        - 4 — exemplary
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and rationale
+      description: Cite repository documentation, releases, benchmarks, adoption evidence, or another verifiable source. Explain the rating rather than relying on reputation.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I disclosed any affiliation with the project.
+          required: true
+        - label: I understand that a submitted label is reviewed before entering the benchmark corpus.
+          required: true
+        - label: I understand that sponsorship or nomination cannot create a ranking advantage.
+          required: true
