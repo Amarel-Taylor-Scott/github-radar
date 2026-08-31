@@ -238,23 +238,32 @@ def rankable(project: Project, catalog: dict[str, Any], config: dict[str, Any], 
     return True
 
 
+def project_rank_key(project: Project, catalog_id: str, score: str) -> tuple[Any, ...]:
+    scores = project.catalog_scores.get(catalog_id, {})
+    primary = (
+        float(project.growth.get("delta_1d") or 0.0)
+        if score == "daily_mover"
+        else float(scores.get(score, 0.0))
+    )
+    return (
+        primary,
+        float(scores.get("quality", 0.0)),
+        project.stars,
+        len(project.provenance),
+        project.full_name.lower(),
+    )
+
+
 def diverse_top(
     projects: list[Project], catalog_id: str, score: str, limit: int, max_per_owner: int
 ) -> list[Project]:
     owner_counts: dict[str, int] = {}
     selected: list[Project] = []
-
-    def key(project: Project) -> tuple[Any, ...]:
-        scores = project.catalog_scores.get(catalog_id, {})
-        return (
-            float(scores.get(score, 0.0)),
-            float(scores.get("quality", 0.0)),
-            project.stars,
-            len(project.provenance),
-            project.full_name.lower(),
-        )
-
-    for project in sorted(projects, key=key, reverse=True):
+    for project in sorted(
+        projects,
+        key=lambda value: project_rank_key(value, catalog_id, score),
+        reverse=True,
+    ):
         owner = project.owner.lower()
         if owner_counts.get(owner, 0) >= max_per_owner:
             continue
@@ -263,6 +272,94 @@ def diverse_top(
         if len(selected) >= limit:
             break
     return selected
+
+
+def cross_catalog_diverse_top(
+    projects: list[Project],
+    catalog_id: str,
+    score: str,
+    limit: int,
+    max_per_owner: int,
+    native_catalog_ids: list[str],
+    min_per_catalog: int,
+    max_per_catalog: int,
+) -> list[Project]:
+    """Build a score-ordered aggregate board with best-effort domain coverage.
+
+    A repository can match several domains. It is assigned to one domain for quota
+    accounting only; its published catalog memberships remain unchanged.
+    """
+    if limit <= 0 or not projects:
+        return []
+    ordered = sorted(
+        projects,
+        key=lambda value: project_rank_key(value, catalog_id, score),
+        reverse=True,
+    )
+    native = [value for value in native_catalog_ids if value and value != catalog_id]
+    if not native:
+        return diverse_top(projects, catalog_id, score, limit, max_per_owner)
+
+    min_per_catalog = max(int(min_per_catalog), 0)
+    max_per_catalog = max(int(max_per_catalog), 1)
+    if max_per_catalog < min_per_catalog:
+        max_per_catalog = min_per_catalog
+
+    owner_counts: dict[str, int] = {}
+    catalog_counts = {value: 0 for value in native}
+    selected: list[Project] = []
+    selected_ids: set[str] = set()
+
+    def add(project: Project, assigned_catalog: str) -> bool:
+        if project.id in selected_ids:
+            return False
+        owner = project.owner.lower()
+        if owner_counts.get(owner, 0) >= max_per_owner:
+            return False
+        if catalog_counts.get(assigned_catalog, 0) >= max_per_catalog:
+            return False
+        selected.append(project)
+        selected_ids.add(project.id)
+        owner_counts[owner] = owner_counts.get(owner, 0) + 1
+        catalog_counts[assigned_catalog] = catalog_counts.get(assigned_catalog, 0) + 1
+        return True
+
+    # First reserve best-effort representation for every configured native domain.
+    for _ in range(min_per_catalog):
+        for native_id in native:
+            if len(selected) >= limit:
+                break
+            if catalog_counts[native_id] >= min_per_catalog:
+                continue
+            for project in ordered:
+                if native_id not in project.catalogs:
+                    continue
+                if add(project, native_id):
+                    break
+
+    # Fill remaining positions by aggregate score while respecting domain ceilings.
+    native_order = {value: index for index, value in enumerate(native)}
+    for project in ordered:
+        if len(selected) >= limit:
+            break
+        memberships = [
+            value
+            for value in native
+            if value in project.catalogs and catalog_counts[value] < max_per_catalog
+        ]
+        if not memberships:
+            continue
+        assigned = min(
+            memberships,
+            key=lambda value: (catalog_counts[value], native_order[value]),
+        )
+        add(project, assigned)
+
+    return sorted(
+        selected,
+        key=lambda value: project_rank_key(value, catalog_id, score),
+        reverse=True,
+    )
 
 
 def catalog_leaderboards(
@@ -288,20 +385,35 @@ def catalog_leaderboards(
         project for project in members if days_since(project.created_at, now) <= int(config["new_project_days"])
     ]
     movers = [project for project in members if project.growth.get("delta_1d") is not None]
-    movers.sort(
-        key=lambda project: (
-            int(project.growth.get("delta_1d") or 0),
-            project.catalog_scores.get(catalog_id, {}).get("momentum", 0.0),
-        ),
-        reverse=True,
-    )
+
+    aggregate_id = str(config["aggregate_catalog_id"])
+    native_catalog_ids = [
+        str(item["id"])
+        for item in config["catalogs"]
+        if isinstance(item, dict) and item.get("id") != aggregate_id
+    ]
+
+    def select(values: list[Project], score_key: str) -> list[Project]:
+        if catalog_id != aggregate_id:
+            return diverse_top(values, catalog_id, score_key, limit, diversity)
+        return cross_catalog_diverse_top(
+            values,
+            catalog_id,
+            score_key,
+            limit,
+            diversity,
+            native_catalog_ids,
+            int(config.get("aggregate_min_per_catalog", 1)),
+            int(config.get("aggregate_max_per_catalog", 4)),
+        )
+
     return {
-        "interesting": diverse_top(members, catalog_id, "interesting", limit, diversity),
-        "high_momentum": diverse_top(members, catalog_id, "momentum", limit, diversity),
-        "up_and_coming": diverse_top(up_and_coming, catalog_id, "rising", limit, diversity),
-        "high_quality": diverse_top(members, catalog_id, "quality", limit, diversity),
-        "hidden_gems": diverse_top(hidden, catalog_id, "hidden_gem", limit, diversity),
-        "most_popular": diverse_top(members, catalog_id, "popular", limit, diversity),
-        "new_projects": diverse_top(new_projects, catalog_id, "rising", limit, diversity),
-        "daily_movers": movers[:limit],
+        "interesting": select(members, "interesting"),
+        "high_momentum": select(members, "momentum"),
+        "up_and_coming": select(up_and_coming, "rising"),
+        "high_quality": select(members, "quality"),
+        "hidden_gems": select(hidden, "hidden_gem"),
+        "most_popular": select(members, "popular"),
+        "new_projects": select(new_projects, "rising"),
+        "daily_movers": select(movers, "daily_mover"),
     }

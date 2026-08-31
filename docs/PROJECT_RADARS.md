@@ -55,6 +55,8 @@ Every catalog publishes:
 - **New Projects** — repositories inside the configured new-project window, ranked by rising score.
 - **Latest One-Day Movers** — appears after measured daily history is available.
 
+The aggregate cross-domain catalog adds a second diversity layer after scoring. Its 25-position boards reserve two best-effort selections for each native domain and assign no more than four positions to any one domain. Projects keep all of their true catalog memberships; the assignment is used only for quota accounting. Results are then re-sorted by their aggregate score, so diversity does not disguise the ranking order.
+
 Resource lists, courses, and templates remain searchable in the full dataset when discovered, but the initial catalogs exclude them from project leaderboards. Archived, disabled, forked, stale, empty-description, and template repositories receive explicit exclusions or penalties rather than silently blending into the main rankings.
 
 ## Measurement behavior

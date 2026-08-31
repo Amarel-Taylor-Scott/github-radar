@@ -13,6 +13,8 @@
   "max_projects": 2500,
   "leaderboard_size": 25,
   "max_projects_per_owner": 2,
+  "aggregate_min_per_catalog": 2,
+  "aggregate_max_per_catalog": 4,
   "leaderboard_min_stars": 10,
   "leaderboard_max_idle_days": 365,
   "up_and_coming_max_stars": 25000,
@@ -32,124 +34,315 @@
       "description": "A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, or under-recognized open-source projects.",
       "leaderboard_min_stars": 10,
       "minimum_items": 250,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "ai-agents",
       "title": "AI Agents Radar",
       "description": "Agent runtimes, coding agents, multi-agent systems, tool-using assistants, orchestration engines, and agent infrastructure.",
-      "topics": ["ai-agents", "autonomous-agents", "multi-agent-systems", "agentic-ai"],
-      "keywords": ["agent", "multi-agent", "tool use", "computer use", "coding agent", "orchestration"],
-      "negative_terms": ["prompt collection", "course", "interview"],
+      "topics": [
+        "ai-agents",
+        "autonomous-agents",
+        "multi-agent-systems",
+        "agentic-ai"
+      ],
+      "keywords": [
+        "agent",
+        "multi-agent",
+        "tool use",
+        "computer use",
+        "coding agent",
+        "orchestration"
+      ],
+      "negative_terms": [
+        "prompt collection",
+        "course",
+        "interview"
+      ],
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
       "source_confidence": 0.62,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "ai-engineering",
       "title": "AI Engineering Radar",
       "description": "LLM infrastructure, RAG, inference, evaluation, observability, model serving, vector systems, and production ML tooling.",
-      "topics": ["llmops", "rag", "generative-ai", "model-serving"],
-      "keywords": ["inference", "evaluation", "observability", "vector", "model serving", "llm"],
-      "negative_terms": ["prompt collection", "wallpaper", "course"],
+      "topics": [
+        "llmops",
+        "rag",
+        "generative-ai",
+        "model-serving"
+      ],
+      "keywords": [
+        "inference",
+        "evaluation",
+        "observability",
+        "vector",
+        "model serving",
+        "llm"
+      ],
+      "negative_terms": [
+        "prompt collection",
+        "wallpaper",
+        "course"
+      ],
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
       "source_confidence": 0.62,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "developer-tools",
       "title": "Developer Tools Radar",
       "description": "Editors, terminals, CLIs, debuggers, API clients, build tools, code intelligence, testing, and developer-experience projects.",
-      "topics": ["developer-tools", "cli", "devtools", "debugging"],
-      "keywords": ["developer", "terminal", "editor", "debugger", "testing", "build tool", "api client"],
-      "negative_terms": ["interview", "roadmap", "course"],
+      "topics": [
+        "developer-tools",
+        "cli",
+        "devtools",
+        "debugging"
+      ],
+      "keywords": [
+        "developer",
+        "terminal",
+        "editor",
+        "debugger",
+        "testing",
+        "build tool",
+        "api client"
+      ],
+      "negative_terms": [
+        "interview",
+        "roadmap",
+        "course"
+      ],
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
-      "source_confidence": 0.60,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "source_confidence": 0.6,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "data-engineering",
       "title": "Data Engineering Radar",
       "description": "Data pipelines, ETL and ELT, orchestration, streaming, warehouses, lakehouses, analytics engineering, and data-quality tools.",
-      "topics": ["data-engineering", "etl", "data-pipeline", "workflow-engine"],
-      "keywords": ["pipeline", "orchestration", "streaming", "warehouse", "lakehouse", "data quality", "analytics engineering"],
-      "negative_terms": ["interview", "course", "roadmap"],
+      "topics": [
+        "data-engineering",
+        "etl",
+        "data-pipeline",
+        "workflow-engine"
+      ],
+      "keywords": [
+        "pipeline",
+        "orchestration",
+        "streaming",
+        "warehouse",
+        "lakehouse",
+        "data quality",
+        "analytics engineering"
+      ],
+      "negative_terms": [
+        "interview",
+        "course",
+        "roadmap"
+      ],
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
       "source_confidence": 0.62,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "cybersecurity",
       "title": "Cybersecurity Tools Radar",
       "description": "Defensive security, AppSec, vulnerability discovery, reverse engineering, threat intelligence, privacy, and security automation.",
-      "topics": ["cybersecurity", "appsec", "vulnerability-scanner", "security-automation"],
-      "keywords": ["security", "vulnerability", "scanner", "threat", "reverse engineering", "privacy", "defensive"],
-      "negative_terms": ["cheat sheet", "course", "interview"],
+      "topics": [
+        "cybersecurity",
+        "appsec",
+        "vulnerability-scanner",
+        "security-automation"
+      ],
+      "keywords": [
+        "security",
+        "vulnerability",
+        "scanner",
+        "threat",
+        "reverse engineering",
+        "privacy",
+        "defensive"
+      ],
+      "negative_terms": [
+        "cheat sheet",
+        "course",
+        "interview"
+      ],
       "min_stars": 15,
       "new_min_stars": 4,
       "minimum_items": 20,
       "source_confidence": 0.61,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "robotics",
       "title": "Robotics and Embodied AI Radar",
       "description": "Robotics frameworks, simulation, ROS, autonomy, drones, control, embodied AI, sensing, and real-world machine intelligence.",
-      "topics": ["robotics", "ros2", "robot-simulation", "embodied-ai"],
-      "keywords": ["robot", "autonomous", "simulation", "drone", "control", "embodied", "sensor"],
-      "negative_terms": ["course", "video list", "interview"],
+      "topics": [
+        "robotics",
+        "ros2",
+        "robot-simulation",
+        "embodied-ai"
+      ],
+      "keywords": [
+        "robot",
+        "autonomous",
+        "simulation",
+        "drone",
+        "control",
+        "embodied",
+        "sensor"
+      ],
+      "negative_terms": [
+        "course",
+        "video list",
+        "interview"
+      ],
       "min_stars": 10,
       "new_min_stars": 3,
       "minimum_items": 15,
-      "source_confidence": 0.60,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "source_confidence": 0.6,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "geospatial",
       "title": "Geospatial and Mapping Radar",
       "description": "GIS, mapping, routing, spatial databases, Earth observation, geospatial analytics, and digital-twin infrastructure.",
-      "topics": ["geospatial", "gis", "openstreetmap", "remote-sensing"],
-      "keywords": ["map", "spatial", "routing", "earth observation", "geographic", "digital twin", "geospatial"],
-      "negative_terms": ["course", "tutorial list", "interview"],
+      "topics": [
+        "geospatial",
+        "gis",
+        "openstreetmap",
+        "remote-sensing"
+      ],
+      "keywords": [
+        "map",
+        "spatial",
+        "routing",
+        "earth observation",
+        "geographic",
+        "digital twin",
+        "geospatial"
+      ],
+      "negative_terms": [
+        "course",
+        "tutorial list",
+        "interview"
+      ],
       "min_stars": 10,
       "new_min_stars": 3,
       "minimum_items": 15,
       "source_confidence": 0.62,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "creative-computing",
       "title": "Creative Computing Radar",
       "description": "Creative coding, graphics, animation, video, audio, generative art, design tools, 3D engines, and programmable media.",
-      "topics": ["creative-coding", "computer-graphics", "animation", "video-processing"],
-      "keywords": ["graphics", "animation", "rendering", "video", "audio", "generative art", "3d", "design"],
-      "negative_terms": ["wallpaper", "asset dump", "course"],
+      "topics": [
+        "creative-coding",
+        "computer-graphics",
+        "animation",
+        "video-processing"
+      ],
+      "keywords": [
+        "graphics",
+        "animation",
+        "rendering",
+        "video",
+        "audio",
+        "generative art",
+        "3d",
+        "design"
+      ],
+      "negative_terms": [
+        "wallpaper",
+        "asset dump",
+        "course"
+      ],
       "min_stars": 10,
       "new_min_stars": 3,
       "minimum_items": 15,
       "source_confidence": 0.59,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     },
     {
       "id": "self-hosted",
       "title": "Self-Hosted and Local-First Radar",
       "description": "Self-hosted applications, personal clouds, local-first software, homelab infrastructure, privacy tools, and independent automation.",
-      "topics": ["self-hosted", "local-first", "homelab", "personal-cloud"],
-      "keywords": ["self-hosted", "local first", "privacy", "homelab", "personal cloud", "automation"],
-      "negative_terms": ["awesome list", "course", "interview"],
+      "topics": [
+        "self-hosted",
+        "local-first",
+        "homelab",
+        "personal-cloud"
+      ],
+      "keywords": [
+        "self-hosted",
+        "local first",
+        "privacy",
+        "homelab",
+        "personal cloud",
+        "automation"
+      ],
+      "negative_terms": [
+        "awesome list",
+        "course",
+        "interview"
+      ],
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
       "source_confidence": 0.61,
-      "excluded_project_types": ["resource-list", "education", "template"]
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
     }
   ]
 }

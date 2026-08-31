@@ -36,6 +36,8 @@ def config() -> dict:
         "max_projects": 100,
         "leaderboard_size": 10,
         "max_projects_per_owner": 1,
+        "aggregate_min_per_catalog": 1,
+        "aggregate_max_per_catalog": 3,
         "leaderboard_min_stars": 1,
         "leaderboard_max_idle_days": 365,
         "up_and_coming_max_stars": 25000,
@@ -290,6 +292,28 @@ class RankingAndOutputTests(unittest.TestCase):
         )
         self.assertEqual(2, len(selected))
         self.assertEqual(2, len({item.owner.lower() for item in selected}))
+
+    def test_cross_domain_board_reserves_native_catalog_coverage(self) -> None:
+        cfg = config()
+        cfg["leaderboard_size"] = 2
+        cfg["aggregate_min_per_catalog"] = 1
+        cfg["aggregate_max_per_catalog"] = 1
+        projects = [
+            project("alpha-owner/alpha-one", catalogs=["alpha", "all"], stars=900),
+            project("alpha-two/alpha-two", catalogs=["alpha", "all"], stars=800),
+            project("beta-owner/beta-one", catalogs=["beta", "all"], stars=20),
+        ]
+        radar.score_projects(projects, cfg, {"days": {}}, NOW)
+        aggregate = next(item for item in cfg["catalogs"] if item["id"] == "all")
+        boards = radar.catalog_leaderboards(projects, aggregate, cfg, NOW)
+        selected = boards["interesting"]
+        self.assertEqual(2, len(selected))
+        self.assertTrue(any("alpha" in item.catalogs for item in selected))
+        self.assertTrue(any("beta" in item.catalogs for item in selected))
+        self.assertGreaterEqual(
+            selected[0].catalog_scores["all"]["interesting"],
+            selected[1].catalog_scores["all"]["interesting"],
+        )
 
     def test_validation_and_output_bundle(self) -> None:
         health = [
