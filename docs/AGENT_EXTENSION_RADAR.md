@@ -75,8 +75,12 @@ Sources are declared in `agent_extensions.json`, not embedded in ranking logic.
 - Anthropic's security-reviewed community marketplace mirror.
 - Anthropic's knowledge-work plugin marketplace.
 - Anthropic's official skills repository and skills marketplace.
-- OpenAI's official Codex skills repository.
+- OpenAI's current official Codex plugin marketplace in `openai/plugins`.
+- OpenAI's official role-specific Codex plugin templates.
+- Skills packaged inside the current OpenAI Codex plugin repositories.
 - Vercel's cross-agent skills repository.
+
+The deprecated `openai/skills` catalog is no longer treated as a current trusted seed. Its still-active third-party descendants can surface through exact `SKILL.md` discovery, but the official current plugin repositories take precedence.
 
 ### Evidence-backed open discovery
 
@@ -86,6 +90,7 @@ Sources are declared in `agent_extensions.json`, not embedded in ranking logic.
   - `.agents/skills/**/SKILL.md`
   - `.codex/skills/**/SKILL.md`
   - `.claude-plugin/plugin.json`
+  - `.codex-plugin/plugin.json`
   - `gemini-extension.json`
 - Repository topics for MCP servers, Claude Code plugins, Gemini CLI extensions, OpenCode plugins, coding agents, and agent frameworks.
 
