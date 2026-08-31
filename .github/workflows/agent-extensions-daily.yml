@@ -5,12 +5,21 @@ on:
     # Off-the-hour to reduce GitHub Actions scheduling congestion.
     - cron: "37 8 * * *"
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+      - feature/agent-extension-radar
+    paths:
+      - "scripts/agent_extension_radar.py"
+      - "agent_extensions.json"
+      - ".github/workflows/agent-extensions-daily.yml"
+      - "tests/test_agent_extension_radar.py"
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-agent-extension-catalogs
+  group: daily-agent-extension-catalogs-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
