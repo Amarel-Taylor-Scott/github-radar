@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "output_dir": "feeds/agent-extensions",
+  "site_dir": "docs/agent-extensions",
+  "history_days": 45,
+  "discovery_window_days": 120,
+  "max_repository_enrichments": 600,
+  "max_metadata_fetches": 180,
+  "leaderboard_size": 25,
+  "max_items_per_repo_per_leaderboard": 1,
+  "include_all_catalog_id": "agent-extensions",
+  "request_interval_seconds": 0.2,
+  "catalogs": [
+    {
+      "id": "claude-skills",
+      "title": "Claude Skills Radar",
+      "description": "Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components."
+    },
+    {
+      "id": "claude-tools",
+      "title": "Claude Tools Radar",
+      "description": "MCP servers and evidence-backed tool integrations that expand what Claude agents can do."
+    },
+    {
+      "id": "claude-plugins",
+      "title": "Claude Plugins Radar",
+      "description": "Claude Code and Claude Cowork plugins discovered through official, reviewed-community, and manifest-backed GitHub sources."
+    },
+    {
+      "id": "agent-extensions",
+      "title": "Agent Extensions Radar",
+      "description": "Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents."
+    }
+  ],
+  "marketplaces": [
+    {
+      "id": "anthropic-official",
+      "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/.claude-plugin/marketplace.json",
+      "repository": "anthropics/claude-plugins-official",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 1.0
+    },
+    {
+      "id": "anthropic-community-reviewed",
+      "url": "https://raw.githubusercontent.com/anthropics/claude-plugins-community/main/.claude-plugin/marketplace.json",
+      "repository": "anthropics/claude-plugins-community",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 0.92
+    },
+    {
+      "id": "anthropic-knowledge-work",
+      "url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/.claude-plugin/marketplace.json",
+      "repository": "anthropics/knowledge-work-plugins",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 1.0
+    },
+    {
+      "id": "anthropic-skills-marketplace",
+      "url": "https://raw.githubusercontent.com/anthropics/skills/main/.claude-plugin/marketplace.json",
+      "repository": "anthropics/skills",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 1.0
+    }
+  ],
+  "repository_seeds": [
+    {
+      "id": "anthropic-skills",
+      "repository": "anthropics/skills",
+      "include": ["skills/**/SKILL.md"],
+      "kind": "skill",
+      "platforms": ["claude", "universal-agent-skill"],
+      "catalogs": ["claude-skills"],
+      "trust": 1.0,
+      "max_artifacts": 150
+    },
+    {
+      "id": "openai-curated-skills",
+      "repository": "openai/skills",
+      "include": ["skills/**/SKILL.md"],
+      "kind": "skill",
+      "platforms": ["codex", "universal-agent-skill"],
+      "catalogs": ["agent-extensions"],
+      "trust": 1.0,
+      "max_artifacts": 180
+    },
+    {
+      "id": "vercel-agent-skills",
+      "repository": "vercel-labs/skills",
+      "include": ["skills/**/SKILL.md"],
+      "kind": "skill",
+      "platforms": ["claude", "codex", "universal-agent-skill"],
+      "catalogs": ["claude-skills"],
+      "trust": 0.9,
+      "max_artifacts": 100
+    }
+  ],
+  "code_queries": [
+    {
+      "id": "claude-skill-layout",
+      "query": "description filename:SKILL.md path:.claude/skills",
+      "path_regex": "(^|/)\\.claude/skills/.+/SKILL\\.md$",
+      "kind": "skill",
+      "platforms": ["claude"],
+      "catalogs": ["claude-skills"],
+      "trust": 0.55,
+      "max_results": 60
+    },
+    {
+      "id": "agent-skill-layout",
+      "query": "description filename:SKILL.md path:.agents/skills",
+      "path_regex": "(^|/)\\.agents/skills/.+/SKILL\\.md$",
+      "kind": "skill",
+      "platforms": ["codex", "universal-agent-skill"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.52,
+      "max_results": 60
+    },
+    {
+      "id": "codex-skill-layout",
+      "query": "description filename:SKILL.md path:.codex/skills",
+      "path_regex": "(^|/)\\.codex/skills/.+/SKILL\\.md$",
+      "kind": "skill",
+      "platforms": ["codex"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.52,
+      "max_results": 40
+    },
+    {
+      "id": "claude-plugin-manifest",
+      "query": "name filename:plugin.json path:.claude-plugin",
+      "path_regex": "(^|/)\\.claude-plugin/plugin\\.json$",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 0.52,
+      "max_results": 60
+    },
+    {
+      "id": "gemini-extension-manifest",
+      "query": "name filename:gemini-extension.json",
+      "path_regex": "(^|/)gemini-extension\\.json$",
+      "kind": "plugin",
+      "platforms": ["gemini-cli"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.52,
+      "max_results": 50
+    }
+  ],
+  "repository_queries": [
+    {
+      "id": "mcp-server-topic",
+      "query": "topic:mcp-server",
+      "kind": "tool",
+      "platforms": ["claude", "codex", "mcp"],
+      "catalogs": ["claude-tools"],
+      "trust": 0.46,
+      "sort": "stars",
+      "max_results": 60
+    },
+    {
+      "id": "model-context-protocol-topic",
+      "query": "topic:model-context-protocol",
+      "kind": "tool",
+      "platforms": ["claude", "codex", "mcp"],
+      "catalogs": ["claude-tools"],
+      "trust": 0.46,
+      "sort": "stars",
+      "max_results": 60
+    },
+    {
+      "id": "mcp-server-name-description",
+      "query": "\"mcp server\" in:name,description",
+      "kind": "tool",
+      "platforms": ["claude", "codex", "mcp"],
+      "catalogs": ["claude-tools"],
+      "trust": 0.4,
+      "sort": "stars",
+      "max_results": 40
+    },
+    {
+      "id": "claude-code-plugin-topic",
+      "query": "topic:claude-code-plugin",
+      "kind": "plugin",
+      "platforms": ["claude"],
+      "catalogs": ["claude-plugins"],
+      "trust": 0.46,
+      "sort": "stars",
+      "max_results": 50
+    },
+    {
+      "id": "gemini-cli-extension-topic",
+      "query": "topic:gemini-cli-extension",
+      "kind": "plugin",
+      "platforms": ["gemini-cli"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.46,
+      "sort": "stars",
+      "max_results": 50
+    },
+    {
+      "id": "opencode-plugin-topic",
+      "query": "topic:opencode-plugin",
+      "kind": "plugin",
+      "platforms": ["opencode"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.44,
+      "sort": "stars",
+      "max_results": 50
+    },
+    {
+      "id": "codex-agent-keywords",
+      "query": "codex agent in:name,description",
+      "kind": "agent",
+      "platforms": ["codex"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.36,
+      "sort": "stars",
+      "max_results": 40
+    },
+    {
+      "id": "coding-agent-topic",
+      "query": "topic:coding-agent",
+      "kind": "agent",
+      "platforms": ["multi-agent"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.34,
+      "sort": "stars",
+      "max_results": 50
+    },
+    {
+      "id": "agent-framework-topic",
+      "query": "topic:agent-framework",
+      "kind": "framework",
+      "platforms": ["multi-agent"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.34,
+      "sort": "stars",
+      "max_results": 50
+    },
+    {
+      "id": "ai-agent-topic-recent",
+      "query": "topic:ai-agent",
+      "kind": "agent",
+      "platforms": ["multi-agent"],
+      "catalogs": ["agent-extensions"],
+      "trust": 0.3,
+      "sort": "updated",
+      "max_results": 40
+    }
+  ]
+}
