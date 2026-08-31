@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T17:59:48+00:00",
+  "generated_at": "2026-08-31T18:07:43+00:00",
   "catalog": {
     "id": "agent-extensions",
     "title": "Agent Extensions Radar",
     "description": "Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents."
   },
-  "count": 3868,
+  "count": 3869,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "agent-extensions"
@@ -34,10 +34,10 @@
       "tool:upstash/context7:@repository",
       "agent:k-dense-ai/scientific-agent-skills:@repository",
       "agent:hmbown/codewhale:@repository",
-      "agent:santifer/career-ops:@repository",
       "tool:t8y2/dbx:@repository",
       "agent:mukul975/anthropic-cybersecurity-skills:@repository",
-      "framework:esengine/deepseek-reasonix:@repository"
+      "framework:esengine/deepseek-reasonix:@repository",
+      "tool:github/github-mcp-server:@repository"
     ],
     "rising": [
       "plugin:dietrichgebert/ponytail:ponytail",
@@ -50,7 +50,6 @@
       "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "framework:esengine/deepseek-reasonix:@repository",
       "agent:omnigent-ai/omnigent:@repository",
-      "agent:santifer/career-ops:@repository",
       "tool:wenyuchiou/awesome-agentic-ai-zh:@repository",
       "agent:ccch1mneyyy/dsh-tui:@repository",
       "plugin:shadowaqueduct/watermark-remover:watermark-remover",
@@ -62,15 +61,16 @@
       "agent:citrolabs/ego-lite:@repository",
       "agent:getagentseal/codeburn:@repository",
       "skill:anthropics/skills:skills/academy-guide",
+      "plugin:dayuanjiang/next-ai-draw-io:packages/claude-plugin",
       "agent:nvidia/skillspector:@repository",
       "tool:deusdata/codebase-memory-mcp:@repository",
-      "plugin:dayuanjiang/next-ai-draw-io:packages/claude-plugin"
+      "framework:open-multi-agent/open-multi-agent:@repository"
     ],
     "popular": [
       "plugin:thedotmack/claude-mem:claude-mem",
       "plugin:anthropics/claude-plugins-official:external_plugins/context7",
-      "plugin:anthropics/knowledge-work-plugins:small-business",
       "plugin:dayuanjiang/next-ai-draw-io:packages/claude-plugin",
+      "plugin:anthropics/knowledge-work-plugins:small-business",
       "plugin:promptfoo/promptfoo:plugins/promptfoo-evals",
       "skill:anthropics/skills:skills/academy-guide",
       "plugin:dietrichgebert/ponytail:ponytail",
@@ -87,11 +87,11 @@
       "agent:farion1231/cc-switch:@repository",
       "agent:nousresearch/hermes-agent:@repository",
       "tool:github/github-mcp-server:@repository",
-      "agent:k-dense-ai/scientific-agent-skills:@repository",
       "tool:prefecthq/fastmcp:@repository",
+      "agent:k-dense-ai/scientific-agent-skills:@repository",
       "agent:hmbown/codewhale:@repository",
-      "agent:santifer/career-ops:@repository",
-      "agent:wshobson/agents:@repository"
+      "agent:wshobson/agents:@repository",
+      "agent:bojieli/ai-agent-book:@repository"
     ],
     "new": [
       "plugin:dietrichgebert/ponytail:ponytail",
@@ -101,7 +101,6 @@
       "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "framework:esengine/deepseek-reasonix:@repository",
       "agent:omnigent-ai/omnigent:@repository",
-      "agent:santifer/career-ops:@repository",
       "tool:wenyuchiou/awesome-agentic-ai-zh:@repository",
       "agent:ccch1mneyyy/dsh-tui:@repository",
       "plugin:shadowaqueduct/watermark-remover:watermark-remover",
@@ -118,7 +117,8 @@
       "agent:tutti-os/tutti:@repository",
       "plugin:builderio/skills:@repository",
       "agent:rullerzhou-afk/clawd-on-desk:@repository",
-      "agent:apache/maka:@repository"
+      "agent:kkkkhazix/khazix-skills:@repository",
+      "agent:nexu-io/html-anything:@repository"
     ]
   }
 }

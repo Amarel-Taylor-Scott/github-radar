@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T17:59:48+00:00",
+  "generated_at": "2026-08-31T18:07:43+00:00",
   "catalog": {
     "id": "claude-plugins",
     "title": "Claude Plugins Radar",
@@ -69,8 +69,8 @@
     "popular": [
       "plugin:thedotmack/claude-mem:claude-mem",
       "plugin:anthropics/claude-plugins-official:external_plugins/context7",
-      "plugin:anthropics/knowledge-work-plugins:small-business",
       "plugin:dayuanjiang/next-ai-draw-io:packages/claude-plugin",
+      "plugin:anthropics/knowledge-work-plugins:small-business",
       "plugin:promptfoo/promptfoo:plugins/promptfoo-evals",
       "plugin:dietrichgebert/ponytail:ponytail",
       "plugin:wonderwhy-er/desktopcommandermcp:plugins/claude",
@@ -88,8 +88,8 @@
       "plugin:awslabs/agent-plugins:plugins/amazon-location-service",
       "plugin:forcedotcom/sf-skills:plugins/builder/salesforce-development",
       "plugin:anthropics/claude-plugins-community:quickdesign",
-      "plugin:growthxai/output:coding_assistants/claude/plugins/outputai",
       "plugin:manavarya09/design-extract:design-extract",
+      "plugin:growthxai/output:coding_assistants/claude/plugins/outputai",
       "plugin:nyldn/claude-octopus:claude-octopus",
       "plugin:modelcontextprotocol/ext-apps:plugins/mcp-apps"
     ],

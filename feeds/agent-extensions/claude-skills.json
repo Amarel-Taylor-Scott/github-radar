@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T17:59:48+00:00",
+  "generated_at": "2026-08-31T18:07:43+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
@@ -28,8 +28,8 @@
       "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:talmolab/sleap:.claude/skills/pr",
       "skill:daaf-contribution-community/daaf:.claude/skills/gt",
-      "skill:plan4better/goat:.claude/skills/db",
       "skill:eric-tramel/slop-guard:.claude/skills/qa",
+      "skill:plan4better/goat:.claude/skills/db",
       "skill:alamenai/terrae:.claude/skills/pr",
       "skill:flowglad/flowglad:.claude/skills/pm",
       "skill:boundless-xyz/boundless:.claude/skills/pr",
@@ -50,8 +50,8 @@
       "skill:automattic/wordpress-atmosphere:.claude/skills/pr",
       "skill:tim-hub/powerball-harness:.claude/skills/ui",
       "skill:daaf-contribution-community/daaf:.claude/skills/gt",
-      "skill:typeddevs/bashunit:.claude/skills/pr",
       "skill:eric-tramel/slop-guard:.claude/skills/qa",
+      "skill:typeddevs/bashunit:.claude/skills/pr",
       "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:alamenai/terrae:.claude/skills/pr",
       "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
