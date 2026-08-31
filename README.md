@@ -2,13 +2,16 @@
 
 [![CI](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml)
 [![Daily feed](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml)
+[![Agent extension catalogs](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/agent-extensions-daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/agent-extensions-daily.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Dependencies: none](https://img.shields.io/badge/deps-stdlib--only-brightgreen)](pyproject.toml)
 
-**A momentum-aware feed of popular & AI-related GitHub repositories.**
+**A momentum-aware feed of popular and AI-related GitHub repositories, plus daily catalogs of Claude, Codex, MCP, and agent extensions.**
 
-📈 **[See today's feed → `feeds/latest.md`](feeds/latest.md)** — regenerated daily by a GitHub Action.
+📈 **[See today's general GitHub feed → `feeds/latest.md`](feeds/latest.md)** — regenerated daily by GitHub Actions.
+
+🧭 **Agent extension catalogs:** [Claude Skills](feeds/agent-extensions/claude-skills.md) · [Claude Tools](feeds/agent-extensions/claude-tools.md) · [Claude Plugins](feeds/agent-extensions/claude-plugins.md) · [All Agent Extensions](feeds/agent-extensions/agent-extensions.md)
 
 `github-radar` answers one question well: **"what's actually hot on GitHub right
 now, especially in AI?"** — not "what has the most all-time stars" (that list
@@ -16,6 +19,11 @@ never changes). It pulls from GitHub's official Search API and the public
 Trending page, deduplicates across sources, scores each repo with a blended
 **star-velocity ranking**, and emits a clean feed as **JSON**, a **Markdown
 digest**, or an **Atom feed**.
+
+The Agent Extension Radar uses the same momentum-first philosophy for public
+skills, plugins, MCP servers, tools, and agent frameworks. One configurable
+collector produces four focused catalogs so their source definitions, history,
+ranking, and safety rules cannot drift apart.
 
 It is **dependency-free** (Python standard library only), **zero-config** (runs
 out of the box), and **degrades gracefully** (one rate-limited source never
@@ -170,6 +178,60 @@ once a day and commits the fresh Markdown digest to
 > rate-limited and capped at 1,000 results per query. The feed reflects those
 > free, public signals — nothing more.
 
+---
+
+## Agent Extension Radar
+
+A second scheduled pipeline publishes four focused products from one discovery
+and ranking engine:
+
+| Catalog | Scope | Outputs |
+|:--------|:------|:--------|
+| [Claude Skills Radar](feeds/agent-extensions/claude-skills.md) | Standalone and packaged `SKILL.md` components for Claude and compatible Agent Skills runtimes | Markdown leaderboard + compact JSON index |
+| [Claude Tools Radar](feeds/agent-extensions/claude-tools.md) | MCP servers and evidence-backed tool integrations relevant to Claude and compatible clients | Markdown leaderboard + compact JSON index |
+| [Claude Plugins Radar](feeds/agent-extensions/claude-plugins.md) | Official, reviewed-community, and manifest-backed Claude Code/Cowork plugins | Markdown leaderboard + compact JSON index |
+| [Agent Extensions Radar](feeds/agent-extensions/agent-extensions.md) | Cross-ecosystem skills, tools, plugins, agents, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and others | Markdown leaderboard + compact JSON index |
+
+Each catalog contains **High Momentum**, **Up and Coming**, **Most Popular**, and
+**New Projects** leaderboards. The shared normalized dataset is published at
+[`feeds/agent-extensions/latest.json`](feeds/agent-extensions/latest.json), the
+latest run receipt at
+[`feeds/agent-extensions/status.json`](feeds/agent-extensions/status.json), and
+a searchable static interface under
+[`docs/agent-extensions/`](docs/agent-extensions/).
+
+The extension pipeline:
+
+- reads trusted Anthropic/OpenAI/Vercel seeds, marketplace manifests, exact
+  extension file layouts, and bounded GitHub search results;
+- records exact artifact paths, source evidence, and provenance;
+- stores a rolling 45-day aggregate history and automatically computes measured
+  1-day, 7-day, and 30-day star deltas as snapshots accumulate;
+- clearly labels first-run age-adjusted star velocity as a **lifetime estimate**
+  rather than pretending that an unavailable seven-day delta is zero;
+- distributes metadata enrichment across all catalogs and limits each repository
+  to one default leaderboard representative, so large monorepos cannot consume
+  every rank;
+- never installs or executes discovered skills, hooks, plugins, or MCP servers;
+- validates all output with an offline test suite, normalizes repeated repository
+  metadata into one shared dataset, and refuses to overwrite a healthy feed with
+  an empty scrape.
+
+Run it locally:
+
+```bash
+python scripts/run_agent_extension_radar.py --config agent_extensions.json
+python scripts/compact_agent_extension_outputs.py
+```
+
+The GitHub Actions workflow
+[`.github/workflows/agent-extensions-daily.yml`](.github/workflows/agent-extensions-daily.yml)
+runs daily at **08:37 UTC** and also supports manual dispatch. See
+[`docs/AGENT_EXTENSION_RADAR.md`](docs/AGENT_EXTENSION_RADAR.md) for the source,
+ranking, schema, reliability, and thin-mirror repository design.
+
+---
+
 ## Sample output
 
 A real, committed snapshot lives at **[`feeds/sample-digest.md`](feeds/sample-digest.md)**
@@ -205,6 +267,10 @@ CLI flags, or a TOML file (`--config`, Python 3.11+). See
 [`config.example.toml`](config.example.toml). Precedence: **CLI flag > config
 file > built-in default.**
 
+Agent-extension sources, catalog assignments, evidence requirements, trust
+weights, API budgets, history retention, and output paths are parameterized in
+[`agent_extensions.json`](agent_extensions.json).
+
 ---
 
 ## Architecture
@@ -222,6 +288,11 @@ github_radar/
     ├── search.py     # GitHub Search API (primary)
     ├── trending.py   # GitHub Trending HTML scrape + RSS fallback
     └── extras.py     # optional: Hugging Face trending, arXiv cs.AI
+
+scripts/
+├── agent_extension_radar.py          # generic extension discovery/history/rendering engine
+├── run_agent_extension_radar.py      # balanced production collection/ranking policies
+└── compact_agent_extension_outputs.py # normalized, reviewable publication bundle
 ```
 
 Each source is a small unit that takes an `HttpClient` + `Config` and returns
@@ -234,12 +305,13 @@ so the aggregator can carry on with the other sources.
 
 The suite is **offline and dependency-free** — it uses stdlib `unittest` and
 saved fixtures (`tests/fixtures/`), so it makes **no live network calls** and is
-fully deterministic (time is injected). It covers the ranking, the dedup/merge,
-the trending HTML *and* RSS parsers (against a saved sample page), the
-search-query builder, and the output writers.
+fully deterministic (time is injected). It covers the general repository radar,
+extension parsing and path normalization, history and scoring, balanced API
+allocation, repository-diverse leaderboards, registry source resolution,
+publication compaction, and output writers.
 
 ```bash
-python -m unittest discover -s tests        # 44 tests, all offline
+python -m unittest discover -s tests        # full offline suite
 # or, if you prefer pytest:
 pip install -e ".[dev]" && pytest
 ```
@@ -260,6 +332,8 @@ on Python 3.10–3.12 for every push and pull request, via both `unittest` and
   the layout shifts, enable `--trending-rss` for the community feed fallback.
 - **Tokens raise limits, nothing more.** `GITHUB_TOKEN` is optional and only
   ever used to authenticate read requests. It is never logged or persisted.
+- **Discovery is metadata-only.** The extension crawler reads public repository
+  metadata and manifests; it never installs or executes discovered code.
 - **Respect the platforms.** This tool surfaces and links public repositories;
   it does not clone, mirror, or republish their contents.
 
