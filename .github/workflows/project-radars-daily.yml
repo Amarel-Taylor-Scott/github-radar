@@ -11,6 +11,7 @@ on:
       - "feature/**"
     paths:
       - "scripts/project_radar.py"
+      - "github_radar/project_*.py"
       - "project_radars.json"
       - ".github/workflows/project-radars-daily.yml"
       - "tests/test_project_radar.py"
