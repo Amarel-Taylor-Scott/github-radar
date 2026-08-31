@@ -136,6 +136,56 @@ class QueryScheduleTests(unittest.TestCase):
         self.assertGreaterEqual(sum(spec.catalog_id == "beta" for spec in specs), 3)
 
 
+class CollectorIntegrationTests(unittest.TestCase):
+    def test_fake_collection_runs_end_to_end(self) -> None:
+        payload = {
+            "full_name": "acme/alpha-runtime",
+            "name": "alpha-runtime",
+            "html_url": "https://github.com/acme/alpha-runtime",
+            "description": "A production alpha runtime and developer tool.",
+            "homepage": "https://example.test",
+            "language": "Python",
+            "topics": ["alpha", "developer-tools"],
+            "license": {"spdx_id": "MIT"},
+            "stargazers_count": 125,
+            "forks_count": 20,
+            "subscribers_count": 4,
+            "open_issues_count": 3,
+            "size": 2500,
+            "created_at": "2026-07-01T00:00:00Z",
+            "pushed_at": "2026-08-30T00:00:00Z",
+            "updated_at": "2026-08-30T00:00:00Z",
+            "default_branch": "main",
+            "owner": {"login": "acme", "type": "Organization"},
+            "archived": False,
+            "disabled": False,
+            "fork": False,
+            "is_template": False,
+            "has_issues": True,
+            "has_discussions": True,
+            "has_wiki": False,
+            "has_pages": False,
+        }
+
+        class FakeGitHub:
+            def search_repositories(self, query, limit, *, sort="stars", order="desc"):
+                return [payload] if "alpha" in query else []
+
+            def repository(self, full_name):
+                return radar.Project.from_api(payload)
+
+        cfg = config()
+        cfg["max_search_requests"] = 4
+        collector = radar.Collector(cfg, FakeGitHub(), NOW)
+        projects, health = collector.collect()
+        self.assertEqual(1, len(projects))
+        self.assertEqual("repo:acme/alpha-runtime", projects[0].id)
+        self.assertEqual("project", projects[0].project_type)
+        self.assertEqual(["alpha", "all"], projects[0].catalogs)
+        self.assertEqual(4, len(health))
+        self.assertTrue(any(entry["ok"] for entry in health if entry["catalog"] == "alpha"))
+
+
 class ProjectModelTests(unittest.TestCase):
     def test_merge_preserves_strongest_metadata_and_evidence(self) -> None:
         left = project("Owner/Repo", catalogs=["alpha"], stars=10, description="short")
