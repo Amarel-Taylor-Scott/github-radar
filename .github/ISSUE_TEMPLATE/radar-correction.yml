@@ -1,0 +1,63 @@
+name: Report a Project Radar correction
+description: Report a factual metadata, catalog, duplicate, ranking-evidence, or safety issue in a published Project Radar record.
+title: "[Radar correction]: "
+labels: ["radar-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Project Radar separates observed facts, provisional measurements, deterministic scores, and review flags. This form helps correct source data or classification without turning ranking disagreements into unsupported accusations.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Use the canonical owner/repository form when possible.
+      placeholder: owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: Correction type
+      options:
+        - Incorrect repository metadata
+        - Wrong or missing catalog membership
+        - Duplicate or renamed repository
+        - Misclassified project type
+        - Measurement or history discrepancy
+        - Broken source or project link
+        - Review flag needs evidence review
+        - Security or safety concern with a public source
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: current_output
+    attributes:
+      label: Current published output
+      description: Quote or describe the exact field, catalog, leaderboard, or report entry that appears incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Provide authoritative public evidence such as the repository, registry, release, organization page, or documented transfer. Avoid unsupported claims.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_correction
+    attributes:
+      label: Proposed correction
+      description: State the smallest factual or classification change that would resolve the issue.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I disclosed any affiliation with the repository or organization above.
+          required: true
+        - label: I understand that a review flag is not an allegation of misconduct or insecurity.
+          required: true
