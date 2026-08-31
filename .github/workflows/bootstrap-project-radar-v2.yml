@@ -1,0 +1,56 @@
+name: Bootstrap Project Radar v2
+
+on:
+  push:
+    branches:
+      - feature/project-radar-v2-20260831
+    paths:
+      - ".github/bootstrap/project-radar-v2/**"
+      - "scripts/apply_project_radar_v2.py"
+      - ".github/workflows/bootstrap-project-radar-v2.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-project-radar-v2
+  cancel-in-progress: true
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out staged feature branch
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: feature/project-radar-v2-20260831
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Apply verified source bundle
+        run: python scripts/apply_project_radar_v2.py
+
+      - name: Validate applied source
+        run: |
+          python -m compileall -q github_radar scripts
+          python -m unittest discover -s tests -v
+          python -m json.tool project_radars.json >/dev/null
+          python -m json.tool schemas/project-radar-dataset-v2.schema.json >/dev/null
+          python -m json.tool schemas/project-radar-manifest-v2.schema.json >/dev/null
+
+      - name: Commit applied v2 source
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "The staged archive produced no source changes."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "feat: harden Project Radar publication schema v2"
+          git push origin HEAD:feature/project-radar-v2-20260831

@@ -13,8 +13,11 @@ from github_radar.project_common import REPO_ROOT, parse_datetime, utc_now
 from github_radar.project_discovery import Collector, GitHubAPI, load_config
 from github_radar.project_history import load_history, update_history
 from github_radar.project_rendering import (
-    previous_publication, validate_collection, write_outputs,
+    previous_publication,
+    validate_collection,
+    write_outputs,
 )
+from github_radar.project_reports import load_previous_dataset, write_reports
 from github_radar.project_scoring import score_projects
 
 LOGGER = logging.getLogger("project_radar")
@@ -28,7 +31,12 @@ def main(argv: Optional[list[str]] = None) -> int:
     parser.add_argument("--site-dir", default=None, help="Override static-site directory")
     parser.add_argument("--now", default=None, help="Testing override: ISO timestamp")
     parser.add_argument("--allow-shrink", action="store_true", help="Bypass the previous-count shrink guard")
-    parser.add_argument("--no-enrich", action="store_true", help="Skip repository metadata enrichment")
+    parser.add_argument("--no-enrich", action="store_true", help="Skip repository and community enrichment")
+    parser.add_argument(
+        "--no-community-enrich",
+        action="store_true",
+        help="Skip official GitHub community-profile enrichment only",
+    )
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(
@@ -41,6 +49,9 @@ def main(argv: Optional[list[str]] = None) -> int:
     config = load_config(config_path)
     if args.no_enrich:
         config["max_repository_enrichments"] = 0
+        config["max_community_enrichments"] = 0
+    elif args.no_community_enrich:
+        config["max_community_enrichments"] = 0
     now = parse_datetime(args.now) if args.now else utc_now()
     if now is None:
         parser.error("--now must be a valid ISO timestamp")
@@ -52,11 +63,12 @@ def main(argv: Optional[list[str]] = None) -> int:
         site_dir = REPO_ROOT / site_dir
 
     history = load_history(output_dir / "history.json")
+    previous_dataset = load_previous_dataset(output_dir / "latest.json")
     previous, previous_catalogs = previous_publication(output_dir)
     token = args.token or os.environ.get("GITHUB_TOKEN")
     client = HttpClient(
         token=token,
-        user_agent="github-radar-project-catalogs/0.1 (+https://github.com/Amarel-Taylor-Scott/github-radar)",
+        user_agent="github-radar-project-catalogs/0.2 (+https://github.com/Amarel-Taylor-Scott/github-radar)",
         max_retries=3,
         min_interval=float(config["request_interval_seconds"]),
     )
@@ -88,7 +100,21 @@ def main(argv: Optional[list[str]] = None) -> int:
         output_dir=output_dir,
         site_dir=site_dir,
     )
+    reports = write_reports(
+        projects,
+        config,
+        previous_dataset,
+        now,
+        output_dir=output_dir,
+        site_dir=site_dir,
+    )
     LOGGER.info("Published %d unique projects across %d catalogs", len(projects), len(counts))
     for catalog_id, count in counts.items():
         LOGGER.info("  %s: %d", catalog_id, count)
+    LOGGER.info(
+        "Change feed: %d new, %d removed; review queue: %d",
+        reports["new_discoveries"],
+        reports["removed"],
+        reports["review_queue"],
+    )
     return 0
