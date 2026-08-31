@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T16:49:05+00:00",
+  "generated_at": "2026-08-31T17:00:11+00:00",
   "catalog": {
     "id": "cybersecurity",
     "title": "Cybersecurity Tools Radar",
@@ -385,8 +385,8 @@
       "repo:juice-shop/juice-shop",
       "repo:defectdojo/django-defectdojo",
       "repo:apache/caldera",
-      "repo:sqlmapproject/sqlmap",
       "repo:infobyte/faraday",
+      "repo:sqlmapproject/sqlmap",
       "repo:xonsh/xonsh",
       "repo:owasp/wstg",
       "repo:projectdiscovery/httpx",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T16:49:05+00:00",
+  "generated_at": "2026-08-31T17:00:11+00:00",
   "catalog": {
     "id": "creative-computing",
     "title": "Creative Computing Radar",
@@ -235,9 +235,9 @@
     "repo:lucasmarkes/motes",
     "repo:imweb-project/imweb",
     "repo:summerpapaya/summertown",
+    "repo:xblueprintlab/fayaaa",
     "repo:idlecyrex/topolines",
     "repo:shaurya-noodle/threejs-celestial-forge",
-    "repo:xblueprintlab/fayaaa",
     "repo:camilleroux/genartclub",
     "repo:albertaz1992/every-qrcode",
     "repo:hraness/atet",

@@ -1,13 +1,13 @@
 {
   "ok": true,
   "schema_version": 1,
-  "generated_at": "2026-08-31T16:49:05+00:00",
-  "projects": 1592,
+  "generated_at": "2026-08-31T17:00:11+00:00",
+  "projects": 1594,
   "catalogs": {
-    "interesting-projects": 1592,
+    "interesting-projects": 1594,
     "ai-agents": 192,
     "ai-engineering": 192,
-    "developer-tools": 203,
+    "developer-tools": 202,
     "data-engineering": 182,
     "cybersecurity": 191,
     "robotics": 168,

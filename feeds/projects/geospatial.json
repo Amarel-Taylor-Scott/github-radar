@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-31T16:49:05+00:00",
+  "generated_at": "2026-08-31T17:00:11+00:00",
   "catalog": {
     "id": "geospatial",
     "title": "Geospatial and Mapping Radar",
@@ -265,7 +265,7 @@
       "repo:project-osrm/osrm-backend",
       "repo:maplibre/maputnik",
       "repo:uber/h3",
-      "repo:obss/sahi"
+      "repo:geopandas/geopandas"
     ],
     "up_and_coming": [
       "repo:opengeos/geolibre",
@@ -297,8 +297,8 @@
     "high_quality": [
       "repo:opengeos/geolibre",
       "repo:cesiumgs/cesium",
-      "repo:graphhopper/graphhopper",
       "repo:maplibre/maputnik",
+      "repo:graphhopper/graphhopper",
       "repo:torchgeo/torchgeo",
       "repo:gee-community/geemap",
       "repo:opengeos/leafmap",
@@ -323,8 +323,8 @@
     ],
     "hidden_gems": [
       "repo:gee-community/geemap",
-      "repo:opengeos/leafmap",
       "repo:c2g-dev/city2graph",
+      "repo:opengeos/leafmap",
       "repo:torchgeo/torchgeo",
       "repo:opengeos/geoai",
       "repo:geolens-io/geolens",
@@ -358,13 +358,13 @@
       "repo:keplergl/kepler.gl",
       "repo:organicmaps/organicmaps",
       "repo:redisearch/redisearch",
-      "repo:gee-community/geemap",
       "repo:torchgeo/torchgeo",
+      "repo:gee-community/geemap",
       "repo:bigbodycobain/shadowbroker",
       "repo:gboeing/osmnx",
-      "repo:opengeos/leafmap",
       "repo:project-osrm/osrm-backend",
       "repo:teslamate-org/teslamate",
+      "repo:opengeos/leafmap",
       "repo:originalankur/maptoposter",
       "repo:marceloprates/prettymaps",
       "repo:databendlabs/databend",
