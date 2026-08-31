@@ -4,7 +4,8 @@ Project Radar turns `github-radar` into a reusable publication engine for high-q
 
 The implementation is deliberately centralized:
 
-- `scripts/project_radar.py` contains the generic collector, history, scoring, validation, and renderers.
+- `scripts/project_radar.py` is the stable command-line entry point.
+- `github_radar/project_common.py`, `project_discovery.py`, `project_history.py`, `project_scoring.py`, `project_rendering.py`, and `project_runner.py` contain the reusable models, collection, measurement, ranking, publication, and orchestration layers.
 - `project_radars.json` defines the products, topics, thresholds, exclusions, and API budget.
 - `.github/workflows/project-radars-daily.yml` runs the offline suite, performs the live collection, validates the publication bundle, and commits only changed output on `main`.
 - `feeds/projects/` contains Markdown, JSON, history, and a machine-readable run receipt.
