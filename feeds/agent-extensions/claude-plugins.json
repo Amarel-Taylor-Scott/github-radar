@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:36:10+00:00",
+  "generated_at": "2026-08-31T17:59:48+00:00",
   "catalog": {
     "id": "claude-plugins",
     "title": "Claude Plugins Radar",
@@ -88,8 +88,8 @@
       "plugin:awslabs/agent-plugins:plugins/amazon-location-service",
       "plugin:forcedotcom/sf-skills:plugins/builder/salesforce-development",
       "plugin:anthropics/claude-plugins-community:quickdesign",
-      "plugin:manavarya09/design-extract:design-extract",
       "plugin:growthxai/output:coding_assistants/claude/plugins/outputai",
+      "plugin:manavarya09/design-extract:design-extract",
       "plugin:nyldn/claude-octopus:claude-octopus",
       "plugin:modelcontextprotocol/ext-apps:plugins/mcp-apps"
     ],
@@ -112,8 +112,8 @@
       "plugin:dohyun468/claw-hwp:plugins/claw-hwp",
       "plugin:shopify/shopify-ai-toolkit:shopify-ai-toolkit",
       "plugin:manuelschipper/nah:plugins/nah",
-      "plugin:microsoft/dataverse-skills:.github/plugins/dataverse",
       "plugin:nagisanzenin/engram:engram",
+      "plugin:microsoft/dataverse-skills:.github/plugins/dataverse",
       "plugin:amd/skills:skills",
       "plugin:nowork-studio/notfair-plugin:notfair-plugin",
       "plugin:snflkd/fluent-korean:fluent-korean",

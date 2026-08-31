@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:36:10+00:00",
+  "generated_at": "2026-08-31T17:59:48+00:00",
   "catalog": {
     "id": "agent-extensions",
     "title": "Agent Extensions Radar",
     "description": "Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents."
   },
-  "count": 3867,
+  "count": 3868,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "agent-extensions"
@@ -29,15 +29,15 @@
       "tool:headroomlabs-ai/headroom:@repository",
       "agent:nexu-io/open-design:@repository",
       "plugin:revfactory/harness:harness",
-      "agent:hmbown/codewhale:@repository",
       "agent:farion1231/cc-switch:@repository",
       "agent:nousresearch/hermes-agent:@repository",
       "tool:upstash/context7:@repository",
       "agent:k-dense-ai/scientific-agent-skills:@repository",
+      "agent:hmbown/codewhale:@repository",
+      "agent:santifer/career-ops:@repository",
       "tool:t8y2/dbx:@repository",
       "agent:mukul975/anthropic-cybersecurity-skills:@repository",
-      "framework:esengine/deepseek-reasonix:@repository",
-      "tool:punkpeye/awesome-mcp-servers:@repository"
+      "framework:esengine/deepseek-reasonix:@repository"
     ],
     "rising": [
       "plugin:dietrichgebert/ponytail:ponytail",
@@ -50,20 +50,20 @@
       "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "framework:esengine/deepseek-reasonix:@repository",
       "agent:omnigent-ai/omnigent:@repository",
+      "agent:santifer/career-ops:@repository",
       "tool:wenyuchiou/awesome-agentic-ai-zh:@repository",
-      "agent:hkuds/vibe-trading:@repository",
       "agent:ccch1mneyyy/dsh-tui:@repository",
       "plugin:shadowaqueduct/watermark-remover:watermark-remover",
       "plugin:cbrock84/headcount:headcount",
       "plugin:ayghri/i-have-adhd:i-have-adhd",
       "tool:trailhq/graft:@repository",
       "tool:oomol-lab/open-connector:@repository",
+      "agent:xbtlin/ai-berkshire:@repository",
       "agent:citrolabs/ego-lite:@repository",
       "agent:getagentseal/codeburn:@repository",
       "skill:anthropics/skills:skills/academy-guide",
-      "agent:xbtlin/ai-berkshire:@repository",
-      "tool:deusdata/codebase-memory-mcp:@repository",
       "agent:nvidia/skillspector:@repository",
+      "tool:deusdata/codebase-memory-mcp:@repository",
       "plugin:dayuanjiang/next-ai-draw-io:packages/claude-plugin"
     ],
     "popular": [
@@ -83,15 +83,15 @@
       "agent:affaan-m/ecc:@repository",
       "tool:upstash/context7:@repository",
       "tool:headroomlabs-ai/headroom:@repository",
-      "agent:hmbown/codewhale:@repository",
       "agent:nexu-io/open-design:@repository",
       "agent:farion1231/cc-switch:@repository",
       "agent:nousresearch/hermes-agent:@repository",
+      "tool:github/github-mcp-server:@repository",
       "agent:k-dense-ai/scientific-agent-skills:@repository",
       "tool:prefecthq/fastmcp:@repository",
-      "agent:wshobson/agents:@repository",
-      "agent:bojieli/ai-agent-book:@repository",
-      "tool:punkpeye/awesome-mcp-servers:@repository"
+      "agent:hmbown/codewhale:@repository",
+      "agent:santifer/career-ops:@repository",
+      "agent:wshobson/agents:@repository"
     ],
     "new": [
       "plugin:dietrichgebert/ponytail:ponytail",
@@ -101,24 +101,24 @@
       "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "framework:esengine/deepseek-reasonix:@repository",
       "agent:omnigent-ai/omnigent:@repository",
+      "agent:santifer/career-ops:@repository",
       "tool:wenyuchiou/awesome-agentic-ai-zh:@repository",
-      "agent:hkuds/vibe-trading:@repository",
       "agent:ccch1mneyyy/dsh-tui:@repository",
       "plugin:shadowaqueduct/watermark-remover:watermark-remover",
       "plugin:cbrock84/headcount:headcount",
       "plugin:ayghri/i-have-adhd:i-have-adhd",
       "tool:trailhq/graft:@repository",
       "tool:oomol-lab/open-connector:@repository",
+      "agent:xbtlin/ai-berkshire:@repository",
       "agent:citrolabs/ego-lite:@repository",
       "agent:getagentseal/codeburn:@repository",
-      "agent:xbtlin/ai-berkshire:@repository",
       "agent:nvidia/skillspector:@repository",
-      "agent:kirodotdev/kirocrew:@repository",
       "framework:open-multi-agent/open-multi-agent:@repository",
       "plugin:nateherkai/scroll-craft:scroll-craft",
       "agent:tutti-os/tutti:@repository",
       "plugin:builderio/skills:@repository",
-      "agent:rullerzhou-afk/clawd-on-desk:@repository"
+      "agent:rullerzhou-afk/clawd-on-desk:@repository",
+      "agent:apache/maka:@repository"
     ]
   }
 }
