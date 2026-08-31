@@ -7,6 +7,7 @@ production policies that are specific to the multi-catalog deployment:
 * repository metadata requests are allocated across catalogs instead of being
   consumed by whichever marketplace happens to be collected first;
 * exact artifact evidence is enriched before weak keyword-only candidates;
+* shorthand ``owner/repository`` registry sources are normalized to GitHub;
 * incomplete repository records are retained in the directory but excluded
   from public leaderboards when enough fully measured records exist;
 * one repository may contribute only the configured number of entries to a
@@ -19,12 +20,12 @@ prevents the discovery engine from accumulating deployment-specific constants.
 from __future__ import annotations
 
 import importlib.util
+import re
 import sys
 from collections import defaultdict
-from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Iterable, Optional
+from typing import Any, Optional
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CORE_PATH = SCRIPT_DIR / "agent_extension_radar.py"
@@ -34,6 +35,45 @@ if SPEC is None or SPEC.loader is None:  # pragma: no cover - import machinery g
 core = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = core
 SPEC.loader.exec_module(core)
+
+_CORE_GITHUB_REPO_FROM_URL = core.github_repo_from_url
+_GITHUB_OWNER = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9.-]{0,38})$")
+_GITHUB_REPOSITORY = re.compile(r"^[A-Za-z0-9_.-]+$")
+
+
+def github_repo_from_source(value: str | None) -> Optional[str]:
+    """Resolve normal GitHub URLs plus registry shorthand ``owner/repo``.
+
+    Anthropic's reviewed community marketplace uses both full GitHub URLs and
+    bare repository coordinates for ``git-subdir`` sources. The latter are
+    GitHub coordinates by registry convention, but they are deliberately
+    accepted only when the entire value is exactly two safe path segments. This
+    avoids interpreting arbitrary domains, package names, or deep paths as
+    repositories.
+    """
+    parsed = _CORE_GITHUB_REPO_FROM_URL(value)
+    if parsed:
+        return parsed
+    if not value:
+        return None
+
+    candidate = str(value).strip().strip("/")
+    lowered = candidate.lower()
+    for prefix in ("github:", "github.com/"):
+        if lowered.startswith(prefix):
+            candidate = candidate[len(prefix) :].strip("/")
+            lowered = candidate.lower()
+            break
+    if candidate.lower().endswith(".git"):
+        candidate = candidate[:-4]
+
+    parts = candidate.split("/")
+    if len(parts) != 2:
+        return None
+    owner, repository = parts
+    if not _GITHUB_OWNER.fullmatch(owner) or not _GITHUB_REPOSITORY.fullmatch(repository):
+        return None
+    return f"{owner}/{repository}"
 
 
 def evidence_priority(item: Any) -> tuple[float, ...]:
@@ -202,6 +242,7 @@ def catalog_leaderboards(
 
 
 def install_production_policies() -> None:
+    core.github_repo_from_url = github_repo_from_source
     core.Collector = BalancedCollector
     core.diverse_top = diverse_top
     core.catalog_leaderboards = catalog_leaderboards
