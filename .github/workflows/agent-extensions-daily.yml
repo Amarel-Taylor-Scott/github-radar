@@ -1,0 +1,50 @@
+name: Daily agent extension catalogs
+
+on:
+  schedule:
+    # Off-the-hour to reduce GitHub Actions scheduling congestion.
+    - cron: "37 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-agent-extension-catalogs
+  cancel-in-progress: false
+
+jobs:
+  collect-rank-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run the offline test suite
+        run: python -m unittest discover -s tests
+
+      - name: Discover, rank, and render extension catalogs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/agent_extension_radar.py \
+            --config agent_extensions.json \
+            --output-dir feeds/agent-extensions \
+            --site-dir docs/agent-extensions
+
+      - name: Commit generated catalogs if changed
+        run: |
+          git add feeds/agent-extensions docs/agent-extensions
+          if git diff --cached --quiet; then
+            echo "No catalog changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: daily agent extension catalogs $(date -u +%Y-%m-%d)"
+          git push
