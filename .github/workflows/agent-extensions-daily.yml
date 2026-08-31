@@ -119,4 +119,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: daily agent extension catalogs $(date -u +%Y-%m-%d)"
-          git push
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Main advanced during publication; rebasing generated extension artifacts (attempt ${attempt}/3)."
+            git fetch origin main
+            git rebase origin/main
+          done
+          echo "::error::Unable to publish extension artifacts after three push attempts."
+          exit 1
