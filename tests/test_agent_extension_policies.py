@@ -78,6 +78,53 @@ def make_item(
     return item
 
 
+class SourceNormalizationTests(unittest.TestCase):
+    def test_bare_owner_repository_is_recognized(self) -> None:
+        self.assertEqual(
+            policies.github_repo_from_source("AlteredCraft/claude-code-plugins"),
+            "AlteredCraft/claude-code-plugins",
+        )
+        self.assertEqual(
+            policies.github_repo_from_source("github:example/project.git"),
+            "example/project",
+        )
+
+    def test_non_github_or_deep_paths_are_not_guessed(self) -> None:
+        self.assertIsNone(
+            policies.github_repo_from_source("https://example.com/owner/repository")
+        )
+        self.assertIsNone(
+            policies.github_repo_from_source("owner/repository/plugins/example")
+        )
+
+    def test_git_subdir_marketplace_source_uses_actual_repository(self) -> None:
+        original = core.github_repo_from_url
+        core.github_repo_from_url = policies.github_repo_from_source
+        try:
+            repository, path, ref, source_url = core.resolve_marketplace_source(
+                {
+                    "name": "api-security-testing",
+                    "source": {
+                        "source": "git-subdir",
+                        "url": "42Crunch-AI/claude-plugins",
+                        "path": "plugins/api-security-testing",
+                        "ref": "v1.0.1",
+                    },
+                },
+                "anthropics/claude-plugins-community",
+            )
+        finally:
+            core.github_repo_from_url = original
+
+        self.assertEqual(repository, "42Crunch-AI/claude-plugins")
+        self.assertEqual(path, "plugins/api-security-testing")
+        self.assertEqual(ref, "v1.0.1")
+        self.assertEqual(
+            source_url,
+            "https://github.com/42Crunch-AI/claude-plugins/tree/v1.0.1/plugins/api-security-testing",
+        )
+
+
 class BalancedEnrichmentTests(unittest.TestCase):
     def setUp(self) -> None:
         self.now = datetime(2026, 8, 31, 12, 0, tzinfo=timezone.utc)
