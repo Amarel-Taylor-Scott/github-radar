@@ -11,10 +11,12 @@ on:
       - feature/agent-extension-radar
     paths:
       - "scripts/agent_extension_radar.py"
+      - "scripts/run_agent_extension_radar.py"
       - "scripts/compact_agent_extension_outputs.py"
       - "agent_extensions.json"
       - ".github/workflows/agent-extensions-daily.yml"
       - "tests/test_agent_extension_radar.py"
+      - "tests/test_agent_extension_policies.py"
       - "tests/test_compact_agent_extension_outputs.py"
 
 permissions:
@@ -43,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/agent_extension_radar.py \
+          python scripts/run_agent_extension_radar.py \
             --config agent_extensions.json \
             --output-dir feeds/agent-extensions \
             --site-dir docs/agent-extensions
