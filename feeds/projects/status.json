@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "schema_version": 1,
+  "generated_at": "2026-08-31T16:49:05+00:00",
+  "projects": 1592,
+  "catalogs": {
+    "interesting-projects": 1592,
+    "ai-agents": 192,
+    "ai-engineering": 192,
+    "developer-tools": 203,
+    "data-engineering": 182,
+    "cybersecurity": 191,
+    "robotics": 168,
+    "geospatial": 174,
+    "creative-computing": 206,
+    "self-hosted": 167
+  },
+  "source_health": {
+    "total": 46,
+    "successful": 46,
+    "failed": 0,
+    "degraded": false
+  },
+  "history_mode": "lifetime-estimate"
+}
