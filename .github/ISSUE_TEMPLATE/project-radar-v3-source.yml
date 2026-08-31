@@ -1,0 +1,63 @@
+name: Propose a Project Radar v3 evidence source
+description: Propose an authoritative package, release, security, event, or adoption source for the v3 evidence layer.
+title: "[V3 source]: "
+labels: ["project-radar-v3", "source-proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Project Radar accepts new evidence sources only when they preserve provenance, bounded collection, graceful degradation, and safety. A source proposal does not imply that its signals will affect production rankings.
+  - type: input
+    id: source
+    attributes:
+      label: Authoritative upstream
+      description: Name the registry, API, standard, or provider.
+      placeholder: PyPI, crates.io, OpenSSF Scorecard, GH Archive...
+    validations:
+      required: true
+  - type: input
+    id: endpoint
+    attributes:
+      label: Documented endpoint or specification
+      description: Provide the official endpoint or documentation reference.
+    validations:
+      required: true
+  - type: textarea
+    id: signal
+    attributes:
+      label: Proposed signal contract
+      description: State the evidence class, entity level, unit, time window, missing-data behavior, stable identifier, freshness timestamp, and confidence or coverage measure.
+    validations:
+      required: true
+  - type: textarea
+    id: budgets
+    attributes:
+      label: Request budget, pagination, caching, and retry design
+      description: Explain how collection remains bounded and how failure degrades safely.
+    validations:
+      required: true
+  - type: textarea
+    id: terms
+    attributes:
+      label: Data license and usage terms
+      description: Identify the applicable public terms, license, attribution, or rate-limit requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: gaming
+    attributes:
+      label: Anti-gaming and ranking considerations
+      description: Explain likely manipulation risks and whether the signal should remain shadow-only.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: The proposed collector does not execute discovered repository code.
+          required: true
+        - label: Missing evidence will remain missing rather than being represented as zero.
+          required: true
+        - label: I disclosed any affiliation with the upstream source or affected projects.
+          required: true
