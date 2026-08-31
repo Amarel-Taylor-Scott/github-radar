@@ -8,16 +8,16 @@ on:
   push:
     branches:
       - main
-      - feature/agent-extension-radar
+      - "feature/**"
     paths:
       - "scripts/agent_extension_radar.py"
       - "scripts/run_agent_extension_radar.py"
       - "scripts/compact_agent_extension_outputs.py"
       - "agent_extensions.json"
       - ".github/workflows/agent-extensions-daily.yml"
-      - "tests/test_agent_extension_radar.py"
-      - "tests/test_agent_extension_policies.py"
+      - "tests/test_agent_extension*.py"
       - "tests/test_compact_agent_extension_outputs.py"
+      - "tests/test_codex_plugin_sources.py"
 
 permissions:
   contents: write
