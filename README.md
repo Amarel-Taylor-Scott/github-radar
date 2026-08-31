@@ -3,104 +3,168 @@
 [![CI](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/ci.yml)
 [![Daily feed](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/daily.yml)
 [![Agent extension catalogs](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/agent-extensions-daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/agent-extensions-daily.yml)
+[![Project radars](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/project-radars-daily.yml/badge.svg)](https://github.com/Amarel-Taylor-Scott/github-radar/actions/workflows/project-radars-daily.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Dependencies: none](https://img.shields.io/badge/deps-stdlib--only-brightgreen)](pyproject.toml)
 
-**A momentum-aware feed of popular and AI-related GitHub repositories, plus daily catalogs of Claude, Codex, MCP, and agent extensions.**
+**Daily, momentum-aware discovery for GitHub repositories, agent extensions, and high-quality projects across technical domains.**
 
-📈 **[See today's general GitHub feed → `feeds/latest.md`](feeds/latest.md)** — regenerated daily by GitHub Actions.
+📈 **General feed:** [`feeds/latest.md`](feeds/latest.md)
 
-🧭 **Agent extension catalogs:** [Claude Skills](feeds/agent-extensions/claude-skills.md) · [Claude Tools](feeds/agent-extensions/claude-tools.md) · [Claude Plugins](feeds/agent-extensions/claude-plugins.md) · [All Agent Extensions](feeds/agent-extensions/agent-extensions.md)
+🧭 **Agent extensions:** [Claude Skills](feeds/agent-extensions/claude-skills.md) · [Claude Tools](feeds/agent-extensions/claude-tools.md) · [Claude Plugins](feeds/agent-extensions/claude-plugins.md) · [All Agent Extensions](feeds/agent-extensions/agent-extensions.md)
 
-`github-radar` answers one question well: **"what's actually hot on GitHub right
-now, especially in AI?"** — not "what has the most all-time stars" (that list
-never changes). It pulls from GitHub's official Search API and the public
-Trending page, deduplicates across sources, scores each repo with a blended
-**star-velocity ranking**, and emits a clean feed as **JSON**, a **Markdown
-digest**, or an **Atom feed**.
+🔭 **Project radars:** [Interesting Projects](feeds/projects/interesting-projects.md) · [AI Agents](feeds/projects/ai-agents.md) · [AI Engineering](feeds/projects/ai-engineering.md) · [Developer Tools](feeds/projects/developer-tools.md) · [Data Engineering](feeds/projects/data-engineering.md) · [All Catalogs](feeds/projects/README.md)
 
-The Agent Extension Radar uses the same momentum-first philosophy for public
-skills, plugins, MCP servers, tools, and agent frameworks. One configurable
-collector produces four focused catalogs so their source definitions, history,
-ranking, and safety rules cannot drift apart.
+`github-radar` answers three related questions:
 
-It is **dependency-free** (Python standard library only), **zero-config** (runs
-out of the box), and **degrades gracefully** (one rate-limited source never
-sinks the run).
+1. What is hot on GitHub right now, especially in AI?
+2. Which Claude, Codex, MCP, and agent extensions are gaining traction?
+3. Which high-quality, fast-rising, new, or under-recognized projects deserve attention inside a particular technical domain?
+
+The repository contains three production pipelines rather than three disconnected demos. They share the same principles: bounded public discovery, explicit provenance, honest missing-data behavior, deterministic scoring, rolling history, validation before publication, and read-only collection.
 
 ```bash
-python -m github_radar                       # Markdown digest of the top 50, to stdout
-python -m github_radar --top 20 --format json
-python -m github_radar --out-dir output --format markdown,json,atom
+python -m github_radar
+python scripts/run_agent_extension_radar.py --config agent_extensions.json
+python scripts/project_radar.py --config project_radars.json
 ```
+
+The core runtime uses only the Python standard library.
 
 ---
 
-## Why this exists (the pitch)
+## Products
 
-Discovering genuinely *new* momentum on GitHub is harder than it looks:
+### 1. General GitHub feed
 
-- **There is no official "trending API."** GitHub's Trending page is HTML-only.
-- **The Search API is the only supported query path**, and it sorts by *total*
-  stars — so newcomers are buried under perennial giants.
-- **True star-velocity** (stars/day over a window) needs the GH Archive event
-  stream + BigQuery, which is heavyweight and credential-gated.
+The original radar combines GitHub Search with the public Trending page, deduplicates repositories, and publishes JSON, Markdown, or Atom. Its blended score uses log-scaled popularity, repository freshness, Trending momentum, Trending presence, and cross-source corroboration.
 
-`github-radar` stitches the *free, public* signals together and applies a
-recency- and momentum-aware score, so a repo that gained 1,500 stars **today**
-can out-rank a 200k-star project that's been idle for three months.
+```text
+score =  w_pop  · log10(stars)
+       + w_rec  · 0.5 ^ (days_idle / H)
+       + w_mom  · log10(stars_today)
+       + w_trend · [is on Trending]
+       + w_multi · (source_count − 1)
+```
+
+The scheduled workflow runs daily at **07:13 UTC** and commits output only when it changes.
+
+### 2. Agent Extension Radar
+
+One collector publishes four independently consumable catalogs:
+
+| Catalog | Scope |
+|:--|:--|
+| [Claude Skills Radar](feeds/agent-extensions/claude-skills.md) | Standalone and packaged `SKILL.md` components for Claude and compatible Agent Skills runtimes |
+| [Claude Tools Radar](feeds/agent-extensions/claude-tools.md) | MCP servers and evidence-backed tool integrations |
+| [Claude Plugins Radar](feeds/agent-extensions/claude-plugins.md) | Official, reviewed-community, and manifest-backed Claude Code/Cowork plugins |
+| [Agent Extensions Radar](feeds/agent-extensions/agent-extensions.md) | Cross-agent skills, tools, plugins, agents, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and others |
+
+The normalized dataset, rolling history, run receipt, compact catalog indexes, and searchable static interface live under [`feeds/agent-extensions/`](feeds/agent-extensions/) and [`docs/agent-extensions/`](docs/agent-extensions/).
+
+The extension workflow runs daily at **08:37 UTC**. It never installs or executes discovered skills, hooks, plugins, scripts, or MCP servers. See [`docs/AGENT_EXTENSION_RADAR.md`](docs/AGENT_EXTENSION_RADAR.md) for the source map, schemas, ranking model, and mirror design.
+
+### 3. Multi-domain Project Radar
+
+Project Radar generalizes the same daily-publication model to ordinary GitHub projects. One declarative configuration currently produces ten catalogs:
+
+| Catalog | Focus |
+|:--|:--|
+| [Interesting GitHub Projects](feeds/projects/interesting-projects.md) | Cross-domain aggregate balancing novelty, momentum, quality, relevance, and under-recognition |
+| [AI Agents](feeds/projects/ai-agents.md) | Agent runtimes, coding agents, multi-agent systems, tool use, computer use, and orchestration |
+| [AI Engineering](feeds/projects/ai-engineering.md) | RAG, inference, evaluation, observability, model serving, LLM operations, and production ML tooling |
+| [Developer Tools](feeds/projects/developer-tools.md) | Editors, terminals, CLIs, debuggers, API clients, testing, build systems, and developer experience |
+| [Data Engineering](feeds/projects/data-engineering.md) | Pipelines, ETL/ELT, orchestration, streaming, warehouses, lakehouses, and data quality |
+| [Cybersecurity Tools](feeds/projects/cybersecurity.md) | Defensive security, AppSec, vulnerability discovery, reverse engineering, privacy, and automation |
+| [Robotics and Embodied AI](feeds/projects/robotics.md) | Robotics frameworks, ROS, simulation, autonomy, drones, control, sensing, and embodied intelligence |
+| [Geospatial and Mapping](feeds/projects/geospatial.md) | GIS, routing, spatial databases, Earth observation, mapping, analytics, and digital twins |
+| [Creative Computing](feeds/projects/creative-computing.md) | Graphics, animation, video, audio, creative coding, generative art, design tools, and 3D |
+| [Self-Hosted and Local-First](feeds/projects/self-hosted.md) | Self-hosted applications, homelabs, local-first software, privacy, personal clouds, and independent automation |
+
+Every catalog publishes:
+
+- **Most Interesting**
+- **High Momentum**
+- **Up and Coming**
+- **High Quality**
+- **Hidden Gems**
+- **Most Popular**
+- **New Projects**
+- **Latest One-Day Movers**, once daily history exists
+
+Project scores are normalized **inside each catalog**. This prevents a strong robotics, geospatial, or scientific project from being buried simply because its ecosystem has fewer absolute stars than the largest AI or JavaScript projects.
+
+The scheduled workflow runs daily at **09:17 UTC**, after the other two products. It publishes Markdown, compact catalog JSON, a normalized full dataset, 90-day history, source-health receipt, and a searchable static interface under [`feeds/projects/`](feeds/projects/) and [`docs/projects/`](docs/projects/).
+
+See [`docs/PROJECT_RADARS.md`](docs/PROJECT_RADARS.md) for the complete architecture, scoring model, configuration contract, reliability gates, safety rules, and standalone-mirror growth strategy.
 
 ---
 
-## Sources
+## Project Radar ranking model
 
-Best-first. Each source normalizes into one shared `Repo` model, then everything
-is deduped by `full_name` and merged.
+“High quality” is not treated as an unexplainable label. The engine retains raw repository evidence and computes separate dimensions:
 
-| # | Source | How | Official? | Caveats |
-|--:|--------|-----|:---------:|---------|
-| 1 | **GitHub Search API** | `GET /search/repositories`, one query per topic, `stars:>N`, `pushed:>window`, sorted by stars | ✅ Yes | 10 req/min unauthenticated (30 with a token); 1,000-result hard cap; `topic:` qualifiers are **AND**, never OR — so we fan out one query per topic and merge |
-| 2 | **GitHub Trending** | Scrape `github.com/trending` + `/trending/{lang}?since=…` HTML | ❌ No API | Layout can change; parser is regex-anchored on the stable `Box-row` blocks and skips unparseable rows |
-| 3 | **GitHub Trending RSS** *(opt-in)* | Community feeds at `mshibanami.github.io/GitHubTrendingRSS` | ❌ Third-party | Fallback when the HTML scrape breaks; `--trending-rss` |
-| 4 | **Hugging Face trending** *(opt-in)* | `huggingface.co/api/trending`, kept only when an entry links a GitHub repo | ⚠️ Undocumented | `--huggingface` |
-| 5 | **arXiv cs.AI** *(opt-in)* | arXiv Atom feed; extracts `github.com/owner/name` refs from recent papers | ✅ Yes (arXiv) | `--arxiv`; papers without a repo link are ignored |
+| Dimension | Evidence |
+|:--|:--|
+| Popularity | Log-scaled stars, forks, and watchers |
+| Velocity | Measured stars per day; provisional lifetime estimate on the first snapshot |
+| Acceleration | Current observed velocity compared with the preceding window |
+| Relative growth | Growth relative to the repository's prior size |
+| Freshness | Time-decayed last push |
+| Maintenance | Push and repository-update recency |
+| Metadata quality | Description, license, topics, homepage, community features, adoption, substance, and corroboration |
+| Relevance | Catalog memberships, matched topics, configured keywords, negative terms, and discovery paths |
+| Confidence | API completeness, metadata completeness, source confidence, and corroboration |
+| Newness | Time decay from repository creation |
 
-> **No token needed.** `GITHUB_TOKEN` is read from the environment (or `--token`)
-> purely to raise rate limits. It is never logged, hardcoded, or committed.
+The public leaderboards blend these dimensions for distinct purposes. Raw dimensions and component scores remain in JSON so consumers can build their own ranking.
+
+Momentum belongs to the repository, not to an arbitrary catalog. The rolling history derives one-, seven-, and thirty-day star changes, seven-day fork and watcher changes, velocity, acceleration, relative growth, and first-seen date.
+
+On the first run, unavailable deltas remain `null`; they are never represented as zero. As observations accumulate, measured history automatically replaces the provisional lifetime estimate.
 
 ---
 
-## The ranking (headline feature)
+## Discovery and reliability
 
-Each repo gets a blended `score` in roughly `[0, 100]` from four signals. The
-formula is deliberately simple and inspectable (`github_radar/ranking.py`):
+Project Radar builds a fair query schedule across every native catalog. Each domain receives an active-project query and a new-project query before secondary topics compete for the remaining API budget. Repository-detail enrichment is also allocated round-robin, so the largest ecosystem cannot consume the entire run.
 
-```
-score =  w_pop  · log10(stars)            # popularity, log-scaled
-       + w_rec  · 0.5 ^ (days_idle / H)   # recency: exponential decay, half-life H days
-       + w_mom  · log10(stars_today)      # momentum: trending stars-this-period
-       + w_trend · [is on trending page]  # flat trending-presence bonus
-       + w_multi · (n_sources − 1)         # cross-source corroboration bonus
-```
+Production safeguards include:
 
-| Term | Default weight | What it does |
-|------|---------------:|--------------|
-| Popularity | 18 | `log10(stars)` — an extra zero is a fixed bump, not 10×, so giants don't dominate |
-| Recency | 28 | Exponential decay on days-since-last-push (half-life **14d**). The knob that lets fresh repos beat dormant ones |
-| Momentum | 16 | Log-scaled stars-gained-this-period from the trending page — the lightweight star-velocity proxy |
-| Trending bonus | 12 | Flat bonus for appearing on Trending at all |
-| Multi-source | 6 | Per *additional* source that independently surfaced the repo |
+- bounded Search API requests with pacing and retry/backoff;
+- automatic `archived:false` and `fork:false` qualifiers;
+- case-insensitive deduplication and stable repository IDs;
+- provenance, matched topics, query modes, and source-health receipts;
+- owner-diverse leaderboards;
+- age and popularity ceilings for emerging-project rankings;
+- total and per-catalog minimum counts;
+- total and per-catalog previous-publication shrink guards;
+- atomic local output writes;
+- feature-branch validation without production publication;
+- commit-on-change behavior on `main`;
+- stale overlapping workflow cancellation.
 
-All weights are tunable via CLI (`--w-recency`, `--half-life`, …) or in code via
-`RankingWeights`.
+A failed query is recorded and does not terminate healthy sources. A suspiciously empty or collapsed result cannot overwrite the last healthy publication.
 
-**GH Archive note (optional, not required).** True star-velocity — `WatchEvent`
-counts per repo per day — can be computed from the public
-[GH Archive](https://www.gharchive.org/) stream via BigQuery. `github-radar`
-deliberately avoids requiring BigQuery credentials; the trending page's
-*stars-this-period* figure is the lightweight stand-in. The `momentum` term is
-structured so a future GH-Archive velocity number can drop in unchanged.
+Resource lists, courses, and templates may remain searchable in the normalized dataset but are excluded from the initial project leaderboards. Archived, disabled, forked, stale, empty-description, and template repositories receive explicit exclusions or penalties.
+
+Community nominations are accepted through [the project nomination issue form](.github/ISSUE_TEMPLATE/nominate-project.yml). A nomination is discovery evidence only and receives no automatic score bonus. Affiliations must be disclosed.
+
+---
+
+## Sources and caveats
+
+| Source | Used by | Notes |
+|:--|:--|:--|
+| GitHub Search API | General feed, extensions, projects | Official; rate-limited; 1,000-result cap per query; topic metadata varies |
+| GitHub repository API | Extensions, projects | Official metadata enrichment and validation |
+| GitHub Trending HTML | General feed only | GitHub has no official Trending API; layout can change |
+| Official/reviewed marketplaces | Agent extensions | Exact manifests, component paths, and provenance retained |
+| Hugging Face trending | Optional general source | Entries without GitHub repositories are ignored |
+| arXiv cs.AI | Optional general source | Recent papers are retained only when they reference a GitHub repository |
+
+`GITHUB_TOKEN` is optional locally and supplied automatically in Actions. Tokens are used only for authenticated read requests and are never logged or serialized.
 
 ---
 
@@ -109,233 +173,122 @@ structured so a future GH-Archive velocity number can drop in unchanged.
 ```bash
 git clone https://github.com/Amarel-Taylor-Scott/github-radar
 cd github-radar
-python -m github_radar                 # no install, no deps — just run it
+
+# General feed
+python -m github_radar
+python -m github_radar --top 20 --format json
+python -m github_radar --out-dir output --format markdown,json,atom
+
+# Agent extensions
+python scripts/run_agent_extension_radar.py --config agent_extensions.json
+python scripts/compact_agent_extension_outputs.py
+
+# All configured project domains
+python scripts/project_radar.py --config project_radars.json
 ```
 
-Optional editable install (adds the `github-radar` console script):
+Optional editable installation provides the `github-radar` console command:
 
 ```bash
 pip install -e .
 github-radar --help
 ```
 
-Optional: raise rate limits with a token (read-only `public_repo` is plenty):
+For a deterministic Project Radar test run:
 
 ```bash
-export GITHUB_TOKEN=ghp_...            # never committed; read from the env
-github-radar --top 30
+python scripts/project_radar.py \
+  --config project_radars.json \
+  --now 2026-08-31T15:36:00Z \
+  --output-dir /tmp/project-radar-feeds \
+  --site-dir /tmp/project-radar-site
 ```
 
 ---
 
-## CLI examples
+## Adding another domain
 
-```bash
-# Top 20 as a Markdown digest (default), to stdout
-python -m github_radar --top 20
+Add one object to [`project_radars.json`](project_radars.json):
 
-# Only repos created in the last 14 days AND pushed in the last 7 — fresh breakouts
-python -m github_radar --created-within-days 14 --window-days 7
-
-# Narrow the niche and lift the star floor
-python -m github_radar --topics rag,agents --min-stars 500
-
-# Daily trending for specific languages, with the RSS fallback enabled
-python -m github_radar --trending-languages python,rust --trending-since daily --trending-rss
-
-# Turn on the optional sources
-python -m github_radar --huggingface --arxiv
-
-# Write all three formats into ./output/
-python -m github_radar --out-dir output --format markdown,json,atom
-
-# Crank recency so momentum dominates (shorter half-life = faster decay)
-python -m github_radar --half-life 7 --w-recency 40 --w-momentum 24
-
-# Pin a niche in a config file
-python -m github_radar --config config.example.toml -v
+```json
+{
+  "id": "scientific-computing",
+  "title": "Scientific Computing Radar",
+  "description": "Numerical, simulation, research-computing, and reproducible-science projects.",
+  "topics": ["scientific-computing", "numerical-analysis", "simulation"],
+  "keywords": ["simulation", "numerical", "scientific", "research"],
+  "negative_terms": ["course", "interview"],
+  "min_stars": 10,
+  "new_min_stars": 3,
+  "minimum_items": 15,
+  "source_confidence": 0.6,
+  "excluded_project_types": ["resource-list", "education", "template"]
+}
 ```
 
----
+No copied scraper is required. Custom bounded search queries can be added when GitHub topics are insufficient.
 
-## Live daily feed
-
-This repo **publishes its own output**. A scheduled GitHub Action
-([`.github/workflows/daily.yml`](.github/workflows/daily.yml)) runs `github-radar`
-once a day and commits the fresh Markdown digest to
-**[`feeds/latest.md`](feeds/latest.md)** — so the project is its own best demo.
-
-- **Schedule:** daily at 07:13 UTC (plus a manual *Run workflow* button).
-- **Auth:** the run uses the workflow's built-in `GITHUB_TOKEN`, which only
-  raises the Search API rate limit (10 → 30 req/min) and is scoped to this repo.
-  No personal token, no secrets to configure.
-- **Commit-on-change:** the step diffs `feeds/latest.md` and only commits when it
-  actually changed, so the history stays clean on quiet days.
-
-> **Honest caveats.** GitHub has **no official trending API** — the trending
-> signal is a light, read-only scrape of the public HTML page, so it can drift if
-> the layout changes (`--trending-rss` is the fallback). The Search API is
-> rate-limited and capped at 1,000 results per query. The feed reflects those
-> free, public signals — nothing more.
-
----
-
-## Agent Extension Radar
-
-A second scheduled pipeline publishes four focused products from one discovery
-and ranking engine:
-
-| Catalog | Scope | Outputs |
-|:--------|:------|:--------|
-| [Claude Skills Radar](feeds/agent-extensions/claude-skills.md) | Standalone and packaged `SKILL.md` components for Claude and compatible Agent Skills runtimes | Markdown leaderboard + compact JSON index |
-| [Claude Tools Radar](feeds/agent-extensions/claude-tools.md) | MCP servers and evidence-backed tool integrations relevant to Claude and compatible clients | Markdown leaderboard + compact JSON index |
-| [Claude Plugins Radar](feeds/agent-extensions/claude-plugins.md) | Official, reviewed-community, and manifest-backed Claude Code/Cowork plugins | Markdown leaderboard + compact JSON index |
-| [Agent Extensions Radar](feeds/agent-extensions/agent-extensions.md) | Cross-ecosystem skills, tools, plugins, agents, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and others | Markdown leaderboard + compact JSON index |
-
-Each catalog contains **High Momentum**, **Up and Coming**, **Most Popular**, and
-**New Projects** leaderboards. The shared normalized dataset is published at
-[`feeds/agent-extensions/latest.json`](feeds/agent-extensions/latest.json), the
-latest run receipt at
-[`feeds/agent-extensions/status.json`](feeds/agent-extensions/status.json), and
-a searchable static interface under
-[`docs/agent-extensions/`](docs/agent-extensions/).
-
-The extension pipeline:
-
-- reads trusted Anthropic/OpenAI/Vercel seeds, marketplace manifests, exact
-  extension file layouts, and bounded GitHub search results;
-- records exact artifact paths, source evidence, and provenance;
-- stores a rolling 45-day aggregate history and automatically computes measured
-  1-day, 7-day, and 30-day star deltas as snapshots accumulate;
-- clearly labels first-run age-adjusted star velocity as a **lifetime estimate**
-  rather than pretending that an unavailable seven-day delta is zero;
-- distributes metadata enrichment across all catalogs and limits each repository
-  to one default leaderboard representative, so large monorepos cannot consume
-  every rank;
-- never installs or executes discovered skills, hooks, plugins, or MCP servers;
-- validates all output with an offline test suite, normalizes repeated repository
-  metadata into one shared dataset, and refuses to overwrite a healthy feed with
-  an empty scrape.
-
-Run it locally:
-
-```bash
-python scripts/run_agent_extension_radar.py --config agent_extensions.json
-python scripts/compact_agent_extension_outputs.py
-```
-
-The GitHub Actions workflow
-[`.github/workflows/agent-extensions-daily.yml`](.github/workflows/agent-extensions-daily.yml)
-runs daily at **08:37 UTC** and also supports manual dispatch. See
-[`docs/AGENT_EXTENSION_RADAR.md`](docs/AGENT_EXTENSION_RADAR.md) for the source,
-ranking, schema, reliability, and thin-mirror repository design.
-
----
-
-## Sample output
-
-A real, committed snapshot lives at **[`feeds/sample-digest.md`](feeds/sample-digest.md)**
-(generated from a **live** run, not fixtures). A trimmed view:
-
-```
-# github-radar — popular & AI GitHub repositories
-
-_Generated 2026-06-20 20:51 UTC — 30 repositories, ranked by momentum-aware score._
-
-| # | Repo | ⭐ | Lang | Score | Description |
-|--:|------|--:|:-----|------:|:------------|
-| 1 | openclaw/openclaw          | 379,664 | TypeScript | 44.7 | Your own personal AI assistant. Any OS. Any Platform. |
-| 2 | affaan-m/ECC               | 218,786 | JavaScript | 44.0 | The agent harness performance optimization system. |
-| 3 | NousResearch/hermes-agent  | 198,226 | Python     | 43.9 | The agent that grows with you |
-| 4 | n8n-io/n8n                 | 193,339 | TypeScript | 43.9 | Fair-code workflow automation platform with native AI. |
-| 5 | tensorflow/tensorflow      | 195,784 | C++        | 43.8 | An Open Source Machine Learning Framework for Everyone |
-...
-```
-
-Reproduce it yourself with `python -m github_radar --top 30`.
-
-JSON carries a metadata envelope (`generated_at`, `count`) and the full per-repo
-record including `score`, `sources`, `stars_today`, and `topics`. The Atom feed
-is valid Atom 1.0 (one `<entry>` per repo) suitable for any feed reader.
-
----
-
-## Configuration
-
-Defaults live in `github_radar/config.py` and work with zero setup. Override via
-CLI flags, or a TOML file (`--config`, Python 3.11+). See
-[`config.example.toml`](config.example.toml). Precedence: **CLI flag > config
-file > built-in default.**
-
-Agent-extension sources, catalog assignments, evidence requirements, trust
-weights, API budgets, history retention, and output paths are parameterized in
-[`agent_extensions.json`](agent_extensions.json).
+Strong next catalogs include scientific computing, databases, cloud-native infrastructure, bioinformatics, civic technology, accessibility, game development, and open-source business infrastructure.
 
 ---
 
 ## Architecture
 
-```
+```text
 github_radar/
-├── cli.py            # argparse CLI + python -m github_radar entry point
-├── config.py         # defaults, TOML loader, rolling-window math
-├── models.py         # the shared Repo dataclass (normalize, merge, serialize)
-├── http.py           # stdlib HTTP client: UA, token, rate-limit back-off, typed errors
-├── ranking.py        # the blended momentum-aware score
-├── aggregate.py      # dedup/merge + source orchestration (graceful degradation)
-├── output.py         # JSON / Markdown / Atom writers
+├── cli.py                 # original feed CLI
+├── config.py              # original feed configuration
+├── models.py              # original repository model
+├── http.py                # stdlib HTTP client, auth, pacing, retries
+├── ranking.py             # original feed ranking
+├── aggregate.py           # original source orchestration
+├── output.py              # original JSON, Markdown, Atom writers
+├── project_common.py      # project records, stable IDs, classification, utilities
+├── project_discovery.py   # fair query scheduling, collection, enrichment
+├── project_history.py     # rolling snapshots and measured growth
+├── project_scoring.py     # catalog-local dimensions and leaderboards
+├── project_rendering.py   # Markdown, JSON, status, searchable HTML
+├── project_runner.py      # validation, shrink guards, CLI orchestration
 └── sources/
-    ├── search.py     # GitHub Search API (primary)
-    ├── trending.py   # GitHub Trending HTML scrape + RSS fallback
-    └── extras.py     # optional: Hugging Face trending, arXiv cs.AI
+    ├── search.py
+    ├── trending.py
+    └── extras.py
 
 scripts/
-├── agent_extension_radar.py          # generic extension discovery/history/rendering engine
-├── run_agent_extension_radar.py      # balanced production collection/ranking policies
-└── compact_agent_extension_outputs.py # normalized, reviewable publication bundle
+├── agent_extension_radar.py
+├── run_agent_extension_radar.py
+├── compact_agent_extension_outputs.py
+└── project_radar.py       # stable CLI shim for the modular project engine
+
+configuration/
+├── agent_extensions.json
+└── project_radars.json
 ```
 
-Each source is a small unit that takes an `HttpClient` + `Config` and returns
-`list[Repo]`, and **never raises on remote failure** — it logs and returns `[]`
-so the aggregator can carry on with the other sources.
+The central engines remain the source of truth. Future standalone presentation repositories should be thin transactional mirrors of generated artifacts—not separate collectors that can drift.
 
 ---
 
 ## Testing
 
-The suite is **offline and dependency-free** — it uses stdlib `unittest` and
-saved fixtures (`tests/fixtures/`), so it makes **no live network calls** and is
-fully deterministic (time is injected). It covers the general repository radar,
-extension parsing and path normalization, history and scoring, balanced API
-allocation, repository-diverse leaderboards, registry source resolution,
-publication compaction, and output writers.
+The offline suite uses stdlib `unittest`, saved fixtures, fake API payloads, and injected time. It covers the general feed, extension parsing and history, balanced enrichment, publication normalization, Project Radar query fairness, collector integration, deduplication, first-run honesty, measured growth and acceleration, catalog-local scoring, owner diversity, output generation, and total plus per-catalog shrink protection.
 
 ```bash
-python -m unittest discover -s tests        # full offline suite
-# or, if you prefer pytest:
-pip install -e ".[dev]" && pytest
+python -m unittest discover -s tests
 ```
 
-CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the same suite
-on Python 3.10–3.12 for every push and pull request, via both `unittest` and
-`pytest`.
+CI runs on Python **3.10, 3.11, and 3.12** for pushes and pull requests. Each production workflow reruns the complete offline suite before live collection.
 
 ---
 
-## Data sources, ethics & rate limits
+## Safety and ethics
 
-- **Be a good citizen.** The HTTP client sends a real User-Agent, throttles
-  between requests, reads `X-RateLimit-Remaining` / `Retry-After`, and backs off
-  on `403`/`429` instead of hammering.
-- **Trending is scraped, not API'd.** GitHub has no official trending endpoint;
-  the scrape touches only the public page, lightly, and is purely read-only. If
-  the layout shifts, enable `--trending-rss` for the community feed fallback.
-- **Tokens raise limits, nothing more.** `GITHUB_TOKEN` is optional and only
-  ever used to authenticate read requests. It is never logged or persisted.
-- **Discovery is metadata-only.** The extension crawler reads public repository
-  metadata and manifests; it never installs or executes discovered code.
-- **Respect the platforms.** This tool surfaces and links public repositories;
-  it does not clone, mirror, or republish their contents.
+- Discovery is read-only.
+- Discovered repositories, skills, hooks, scripts, plugins, and MCP servers are never cloned, installed, imported, built, or executed.
+- Public metadata and links are surfaced; upstream repository contents are not republished.
+- Requests use a real User-Agent, pacing, rate-limit awareness, and retry/backoff.
+- Tokens are never written to generated data.
+- Nominations do not bypass relevance, quality, history, diversity, or safety rules.
 
 ---
 
