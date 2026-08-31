@@ -1,4 +1,4 @@
-"""Rolling repository observations and measured growth for Project Radar."""
+"""Rolling repository observations and confidence-aware growth for Project Radar."""
 
 from __future__ import annotations
 
@@ -43,20 +43,51 @@ def _history_baseline(
     return max(candidates, key=lambda pair: pair[0]) if candidates else (None, None)
 
 
-def _first_seen(history: dict[str, Any], full_name: str, today: date) -> str:
+def _observation_days(history: dict[str, Any], full_name: str, today: date) -> list[date]:
     observed: list[date] = []
     for key, records in history.get("days", {}).items():
         if not isinstance(records, dict) or full_name not in records:
             continue
         try:
-            observed.append(date.fromisoformat(key))
+            day = date.fromisoformat(key)
         except (TypeError, ValueError):
             continue
+        if day < today:
+            observed.append(day)
+    return sorted(set(observed))
+
+
+def _first_seen(history: dict[str, Any], full_name: str, today: date) -> str:
+    observed = _observation_days(history, full_name, today)
     return min(observed).isoformat() if observed else today.isoformat()
+
+
+def _measurement_confidence(
+    observed: list[date],
+    *,
+    has_one_day: bool,
+    has_seven_day: bool,
+    today: date,
+) -> tuple[float, str]:
+    """Return a conservative confidence for observed or estimated momentum.
+
+    A lifetime stars/age estimate is useful for discovery but is not equivalent
+    to velocity measured by this radar. It therefore starts at 0.25. Confidence
+    rises as independent daily observations accumulate and reaches 1.0 only when
+    a seven-day baseline exists.
+    """
+    if has_seven_day:
+        return 1.0, "measured-7d"
+    if has_one_day:
+        span = max((today - min(observed)).days, 1) if observed else 1
+        confidence = min(0.85, 0.48 + 0.045 * min(len(observed), 7) + 0.025 * min(span, 7))
+        return round(confidence, 3), "measured-short-window"
+    return 0.25, "provisional-lifetime"
 
 
 def calculate_growth(project: Project, history: dict[str, Any], now: datetime) -> dict[str, Any]:
     today = now.date()
+    observed = _observation_days(history, project.full_name, today)
     result: dict[str, Any] = {
         "delta_1d": None,
         "delta_7d": None,
@@ -67,6 +98,11 @@ def calculate_growth(project: Project, history: dict[str, Any], now: datetime) -
         "acceleration": 0.0,
         "relative_7d": None,
         "signal_source": "lifetime-estimate",
+        "signal_confidence": 0.25,
+        "confidence_label": "provisional-lifetime",
+        "is_provisional": True,
+        "history_observations": len(observed),
+        "measurement_window_days": 0,
         "first_seen": _first_seen(history, project.full_name, today),
     }
     baselines: dict[int, tuple[Optional[date], Optional[dict[str, Any]]]] = {
@@ -80,6 +116,7 @@ def calculate_growth(project: Project, history: dict[str, Any], now: datetime) -
         elapsed = max((today - baseline_day).days, 1)
         result[f"delta_{window}d"] = project.stars - int(baseline.get("stars") or 0)
         result[f"actual_days_{window}d"] = elapsed
+
     seven_day, seven = baselines[7]
     fourteen_day, fourteen = baselines[14]
     if seven_day is not None and seven is not None:
@@ -91,6 +128,7 @@ def calculate_growth(project: Project, history: dict[str, Any], now: datetime) -
         result["fork_delta_7d"] = project.forks - int(seven.get("forks") or 0)
         result["watcher_delta_7d"] = project.watchers - int(seven.get("watchers") or 0)
         result["signal_source"] = "observed-history"
+        result["measurement_window_days"] = elapsed
         if fourteen_day is not None and fourteen is not None and fourteen_day < seven_day:
             previous_elapsed = max((seven_day - fourteen_day).days, 1)
             previous_velocity = (
@@ -101,9 +139,21 @@ def calculate_growth(project: Project, history: dict[str, Any], now: datetime) -
         elapsed = max(int(result.get("actual_days_1d") or 1), 1)
         result["stars_per_day"] = max(float(result["delta_1d"]) / elapsed, 0.0)
         result["signal_source"] = "observed-history"
+        result["measurement_window_days"] = elapsed
     else:
         age = max(days_since(project.created_at, now, default=3650), 7)
         result["stars_per_day"] = project.stars / age
+        result["measurement_window_days"] = age
+
+    confidence, label = _measurement_confidence(
+        observed,
+        has_one_day=result["delta_1d"] is not None,
+        has_seven_day=result["delta_7d"] is not None,
+        today=today,
+    )
+    result["signal_confidence"] = confidence
+    result["confidence_label"] = label
+    result["is_provisional"] = confidence < 0.999
     return result
 
 

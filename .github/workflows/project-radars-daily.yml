@@ -13,6 +13,8 @@ on:
       - "scripts/project_radar.py"
       - "github_radar/project_*.py"
       - "project_radars.json"
+      - "pyproject.toml"
+      - "schemas/project-radar-*.schema.json"
       - ".github/workflows/project-radars-daily.yml"
       - "tests/test_project_radar.py"
       - "docs/PROJECT_RADARS.md"
@@ -27,12 +29,13 @@ concurrency:
 jobs:
   collect-rank-publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.11"
 
@@ -51,17 +54,36 @@ jobs:
       - name: Validate the live publication bundle
         run: |
           python - <<'PY'
+          import hashlib
           import json
           import os
+          import xml.etree.ElementTree as ET
           from pathlib import Path
 
           config = json.loads(Path("project_radars.json").read_text(encoding="utf-8"))
           feed_dir = Path("feeds/projects")
+          site_dir = Path("docs/projects")
           status = json.loads((feed_dir / "status.json").read_text(encoding="utf-8"))
           dataset = json.loads((feed_dir / "latest.json").read_text(encoding="utf-8"))
+          changes = json.loads((feed_dir / "changes.json").read_text(encoding="utf-8"))
+          audit = json.loads((feed_dir / "audit.json").read_text(encoding="utf-8"))
+          review = json.loads((feed_dir / "review-queue.json").read_text(encoding="utf-8"))
+          manifest = json.loads((feed_dir / "publication-manifest.json").read_text(encoding="utf-8"))
 
           assert status.get("ok") is True, status
-          assert dataset.get("schema_version") == 1, dataset.get("schema_version")
+          assert status.get("schema_version") == 2, status
+          assert dataset.get("schema_version") == 2, dataset.get("schema_version")
+          assert changes.get("schema_version") == 2, changes.get("schema_version")
+          assert audit.get("schema_version") == 2, audit.get("schema_version")
+          assert review.get("schema_version") == 2, review.get("schema_version")
+          assert manifest.get("schema_version") == 2, manifest.get("schema_version")
+          assert dataset.get("source_commit") == os.environ["GITHUB_SHA"]
+          assert status.get("source_commit") == os.environ["GITHUB_SHA"]
+          assert manifest.get("source_commit") == os.environ["GITHUB_SHA"]
+          assert dataset.get("schema_url", "").endswith("project-radar-dataset-v2.schema.json")
+          assert manifest.get("schema_url", "").endswith("project-radar-manifest-v2.schema.json")
+          assert Path("schemas/project-radar-dataset-v2.schema.json").exists()
+          assert Path("schemas/project-radar-manifest-v2.schema.json").exists()
           assert dataset.get("count") == len(dataset.get("projects", []))
           assert dataset.get("count", 0) >= int(config["minimum_total_projects"])
 
@@ -73,23 +95,55 @@ jobs:
           expected = {entry["id"] for entry in config["catalogs"]}
           actual = {entry["id"] for entry in dataset.get("catalogs", [])}
           assert expected == actual, (expected, actual)
+          assert {entry.get("id") for entry in audit.get("catalogs", [])} == expected
           for catalog in config["catalogs"]:
               count = status["catalogs"].get(catalog["id"], 0)
               assert count >= int(catalog.get("minimum_items", 1)), (catalog["id"], count)
               assert (feed_dir / f"{catalog['id']}.md").exists()
               assert (feed_dir / f"{catalog['id']}.json").exists()
 
+          measurement = status.get("measurement", {})
+          assert measurement.get("community_profiles", 0) >= 0
+          assert measurement.get("provisional_projects", 0) >= 0
+          assert status.get("history_mode") in {
+              "lifetime-estimate",
+              "mixed-observed-and-provisional",
+              "observed-history",
+          }
           assert Path("docs/projects/index.html").exists()
+          for relative in (
+              "changes.md",
+              "audit.md",
+              "review-queue.md",
+              "projects.atom",
+              "publication-manifest.json",
+          ):
+              assert (site_dir / relative).exists(), relative
+          ET.parse(feed_dir / "projects.atom")
+
+          for item in manifest.get("files", []):
+              root = feed_dir if item.get("scope") == "feed" else site_dir
+              path = root / str(item["path"])
+              raw = path.read_bytes()
+              assert len(raw) == int(item["bytes"]), path
+              assert hashlib.sha256(raw).hexdigest() == item["sha256"], path
+
           summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
           with summary.open("a", encoding="utf-8") as handle:
               handle.write("## GitHub Project Radars receipt\n\n")
               handle.write(f"- Unique projects: **{dataset['count']:,}**\n")
               handle.write(f"- Catalogs: **{len(dataset.get('catalogs', []))}**\n")
               handle.write(f"- Generated: `{dataset.get('generated_at', 'unknown')}`\n")
+              handle.write(f"- Publication schema: **{dataset['schema_version']}**\n")
               handle.write(f"- History mode: **{dataset.get('history_mode', 'unknown')}**\n")
+              handle.write(f"- Community profiles: **{measurement.get('community_profiles', 0):,}**\n")
+              handle.write(f"- Review queue: **{review.get('count', 0):,}**\n")
+              handle.write(f"- New discoveries: **{changes.get('counts', {}).get('added', 0):,}**\n")
+              handle.write(f"- Manifest files verified: **{manifest.get('file_count', 0):,}**\n")
               health = status.get("source_health", {})
               handle.write(
                   f"- Sources: **{health.get('successful', 0)} successful**, "
+                  f"**{health.get('partial', 0)} partial**, "
                   f"**{health.get('failed', 0)} failed**\n"
               )
           PY

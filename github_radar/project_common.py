@@ -10,7 +10,9 @@ from typing import Any, Iterable, Optional
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = 1
-PUBLICATION_SCHEMA = 1
+PUBLICATION_SCHEMA = 2
+DATASET_SCHEMA_URL = "https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/schemas/project-radar-dataset-v2.schema.json"
+MANIFEST_SCHEMA_URL = "https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/schemas/project-radar-manifest-v2.schema.json"
 
 
 def utc_now() -> datetime:
@@ -105,7 +107,17 @@ def classify_project(project: "Project") -> str:
         return "template"
     if name.startswith("awesome-") or "awesome-list" in topics or "curated list" in text:
         return "resource-list"
-    if any(term in text for term in ("course", "bootcamp", "tutorial", "roadmap", "interview questions")):
+    if any(
+        term in text
+        for term in (
+            "course",
+            "bootcamp",
+            "tutorial",
+            "roadmap",
+            "interview questions",
+            "video courses",
+        )
+    ):
         return "education"
     if "dataset" in topics or "dataset" in name or "data set" in description:
         return "dataset"
@@ -153,6 +165,8 @@ class Project:
     has_wiki: bool = False
     has_pages: bool = False
     api_complete: bool = False
+    community_profile_complete: bool = False
+    community_health: dict[str, Any] = field(default_factory=dict)
     catalogs: list[str] = field(default_factory=list)
     provenance: list[str] = field(default_factory=list)
     evidence: list[str] = field(default_factory=list)
@@ -163,6 +177,9 @@ class Project:
     growth: dict[str, Any] = field(default_factory=dict)
     dimensions: dict[str, float] = field(default_factory=dict)
     catalog_scores: dict[str, dict[str, float]] = field(default_factory=dict)
+    risk_flags: list[str] = field(default_factory=list)
+    insights: dict[str, Any] = field(default_factory=dict)
+    review_priority: float = 0.0
 
     def __post_init__(self) -> None:
         self.full_name = normalize_repo(self.full_name)
@@ -179,6 +196,7 @@ class Project:
         self.evidence = unique(self.evidence)
         self.query_modes = unique(self.query_modes)
         self.matched_topics = unique(self.matched_topics)
+        self.risk_flags = unique(self.risk_flags)
 
     @classmethod
     def from_api(
@@ -258,6 +276,7 @@ class Project:
         self.evidence = unique([*self.evidence, *other.evidence])
         self.query_modes = unique([*self.query_modes, *other.query_modes])
         self.matched_topics = unique([*self.matched_topics, *other.matched_topics])
+        self.risk_flags = unique([*self.risk_flags, *other.risk_flags])
         self.source_confidence = max(self.source_confidence, other.source_confidence)
         self.archived = self.archived or other.archived
         self.disabled = self.disabled or other.disabled
@@ -268,11 +287,21 @@ class Project:
         self.has_wiki = self.has_wiki or other.has_wiki
         self.has_pages = self.has_pages or other.has_pages
         self.api_complete = self.api_complete or other.api_complete
+        if other.community_profile_complete and (
+            not self.community_profile_complete
+            or int(other.community_health.get("health_percentage") or 0)
+            >= int(self.community_health.get("health_percentage") or 0)
+        ):
+            self.community_profile_complete = True
+            self.community_health = dict(other.community_health)
+        self.insights.update(other.insights)
+        self.review_priority = max(self.review_priority, other.review_priority)
         self.project_type = classify_project(self)
 
     def to_dict(self) -> dict[str, Any]:
         data = asdict(self)
         data["source_confidence"] = round(self.source_confidence, 3)
+        data["review_priority"] = round(self.review_priority, 2)
         return data
 
 

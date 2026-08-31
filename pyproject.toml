@@ -4,22 +4,36 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "github-radar"
-version = "0.1.0"
-description = "A momentum-aware feed of popular / AI-related GitHub repositories."
+version = "0.2.0"
+description = "Daily momentum-aware GitHub discovery for repositories, agent extensions, and domain-specific project catalogs."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
 authors = [{ name = "Amarel Taylor Scott", email = "amarel.taylor.s@gmail.com" }]
-keywords = ["github", "trending", "ai", "llm", "feed", "rss", "radar", "discovery"]
+keywords = [
+    "github",
+    "trending",
+    "open-source",
+    "repository-discovery",
+    "ai",
+    "llm",
+    "agents",
+    "mcp",
+    "feed",
+    "radar",
+    "momentum",
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Environment :: Console",
     "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries",
     "Topic :: Internet",
 ]
@@ -30,12 +44,14 @@ dependencies = []
 Homepage = "https://github.com/Amarel-Taylor-Scott/github-radar"
 Repository = "https://github.com/Amarel-Taylor-Scott/github-radar"
 Issues = "https://github.com/Amarel-Taylor-Scott/github-radar/issues"
+Changelog = "https://github.com/Amarel-Taylor-Scott/github-radar/blob/main/CHANGELOG.md"
 
 [project.scripts]
 github-radar = "github_radar.cli:main"
+project-radar = "github_radar.project_runner:main"
 
 [project.optional-dependencies]
-# Tests run on the stdlib `unittest`; pytest is optional and just for convenience.
+# Optional convenience tooling; production and CI use the stdlib unittest suite.
 dev = ["pytest>=7"]
 
 [tool.setuptools]

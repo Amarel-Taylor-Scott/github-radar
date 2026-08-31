@@ -1,12 +1,12 @@
 name: Nominate a GitHub project
-description: Suggest a high-quality, interesting, or fast-rising project for an existing or proposed radar.
+description: Suggest a high-quality, interesting, or fast-rising project for an existing radar.
 title: "[Nomination]: "
 labels: ["project-nomination"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve Project Radar. A nomination is discovery evidence, not guaranteed placement. The automated ranking remains based on public repository metadata, measured history, relevance, and quality signals.
+        Thanks for improving Project Radar. A nomination is discovery evidence, not guaranteed placement or a score bonus. The automated ranking remains based on public repository metadata, observed history, relevance, quality, and evidence confidence.
   - type: input
     id: repository
     attributes:
@@ -29,6 +29,14 @@ body:
         - Geospatial and Mapping
         - Creative Computing
         - Self-Hosted and Local-First
+        - Scientific Computing
+        - Databases and Storage
+        - Cloud-Native Infrastructure
+        - Bioinformatics and Computational Biology
+        - Civic Technology
+        - Accessibility and Assistive Technology
+        - Game Development
+        - Business Automation
         - A new catalog should be created
     validations:
       required: true
@@ -45,12 +53,20 @@ body:
     attributes:
       label: Supporting evidence
       description: Optional releases, benchmarks, adoption signals, demonstrations, independent references, or recent milestones.
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: State your relationship to the project, or write “none.”
+      placeholder: Maintainer, contributor, user, none...
+    validations:
+      required: true
   - type: checkboxes
     id: confirmation
     attributes:
       label: Confirmation
       options:
-        - label: I disclosed any affiliation with this project in the rationale.
+        - label: I understand that nomination does not guarantee inclusion or ranking placement.
           required: true
         - label: I understand that projects are never installed or executed by the collector.
           required: true
