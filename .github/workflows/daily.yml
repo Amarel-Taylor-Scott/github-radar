@@ -1,40 +1,46 @@
 name: Daily feed
 
-# Runs github-radar on a schedule and commits the fresh Markdown digest back
-# into the repo, so the project literally publishes its own output every day.
 on:
   schedule:
-    # 07:13 UTC daily. Off-the-hour to avoid the top-of-hour scheduling stampede.
+    # 07:13 UTC daily. Off-the-hour to reduce scheduling congestion.
     - cron: "13 7 * * *"
-  workflow_dispatch: {}  # allow manual runs from the Actions tab
+  workflow_dispatch: {}
 
-# Needed to push the regenerated feed back to the default branch.
 permissions:
   contents: write
 
 concurrency:
-  group: daily-feed
-  cancel-in-progress: false
+  group: daily-feed-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build-feed:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.11"
 
+      - name: Run the offline test suite
+        run: python -m unittest discover -s tests
+
       - name: Generate the daily digest
         env:
-          # The built-in token raises the Search API rate limit (10 -> 30 req/min)
-          # and is scoped to this repo only. It is never written to disk.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p feeds
           python -m github_radar --top 50 > feeds/latest.md
+
+      - name: Validate the generated digest
+        run: |
+          test -s feeds/latest.md
+          grep -q '^# github-radar' feeds/latest.md
+          grep -q '^| # | Repo |' feeds/latest.md
 
       - name: Commit the feed if it changed
         run: |
@@ -42,7 +48,7 @@ jobs:
             echo "No change in feeds/latest.md — nothing to commit."
             exit 0
           fi
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add feeds/latest.md
           git commit -m "chore: daily feed $(date -u +%Y-%m-%d)"

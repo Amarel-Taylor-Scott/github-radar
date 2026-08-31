@@ -9,30 +9,46 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     name: Tests (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ matrix.python-version }}
 
-      # The suite is stdlib-only (unittest) and fully offline — no install needed.
-      - name: Run unittest suite
-        run: python -m unittest discover -s tests -v
+      - name: Compile source files
+        run: python -m compileall -q github_radar scripts
 
-      # pytest is optional and only for convenience; it runs the same tests.
-      - name: Run pytest (optional)
+      - name: Validate configuration JSON
         run: |
-          python -m pip install --upgrade pip
-          pip install -e ".[dev]"
-          pytest -q
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in (Path("agent_extensions.json"), Path("project_radars.json")):
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              assert isinstance(payload, dict), path
+              assert payload.get("schema_version") == 1, (path, payload.get("schema_version"))
+          for path in Path("schemas").glob("*.schema.json"):
+              payload = json.loads(path.read_text(encoding="utf-8"))
+              assert payload.get("$schema"), path
+              assert payload.get("$id"), path
+          PY
+
+      - name: Run the offline test suite
+        run: python -m unittest discover -s tests -v
