@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:12:00+00:00",
+  "generated_at": "2026-08-31T15:23:27+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
@@ -27,17 +27,17 @@
       "skill:eric-tramel/slop-guard:.claude/skills/qa",
       "skill:alamenai/terrae:.claude/skills/pr",
       "skill:boundless-xyz/boundless:.claude/skills/pr",
-      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:wp-media/wp-rocket:.claude/skills/qa",
       "skill:iopsystems/rezolus:.claude/skills/pr",
       "skill:nwiizo/cargo-coupling:.claude/skills/web",
       "skill:markuplint/markuplint:.claude/skills/pr",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:talmolab/sleap:.claude/skills/pr",
       "skill:woocommerce/woocommerce-ios:.claude/skills/pr",
       "skill:plan4better/goat:.claude/skills/db",
       "skill:doit-artificial-intelligence/youtube-to-docs:.claude/skills/ks",
       "skill:srid/haskell-flake:.claude/skills/do",
-      "skill:trevoke/org-gtd.el:.claude/skills/qa"
+      "skill:ai4curation/ai-gene-review:.claude/skills/pm"
     ],
     "rising": [
       "skill:anthropics/skills:skills/academy-guide",
@@ -51,8 +51,8 @@
       "skill:eric-tramel/slop-guard:.claude/skills/qa",
       "skill:flowglad/flowglad:.claude/skills/pm",
       "skill:alamenai/terrae:.claude/skills/pr",
-      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:nwiizo/cargo-coupling:.claude/skills/web",
       "skill:typeddevs/bashunit:.claude/skills/pr",
       "skill:automattic/wordpress-atmosphere:.claude/skills/pr",
@@ -62,8 +62,8 @@
       "skill:boundless-xyz/boundless:.claude/skills/pr",
       "skill:iopsystems/rezolus:.claude/skills/pr",
       "skill:pluginslab/wp-agentic-admin:.claude/skills/pr",
-      "skill:markuplint/markuplint:.claude/skills/pr",
       "skill:dirien/yet-another-agent-harness:.claude/skills/pr",
+      "skill:markuplint/markuplint:.claude/skills/pr",
       "skill:davidroliverba/architectkb:.claude/skills/q"
     ],
     "popular": [
@@ -85,8 +85,8 @@
       "skill:daaf-contribution-community/daaf:.claude/skills/gt",
       "skill:quantumaikr/quant.cpp:.claude/skills/qa",
       "skill:srid/haskell-flake:.claude/skills/do",
-      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
       "skill:eric-tramel/slop-guard:.claude/skills/qa",
       "skill:nwiizo/cargo-coupling:.claude/skills/web",
       "skill:harperreed/dotfiles:.claude/skills/uv",

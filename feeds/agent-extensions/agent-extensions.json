@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:12:00+00:00",
+  "generated_at": "2026-08-31T15:23:27+00:00",
   "catalog": {
     "id": "agent-extensions",
     "title": "Agent Extensions Radar",
     "description": "Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents."
   },
-  "count": 3227,
+  "count": 3226,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "agent-extensions"
@@ -45,8 +45,8 @@
       "plugin:thedotmack/claude-mem:claude-mem",
       "plugin:aws/agent-toolkit-for-aws:plugins/aws-agents",
       "plugin:anthropics/knowledge-work-plugins:small-business",
-      "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "agent:nexu-io/open-design:@repository",
+      "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "skill:anthropics/skills:skills/academy-guide",
       "plugin:nvidia/skills:plugins/nvidia-skills",
       "skill:vercel-labs/skills:skills/find-skills",
@@ -96,8 +96,8 @@
     "new": [
       "plugin:dietrichgebert/ponytail:ponytail",
       "plugin:aws/agent-toolkit-for-aws:plugins/aws-agents",
-      "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "agent:nexu-io/open-design:@repository",
+      "tool:xiaoduoya/codex-with-chatgpt:@repository",
       "plugin:revfactory/harness:harness",
       "tool:t8y2/dbx:@repository",
       "plugin:ayghri/i-have-adhd:i-have-adhd",
@@ -118,7 +118,7 @@
       "agent:citrolabs/ego-lite:@repository",
       "plugin:shopify/shopify-ai-toolkit:shopify-ai-toolkit",
       "plugin:jordanrendric/claude-video-vision:claude-video-vision",
-      "agent:xbtlin/ai-berkshire:@repository"
+      "agent:kirodotdev/kirocrew:@repository"
     ]
   }
 }

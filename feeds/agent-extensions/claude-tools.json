@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:12:00+00:00",
+  "generated_at": "2026-08-31T15:23:27+00:00",
   "catalog": {
     "id": "claude-tools",
     "title": "Claude Tools Radar",
@@ -30,9 +30,9 @@
       "tool:oraios/serena:@repository",
       "tool:czlonkowski/n8n-mcp:@repository",
       "tool:github/github-mcp-server:@repository",
-      "tool:openbyteinc/quantdinger:@repository",
       "tool:trailhq/graft:@repository",
       "tool:oomol-lab/open-connector:@repository",
+      "tool:openbyteinc/quantdinger:@repository",
       "tool:xpzouying/xiaohongshu-mcp:@repository",
       "tool:wenyuchiou/awesome-agentic-ai-zh:@repository",
       "tool:mcp-use/mcp-use:@repository",
@@ -86,8 +86,8 @@
       "tool:activepieces/activepieces:@repository",
       "tool:ahujasid/blender-mcp:@repository",
       "tool:t8y2/dbx:@repository",
-      "tool:modelcontextprotocol/python-sdk:@repository",
       "tool:mcp-use/mcp-use:@repository",
+      "tool:modelcontextprotocol/python-sdk:@repository",
       "tool:awslabs/mcp:@repository",
       "tool:microsoft/playwright-mcp:@repository",
       "tool:xpzouying/xiaohongshu-mcp:@repository",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T15:12:00+00:00",
+  "generated_at": "2026-08-31T15:23:27+00:00",
   "catalog": {
     "id": "claude-plugins",
     "title": "Claude Plugins Radar",
@@ -115,8 +115,8 @@
       "plugin:amd/skills:skills",
       "plugin:nowork-studio/notfair-plugin:notfair-plugin",
       "plugin:manuelschipper/nah:plugins/nah",
-      "plugin:microsoft/dataverse-skills:.github/plugins/dataverse",
       "plugin:snflkd/fluent-korean:fluent-korean",
+      "plugin:microsoft/dataverse-skills:.github/plugins/dataverse",
       "plugin:spotify/save-to-spotify:plugin",
       "plugin:talkstream/ru-text:ru-text"
     ]
