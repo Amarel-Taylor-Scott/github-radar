@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use github-radar in research, analysis, or a derived catalog, please cite this repository.
+title: github-radar
+version: 0.2.0
+date-released: 2026-08-31
+type: software
+authors:
+  - family-names: Scott
+    given-names: Amarel Taylor
+repository-code: https://github.com/Amarel-Taylor-Scott/github-radar
+url: https://github.com/Amarel-Taylor-Scott/github-radar
+license: MIT
+keywords:
+  - GitHub
+  - open source
+  - repository discovery
+  - momentum
+  - AI agents
+  - software catalogs
+abstract: A read-only, momentum-aware GitHub discovery and publication system for repositories, agent extensions, and domain-specific project catalogs.

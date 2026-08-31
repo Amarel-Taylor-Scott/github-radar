@@ -1,0 +1,53 @@
+name: Request a new radar
+description: Propose a focused technical domain for a new daily catalog.
+title: "[Radar request]: "
+labels: ["catalog-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Strong catalog proposals have a coherent audience, productive GitHub topics or bounded queries, and enough projects to support useful daily rankings.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed catalog name
+      placeholder: Energy Systems Radar
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define what belongs and what should be excluded.
+      placeholder: Include grid modeling, power systems, storage, forecasting... Exclude course collections...
+    validations:
+      required: true
+  - type: textarea
+    id: discovery
+    attributes:
+      label: Candidate GitHub topics and queries
+      description: Include known productive topics, bounded queries, registries, or authoritative seed repositories.
+      placeholder: energy, power-systems, smart-grid, energy-storage
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Representative repositories
+      description: Provide several examples across established, emerging, and under-recognized projects.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why a separate radar is useful
+      description: Explain the audience, discovery problem, and why existing catalogs are insufficient.
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure
+      options:
+        - label: I disclosed any affiliation with the proposed domain or example repositories.
+          required: true

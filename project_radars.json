@@ -6,21 +6,26 @@
   "history_days": 90,
   "active_window_days": 120,
   "new_project_days": 180,
-  "max_search_requests": 45,
-  "active_results_per_query": 45,
-  "new_results_per_query": 35,
-  "max_repository_enrichments": 180,
-  "max_projects": 2500,
+  "max_search_requests": 70,
+  "active_results_per_query": 50,
+  "new_results_per_query": 40,
+  "max_repository_enrichments": 340,
+  "max_community_enrichments": 220,
+  "max_projects": 4500,
   "leaderboard_size": 25,
   "max_projects_per_owner": 2,
-  "aggregate_min_per_catalog": 2,
-  "aggregate_max_per_catalog": 4,
-  "leaderboard_min_stars": 10,
+  "aggregate_min_per_catalog": 1,
+  "aggregate_max_per_catalog": 3,
+  "leaderboard_min_stars": 5,
   "leaderboard_max_idle_days": 365,
   "up_and_coming_max_stars": 25000,
   "up_and_coming_max_age_days": 1095,
   "hidden_gem_max_stars": 5000,
-  "minimum_total_projects": 250,
+  "provisional_momentum_weight": 0.2,
+  "extreme_lifetime_velocity": 75,
+  "review_queue_size": 200,
+  "changes_limit": 100,
+  "minimum_total_projects": 500,
   "minimum_previous_ratio": 0.55,
   "minimum_previous_catalog_ratio": 0.45,
   "search_interval_seconds": 2.1,
@@ -31,9 +36,9 @@
     {
       "id": "interesting-projects",
       "title": "Interesting GitHub Projects Radar",
-      "description": "A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, or under-recognized open-source projects.",
-      "leaderboard_min_stars": 10,
-      "minimum_items": 250,
+      "description": "A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects.",
+      "leaderboard_min_stars": 5,
+      "minimum_items": 500,
       "excluded_project_types": [
         "resource-list",
         "education",
@@ -337,6 +342,283 @@
       "min_stars": 20,
       "new_min_stars": 5,
       "minimum_items": 20,
+      "source_confidence": 0.61,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "scientific-computing",
+      "title": "Scientific Computing Radar",
+      "description": "Numerical computing, simulation, solvers, research software, reproducible science, and scientific-machine-learning infrastructure.",
+      "topics": [
+        "scientific-computing",
+        "numerical-analysis",
+        "simulation",
+        "reproducible-research"
+      ],
+      "keywords": [
+        "scientific",
+        "numerical",
+        "simulation",
+        "solver",
+        "research computing",
+        "reproducible"
+      ],
+      "negative_terms": [
+        "course",
+        "tutorial list",
+        "interview",
+        "awesome list"
+      ],
+      "min_stars": 10,
+      "new_min_stars": 3,
+      "minimum_items": 12,
+      "source_confidence": 0.62,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases and Storage Radar",
+      "description": "SQL, NoSQL, distributed databases, vector databases, storage engines, search systems, caches, and data infrastructure.",
+      "topics": [
+        "database",
+        "sql",
+        "distributed-database",
+        "vector-database"
+      ],
+      "keywords": [
+        "database",
+        "storage engine",
+        "query engine",
+        "distributed",
+        "vector database",
+        "search",
+        "cache"
+      ],
+      "negative_terms": [
+        "course",
+        "interview",
+        "cheat sheet",
+        "awesome list"
+      ],
+      "min_stars": 20,
+      "new_min_stars": 5,
+      "minimum_items": 20,
+      "source_confidence": 0.63,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "cloud-native",
+      "title": "Cloud-Native Infrastructure Radar",
+      "description": "Kubernetes, containers, service meshes, observability, platform engineering, deployment, and cloud-native runtime infrastructure.",
+      "topics": [
+        "cloud-native",
+        "kubernetes",
+        "container",
+        "platform-engineering"
+      ],
+      "keywords": [
+        "cloud native",
+        "kubernetes",
+        "container",
+        "service mesh",
+        "platform engineering",
+        "deployment",
+        "observability"
+      ],
+      "negative_terms": [
+        "course",
+        "interview",
+        "roadmap",
+        "awesome list"
+      ],
+      "min_stars": 20,
+      "new_min_stars": 5,
+      "minimum_items": 20,
+      "source_confidence": 0.63,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "bioinformatics",
+      "title": "Bioinformatics and Computational Biology Radar",
+      "description": "Genomics, single-cell analysis, computational biology, biomedical data, sequence analysis, and reproducible life-science tooling.",
+      "topics": [
+        "bioinformatics",
+        "computational-biology",
+        "genomics",
+        "single-cell"
+      ],
+      "keywords": [
+        "bioinformatics",
+        "genomics",
+        "sequence",
+        "single cell",
+        "computational biology",
+        "biomedical"
+      ],
+      "negative_terms": [
+        "course",
+        "tutorial list",
+        "interview",
+        "awesome list"
+      ],
+      "min_stars": 5,
+      "new_min_stars": 2,
+      "minimum_items": 8,
+      "source_confidence": 0.61,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "civic-tech",
+      "title": "Civic Technology Radar",
+      "description": "Open government, public-interest technology, civic participation, public data, mobility standards, and accountable institutions.",
+      "topics": [
+        "civic-tech",
+        "open-government",
+        "govtech",
+        "public-interest-technology"
+      ],
+      "keywords": [
+        "civic",
+        "public interest",
+        "government",
+        "democracy",
+        "public data",
+        "transparency",
+        "mobility"
+      ],
+      "negative_terms": [
+        "course",
+        "political campaign",
+        "interview",
+        "awesome list"
+      ],
+      "min_stars": 5,
+      "new_min_stars": 2,
+      "minimum_items": 8,
+      "source_confidence": 0.62,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility and Assistive Technology Radar",
+      "description": "Accessibility testing, assistive technology, inclusive interfaces, screen-reader tooling, captions, speech, and adaptive software.",
+      "topics": [
+        "accessibility",
+        "a11y",
+        "assistive-technology",
+        "screen-reader"
+      ],
+      "keywords": [
+        "accessibility",
+        "a11y",
+        "assistive",
+        "screen reader",
+        "caption",
+        "inclusive",
+        "adaptive"
+      ],
+      "negative_terms": [
+        "course",
+        "interview",
+        "awesome list",
+        "checklist only"
+      ],
+      "min_stars": 5,
+      "new_min_stars": 2,
+      "minimum_items": 10,
+      "source_confidence": 0.61,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "game-development",
+      "title": "Game Development Radar",
+      "description": "Game engines, rendering, tooling, procedural generation, simulation, networking, asset pipelines, and open-source game development.",
+      "topics": [
+        "game-development",
+        "game-engine",
+        "gamedev",
+        "game-tools"
+      ],
+      "keywords": [
+        "game engine",
+        "game development",
+        "rendering",
+        "procedural",
+        "multiplayer",
+        "asset pipeline",
+        "simulation"
+      ],
+      "negative_terms": [
+        "course",
+        "asset dump",
+        "interview",
+        "awesome list"
+      ],
+      "min_stars": 10,
+      "new_min_stars": 3,
+      "minimum_items": 15,
+      "source_confidence": 0.61,
+      "excluded_project_types": [
+        "resource-list",
+        "education",
+        "template"
+      ]
+    },
+    {
+      "id": "business-automation",
+      "title": "Business Automation Radar",
+      "description": "Workflow automation, low-code platforms, internal tools, integration systems, process orchestration, and open-source business operations.",
+      "topics": [
+        "workflow-automation",
+        "business-automation",
+        "low-code",
+        "no-code"
+      ],
+      "keywords": [
+        "workflow automation",
+        "business automation",
+        "internal tools",
+        "low code",
+        "integration",
+        "process orchestration"
+      ],
+      "negative_terms": [
+        "course",
+        "interview",
+        "template collection",
+        "awesome list"
+      ],
+      "min_stars": 10,
+      "new_min_stars": 3,
+      "minimum_items": 15,
       "source_confidence": 0.61,
       "excluded_project_types": [
         "resource-list",

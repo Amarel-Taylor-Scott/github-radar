@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/schemas/project-radar-dataset-v2.schema.json",
+  "title": "GitHub Project Radar dataset publication v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "count",
+    "history_mode",
+    "measurement",
+    "catalogs",
+    "leaderboards",
+    "source_health",
+    "projects"
+  ],
+  "properties": {
+    "schema_version": { "const": 2 },
+    "schema_url": { "type": "string", "format": "uri" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_commit": { "type": "string" },
+    "count": { "type": "integer", "minimum": 0 },
+    "history_mode": {
+      "enum": [
+        "lifetime-estimate",
+        "mixed-observed-and-provisional",
+        "observed-history"
+      ]
+    },
+    "measurement": {
+      "type": "object",
+      "required": [
+        "observed_history_projects",
+        "fully_measured_projects",
+        "provisional_projects",
+        "community_profiles",
+        "review_flagged_projects"
+      ],
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "reports": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "catalogs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "count"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "count": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": true
+      }
+    },
+    "leaderboards": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "source_health": { "type": "array", "items": { "type": "object" } },
+    "projects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/project" }
+    }
+  },
+  "$defs": {
+    "nullableInteger": { "type": ["integer", "null"] },
+    "project": {
+      "type": "object",
+      "required": [
+        "id",
+        "full_name",
+        "html_url",
+        "description",
+        "stars",
+        "forks",
+        "catalogs",
+        "provenance",
+        "growth",
+        "dimensions",
+        "catalog_scores",
+        "risk_flags",
+        "review_priority"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^repo:" },
+        "full_name": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+        "html_url": { "type": "string", "format": "uri" },
+        "description": { "type": "string" },
+        "stars": { "type": "integer", "minimum": 0 },
+        "forks": { "type": "integer", "minimum": 0 },
+        "watchers": { "type": "integer", "minimum": 0 },
+        "catalogs": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "provenance": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "risk_flags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "review_priority": { "type": "number", "minimum": 0, "maximum": 100 },
+        "community_profile_complete": { "type": "boolean" },
+        "community_health": { "type": "object" },
+        "growth": {
+          "type": "object",
+          "required": [
+            "delta_1d",
+            "delta_7d",
+            "delta_30d",
+            "stars_per_day",
+            "signal_source",
+            "signal_confidence",
+            "confidence_label",
+            "is_provisional"
+          ],
+          "properties": {
+            "delta_1d": { "$ref": "#/$defs/nullableInteger" },
+            "delta_7d": { "$ref": "#/$defs/nullableInteger" },
+            "delta_30d": { "$ref": "#/$defs/nullableInteger" },
+            "stars_per_day": { "type": "number", "minimum": 0 },
+            "signal_source": { "enum": ["lifetime-estimate", "observed-history"] },
+            "signal_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+            "confidence_label": {
+              "enum": ["provisional-lifetime", "measured-short-window", "measured-7d"]
+            },
+            "is_provisional": { "type": "boolean" }
+          },
+          "additionalProperties": true
+        },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "catalog_scores": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": { "type": "number", "minimum": 0, "maximum": 100 }
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

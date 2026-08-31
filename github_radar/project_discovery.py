@@ -1,4 +1,4 @@
-"""Bounded, fair, read-only GitHub discovery for Project Radar."""
+"""Bounded, fair, read-only GitHub discovery and evidence enrichment."""
 
 from __future__ import annotations
 
@@ -12,7 +12,13 @@ from typing import Any, Optional
 
 from github_radar.http import FetchError, HttpClient
 from github_radar.project_common import (
-    Project, QuerySpec, SCHEMA_VERSION, classify_project, days_since, normalize_repo, unique,
+    Project,
+    QuerySpec,
+    SCHEMA_VERSION,
+    classify_project,
+    days_since,
+    normalize_repo,
+    unique,
 )
 
 LOGGER = logging.getLogger("project_radar")
@@ -34,6 +40,7 @@ class GitHubAPI:
         self._sleep = sleep
         self._last_search = 0.0
         self.repo_cache: dict[str, Project] = {}
+        self.community_cache: dict[str, dict[str, Any]] = {}
 
     def json_url(self, url: str) -> Any:
         return self.client.get(url, accept="application/vnd.github+json").json()
@@ -81,6 +88,21 @@ class GitHubAPI:
         self.repo_cache[key] = project
         return project
 
+    def community_profile(self, full_name: str) -> Optional[dict[str, Any]]:
+        """Return GitHub's official community-profile metrics for a repository."""
+        normalized = normalize_repo(full_name)
+        key = normalized.lower()
+        if not normalized:
+            return None
+        if key in self.community_cache:
+            return self.community_cache[key]
+        encoded = urllib.parse.quote(normalized, safe="/")
+        payload = self.json_url(f"{API_ROOT}/repos/{encoded}/community/profile")
+        if not isinstance(payload, dict):
+            return None
+        self.community_cache[key] = payload
+        return payload
+
 
 def load_config(path: Path) -> dict[str, Any]:
     payload = json.loads(path.read_text(encoding="utf-8"))
@@ -108,9 +130,12 @@ def load_config(path: Path) -> dict[str, Any]:
         "active_results_per_query": 45,
         "new_results_per_query": 35,
         "max_repository_enrichments": 180,
+        "max_community_enrichments": 90,
         "max_projects": 2200,
         "leaderboard_size": 25,
         "max_projects_per_owner": 2,
+        "aggregate_min_per_catalog": 1,
+        "aggregate_max_per_catalog": 3,
         "leaderboard_min_stars": 5,
         "leaderboard_max_idle_days": 365,
         "up_and_coming_max_stars": 25000,
@@ -121,6 +146,10 @@ def load_config(path: Path) -> dict[str, Any]:
         "minimum_previous_catalog_ratio": 0.40,
         "search_interval_seconds": 2.1,
         "request_interval_seconds": 0.1,
+        "provisional_momentum_weight": 0.25,
+        "extreme_lifetime_velocity": 100.0,
+        "review_queue_size": 100,
+        "changes_limit": 50,
     }
     config = {**defaults, **payload}
     aggregate_id = str(config["aggregate_catalog_id"])
@@ -136,6 +165,8 @@ def load_config(path: Path) -> dict[str, Any]:
             raise ValueError(f"catalog {catalog['id']} requires topics or queries")
     if int(config["max_search_requests"]) < len(native):
         raise ValueError("max_search_requests must allow at least one query per native catalog")
+    if int(config["aggregate_max_per_catalog"]) < int(config["aggregate_min_per_catalog"]):
+        raise ValueError("aggregate_max_per_catalog must be >= aggregate_min_per_catalog")
     return config
 
 
@@ -178,6 +209,7 @@ def build_query_specs(config: dict[str, Any], now: datetime) -> list[QuerySpec]:
         active_limit = int(catalog.get("active_results_per_query", config["active_results_per_query"]))
         new_limit = int(catalog.get("new_results_per_query", config["new_results_per_query"]))
         confidence = float(catalog.get("source_confidence", 0.58))
+        topic_specs: list[QuerySpec] = []
         if topics:
             primary = topics[0]
             primary_active.append(
@@ -210,7 +242,6 @@ def build_query_specs(config: dict[str, Any], now: datetime) -> list[QuerySpec]:
                     source_confidence=min(confidence + 0.05, 1.0),
                 )
             )
-            topic_specs: list[QuerySpec] = []
             for topic in topics[1:]:
                 topic_specs.append(
                     QuerySpec(
@@ -227,8 +258,6 @@ def build_query_specs(config: dict[str, Any], now: datetime) -> list[QuerySpec]:
                         source_confidence=confidence,
                     )
                 )
-        else:
-            topic_specs = []
         for index, raw in enumerate(catalog.get("queries") or []):
             if not isinstance(raw, dict) or not raw.get("query"):
                 continue
@@ -336,6 +365,7 @@ class Collector:
 
         self._collect_seeds()
         self._enrich_repositories()
+        self._enrich_community_profiles()
         aggregate_id = str(self.config["aggregate_catalog_id"])
         blocked = {normalize_repo(value).lower() for value in self.config.get("blocked_repositories", [])}
         projects = []
@@ -366,7 +396,14 @@ class Collector:
             except (FetchError, ValueError, TypeError, json.JSONDecodeError) as exc:
                 LOGGER.warning("Seed %s failed: %s", full_name, exc)
                 self.source_health.append(
-                    {"id": f"seed:{full_name}", "catalog": "", "mode": "seed", "ok": False, "records": 0, "error": str(exc)}
+                    {
+                        "id": f"seed:{full_name}",
+                        "catalog": "",
+                        "mode": "seed",
+                        "ok": False,
+                        "records": 0,
+                        "error": str(exc),
+                    }
                 )
                 continue
             if project is None:
@@ -378,37 +415,42 @@ class Collector:
             project.source_confidence = float(raw.get("source_confidence", 0.95))
             self._add(project)
             self.source_health.append(
-                {"id": f"seed:{full_name}", "catalog": ",".join(project.catalogs), "mode": "seed", "ok": True, "records": 1}
+                {
+                    "id": f"seed:{full_name}",
+                    "catalog": ",".join(project.catalogs),
+                    "mode": "seed",
+                    "ok": True,
+                    "records": 1,
+                }
             )
 
-    def _enrich_repositories(self) -> None:
-        budget = max(int(self.config.get("max_repository_enrichments", 0)), 0)
-        if budget == 0:
-            return
+    def _priority(self, project: Project) -> tuple[Any, ...]:
+        return (
+            len(project.provenance),
+            project.source_confidence,
+            float("new" in project.query_modes),
+            project.stars,
+            -days_since(project.created_at, self.now),
+            project.full_name.lower(),
+        )
+
+    def _balanced_selection(self, budget: int) -> list[Project]:
+        if budget <= 0:
+            return []
         aggregate_id = str(self.config["aggregate_catalog_id"])
         native_ids = [
             str(item["id"])
             for item in self.config["catalogs"]
             if isinstance(item, dict) and item.get("id") != aggregate_id
         ]
-
-        def priority(project: Project) -> tuple[Any, ...]:
-            return (
-                len(project.provenance),
-                project.source_confidence,
-                float("new" in project.query_modes),
-                project.stars,
-                -days_since(project.created_at, self.now),
-                project.full_name.lower(),
-            )
-
-        by_catalog: dict[str, list[Project]] = {}
-        for catalog_id in native_ids:
-            by_catalog[catalog_id] = sorted(
+        by_catalog = {
+            catalog_id: sorted(
                 [project for project in self.projects.values() if catalog_id in project.catalogs],
-                key=priority,
+                key=self._priority,
                 reverse=True,
             )
+            for catalog_id in native_ids
+        }
         selected: list[Project] = []
         selected_names: set[str] = set()
         cursors = {catalog_id: 0 for catalog_id in native_ids}
@@ -432,12 +474,23 @@ class Collector:
                     break
         if len(selected) < budget:
             remaining = sorted(
-                [project for project in self.projects.values() if project.full_name.lower() not in selected_names],
-                key=priority,
+                [
+                    project
+                    for project in self.projects.values()
+                    if project.full_name.lower() not in selected_names
+                ],
+                key=self._priority,
                 reverse=True,
             )
             selected.extend(remaining[: budget - len(selected)])
+        return selected
 
+    def _enrich_repositories(self) -> None:
+        selected = self._balanced_selection(
+            max(int(self.config.get("max_repository_enrichments", 0)), 0)
+        )
+        if not selected:
+            return
         success = 0
         failures = 0
         for project in selected:
@@ -461,5 +514,56 @@ class Collector:
                 "records": success,
                 "attempted": len(selected),
                 "failures": failures,
+                "partial": failures > 0 and success > 0,
+            }
+        )
+
+    def _enrich_community_profiles(self) -> None:
+        selected = self._balanced_selection(
+            max(int(self.config.get("max_community_enrichments", 0)), 0)
+        )
+        if not selected:
+            return
+        success = 0
+        failures = 0
+        for project in selected:
+            try:
+                payload = self.github.community_profile(project.full_name)
+            except (FetchError, ValueError, TypeError, json.JSONDecodeError) as exc:
+                LOGGER.debug("Community profile failed for %s: %s", project.full_name, exc)
+                failures += 1
+                continue
+            if payload is None:
+                failures += 1
+                continue
+            files = payload.get("files") or {}
+            if not isinstance(files, dict):
+                files = {}
+            project.community_profile_complete = True
+            project.community_health = {
+                "health_percentage": int(payload.get("health_percentage") or 0),
+                "has_documentation": bool(payload.get("documentation")),
+                "has_readme": bool(files.get("readme")),
+                "has_contributing": bool(files.get("contributing")),
+                "has_code_of_conduct": bool(
+                    files.get("code_of_conduct") or files.get("code_of_conduct_file")
+                ),
+                "has_issue_template": bool(files.get("issue_template")),
+                "has_pull_request_template": bool(files.get("pull_request_template")),
+                "has_detected_license": bool(files.get("license")),
+                "updated_at": str(payload.get("updated_at") or ""),
+            }
+            project.evidence = unique([*project.evidence, "github-community-profile"])
+            success += 1
+        self.source_health.append(
+            {
+                "id": "community-profile-enrichment",
+                "catalog": "all",
+                "mode": "community-health",
+                "ok": success > 0 or not selected,
+                "records": success,
+                "attempted": len(selected),
+                "failures": failures,
+                "partial": failures > 0 and success > 0,
             }
         )
