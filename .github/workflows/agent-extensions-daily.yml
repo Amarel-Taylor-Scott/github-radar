@@ -56,7 +56,59 @@ jobs:
             --feed-dir feeds/agent-extensions \
             --site-dir docs/agent-extensions
 
+      - name: Validate the live publication bundle
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          feed_dir = Path("feeds/agent-extensions")
+          status = json.loads((feed_dir / "status.json").read_text(encoding="utf-8"))
+          dataset = json.loads((feed_dir / "latest.json").read_text(encoding="utf-8"))
+
+          assert status.get("ok") is True, status
+          assert status.get("normalized") is True, status
+          assert status.get("publication_schema") == 2, status
+          assert dataset.get("schema_version") == 2, dataset.get("schema_version")
+          assert dataset.get("count") == len(dataset.get("items", []))
+          assert dataset.get("count", 0) > 0
+
+          expected_catalogs = {
+              "claude-skills",
+              "claude-tools",
+              "claude-plugins",
+              "agent-extensions",
+          }
+          actual_catalogs = {
+              str(entry.get("id"))
+              for entry in dataset.get("catalogs", [])
+              if isinstance(entry, dict)
+          }
+          assert expected_catalogs <= actual_catalogs, actual_catalogs
+
+          if any(
+              entry.get("id") == "openai-codex-official"
+              for entry in json.loads(Path("agent_extensions.json").read_text(encoding="utf-8")).get("marketplaces", [])
+          ):
+              assert any(
+                  item.get("repo") == "openai/plugins"
+                  and item.get("kind") == "plugin"
+                  and "codex" in item.get("platforms", [])
+                  for item in dataset.get("items", [])
+              ), "The official OpenAI Codex plugin marketplace produced no plugin records"
+
+          summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          with summary.open("a", encoding="utf-8") as handle:
+              handle.write("## Agent Extension Radar receipt\n\n")
+              handle.write(f"- Items: **{dataset['count']:,}**\n")
+              handle.write(f"- Repositories: **{len(dataset.get('repositories', {})):,}**\n")
+              handle.write(f"- Generated: `{dataset.get('generated_at', 'unknown')}`\n")
+              handle.write(f"- Publication schema: **{dataset['schema_version']}**\n")
+          PY
+
       - name: Commit generated catalogs if changed
+        if: github.ref == 'refs/heads/main'
         run: |
           git add feeds/agent-extensions docs/agent-extensions
           if git diff --cached --quiet; then
