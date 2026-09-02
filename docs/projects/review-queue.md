@@ -1,208 +1,208 @@
 # Project Radar review queue
 
-_Generated 2026-09-01T14:09:16+00:00. Showing 200 of 1,698 flagged records._
+_Generated 2026-09-02T13:40:43+00:00. Showing 200 of 1,675 flagged records._
 
 > Flags identify incomplete or unusual evidence that deserves review. They are not findings of manipulation, insecurity, or misconduct.
 
 | Project | Priority | Stars | Signal confidence | Best catalog | Review flags |
 |:--|--:|--:|--:|:--|:--|
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 81.3 | 69,703 | 25% | developer-tools | provisional-high-momentum, extreme-lifetime-velocity, community-health-unmeasured, single-discovery-path |
-| [trailhq/Graft](https://github.com/trailhq/Graft) | 78.3 | 5,305 | 25% | developer-tools | provisional-high-momentum, extreme-lifetime-velocity, community-health-unmeasured, single-discovery-path |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 75.6 | 39,279 | 25% | developer-tools | provisional-high-momentum, extreme-lifetime-velocity |
-| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 74.2 | 41,094 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 73.8 | 9,949 | 25% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [fallow-rs/fallow](https://github.com/fallow-rs/fallow) | 72.7 | 4,437 | 25% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 71.8 | 14,844 | 55% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [repowise-dev/repowise](https://github.com/repowise-dev/repowise) | 71.6 | 6,289 | 25% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 71.5 | 15,050 | 55% | geospatial | provisional-high-momentum, license-unverified |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 70.8 | 13,223 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 70.7 | 41,304 | 55% | bioinformatics | provisional-high-momentum |
-| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 70.3 | 41,649 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Osmantic/ODS](https://github.com/Osmantic/ODS) | 70.3 | 5,793 | 55% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 70.2 | 59,627 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 69.7 | 43,544 | 55% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [wang2122/sprix-sage-router](https://github.com/wang2122/sprix-sage-router) | 69.0 | 3,227 | 55% | ai-agents | provisional-high-momentum, sudden-breakout, community-health-unmeasured, single-discovery-path |
-| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | 68.8 | 4,534 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 68.2 | 1,150 | 25% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [ulsklyc/yuvomi](https://github.com/ulsklyc/yuvomi) | 68.2 | 1,425 | 25% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [thetahealth/mirobody](https://github.com/thetahealth/mirobody) | 68.2 | 1,154 | 55% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) | 68.1 | 18,308 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 67.7 | 45,804 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 67.6 | 119,470 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [tianma-if/edgeever](https://github.com/tianma-if/edgeever) | 67.2 | 1,332 | 25% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 67.2 | 30,196 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 67.1 | 93,246 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 66.9 | 55,260 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) | 66.8 | 1,367 | 55% | creative-computing | provisional-high-momentum, sudden-breakout |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 66.8 | 245,565 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [The-Vibe-Company/Quivr](https://github.com/The-Vibe-Company/Quivr) | 66.7 | 39,443 | 25% | databases | provisional-high-momentum, license-unverified |
-| [stablyai/orca](https://github.com/stablyai/orca) | 66.6 | 58,916 | 55% | ai-agents | provisional-high-momentum |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 66.5 | 68,277 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 66.3 | 207,648 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) | 66.1 | 12,810 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 65.8 | 30,306 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [activeing123/mcptoon](https://github.com/activeing123/mcptoon) | 65.8 | 192 | 25% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 65.7 | 15,512 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 65.7 | 39,520 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 65.6 | 15,005 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 65.5 | 15,274 | 55% | geospatial | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [makerspet/oomwoo](https://github.com/makerspet/oomwoo) | 65.5 | 10,031 | 55% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 65.4 | 34,044 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured |
-| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | 65.4 | 1,606 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 65.3 | 5,776 | 55% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [scanopy/scanopy](https://github.com/scanopy/scanopy) | 65.2 | 5,655 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 65.2 | 29,654 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 65.1 | 77,282 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 65.0 | 113,232 | 55% | ai-engineering | provisional-high-momentum |
-| [snapotter-hq/SnapOtter](https://github.com/snapotter-hq/SnapOtter) | 64.9 | 2,405 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 64.9 | 31,600 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [KatrielMoses/MailAccess](https://github.com/KatrielMoses/MailAccess) | 64.9 | 1,164 | 25% | cybersecurity | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | 64.8 | 7,630 | 55% | data-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [dora-rs/dora](https://github.com/dora-rs/dora) | 64.8 | 3,911 | 55% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [cognizant-ai-lab/neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio) | 64.7 | 1,026 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 64.7 | 63,935 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
-| [mvanhorn/cli-printing-press](https://github.com/mvanhorn/cli-printing-press) | 64.6 | 4,597 | 25% | developer-tools | provisional-high-momentum |
-| [meshery/meshery](https://github.com/meshery/meshery) | 64.6 | 11,630 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [herdrdev/herdr](https://github.com/herdrdev/herdr) | 64.5 | 34,292 | 55% | developer-tools | provisional-high-momentum, thin-description |
-| [maximhq/bifrost](https://github.com/maximhq/bifrost) | 64.5 | 7,724 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 64.4 | 27,750 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [dolthub/dolt](https://github.com/dolthub/dolt) | 64.4 | 24,325 | 55% | databases | provisional-high-momentum, community-health-unmeasured, thin-description |
-| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 64.2 | 78,169 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 64.2 | 31,893 | 55% | cybersecurity | provisional-high-momentum |
-| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 64.1 | 28,854 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 64.1 | 26,549 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured |
-| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | 64.1 | 4,354 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Netw0rkNoob/VulnClaw](https://github.com/Netw0rkNoob/VulnClaw) | 64.0 | 3,061 | 25% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 64.0 | 25,546 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [nocobase/nocobase](https://github.com/nocobase/nocobase) | 64.0 | 23,976 | 55% | business-automation | provisional-high-momentum, license-unverified, community-health-unmeasured |
-| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 64.0 | 30,966 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | 63.9 | 2,725 | 55% | scientific-computing | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [usestrix/strix](https://github.com/usestrix/strix) | 63.7 | 59,851 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [shuxiachai/academic-commercialization-agent](https://github.com/shuxiachai/academic-commercialization-agent) | 63.7 | 807 | 55% | scientific-computing | provisional-high-momentum |
-| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 63.7 | 72,522 | 55% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 63.6 | 35,321 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [apache/maka](https://github.com/apache/maka) | 63.6 | 4,384 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 63.6 | 25,356 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 63.6 | 51,754 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, thin-description |
-| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 63.5 | 6,585 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) | 63.4 | 3,133 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 63.4 | 81,224 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 63.3 | 57,747 | 55% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) | 63.3 | 222 | 55% | data-engineering | provisional-high-momentum |
-| [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | 63.3 | 7,021 | 55% | geospatial | provisional-high-momentum |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 63.3 | 70,098 | 55% | ai-agents | provisional-high-momentum |
-| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 63.3 | 34,399 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 63.2 | 29,222 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [engmung/Patternflow](https://github.com/engmung/Patternflow) | 63.1 | 303 | 55% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 63.1 | 26,835 | 55% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 63.1 | 21,115 | 55% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
-| [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 63.0 | 3,995 | 55% | accessibility | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 63.0 | 22,587 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured |
-| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | 62.9 | 4,392 | 55% | cybersecurity | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [guokaigdg/animal-island-ui](https://github.com/guokaigdg/animal-island-ui) | 62.9 | 4,490 | 55% | accessibility | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 62.9 | 13,807 | 55% | game-development | provisional-high-momentum, community-health-unmeasured |
-| [rcourtman/Pulse](https://github.com/rcourtman/Pulse) | 62.9 | 6,656 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 62.9 | 85,843 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, thin-description |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 62.9 | 24,726 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 62.9 | 119,232 | 55% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 62.8 | 75,418 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [zenstory-ai/oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh) | 62.8 | 232 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [AltanS/collie](https://github.com/AltanS/collie) | 62.7 | 587 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 62.6 | 34,763 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 62.6 | 65,485 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 62.6 | 175,119 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 62.6 | 239,331 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [Quchaosheng/workbench-desk-robot](https://github.com/Quchaosheng/workbench-desk-robot) | 62.6 | 102 | 55% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [n1m21n/Infinite](https://github.com/n1m21n/Infinite) | 62.6 | 62 | 55% | creative-computing | license-unverified, community-health-unmeasured, single-discovery-path |
-| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | 62.5 | 26,659 | 55% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 62.5 | 33,443 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 62.5 | 10,797 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured |
-| [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 62.5 | 59,163 | 55% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [MengTo/kage](https://github.com/MengTo/kage) | 62.5 | 1,502 | 55% | creative-computing | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [KrithinP/vanguard-inductions-2026](https://github.com/KrithinP/vanguard-inductions-2026) | 62.5 | 4 | 25% | robotics | community-health-unmeasured, single-discovery-path |
-| [alibaba/nacos](https://github.com/alibaba/nacos) | 62.5 | 33,337 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 62.4 | 1,052 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio) | 62.4 | 8,889 | 55% | accessibility | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [antifailure/antifailure](https://github.com/antifailure/antifailure) | 62.4 | 12 | 25% | developer-tools | license-unverified, community-health-unmeasured, single-discovery-path |
-| [future-agi/future-agi](https://github.com/future-agi/future-agi) | 62.3 | 1,888 | 55% | scientific-computing | provisional-high-momentum |
-| [pranshuparmar/witr](https://github.com/pranshuparmar/witr) | 62.2 | 21,990 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 62.2 | 50,375 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [supabase/supabase](https://github.com/supabase/supabase) | 62.2 | 108,679 | 55% | databases | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [opensquilla/opensquilla](https://github.com/opensquilla/opensquilla) | 62.2 | 6,840 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [3b1b/manim](https://github.com/3b1b/manim) | 62.1 | 92,418 | 55% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [fivetran/great_expectations](https://github.com/fivetran/great_expectations) | 62.1 | 11,763 | 55% | data-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [777genius/agent-teams-ai](https://github.com/777genius/agent-teams-ai) | 62.1 | 2,016 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 62.1 | 91,114 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 62.1 | 31,127 | 55% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path, thin-description |
-| [AzeemIdrisi/PhoneSploit-Pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) | 62.1 | 6,183 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 62.0 | 27,766 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [ZSvirt/zsvirt](https://github.com/ZSvirt/zsvirt) | 61.9 | 1,531 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) | 61.8 | 686 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured |
-| [JetBrains/koog](https://github.com/JetBrains/koog) | 61.8 | 4,552 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | 61.8 | 21,346 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 61.7 | 37,730 | 55% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [superlinked/sie](https://github.com/superlinked/sie) | 61.7 | 2,909 | 55% | data-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [langgenius/dify](https://github.com/langgenius/dify) | 61.6 | 154,096 | 55% | business-automation | provisional-high-momentum, license-unverified |
-| [Jia-Ethan/codex-keysmith](https://github.com/Jia-Ethan/codex-keysmith) | 61.6 | 4,227 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | 61.4 | 4,821 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 61.4 | 73,685 | 55% | ai-engineering | provisional-high-momentum, thin-description |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 61.3 | 38,226 | 55% | ai-engineering | provisional-high-momentum |
-| [cyberbotics/webots](https://github.com/cyberbotics/webots) | 61.2 | 4,591 | 55% | scientific-computing | provisional-high-momentum, thin-description |
-| [realfakenerd/OpenSkyrim](https://github.com/realfakenerd/OpenSkyrim) | 61.2 | 206 | 25% | game-development | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [sandbox-quantum/switch](https://github.com/sandbox-quantum/switch) | 61.2 | 497 | 25% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | 61.2 | 31,057 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 61.2 | 92,828 | 55% | ai-engineering | provisional-high-momentum |
-| [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 61.2 | 29,318 | 55% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
-| [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | 61.1 | 11,019 | 55% | geospatial | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [pgrundev/pgbot](https://github.com/pgrundev/pgbot) | 61.1 | 854 | 25% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path, thin-description |
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 61.1 | 28,155 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
-| [xP3ta/hermes-console](https://github.com/xP3ta/hermes-console) | 61.1 | 45 | 25% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [valkey-io/valkey](https://github.com/valkey-io/valkey) | 61.0 | 27,089 | 55% | databases | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 61.0 | 27,048 | 55% | creative-computing | provisional-high-momentum |
-| [Canner/WrenAI](https://github.com/Canner/WrenAI) | 61.0 | 17,442 | 55% | ai-engineering | provisional-high-momentum, license-unverified |
-| [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) | 60.9 | 1,625 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [dexmal/opendm](https://github.com/dexmal/opendm) | 60.9 | 454 | 25% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [superset-sh/superset](https://github.com/superset-sh/superset) | 60.9 | 13,602 | 55% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [PX4/PX4-Autopilot](https://github.com/PX4/PX4-Autopilot) | 60.9 | 12,526 | 55% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [OpenHUTB/hutb](https://github.com/OpenHUTB/hutb) | 60.9 | 564 | 55% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [coollabsio/coolify](https://github.com/coollabsio/coolify) | 60.8 | 61,278 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [redis/redis](https://github.com/redis/redis) | 60.8 | 76,171 | 55% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 60.8 | 90,836 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 60.8 | 21,728 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 60.7 | 27,518 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 60.7 | 22,221 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured |
-| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 60.7 | 25,074 | 55% | business-automation | provisional-high-momentum, license-unverified |
-| [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 60.7 | 1,950 | 55% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 60.7 | 89,829 | 55% | ai-engineering | provisional-high-momentum |
-| [amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume) | 60.7 | 42,048 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [Awarexone/Agentic-Bug-Hunter](https://github.com/Awarexone/Agentic-Bug-Hunter) | 60.7 | 4,655 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [t8y2/dbx](https://github.com/t8y2/dbx) | 60.7 | 17,668 | 55% | databases | provisional-high-momentum |
-| [community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE) | 60.6 | 29,465 | 55% | cloud-native | provisional-high-momentum |
-| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 60.5 | 28,882 | 55% | accessibility | provisional-high-momentum |
-| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 60.5 | 203,022 | 55% | developer-tools | provisional-high-momentum, license-unverified |
-| [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | 60.4 | 11,448 | 55% | data-engineering | provisional-high-momentum, community-health-unmeasured |
-| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 60.4 | 47,471 | 55% | cybersecurity | provisional-high-momentum |
-| [Qiuner/Qiuner.github.io](https://github.com/Qiuner/Qiuner.github.io) | 60.4 | 167 | 55% | creative-computing | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt) | 60.3 | 2,039 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [game1024/OpenSpeedy](https://github.com/game1024/OpenSpeedy) | 60.2 | 17,348 | 55% | game-development | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
-| [agentgg-dev/agentgg](https://github.com/agentgg-dev/agentgg) | 60.2 | 203 | 55% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 60.2 | 64,512 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
-| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 60.2 | 11,483 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 60.2 | 90,685 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [go-gitea/gitea](https://github.com/go-gitea/gitea) | 60.1 | 57,736 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 60.1 | 88,595 | 55% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [growthbook/growthbook](https://github.com/growthbook/growthbook) | 60.1 | 8,190 | 55% | data-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | 60.1 | 30,429 | 55% | creative-computing | provisional-high-momentum, license-unverified |
-| [aipoch/open-science](https://github.com/aipoch/open-science) | 60.0 | 3,513 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 60.0 | 9,576 | 55% | developer-tools | provisional-high-momentum |
-| [coleam00/Archon](https://github.com/coleam00/Archon) | 59.9 | 23,338 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 59.9 | 11,584 | 55% | data-engineering | provisional-high-momentum |
-| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 59.9 | 19,380 | 55% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
-| [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence) | 59.9 | 4,191 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [TNT-Likely/BeeCount](https://github.com/TNT-Likely/BeeCount) | 59.8 | 2,237 | 55% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
-| [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 59.8 | 8,594 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured |
-| [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | 59.7 | 6,898 | 55% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [oncologylab/craftgrn](https://github.com/oncologylab/craftgrn) | 59.7 | 312 | 55% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [usebruno/bruno](https://github.com/usebruno/bruno) | 59.7 | 46,689 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
-| [me-public/nemus](https://github.com/me-public/nemus) | 59.7 | 18 | 25% | developer-tools | community-health-unmeasured, single-discovery-path |
-| [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) | 59.6 | 31,842 | 55% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) | 76.0 | 5,496 | 25% | self-hosted | provisional-high-momentum, extreme-lifetime-velocity, community-health-unmeasured, single-discovery-path |
+| [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) | 73.9 | 40,890 | 25% | developer-tools | provisional-high-momentum, extreme-lifetime-velocity, community-health-unmeasured |
+| [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | 73.5 | 10,729 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 73.2 | 43,245 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 71.0 | 14,978 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | 70.1 | 15,606 | 62% | geospatial | provisional-high-momentum, license-unverified |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | 70.1 | 14,034 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [decionis/agent-safe-pipeline](https://github.com/decionis/agent-safe-pipeline) | 69.9 | 532 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 69.7 | 41,842 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | 69.2 | 1,513 | 25% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 69.1 | 60,150 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [nateherkai/scroll-craft](https://github.com/nateherkai/scroll-craft) | 69.1 | 1,502 | 62% | creative-computing | provisional-high-momentum, sudden-breakout |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 68.8 | 69,860 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 68.8 | 41,995 | 62% | bioinformatics | provisional-high-momentum |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 67.7 | 43,670 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [chaitanyagiri/munder-difflin](https://github.com/chaitanyagiri/munder-difflin) | 67.1 | 6,116 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured |
+| [nexu-io/open-design](https://github.com/nexu-io/open-design) | 66.6 | 93,535 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 66.3 | 120,773 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | 66.3 | 45,855 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [thetahealth/mirobody](https://github.com/thetahealth/mirobody) | 66.3 | 1,222 | 62% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) | 66.1 | 18,521 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 65.9 | 30,238 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 65.8 | 68,446 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [stablyai/orca](https://github.com/stablyai/orca) | 65.7 | 59,718 | 62% | developer-tools | provisional-high-momentum |
+| [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr) | 65.7 | 39,463 | 25% | databases | provisional-high-momentum, license-unverified |
+| [3b1b/manim](https://github.com/3b1b/manim) | 65.6 | 92,815 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [brettchalupa/usagi](https://github.com/brettchalupa/usagi) | 65.6 | 853 | 25% | game-development | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 65.5 | 113,810 | 62% | ai-engineering | provisional-high-momentum |
+| [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw) | 65.4 | 3,173 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 65.3 | 246,041 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [agentconnect-md/agentconnect](https://github.com/agentconnect-md/agentconnect) | 65.3 | 1,230 | 55% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [meshery/meshery](https://github.com/meshery/meshery) | 65.2 | 11,649 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 65.2 | 209,159 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [strelov1/freehire](https://github.com/strelov1/freehire) | 65.1 | 563 | 25% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [ItzCrazyKns/Vane](https://github.com/ItzCrazyKns/Vane) | 65.0 | 36,587 | 25% | ai-engineering | provisional-high-momentum, community-health-unmeasured, thin-description |
+| [makerspet/oomwoo](https://github.com/makerspet/oomwoo) | 64.9 | 10,082 | 62% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 64.8 | 55,541 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Osmantic/ODS](https://github.com/Osmantic/ODS) | 64.8 | 5,850 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 64.8 | 15,287 | 62% | geospatial | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [artifact-keeper/artifact-keeper](https://github.com/artifact-keeper/artifact-keeper) | 64.6 | 998 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | 64.5 | 13,843 | 62% | game-development | provisional-high-momentum, community-health-unmeasured |
+| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 64.5 | 40,114 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | 64.5 | 4,789 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 64.5 | 64,016 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
+| [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas) | 64.2 | 1,630 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [rustfs/rustfs](https://github.com/rustfs/rustfs) | 64.2 | 31,632 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [herdrdev/herdr](https://github.com/herdrdev/herdr) | 64.0 | 34,645 | 62% | developer-tools | provisional-high-momentum, thin-description |
+| [maximhq/bifrost](https://github.com/maximhq/bifrost) | 64.0 | 7,758 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker) | 63.7 | 29,236 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 63.7 | 119,744 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [apache/maka](https://github.com/apache/maka) | 63.6 | 4,525 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [langfuse/langfuse](https://github.com/langfuse/langfuse) | 63.6 | 34,092 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured |
+| [HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) | 63.5 | 15,041 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 63.5 | 78,301 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 63.4 | 31,993 | 62% | cybersecurity | provisional-high-momentum |
+| [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 63.4 | 5,804 | 62% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 63.3 | 15,604 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 63.2 | 29,724 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [rostamlabs/rostam](https://github.com/rostamlabs/rostam) | 63.2 | 28 | 62% | databases | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | 63.1 | 57,827 | 62% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [usestrix/strix](https://github.com/usestrix/strix) | 63.1 | 60,078 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 63.1 | 29,030 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 63.0 | 4,005 | 62% | accessibility | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 63.0 | 11,672 | 62% | data-engineering | provisional-high-momentum, community-health-unmeasured |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 63.0 | 77,527 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner) | 62.9 | 4,591 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [ScrapeGraphAI/Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 62.9 | 30,383 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 62.8 | 25,412 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [future-agi/future-agi](https://github.com/future-agi/future-agi) | 62.7 | 1,905 | 62% | scientific-computing | provisional-high-momentum |
+| [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 62.6 | 36,956 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured |
+| [Jwuthri/Tracely-ai](https://github.com/Jwuthri/Tracely-ai) | 62.5 | 1,176 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [bytedance/flowgram.ai](https://github.com/bytedance/flowgram.ai) | 62.5 | 8,413 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | 62.5 | 51,990 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, thin-description |
+| [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 62.4 | 34,799 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured |
+| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 62.4 | 27,907 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 62.4 | 25,673 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | 62.4 | 72,635 | 62% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [tracel-ai/burn](https://github.com/tracel-ai/burn) | 62.4 | 15,855 | 62% | scientific-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 62.4 | 21,187 | 62% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
+| [engmung/Patternflow](https://github.com/engmung/Patternflow) | 62.4 | 311 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [growthbook/growthbook](https://github.com/growthbook/growthbook) | 62.4 | 8,248 | 62% | data-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | 62.4 | 30,979 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 62.3 | 26,578 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured |
+| [jaredrhod/ai-visualizer](https://github.com/jaredrhod/ai-visualizer) | 62.2 | 64 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [scanopy/scanopy](https://github.com/scanopy/scanopy) | 62.2 | 5,663 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [guokaigdg/animal-island-ui](https://github.com/guokaigdg/animal-island-ui) | 62.2 | 4,510 | 62% | accessibility | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [Zyrexnn/Cybermes](https://github.com/Zyrexnn/Cybermes) | 62.2 | 707 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 62.1 | 85,948 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, thin-description |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 62.0 | 22,244 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured |
+| [dolthub/dolt](https://github.com/dolthub/dolt) | 62.0 | 24,335 | 62% | databases | provisional-high-momentum, community-health-unmeasured, thin-description |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 62.0 | 93,002 | 62% | ai-engineering | provisional-high-momentum |
+| [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | 62.0 | 4,446 | 62% | creative-computing | provisional-high-momentum, license-unverified |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 61.9 | 50,519 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 61.9 | 39,333 | 55% | developer-tools | provisional-high-momentum |
+| [newton-physics/newton](https://github.com/newton-physics/newton) | 61.8 | 5,576 | 62% | robotics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [pranshuparmar/witr](https://github.com/pranshuparmar/witr) | 61.8 | 22,031 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 61.8 | 10,828 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 61.8 | 239,835 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) | 61.8 | 31,878 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [sagirimo/BioDSH](https://github.com/sagirimo/BioDSH) | 61.7 | 10 | 55% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | 61.7 | 6,600 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | 61.7 | 2,731 | 62% | scientific-computing | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | 61.6 | 27,573 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 61.6 | 175,535 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [superlinked/sie](https://github.com/superlinked/sie) | 61.6 | 2,980 | 62% | data-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 61.6 | 35,342 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 61.6 | 75,477 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | 61.6 | 4,169 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | 61.6 | 26,695 | 62% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [supabase/supabase](https://github.com/supabase/supabase) | 61.5 | 108,723 | 62% | databases | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 61.5 | 81,263 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [777genius/agent-teams-ai](https://github.com/777genius/agent-teams-ai) | 61.5 | 2,025 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre) | 61.4 | 7,058 | 62% | geospatial | provisional-high-momentum |
+| [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | 61.4 | 33,466 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [OpenMOSS/EasyWAM](https://github.com/OpenMOSS/EasyWAM) | 61.4 | 48 | 25% | robotics | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [Unclecheng-li/poc-lab](https://github.com/Unclecheng-li/poc-lab) | 61.3 | 786 | 25% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | 61.2 | 21,368 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 61.2 | 27,269 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 61.2 | 70,209 | 62% | ai-agents | provisional-high-momentum |
+| [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | 61.2 | 31,780 | 62% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path, thin-description |
+| [deeplethe/utopia](https://github.com/deeplethe/utopia) | 61.2 | 1,881 | 57% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [nocobase/nocobase](https://github.com/nocobase/nocobase) | 61.1 | 23,994 | 62% | business-automation | provisional-high-momentum, license-unverified, community-health-unmeasured |
+| [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | 61.1 | 4,398 | 62% | cybersecurity | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [ZSvirt/zsvirt](https://github.com/ZSvirt/zsvirt) | 60.9 | 1,559 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Canner/WrenAI](https://github.com/Canner/WrenAI) | 60.8 | 17,456 | 62% | ai-engineering | provisional-high-momentum, license-unverified |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 60.8 | 65,541 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured |
+| [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs) | 60.8 | 34,409 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [sipyourdrink-ltd/bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 60.7 | 1,066 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [langgenius/dify](https://github.com/langgenius/dify) | 60.7 | 154,215 | 62% | business-automation | provisional-high-momentum, license-unverified |
+| [the-cyber-trade-project/framework](https://github.com/the-cyber-trade-project/framework) | 60.6 | 5 | 25% | cybersecurity | license-unverified, community-health-unmeasured, single-discovery-path |
+| [tianma-if/edgeever](https://github.com/tianma-if/edgeever) | 60.5 | 1,348 | 55% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [MrNeRF/LichtFeld-Studio](https://github.com/MrNeRF/LichtFeld-Studio) | 60.5 | 3,645 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [lyogavin/airllm](https://github.com/lyogavin/airllm) | 60.5 | 33,529 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 60.5 | 25,108 | 62% | business-automation | provisional-high-momentum, license-unverified |
+| [tettethu/VibeGame](https://github.com/tettethu/VibeGame) | 60.5 | 177 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [bsab/italia-mcp-servers](https://github.com/bsab/italia-mcp-servers) | 60.5 | 52 | 55% | civic-tech | provisional-high-momentum |
+| [enactic/openarm](https://github.com/enactic/openarm) | 60.5 | 2,917 | 62% | robotics | provisional-high-momentum, community-health-unmeasured |
+| [Amey-Thakur/GESTURE-FX](https://github.com/Amey-Thakur/GESTURE-FX) | 60.4 | 4 | 25% | creative-computing | community-health-unmeasured, single-discovery-path |
+| [e-m-b-a/emba](https://github.com/e-m-b-a/emba) | 60.4 | 3,633 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [superset-sh/superset](https://github.com/superset-sh/superset) | 60.4 | 13,646 | 62% | developer-tools | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | 60.3 | 4,849 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [MengTo/kage](https://github.com/MengTo/kage) | 60.3 | 1,516 | 62% | creative-computing | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) | 60.3 | 80,161 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [diazoxide/charter](https://github.com/diazoxide/charter) | 60.2 | 15 | 25% | developer-tools | community-health-unmeasured, single-discovery-path |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 60.2 | 88,678 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 60.2 | 37,742 | 62% | cloud-native | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 60.2 | 91,169 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 60.2 | 27,082 | 62% | creative-computing | provisional-high-momentum |
+| [oncologylab/craftgrn](https://github.com/oncologylab/craftgrn) | 60.2 | 320 | 62% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 60.2 | 38,407 | 62% | ai-engineering | provisional-high-momentum |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 60.1 | 24,756 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured |
+| [sgl-project/sglang-omni](https://github.com/sgl-project/sglang-omni) | 60.1 | 1,062 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [go-gitea/gitea](https://github.com/go-gitea/gitea) | 60.1 | 57,769 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 60.1 | 27,777 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) | 60.1 | 47,588 | 62% | cybersecurity | provisional-high-momentum |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | 60.0 | 31,172 | 62% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path, thin-description |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 59.9 | 203,127 | 62% | developer-tools | provisional-high-momentum, license-unverified |
+| [DenverCoder1/readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg) | 59.9 | 9,281 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [chosuicide/beatscope](https://github.com/chosuicide/beatscope) | 59.9 | 64 | 62% | creative-computing | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [wazuh/wazuh](https://github.com/wazuh/wazuh) | 59.9 | 16,748 | 62% | cybersecurity | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | 59.9 | 28,900 | 62% | accessibility | provisional-high-momentum |
+| [ai4s-research/awesome-ai-for-science](https://github.com/ai4s-research/awesome-ai-for-science) | 59.8 | 1,934 | 62% | bioinformatics | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 59.7 | 73,751 | 62% | ai-engineering | provisional-high-momentum, thin-description |
+| [banmu123/LoomFlow](https://github.com/banmu123/LoomFlow) | 59.7 | 211 | 25% | business-automation | provisional-high-momentum |
+| [t8y2/dbx](https://github.com/t8y2/dbx) | 59.7 | 17,784 | 62% | databases | provisional-high-momentum |
+| [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | 59.7 | 31,098 | 62% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [AnonymousNomad/aide-sovereign-workbench](https://github.com/AnonymousNomad/aide-sovereign-workbench) | 59.7 | 20 | 25% | developer-tools | community-health-unmeasured, single-discovery-path |
+| [Human-Agent-Society/reef](https://github.com/Human-Agent-Society/reef) | 59.7 | 112 | 25% | ai-agents | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [liyupi/ai-guide](https://github.com/liyupi/ai-guide) | 59.7 | 19,434 | 62% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
+| [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 59.6 | 59,170 | 62% | databases | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [AzeemIdrisi/PhoneSploit-Pro](https://github.com/AzeemIdrisi/PhoneSploit-Pro) | 59.6 | 6,202 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 59.6 | 90,775 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [oomol-lab/open-flow](https://github.com/oomol-lab/open-flow) | 59.6 | 31 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 59.6 | 89,899 | 62% | ai-engineering | provisional-high-momentum |
+| [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 59.5 | 8,611 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured |
+| [lissy93/personal-security-checklist](https://github.com/lissy93/personal-security-checklist) | 59.5 | 22,242 | 25% | cybersecurity | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [coollabsio/coolify](https://github.com/coollabsio/coolify) | 59.5 | 61,308 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 59.4 | 11,503 | 62% | ai-engineering | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [ScrapeCreators/social-media-research-skills](https://github.com/ScrapeCreators/social-media-research-skills) | 59.4 | 1,979 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [community-scripts/ProxmoxVE](https://github.com/community-scripts/ProxmoxVE) | 59.3 | 29,475 | 62% | cloud-native | provisional-high-momentum |
+| [SigNoz/signoz](https://github.com/SigNoz/signoz) | 59.3 | 32,000 | 62% | self-hosted | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 59.3 | 49,844 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) | 59.3 | 90,875 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [n1m21n/Infinite](https://github.com/n1m21n/Infinite) | 59.3 | 64 | 62% | creative-computing | license-unverified, community-health-unmeasured, single-discovery-path |
+| [gkd-kit/gkd](https://github.com/gkd-kit/gkd) | 59.3 | 41,402 | 62% | accessibility | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [trustgraph-ai/trustgraph](https://github.com/trustgraph-ai/trustgraph) | 59.2 | 2,659 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 59.2 | 76,438 | 62% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured, single-discovery-path, thin-description |
+| [Cyrax321/CONTINUUM](https://github.com/Cyrax321/CONTINUUM) | 59.2 | 26 | 25% | ai-agents | community-health-unmeasured, single-discovery-path |
+| [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | 59.1 | 29,338 | 62% | ai-engineering | provisional-high-momentum, license-unverified, community-health-unmeasured |
+| [plausible/analytics](https://github.com/plausible/analytics) | 59.0 | 28,844 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) | 59.0 | 27,132 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [googleworkspace/cli](https://github.com/googleworkspace/cli) | 59.0 | 30,698 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [logseq/logseq](https://github.com/logseq/logseq) | 59.0 | 44,735 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [BigBodyCobain/Shadowbroker](https://github.com/BigBodyCobain/Shadowbroker) | 59.0 | 11,027 | 62% | geospatial | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 59.0 | 40,814 | 62% | cloud-native | provisional-high-momentum |
+| [super-productivity/super-productivity](https://github.com/super-productivity/super-productivity) | 58.9 | 21,750 | 62% | self-hosted | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [marimo-team/marimo](https://github.com/marimo-team/marimo) | 58.8 | 22,599 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured |
+| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | 58.8 | 10,124 | 62% | developer-tools | provisional-high-momentum, community-health-unmeasured, single-discovery-path |
+| [temporalio/temporal](https://github.com/temporalio/temporal) | 58.8 | 22,780 | 62% | business-automation | provisional-high-momentum, community-health-unmeasured, single-discovery-path, thin-description |
+| [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt) | 58.8 | 2,044 | 62% | cybersecurity | provisional-high-momentum, community-health-unmeasured, single-discovery-path |

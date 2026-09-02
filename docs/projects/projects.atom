@@ -2,182 +2,182 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:github.com,2026:Amarel-Taylor-Scott/github-radar/projects</id>
   <title>Interesting GitHub Projects Radar</title>
-  <updated>2026-09-01T14:09:16Z</updated>
+  <updated>2026-09-02T13:40:43Z</updated>
   <link href="https://github.com/Amarel-Taylor-Scott/github-radar/blob/main/feeds/projects/interesting-projects.md"/>
   <link rel="self" href="https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/feeds/projects/projects.atom"/>
   <entry>
     <id>urn:github-radar:repo:thedotmack/claude-mem</id>
-    <title>thedotmack/claude-mem — interesting 72.2</title>
+    <title>thedotmack/claude-mem — interesting 73.1</title>
     <link href="https://github.com/thedotmack/claude-mem"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:mukul975/anthropic-cybersecurity-skills</id>
-    <title>mukul975/Anthropic-Cybersecurity-Skills — interesting 71.6</title>
+    <title>mukul975/Anthropic-Cybersecurity-Skills — interesting 72.2</title>
     <link href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
-    <title>K-Dense-AI/scientific-agent-skills — interesting 70.9</title>
-    <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
-    <title>sickn33/agentic-awesome-skills — interesting 70.8</title>
+    <title>sickn33/agentic-awesome-skills — interesting 71.9</title>
     <link href="https://github.com/sickn33/agentic-awesome-skills"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,005+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:future-agi/future-agi</id>
-    <title>future-agi/future-agi — interesting 70.7</title>
+    <title>future-agi/future-agi — interesting 71.9</title>
     <link href="https://github.com/future-agi/future-agi"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
-    <title>opendataloader-project/opendataloader-pdf — interesting 70.6</title>
-    <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:omnigent-ai/omnigent</id>
-    <title>omnigent-ai/omnigent — interesting 70.2</title>
-    <link href="https://github.com/omnigent-ai/omnigent"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:cobusgreyling/loop-engineering</id>
-    <title>cobusgreyling/loop-engineering — interesting 70.1</title>
+    <title>cobusgreyling/loop-engineering — interesting 71.3</title>
     <link href="https://github.com/cobusgreyling/loop-engineering"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Practical patterns, starters &amp; CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:swe-agent/swe-agent</id>
-    <title>SWE-agent/SWE-agent — interesting 69.4</title>
-    <link href="https://github.com/SWE-agent/SWE-agent"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] </summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:hebbian-robotics/hflow</id>
-    <title>Hebbian-Robotics/hflow — interesting 68.9</title>
-    <link href="https://github.com/Hebbian-Robotics/hflow"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>SDK for robotics teams to verify the quality of their data used for AI model training.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:nexu-io/html-anything</id>
-    <title>nexu-io/html-anything — interesting 68.9</title>
-    <link href="https://github.com/nexu-io/html-anything"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:infiniflow/ragflow</id>
-    <title>infiniflow/ragflow — interesting 68.8</title>
-    <link href="https://github.com/infiniflow/ragflow"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:shuxiachai/academic-commercialization-agent</id>
-    <title>shuxiachai/academic-commercialization-agent — interesting 68.5</title>
-    <link href="https://github.com/shuxiachai/academic-commercialization-agent"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Turn any research paper into a commercialization report — 6 AI agents, TRL/MRL scoring, patent landscape, market intelligence, verified citations. DeepSeek / OpenAI / Claude.</summary>
+    <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
+    <title>K-Dense-AI/scientific-agent-skills — interesting 70.2</title>
+    <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:othmanadi/planning-with-files</id>
-    <title>OthmanAdi/planning-with-files — interesting 68.2</title>
+    <title>OthmanAdi/planning-with-files — interesting 70.2</title>
     <link href="https://github.com/OthmanAdi/planning-with-files"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:stablyai/orca</id>
-    <title>stablyai/orca — interesting 68.1</title>
-    <link href="https://github.com/stablyai/orca"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.</summary>
+    <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
+    <title>opendataloader-project/opendataloader-pdf — interesting 70.1</title>
+    <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:nexu-io/html-anything</id>
+    <title>nexu-io/html-anything — interesting 69.6</title>
+    <link href="https://github.com/nexu-io/html-anything"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:mskazemi/yazses</id>
+    <title>MSKazemi/yazses — interesting 69.4</title>
+    <link href="https://github.com/MSKazemi/yazses"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Free, open-source, fully-offline-by-default voice dictation for Linux (X11 &amp; Wayland), macOS &amp; Windows. Hold a key, speak, release — on-device faster-whisper types it into any app. Also transcribes recordings &amp; captures meetings with speaker labels. No cloud, no account, no subscription.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:nateherkai/scroll-craft</id>
+    <title>nateherkai/scroll-craft — interesting 69.4</title>
+    <link href="https://github.com/nateherkai/scroll-craft"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:infiniflow/ragflow</id>
+    <title>infiniflow/ragflow — interesting 69.2</title>
+    <link href="https://github.com/infiniflow/ragflow"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:asgeirtj/system_prompts_leaks</id>
-    <title>asgeirtj/system_prompts_leaks — interesting 67.9</title>
+    <title>asgeirtj/system_prompts_leaks — interesting 69.2</title>
     <link href="https://github.com/asgeirtj/system_prompts_leaks"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:orama-interactive/pixelorama</id>
-    <title>Orama-Interactive/Pixelorama — interesting 67.7</title>
-    <link href="https://github.com/Orama-Interactive/Pixelorama"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!</summary>
+    <id>urn:github-radar:repo:swe-agent/swe-agent</id>
+    <title>SWE-agent/SWE-agent — interesting 68.8</title>
+    <link href="https://github.com/SWE-agent/SWE-agent"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] </summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:community-scripts/proxmoxve</id>
-    <title>community-scripts/ProxmoxVE — interesting 67.6</title>
-    <link href="https://github.com/community-scripts/ProxmoxVE"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Proxmox VE Helper-Scripts (Community Edition) </summary>
+    <id>urn:github-radar:repo:stablyai/orca</id>
+    <title>stablyai/orca — interesting 68.7</title>
+    <link href="https://github.com/stablyai/orca"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:hebbian-robotics/hflow</id>
+    <title>Hebbian-Robotics/hflow — interesting 68.6</title>
+    <link href="https://github.com/Hebbian-Robotics/hflow"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>SDK for robotics teams to verify the quality of their data used for AI model training.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
+    <title>alirezarezvani/claude-skills — interesting 68.5</title>
+    <link href="https://github.com/alirezarezvani/claude-skills"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:bilawalsidhu/gods-eye-view</id>
-    <title>bilawalsidhu/gods-eye-view — interesting 67.5</title>
+    <title>bilawalsidhu/gods-eye-view — interesting 68.2</title>
     <link href="https://github.com/bilawalsidhu/gods-eye-view"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:jeecgboot/jeecgboot</id>
-    <title>jeecgboot/JeecgBoot — interesting 66.6</title>
-    <link href="https://github.com/jeecgboot/JeecgBoot"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>【低代码v2.0，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并-&gt;AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。</summary>
+    <id>urn:github-radar:repo:community-scripts/proxmoxve</id>
+    <title>community-scripts/ProxmoxVE — interesting 68.2</title>
+    <link href="https://github.com/community-scripts/ProxmoxVE"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Proxmox VE Helper-Scripts (Community Edition) </summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:t8y2/dbx</id>
-    <title>t8y2/dbx — interesting 65.5</title>
-    <link href="https://github.com/t8y2/dbx"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。</summary>
+    <id>urn:github-radar:repo:pingcap/tidb</id>
+    <title>pingcap/tidb — interesting 67.4</title>
+    <link href="https://github.com/pingcap/tidb"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:enactic/openarm</id>
-    <title>enactic/openarm — interesting 64.3</title>
-    <link href="https://github.com/enactic/openarm"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.</summary>
+    <id>urn:github-radar:repo:huangruiteng/loopx</id>
+    <title>huangruiteng/loopx — interesting 67.4</title>
+    <link href="https://github.com/huangruiteng/loopx"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:jrouwe/joltphysics</id>
-    <title>jrouwe/JoltPhysics — interesting 64.2</title>
-    <link href="https://github.com/jrouwe/JoltPhysics"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.</summary>
+    <id>urn:github-radar:repo:orama-interactive/pixelorama</id>
+    <title>Orama-Interactive/Pixelorama — interesting 67.3</title>
+    <link href="https://github.com/Orama-Interactive/Pixelorama"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:petoicamp/opencat-quadruped-robot</id>
+    <title>PetoiCamp/OpenCat-Quadruped-Robot — interesting 66.7</title>
+    <link href="https://github.com/PetoiCamp/OpenCat-Quadruped-Robot"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding &amp; robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. </summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:synthetic-sciences/openscience</id>
+    <title>synthetic-sciences/openscience — interesting 64.0</title>
+    <link href="https://github.com/synthetic-sciences/openscience"/>
+    <updated>2026-09-02T13:40:43Z</updated>
+    <summary>The open-source AI workbench for scientific research</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:clarvia-org/clarvia-graph</id>
-    <title>clarvia-org/clarvia-graph — interesting 62.5</title>
+    <title>clarvia-org/clarvia-graph — interesting 62.7</title>
     <link href="https://github.com/clarvia-org/clarvia-graph"/>
-    <updated>2026-09-01T14:09:16Z</updated>
+    <updated>2026-09-02T13:40:43Z</updated>
     <summary>Open consequence graph for source-backed administrative workflows across European jurisdictions. SDG-10 · SDG-16</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:xuzhougeng/wisp-science</id>
-    <title>xuzhougeng/wisp-science — interesting 61.8</title>
-    <link href="https://github.com/xuzhougeng/wisp-science"/>
-    <updated>2026-09-01T14:09:16Z</updated>
-    <summary>Open-source, local-first desktop AI research workbench for scientific computing with Python/R, MCP bioinformatics tools, SSH/WSL/GPU runtimes, and OpenAI/Anthropic models.</summary>
   </entry>
 </feed>
