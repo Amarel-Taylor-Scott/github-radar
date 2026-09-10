@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "generated_at": "2026-09-09T13:08:13+00:00",
-  "items": 3873,
+  "generated_at": "2026-09-10T13:05:58+00:00",
+  "items": 3875,
   "catalogs": {
-    "claude-skills": 77,
-    "claude-tools": 136,
+    "claude-skills": 78,
+    "claude-tools": 135,
     "claude-plugins": 2561,
-    "agent-extensions": 3873
+    "agent-extensions": 3875
   },
   "publication_schema": 2,
   "normalized": true,
-  "repositories": 2852,
+  "repositories": 2858,
   "catalog_indexes": 4
 }
