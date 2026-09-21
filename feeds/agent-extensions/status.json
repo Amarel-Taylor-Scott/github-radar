@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generated_at": "2026-09-20T13:12:08+00:00",
+  "generated_at": "2026-09-21T15:18:24+00:00",
   "items": 3903,
   "catalogs": {
     "claude-skills": 78,
@@ -10,6 +10,6 @@
   },
   "publication_schema": 2,
   "normalized": true,
-  "repositories": 2881,
+  "repositories": 2878,
   "catalog_indexes": 4
 }
