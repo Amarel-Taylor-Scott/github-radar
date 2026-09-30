@@ -1,12 +1,12 @@
 # Agent Extension Radar
 
-_Generated 2026-09-29T15:03:41+00:00._
+_Generated 2026-09-30T15:14:58+00:00._
 
 One discovery engine publishes four focused catalogs. Each catalog includes high-momentum, rising, popular, and new leaderboards.
 
 | Catalog | Items | Description |
 |:--------|------:|:------------|
 | [Claude Skills Radar](claude-skills.md) | 79 | Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components. |
-| [Claude Tools Radar](claude-tools.md) | 133 | MCP servers and evidence-backed tool integrations that expand what Claude agents can do. |
-| [Claude Plugins Radar](claude-plugins.md) | 2,587 | Claude Code and Claude Cowork plugins discovered through official, reviewed-community, and manifest-backed GitHub sources. |
-| [Agent Extensions Radar](agent-extensions.md) | 3,905 | Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents. |
+| [Claude Tools Radar](claude-tools.md) | 132 | MCP servers and evidence-backed tool integrations that expand what Claude agents can do. |
+| [Claude Plugins Radar](claude-plugins.md) | 2,589 | Claude Code and Claude Cowork plugins discovered through official, reviewed-community, and manifest-backed GitHub sources. |
+| [Agent Extensions Radar](agent-extensions.md) | 3,831 | Cross-ecosystem skills, plugins, tools, and frameworks for Claude, Codex, Gemini CLI, OpenCode, and other agents. |
