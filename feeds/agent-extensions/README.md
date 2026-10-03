@@ -1,6 +1,6 @@
 # Agent Extension Radar
 
-_Generated 2026-10-02T14:57:14+00:00._
+_Generated 2026-10-03T13:40:36+00:00._
 
 One discovery engine publishes four focused catalogs. Each catalog includes high-momentum, rising, popular, and new leaderboards.
 
