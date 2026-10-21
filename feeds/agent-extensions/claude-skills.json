@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T13:49:44+00:00",
+  "generated_at": "2026-10-21T14:05:46+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
     "description": "Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components."
   },
-  "count": 20,
+  "count": 78,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "claude-skills"
@@ -14,16 +14,89 @@
   "leaderboards": {
     "high_momentum": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:srid/haskell-flake:.claude/skills/do",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:jgocunha/dynamic-neural-field-composer:.claude/skills/pr",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:kindness-kismet/only_player:.claude/skills/pr",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:danny-sg/internals-viewer:.claude/skills/ui",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:openwpm/openwpm:.claude/skills/qa",
+      "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:harperreed/dotfiles:.claude/skills/uv",
+      "skill:srid/emanote:.claude/skills/do",
+      "skill:davidroliverba/architectkb:.claude/skills/q",
+      "skill:adamayoung/tmdb:.claude/skills/pr"
     ],
     "rising": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:srid/haskell-flake:.claude/skills/do",
+      "skill:jgocunha/dynamic-neural-field-composer:.claude/skills/pr",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:kindness-kismet/only_player:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:danny-sg/internals-viewer:.claude/skills/ui",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:baekenough/oh-my-customcode:.claude/skills/sdd",
+      "skill:davidroliverba/architectkb:.claude/skills/q",
+      "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "skill:harperreed/dotfiles:.claude/skills/uv",
+      "skill:bogdanp/ruckus:.claude/skills/qa",
+      "skill:pluginslab/wp-agentic-admin:.claude/skills/pr"
     ],
     "popular": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:srid/haskell-flake:.claude/skills/do",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:bex-co/bex:.claude/skills/pm",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:kindness-kismet/only_player:.claude/skills/pr",
+      "skill:openwpm/openwpm:.claude/skills/qa",
+      "skill:allyourbot/hostedgpt:.claude/skills/pr",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:iopsystems/rezolus:.claude/skills/pr",
+      "skill:danny-sg/internals-viewer:.claude/skills/ui",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:rossoctl/rossoctl:.claude/skills/ci",
+      "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:harperreed/dotfiles:.claude/skills/uv",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:shugo/textbringer:.claude/skills/pr"
     ],
-    "new": []
+    "new": [
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:ashaychangwani/imprint:.claude/skills/pr"
+    ]
   }
 }
