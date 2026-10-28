@@ -2,7 +2,7 @@
 
 MCP servers and evidence-backed tool integrations that expand what Claude agents can do.
 
-_Generated 2026-10-27T14:53:07+00:00. Rankings are regenerated daily._
+_Generated 2026-10-28T15:24:39+00:00. Rankings are regenerated daily._
 
 > Momentum belongs to the GitHub repository. A skill or plugin inside a monorepo inherits that repository signal; its exact path and provenance remain in the JSON record.
 
@@ -10,106 +10,106 @@ _Generated 2026-10-27T14:53:07+00:00. Rankings are regenerated daily._
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,567 | +1100 | 92.0 | +1100 stars/7d; pushed 0d ago |
-| 2 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,646 | +738 | 91.6 | +738 stars/7d; pushed 0d ago |
-| 3 | [headroom](https://github.com/headroomlabs-ai/headroom) | tool | claude, codex, mcp | 78,000 | +1444 | 91.2 | +1444 stars/7d; pushed 0d ago |
-| 4 | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | tool | claude, codex, mcp | 13,430 | +1242 | 91.2 | +1242 stars/7d; pushed 0d ago; 2 sources |
-| 5 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,759 | +405 | 91.1 | +405 stars/7d; pushed 0d ago |
-| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,619 | +608 | 90.9 | +608 stars/7d; pushed 1d ago; 2 sources |
-| 7 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,485 | +271 | 90.9 | +271 stars/7d; pushed 0d ago |
-| 8 | [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | tool | claude, codex, mcp | 10,511 | +841 | 90.2 | +841 stars/7d; pushed 0d ago |
-| 9 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | tool | claude, codex, mcp | 8,037 | +282 | 90.1 | +282 stars/7d; pushed 0d ago |
-| 10 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,327 | +1905 | 89.7 | +1905 stars/7d; pushed 0d ago |
-| 11 | [Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | tool | claude, codex, mcp | 18,160 | +381 | 89.4 | +381 stars/7d; pushed 2d ago |
-| 12 | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | tool | claude, codex, mcp | 16,606 | +214 | 89.4 | +214 stars/7d; pushed 1d ago |
-| 13 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,562 | +1334 | 89.3 | +1334 stars/7d; new (58d); pushed 0d ago |
-| 14 | [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | tool | claude, codex, mcp | 8,051 | +179 | 89.2 | +179 stars/7d; pushed 0d ago |
-| 15 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,231 | +184 | 88.9 | +184 stars/7d; pushed 7d ago |
-| 16 | [google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | tool | claude, codex, mcp | 6,153 | +786 | 88.8 | +786 stars/7d; pushed 0d ago; 3 sources |
-| 17 | [activepieces](https://github.com/activepieces/activepieces) | tool | claude, codex, mcp | 25,242 | +107 | 88.0 | +107 stars/7d; pushed 0d ago; 2 sources |
-| 18 | [serena](https://github.com/oraios/serena) | tool | claude, codex, mcp | 30,759 | +306 | 87.3 | +306 stars/7d; pushed 0d ago |
-| 19 | [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | tool | claude, codex, mcp | 5,298 | +149 | 87.0 | +149 stars/7d; pushed 0d ago |
-| 20 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,374 | +479 | 84.4 | +479 stars/7d; new (75d) |
-| 21 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 395,483 | +51414 | 83.8 | +51414 stars/7d; pushed 0d ago |
-| 22 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,010 | +6062 | 83.5 | +6062 stars/7d; new (119d); pushed 0d ago |
-| 23 | [ruflo](https://github.com/ruvnet/ruflo) | tool | claude, codex, mcp | 79,696 | +2124 | 83.2 | +2124 stars/7d; pushed 0d ago |
-| 24 | [OpenMetadata](https://github.com/open-metadata/OpenMetadata) | tool | claude, codex, mcp | 15,597 | +73 | 82.7 | +73 stars/7d; pushed 0d ago |
-| 25 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 11,912 | +2216 | 82.6 | +2216 stars/7d; new (62d); pushed 0d ago |
+| 1 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,595 | +1111 | 91.5 | +1111 stars/7d; pushed 0d ago |
+| 2 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,712 | +621 | 91.2 | +621 stars/7d; pushed 0d ago; 2 sources |
+| 3 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,713 | +672 | 91.0 | +672 stars/7d; pushed 0d ago |
+| 4 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,562 | +316 | 90.5 | +316 stars/7d; pushed 0d ago |
+| 5 | [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | tool | claude, codex, mcp | 36,463 | +126 | 89.8 | +126 stars/7d; pushed 0d ago; 2 sources |
+| 6 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | tool | claude, codex, mcp | 13,242 | +257 | 89.7 | +257 stars/7d; pushed 0d ago |
+| 7 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,731 | +2233 | 89.4 | +2233 stars/7d; pushed 0d ago |
+| 8 | [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | tool | claude, codex, mcp | 8,095 | +197 | 88.8 | +197 stars/7d; pushed 0d ago |
+| 9 | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | tool | claude, codex, mcp | 16,631 | +210 | 88.6 | +210 stars/7d; pushed 2d ago |
+| 10 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,747 | +1419 | 88.0 | +1419 stars/7d; new (59d); pushed 1d ago |
+| 11 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,835 | +415 | 87.7 | +415 stars/7d; pushed 0d ago |
+| 12 | [google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | tool | claude, codex, mcp | 6,265 | +819 | 87.4 | +819 stars/7d; pushed 1d ago; 3 sources |
+| 13 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | tool | claude, codex, mcp | 54,350 | +417 | 87.3 | +417 stars/7d; pushed 0d ago |
+| 14 | [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | tool | claude, codex, mcp | 5,320 | +160 | 86.5 | +160 stars/7d; pushed 0d ago |
+| 15 | [Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | tool | claude, codex, mcp | 18,233 | +394 | 85.8 | +394 stars/7d; pushed 3d ago |
+| 16 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,258 | +181 | 85.3 | +181 stars/7d; pushed 8d ago |
+| 17 | [activepieces](https://github.com/activepieces/activepieces) | tool | claude, codex, mcp | 25,261 | +112 | 84.8 | +112 stars/7d; pushed 0d ago; 2 sources |
+| 18 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,465 | +571 | 83.8 | +571 stars/7d; new (76d) |
+| 19 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 400,913 | +46519 | 82.0 | +46519 stars/7d; pushed 0d ago |
+| 20 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,282 | +4636 | 81.6 | +4636 stars/7d; new (120d); pushed 0d ago |
+| 21 | [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | tool | claude, codex, mcp | 10,152 | +69 | 81.4 | +69 stars/7d; pushed 0d ago |
+| 22 | [ruflo](https://github.com/ruvnet/ruflo) | tool | claude, codex, mcp | 79,904 | +1804 | 81.3 | +1804 stars/7d; pushed 0d ago |
+| 23 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 12,348 | +2041 | 80.7 | +2041 stars/7d; new (63d); pushed 0d ago |
+| 24 | [Scrapling](https://github.com/D4Vinci/Scrapling) | tool | claude, codex, mcp | 90,163 | +1182 | 80.4 | +1182 stars/7d; pushed 0d ago |
+| 25 | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | tool | claude, codex, mcp | 13,602 | +1213 | 80.2 | +1213 stars/7d; pushed 0d ago; 2 sources |
 
 ## Up and coming
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,562 | +1334 | 91.7 | +1334 stars/7d; new (58d); pushed 0d ago |
-| 2 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,327 | +1905 | 91.6 | +1905 stars/7d; pushed 0d ago |
-| 3 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | tool | claude, codex, mcp | 8,037 | +282 | 91.1 | +282 stars/7d; pushed 0d ago |
-| 4 | [google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | tool | claude, codex, mcp | 6,153 | +786 | 90.1 | +786 stars/7d; pushed 0d ago; 3 sources |
-| 5 | [Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | tool | claude, codex, mcp | 18,160 | +381 | 89.0 | +381 stars/7d; pushed 2d ago |
-| 6 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,619 | +608 | 88.0 | +608 stars/7d; pushed 1d ago; 2 sources |
-| 7 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,646 | +738 | 87.9 | +738 stars/7d; pushed 0d ago |
-| 8 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,374 | +479 | 87.8 | +479 stars/7d; new (75d) |
-| 9 | [headroom](https://github.com/headroomlabs-ai/headroom) | tool | claude, codex, mcp | 78,000 | +1444 | 87.6 | +1444 stars/7d; pushed 0d ago |
-| 10 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,485 | +271 | 87.6 | +271 stars/7d; pushed 0d ago |
-| 11 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,567 | +1100 | 87.4 | +1100 stars/7d; pushed 0d ago |
-| 12 | [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | tool | claude, codex, mcp | 8,051 | +179 | 86.7 | +179 stars/7d; pushed 0d ago |
-| 13 | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | tool | claude, codex, mcp | 13,430 | +1242 | 86.6 | +1242 stars/7d; pushed 0d ago; 2 sources |
-| 14 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,759 | +405 | 86.5 | +405 stars/7d; pushed 0d ago |
-| 15 | [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) | tool | claude, codex, mcp | 10,511 | +841 | 86.1 | +841 stars/7d; pushed 0d ago |
-| 16 | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | tool | claude, codex, mcp | 16,606 | +214 | 85.5 | +214 stars/7d; pushed 1d ago |
-| 17 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,231 | +184 | 84.7 | +184 stars/7d; pushed 7d ago |
-| 18 | [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | tool | claude, codex, mcp | 5,298 | +149 | 84.3 | +149 stars/7d; pushed 0d ago |
-| 19 | [serena](https://github.com/oraios/serena) | tool | claude, codex, mcp | 30,759 | +306 | 83.8 | +306 stars/7d; pushed 0d ago |
-| 20 | [activepieces](https://github.com/activepieces/activepieces) | tool | claude, codex, mcp | 25,242 | +107 | 83.5 | +107 stars/7d; pushed 0d ago; 2 sources |
-| 21 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,010 | +6062 | 83.3 | +6062 stars/7d; new (119d); pushed 0d ago |
-| 22 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 11,912 | +2216 | 82.8 | +2216 stars/7d; new (62d); pushed 0d ago |
-| 23 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 395,483 | +51414 | 82.6 | +51414 stars/7d; pushed 0d ago |
-| 24 | [semble](https://github.com/MinishLab/semble) | tool | claude, codex, mcp | 6,309 | +56 | 81.7 | +56 stars/7d; pushed 0d ago; 2 sources |
-| 25 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,815 | +336 | 81.1 | +336 stars/7d; new (116d); pushed 0d ago |
+| 1 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,731 | +2233 | 91.5 | +2233 stars/7d; pushed 0d ago |
+| 2 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,747 | +1419 | 90.7 | +1419 stars/7d; new (59d); pushed 1d ago |
+| 3 | [google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) | tool | claude, codex, mcp | 6,265 | +819 | 89.1 | +819 stars/7d; pushed 1d ago; 3 sources |
+| 4 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,712 | +621 | 88.0 | +621 stars/7d; pushed 0d ago; 2 sources |
+| 5 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,465 | +571 | 87.5 | +571 stars/7d; new (76d) |
+| 6 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,713 | +672 | 87.1 | +672 stars/7d; pushed 0d ago |
+| 7 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,562 | +316 | 87.0 | +316 stars/7d; pushed 0d ago |
+| 8 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,595 | +1111 | 86.7 | +1111 stars/7d; pushed 0d ago |
+| 9 | [gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) | tool | claude, codex, mcp | 8,095 | +197 | 86.2 | +197 stars/7d; pushed 0d ago |
+| 10 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | tool | claude, codex, mcp | 13,242 | +257 | 86.1 | +257 stars/7d; pushed 0d ago |
+| 11 | [Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | tool | claude, codex, mcp | 18,233 | +394 | 85.2 | +394 stars/7d; pushed 3d ago |
+| 12 | [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | tool | claude, codex, mcp | 36,463 | +126 | 84.9 | +126 stars/7d; pushed 0d ago; 2 sources |
+| 13 | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | tool | claude, codex, mcp | 16,631 | +210 | 84.4 | +210 stars/7d; pushed 2d ago |
+| 14 | [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) | tool | claude, codex, mcp | 5,320 | +160 | 83.6 | +160 stars/7d; pushed 0d ago |
+| 15 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,835 | +415 | 82.5 | +415 stars/7d; pushed 0d ago |
+| 16 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | tool | claude, codex, mcp | 54,350 | +417 | 82.3 | +417 stars/7d; pushed 0d ago |
+| 17 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,282 | +4636 | 81.4 | +4636 stars/7d; new (120d); pushed 0d ago |
+| 18 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 12,348 | +2041 | 80.9 | +2041 stars/7d; new (63d); pushed 0d ago |
+| 19 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 400,913 | +46519 | 80.8 | +46519 stars/7d; pushed 0d ago |
+| 20 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,258 | +181 | 80.4 | +181 stars/7d; pushed 8d ago |
+| 21 | [activepieces](https://github.com/activepieces/activepieces) | tool | claude, codex, mcp | 25,261 | +112 | 79.7 | +112 stars/7d; pushed 0d ago; 2 sources |
+| 22 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,841 | +263 | 79.1 | +263 stars/7d; new (117d); pushed 0d ago |
+| 23 | [dbx](https://github.com/t8y2/dbx) | tool | claude, codex, mcp | 28,029 | +577 | 78.8 | +577 stars/7d; pushed 0d ago |
+| 24 | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | tool | claude, codex, mcp | 3,245 | +1210 | 78.5 | +1210 stars/7d; new (55d); pushed 0d ago |
+| 25 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | tool | claude, codex, mcp | 8,055 | +234 | 77.9 | +234 stars/7d; pushed 1d ago |
 
 ## Most popular
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 395,483 | +51414 | 92.9 | +51414 stars/7d; pushed 0d ago |
-| 2 | [ruflo](https://github.com/ruvnet/ruflo) | tool | claude, codex, mcp | 79,696 | +2124 | 92.3 | +2124 stars/7d; pushed 0d ago |
-| 3 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,567 | +1100 | 92.1 | +1100 stars/7d; pushed 0d ago |
-| 4 | [Scrapling](https://github.com/D4Vinci/Scrapling) | tool | claude, codex, mcp | 90,011 | +1198 | 92.0 | +1198 stars/7d; pushed 0d ago |
-| 5 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,646 | +738 | 92.0 | +738 stars/7d; pushed 0d ago |
-| 6 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,759 | +405 | 91.7 | +405 stars/7d; pushed 0d ago |
-| 7 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | tool | claude, codex, mcp | 54,261 | +354 | 91.7 | +354 stars/7d; pushed 0d ago |
-| 8 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,485 | +271 | 91.7 | +271 stars/7d; pushed 0d ago |
-| 9 | [reactive-resume](https://github.com/reactive-resume/reactive-resume) | tool | claude, codex, mcp | 44,934 | +345 | 91.6 | +345 stars/7d; pushed 0d ago |
-| 10 | [headroom](https://github.com/headroomlabs-ai/headroom) | tool | claude, codex, mcp | 78,000 | +1444 | 91.5 | +1444 stars/7d; pushed 0d ago |
-| 11 | [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | tool | claude, codex, mcp | 36,442 | +105 | 91.0 | +105 stars/7d; pushed 0d ago; 2 sources |
-| 12 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,010 | +6062 | 90.7 | +6062 stars/7d; new (119d); pushed 0d ago |
-| 13 | [editor](https://github.com/pascalorg/editor) | tool | claude, codex, mcp | 25,143 | +138 | 90.5 | +138 stars/7d; pushed 0d ago; 2 sources |
-| 14 | [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) | tool | claude, codex, mcp | 20,942 | +136 | 90.3 | +136 stars/7d; pushed 0d ago; 3 sources |
-| 15 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,619 | +608 | 90.3 | +608 stars/7d; pushed 1d ago; 2 sources |
-| 16 | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | tool | claude, codex, mcp | 13,430 | +1242 | 89.8 | +1242 stars/7d; pushed 0d ago; 2 sources |
-| 17 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | tool | claude, codex, mcp | 96,922 | +268 | 89.7 | +268 stars/7d; pushed 3d ago |
-| 18 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 11,912 | +2216 | 89.7 | +2216 stars/7d; new (62d); pushed 0d ago |
-| 19 | [github-mcp-server](https://github.com/github/github-mcp-server) | tool | claude, codex, mcp | 33,998 | +207 | 89.6 | +207 stars/7d; pushed 3d ago; 2 sources |
-| 20 | [dbx](https://github.com/t8y2/dbx) | tool | claude, codex, mcp | 27,917 | +559 | 89.6 | +559 stars/7d; pushed 0d ago |
-| 21 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,231 | +184 | 89.5 | +184 stars/7d; pushed 7d ago |
-| 22 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | tool | claude, codex, mcp | 13,153 | +199 | 89.4 | +199 stars/7d; pushed 0d ago |
-| 23 | [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) | tool | claude, codex, mcp | 11,051 | +102 | 89.1 | +102 stars/7d; pushed 0d ago |
-| 24 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,815 | +336 | 89.0 | +336 stars/7d; new (116d); pushed 0d ago |
-| 25 | [bifrost](https://github.com/maximhq/bifrost) | tool | claude, codex, mcp | 9,142 | +179 | 88.9 | +179 stars/7d; pushed 0d ago |
+| 1 | [rea](https://github.com/morluto/rea) | tool | claude, codex, mcp | 400,913 | +46519 | 92.5 | +46519 stars/7d; pushed 0d ago |
+| 2 | [ruflo](https://github.com/ruvnet/ruflo) | tool | claude, codex, mcp | 79,904 | +1804 | 91.8 | +1804 stars/7d; pushed 0d ago |
+| 3 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | tool | claude, codex, mcp | 108,595 | +1111 | 91.6 | +1111 stars/7d; pushed 0d ago |
+| 4 | [Scrapling](https://github.com/D4Vinci/Scrapling) | tool | claude, codex, mcp | 90,163 | +1182 | 91.6 | +1182 stars/7d; pushed 0d ago |
+| 5 | [worldmonitor](https://github.com/koala73/worldmonitor) | tool | claude, codex, mcp | 89,713 | +672 | 91.5 | +672 stars/7d; pushed 0d ago |
+| 6 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | tool | claude, codex, mcp | 54,350 | +417 | 91.3 | +417 stars/7d; pushed 0d ago |
+| 7 | [context7](https://github.com/upstash/context7) | tool | claude, codex, mcp | 63,835 | +415 | 91.2 | +415 stars/7d; pushed 0d ago |
+| 8 | [nanobot](https://github.com/HKUDS/nanobot) | tool | claude, codex, mcp | 49,562 | +316 | 91.2 | +316 stars/7d; pushed 0d ago |
+| 9 | [reactive-resume](https://github.com/reactive-resume/reactive-resume) | tool | claude, codex, mcp | 44,993 | +350 | 91.1 | +350 stars/7d; pushed 0d ago |
+| 10 | [codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | tool | claude, codex, mcp | 47,712 | +621 | 91.1 | +621 stars/7d; pushed 0d ago; 2 sources |
+| 11 | [headroom](https://github.com/headroomlabs-ai/headroom) | tool | claude, codex, mcp | 78,117 | +1075 | 91.0 | +1075 stars/7d; pushed 0d ago |
+| 12 | [github-mcp-server](https://github.com/github/github-mcp-server) | tool | claude, codex, mcp | 34,032 | +210 | 90.8 | +210 stars/7d; pushed 0d ago; 2 sources |
+| 13 | [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | tool | claude, codex, mcp | 36,463 | +126 | 90.6 | +126 stars/7d; pushed 0d ago; 2 sources |
+| 14 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,282 | +4636 | 90.2 | +4636 stars/7d; new (120d); pushed 0d ago |
+| 15 | [editor](https://github.com/pascalorg/editor) | tool | claude, codex, mcp | 25,168 | +140 | 89.9 | +140 stars/7d; pushed 0d ago; 2 sources |
+| 16 | [mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) | tool | claude, codex, mcp | 32,585 | +722 | 89.8 | +722 stars/7d; pushed 0d ago |
+| 17 | [apify-mcp-server](https://github.com/apify/apify-mcp-server) | tool | claude, codex, mcp | 13,602 | +1213 | 89.2 | +1213 stars/7d; pushed 0d ago; 2 sources |
+| 18 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 12,348 | +2041 | 89.2 | +2041 stars/7d; new (63d); pushed 0d ago |
+| 19 | [dbx](https://github.com/t8y2/dbx) | tool | claude, codex, mcp | 28,029 | +577 | 89.1 | +577 stars/7d; pushed 0d ago |
+| 20 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | tool | claude, codex, mcp | 96,986 | +290 | 89.0 | +290 stars/7d; pushed 4d ago |
+| 21 | [QuantDinger](https://github.com/OpenByteInc/QuantDinger) | tool | claude, codex, mcp | 13,242 | +257 | 88.9 | +257 stars/7d; pushed 0d ago |
+| 22 | [TrendRadar](https://github.com/sansan0/TrendRadar) | tool | claude, codex, mcp | 63,258 | +181 | 88.8 | +181 stars/7d; pushed 8d ago |
+| 23 | [Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API) | tool | claude, codex, mcp | 20,960 | +141 | 88.5 | +141 stars/7d; pushed 1d ago; 3 sources |
+| 24 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,841 | +263 | 88.4 | +263 stars/7d; new (117d); pushed 0d ago |
+| 25 | [bifrost](https://github.com/maximhq/bifrost) | tool | claude, codex, mcp | 9,177 | +183 | 88.3 | +183 stars/7d; pushed 0d ago |
 
 ## New projects
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,562 | +1334 | 91.7 | +1334 stars/7d; new (58d); pushed 0d ago |
-| 2 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,327 | +1905 | 91.6 | +1905 stars/7d; pushed 0d ago |
-| 3 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | tool | claude, codex, mcp | 8,037 | +282 | 91.1 | +282 stars/7d; pushed 0d ago |
-| 4 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,374 | +479 | 87.8 | +479 stars/7d; new (75d) |
-| 5 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,010 | +6062 | 83.3 | +6062 stars/7d; new (119d); pushed 0d ago |
-| 6 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 11,912 | +2216 | 82.8 | +2216 stars/7d; new (62d); pushed 0d ago |
-| 7 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,815 | +336 | 81.1 | +336 stars/7d; new (116d); pushed 0d ago |
-| 8 | [open-connector](https://github.com/oomol-lab/open-connector) | tool | claude, codex, mcp | 6,106 | +54 | 80.2 | +54 stars/7d; new (120d); pushed 0d ago |
-| 9 | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | tool | claude, codex, mcp | 3,103 | +1074 | 79.7 | +1074 stars/7d; new (54d); pushed 1d ago |
-| 10 | [codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt) | tool | claude, codex, mcp | 7,567 | +92 | 73.6 | +92 stars/7d; new (60d) |
+| 1 | [AiSOC](https://github.com/beenuar/AiSOC) | tool | claude, codex, mcp | 4,731 | +2233 | 91.5 | +2233 stars/7d; pushed 0d ago |
+| 2 | [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | tool | claude, codex, mcp | 7,747 | +1419 | 90.7 | +1419 stars/7d; new (59d); pushed 1d ago |
+| 3 | [appllama-skills](https://github.com/Appllama/appllama-skills) | tool | claude, codex, mcp | 3,465 | +571 | 87.5 | +571 stars/7d; new (76d) |
+| 4 | [xerj](https://github.com/xerj-org/xerj) | tool | claude, codex, mcp | 17,282 | +4636 | 81.4 | +4636 stars/7d; new (120d); pushed 0d ago |
+| 5 | [Concat](https://github.com/jub0t/Concat) | tool | claude, codex, mcp | 12,348 | +2041 | 80.9 | +2041 stars/7d; new (63d); pushed 0d ago |
+| 6 | [Trail-Code](https://github.com/trailhq/Trail-Code) | tool | claude, codex, mcp | 10,841 | +263 | 79.1 | +263 stars/7d; new (117d); pushed 0d ago |
+| 7 | [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | tool | claude, codex, mcp | 3,245 | +1210 | 78.5 | +1210 stars/7d; new (55d); pushed 0d ago |
+| 8 | [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) | tool | claude, codex, mcp | 8,055 | +234 | 77.9 | +234 stars/7d; pushed 1d ago |
+| 9 | [open-connector](https://github.com/oomol-lab/open-connector) | tool | claude, codex, mcp | 6,112 | +54 | 76.8 | +54 stars/7d; pushed 0d ago |
+| 10 | [codex-with-chatgpt](https://github.com/XiaoDuoYa/codex-with-chatgpt) | tool | claude, codex, mcp | 7,584 | +100 | 68.6 | +100 stars/7d; new (61d) |
 
 ## Ranking model
 
