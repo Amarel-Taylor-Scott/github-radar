@@ -2,182 +2,182 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:github.com,2026:Amarel-Taylor-Scott/github-radar/projects</id>
   <title>Interesting GitHub Projects Radar</title>
-  <updated>2026-10-28T16:02:48Z</updated>
+  <updated>2026-10-29T16:07:20Z</updated>
   <link href="https://github.com/Amarel-Taylor-Scott/github-radar/blob/main/feeds/projects/interesting-projects.md"/>
   <link rel="self" href="https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/feeds/projects/projects.atom"/>
   <entry>
-    <id>urn:github-radar:repo:beenuar/aisoc</id>
-    <title>beenuar/AiSOC — interesting 86.7</title>
-    <link href="https://github.com/beenuar/AiSOC"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.</summary>
+    <id>urn:github-radar:repo:arnegiacomo/fugleramme</id>
+    <title>arnegiacomo/fugleramme — interesting 85.7</title>
+    <link href="https://github.com/arnegiacomo/fugleramme"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Bird frame for Raspberry Pi or your homelab - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations. On an e-ink panel, a TV, or any screen.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:thedotmack/claude-mem</id>
-    <title>thedotmack/claude-mem — interesting 85.5</title>
+    <title>thedotmack/claude-mem — interesting 85.2</title>
     <link href="https://github.com/thedotmack/claude-mem"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:lemomo-ai/lemo-opuscar</id>
+    <title>lemomo-ai/lemo-opuscar — interesting 84.6</title>
+    <link href="https://github.com/lemomo-ai/lemo-opuscar"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
-    <title>opendataloader-project/opendataloader-pdf — interesting 85.0</title>
+    <title>opendataloader-project/opendataloader-pdf — interesting 84.3</title>
     <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:graphify-labs/graphify</id>
-    <title>Graphify-Labs/graphify — interesting 84.8</title>
-    <link href="https://github.com/Graphify-Labs/graphify"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:hkuds/deeptutor</id>
-    <title>HKUDS/DeepTutor — interesting 83.5</title>
-    <link href="https://github.com/HKUDS/DeepTutor"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:xerj-org/xerj</id>
-    <title>xerj-org/xerj — interesting 83.3</title>
+    <title>xerj-org/xerj — interesting 84.0</title>
     <link href="https://github.com/xerj-org/xerj"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
-    <title>alirezarezvani/claude-skills — interesting 83.2</title>
+    <title>alirezarezvani/claude-skills — interesting 83.6</title>
     <link href="https://github.com/alirezarezvani/claude-skills"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>380 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:lemomo-ai/lemo-opuscar</id>
-    <title>lemomo-ai/lemo-opuscar — interesting 83.1</title>
-    <link href="https://github.com/lemomo-ai/lemo-opuscar"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的</summary>
+    <id>urn:github-radar:repo:hkuds/deeptutor</id>
+    <title>HKUDS/DeepTutor — interesting 83.4</title>
+    <link href="https://github.com/HKUDS/DeepTutor"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:graphify-labs/graphify</id>
+    <title>Graphify-Labs/graphify — interesting 83.2</title>
+    <link href="https://github.com/Graphify-Labs/graphify"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:orkas-ai/orkas</id>
+    <title>Orkas-AI/Orkas — interesting 82.7</title>
+    <link href="https://github.com/Orkas-AI/Orkas"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS &amp; Windows; built-in models or your own keys.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:othmanadi/planning-with-files</id>
-    <title>OthmanAdi/planning-with-files — interesting 83.0</title>
+    <title>OthmanAdi/planning-with-files — interesting 82.5</title>
     <link href="https://github.com/OthmanAdi/planning-with-files"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:orama-interactive/pixelorama</id>
-    <title>Orama-Interactive/Pixelorama — interesting 82.8</title>
-    <link href="https://github.com/Orama-Interactive/Pixelorama"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:hbai-ltd/toonflow-app</id>
-    <title>HBAI-Ltd/Toonflow-app — interesting 82.8</title>
+    <title>HBAI-Ltd/Toonflow-app — interesting 82.4</title>
     <link href="https://github.com/HBAI-Ltd/Toonflow-app"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:tt-a1i/archify</id>
+    <title>tt-a1i/archify — interesting 82.2</title>
+    <link href="https://github.com/tt-a1i/archify"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:infiniflow/ragflow</id>
-    <title>infiniflow/ragflow — interesting 82.0</title>
+    <title>infiniflow/ragflow — interesting 82.2</title>
     <link href="https://github.com/infiniflow/ragflow"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
-    <title>sickn33/agentic-awesome-skills — interesting 81.8</title>
-    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:aipoch/open-science</id>
-    <title>aipoch/open-science — interesting 81.5</title>
+    <title>aipoch/open-science — interesting 81.4</title>
     <link href="https://github.com/aipoch/open-science"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:ashishsinha1602/schemagate</id>
-    <title>ashishsinha1602/schemagate — interesting 81.2</title>
-    <link href="https://github.com/ashishsinha1602/schemagate"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Text-to-SQL access control: schema selection that gives the LLM only the tables the caller is allowed to read. Row-level-security-aware table pruning for LangChain, MCP and any SQL agent. Postgres, Oracle, MySQL, SQL Server. 75% fewer prompt tokens.</summary>
+    <id>urn:github-radar:repo:orama-interactive/pixelorama</id>
+    <title>Orama-Interactive/Pixelorama — interesting 81.0</title>
+    <link href="https://github.com/Orama-Interactive/Pixelorama"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:miqdadbadjuber/anti-slop</id>
-    <title>miqdadbadjuber/anti-slop — interesting 80.6</title>
-    <link href="https://github.com/miqdadbadjuber/anti-slop"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:community-scripts/proxmoxve</id>
-    <title>community-scripts/ProxmoxVE — interesting 80.4</title>
-    <link href="https://github.com/community-scripts/ProxmoxVE"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Proxmox VE Helper-Scripts (Community Edition) </summary>
+    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
+    <title>sickn33/agentic-awesome-skills — interesting 80.9</title>
+    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>2,877+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:opengeos/geolibre</id>
-    <title>opengeos/GeoLibre — interesting 80.2</title>
+    <title>opengeos/GeoLibre — interesting 80.7</title>
     <link href="https://github.com/opengeos/GeoLibre"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:alexgreensh/anidoodle</id>
+    <title>alexgreensh/anidoodle — interesting 80.5</title>
+    <link href="https://github.com/alexgreensh/anidoodle"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:swe-agent/swe-agent</id>
     <title>SWE-agent/SWE-agent — interesting 80.0</title>
     <link href="https://github.com/SWE-agent/SWE-agent"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] </summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:composiohq/composio</id>
-    <title>ComposioHQ/composio — interesting 79.9</title>
-    <link href="https://github.com/ComposioHQ/composio"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:agentscope-ai/qwenpaw</id>
-    <title>agentscope-ai/QwenPaw — interesting 79.8</title>
-    <link href="https://github.com/agentscope-ai/QwenPaw"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.</summary>
+    <id>urn:github-radar:repo:community-scripts/proxmoxve</id>
+    <title>community-scripts/ProxmoxVE — interesting 79.3</title>
+    <link href="https://github.com/community-scripts/ProxmoxVE"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Proxmox VE Helper-Scripts (Community Edition) </summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
-    <title>K-Dense-AI/scientific-agent-skills — interesting 79.0</title>
+    <title>K-Dense-AI/scientific-agent-skills — interesting 79.2</title>
     <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:autonomous-ai/openharness</id>
-    <title>autonomous-ai/openharness — interesting 78.6</title>
+    <title>autonomous-ai/openharness — interesting 79.0</title>
     <link href="https://github.com/autonomous-ai/openharness"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:kestra-io/kestra</id>
-    <title>kestra-io/kestra — interesting 77.5</title>
-    <link href="https://github.com/kestra-io/kestra"/>
-    <updated>2026-10-28T16:02:48Z</updated>
-    <summary>Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.</summary>
+    <id>urn:github-radar:repo:semantica-agi/semantica</id>
+    <title>semantica-agi/semantica — interesting 77.9</title>
+    <link href="https://github.com/semantica-agi/semantica"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>Graph-Native Infrastructure for Context and Accountable AI Systems</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:qpst4/xgesture</id>
+    <title>qpst4/XGesture — interesting 76.5</title>
+    <link href="https://github.com/qpst4/XGesture"/>
+    <updated>2026-10-29T16:07:20Z</updated>
+    <summary>The ultimate open-source Android gesture &amp; one-hand navigation suite. An all-in-one OHO+ (One Hand Operation+), FooView &amp; Quick Cursor alternative with offline OCR and Shizuku.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:decidim/decidim</id>
-    <title>decidim/decidim — interesting 71.9</title>
+    <title>decidim/decidim — interesting 72.2</title>
     <link href="https://github.com/decidim/decidim"/>
-    <updated>2026-10-28T16:02:48Z</updated>
+    <updated>2026-10-29T16:07:20Z</updated>
     <summary>The participatory democracy framework. A generator and multiple gems made with Ruby on Rails</summary>
   </entry>
 </feed>

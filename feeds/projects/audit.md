@@ -1,26 +1,26 @@
 # Project Radar evidence audit
 
-_Generated 2026-10-28T16:02:48+00:00._
+_Generated 2026-10-29T16:07:20+00:00._
 
 This report measures evidence coverage. A low percentage is a collection or verification gap, not a negative judgment about the underlying projects.
 
 | Catalog | Projects | Eligible | Observed | 7d measured | Community | License | Active 30d | Review flags | Median quality |
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| Interesting GitHub Projects Radar | 2,668 | 91.7% | 95.7% | 92.5% | 8.2% | 78.9% | 87.4% | 61.5% | 50.0 |
-| AI Agents Radar | 210 | 89.5% | 94.3% | 92.4% | 21.0% | 82.9% | 91.4% | 75.7% | 51.5 |
-| AI Engineering Radar | 220 | 91.8% | 99.5% | 97.3% | 12.3% | 84.5% | 87.7% | 63.6% | 50.9 |
-| Developer Tools Radar | 179 | 93.3% | 91.6% | 90.5% | 17.3% | 83.8% | 89.9% | 74.9% | 49.5 |
-| Data Engineering Radar | 163 | 96.3% | 95.7% | 92.0% | 10.4% | 82.2% | 90.2% | 54.0% | 49.5 |
-| Cybersecurity Tools Radar | 175 | 92.6% | 94.3% | 90.9% | 7.4% | 77.7% | 88.0% | 58.9% | 49.1 |
-| Robotics and Embodied AI Radar | 143 | 90.2% | 89.5% | 86.7% | 11.9% | 77.6% | 84.6% | 60.1% | 48.2 |
-| Geospatial and Mapping Radar | 154 | 90.9% | 98.1% | 94.2% | 9.7% | 79.9% | 90.3% | 67.5% | 49.4 |
-| Creative Computing Radar | 178 | 88.8% | 97.8% | 91.6% | 8.4% | 71.3% | 77.0% | 65.7% | 49.1 |
-| Self-Hosted and Local-First Radar | 183 | 96.7% | 91.3% | 88.5% | 13.1% | 84.2% | 95.6% | 78.7% | 50.5 |
-| Scientific Computing Radar | 176 | 95.5% | 97.7% | 95.5% | 14.2% | 78.4% | 85.8% | 44.3% | 49.8 |
-| Databases and Storage Radar | 162 | 98.1% | 96.9% | 96.3% | 16.7% | 75.3% | 92.6% | 64.2% | 48.5 |
-| Cloud-Native Infrastructure Radar | 180 | 93.9% | 100.0% | 98.9% | 11.1% | 86.1% | 92.8% | 71.7% | 51.8 |
-| Bioinformatics and Computational Biology Radar | 167 | 85.6% | 97.0% | 92.8% | 9.0% | 76.0% | 82.0% | 37.1% | 51.1 |
-| Civic Technology Radar | 125 | 77.6% | 97.6% | 92.8% | 10.4% | 72.0% | 80.8% | 24.8% | 48.7 |
-| Accessibility and Assistive Technology Radar | 174 | 86.8% | 93.1% | 89.7% | 8.6% | 85.1% | 81.6% | 40.8% | 52.1 |
-| Game Development Radar | 122 | 91.0% | 95.9% | 91.8% | 13.9% | 59.8% | 94.3% | 65.6% | 48.5 |
-| Business Automation Radar | 145 | 93.1% | 97.9% | 94.5% | 13.8% | 73.1% | 84.1% | 62.8% | 49.6 |
+| Interesting GitHub Projects Radar | 2,672 | 91.4% | 96.5% | 92.4% | 8.2% | 78.4% | 87.1% | 61.8% | 49.8 |
+| AI Agents Radar | 210 | 91.4% | 93.3% | 92.4% | 21.4% | 83.8% | 91.0% | 79.0% | 50.1 |
+| AI Engineering Radar | 221 | 91.9% | 99.5% | 96.4% | 13.1% | 83.7% | 87.8% | 63.3% | 50.8 |
+| Developer Tools Radar | 179 | 93.9% | 92.2% | 91.1% | 16.8% | 83.2% | 91.1% | 73.2% | 49.7 |
+| Data Engineering Radar | 164 | 95.7% | 97.0% | 90.9% | 9.8% | 81.7% | 89.6% | 54.3% | 49.2 |
+| Cybersecurity Tools Radar | 177 | 93.2% | 94.9% | 91.5% | 7.3% | 76.8% | 85.9% | 60.5% | 48.2 |
+| Robotics and Embodied AI Radar | 143 | 87.4% | 96.5% | 90.9% | 12.6% | 76.2% | 83.9% | 57.3% | 49.2 |
+| Geospatial and Mapping Radar | 154 | 89.6% | 97.4% | 92.9% | 9.7% | 79.2% | 90.9% | 67.5% | 49.3 |
+| Creative Computing Radar | 176 | 89.2% | 97.2% | 90.3% | 8.5% | 71.6% | 76.1% | 65.3% | 50.6 |
+| Self-Hosted and Local-First Radar | 182 | 96.7% | 91.2% | 88.5% | 12.6% | 84.1% | 94.5% | 76.9% | 50.1 |
+| Scientific Computing Radar | 177 | 94.9% | 99.4% | 94.9% | 14.7% | 78.5% | 85.9% | 44.6% | 50.3 |
+| Databases and Storage Radar | 162 | 98.1% | 96.9% | 93.8% | 17.3% | 72.8% | 92.6% | 63.6% | 48.9 |
+| Cloud-Native Infrastructure Radar | 180 | 93.9% | 99.4% | 98.9% | 11.1% | 86.7% | 92.8% | 73.3% | 51.2 |
+| Bioinformatics and Computational Biology Radar | 166 | 85.5% | 100.0% | 95.2% | 9.0% | 76.5% | 81.3% | 36.1% | 51.0 |
+| Civic Technology Radar | 124 | 79.0% | 98.4% | 91.9% | 11.3% | 71.8% | 79.0% | 24.2% | 49.5 |
+| Accessibility and Assistive Technology Radar | 177 | 88.7% | 94.9% | 91.0% | 7.9% | 85.9% | 82.5% | 42.9% | 52.0 |
+| Game Development Radar | 122 | 86.1% | 97.5% | 91.8% | 14.8% | 59.0% | 94.3% | 65.6% | 49.0 |
+| Business Automation Radar | 146 | 92.5% | 97.9% | 93.8% | 13.0% | 71.2% | 84.2% | 65.8% | 48.7 |
