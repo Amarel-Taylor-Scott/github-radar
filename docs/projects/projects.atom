@@ -2,182 +2,182 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:github.com,2026:Amarel-Taylor-Scott/github-radar/projects</id>
   <title>Interesting GitHub Projects Radar</title>
-  <updated>2026-11-06T16:45:46Z</updated>
+  <updated>2026-11-07T15:39:38Z</updated>
   <link href="https://github.com/Amarel-Taylor-Scott/github-radar/blob/main/feeds/projects/interesting-projects.md"/>
   <link rel="self" href="https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/feeds/projects/projects.atom"/>
   <entry>
     <id>urn:github-radar:repo:hbai-ltd/toonflow-app</id>
-    <title>HBAI-Ltd/Toonflow-app — interesting 87.0</title>
+    <title>HBAI-Ltd/Toonflow-app — interesting 86.7</title>
     <link href="https://github.com/HBAI-Ltd/Toonflow-app"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:thedotmack/claude-mem</id>
-    <title>thedotmack/claude-mem — interesting 85.7</title>
+    <title>thedotmack/claude-mem — interesting 85.5</title>
     <link href="https://github.com/thedotmack/claude-mem"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:aipoch/open-science</id>
-    <title>aipoch/open-science — interesting 84.7</title>
+    <title>aipoch/open-science — interesting 85.0</title>
     <link href="https://github.com/aipoch/open-science"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
-    <title>sickn33/agentic-awesome-skills — interesting 84.4</title>
-    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:xerj-org/xerj</id>
-    <title>xerj-org/xerj — interesting 84.0</title>
+    <title>xerj-org/xerj — interesting 83.8</title>
     <link href="https://github.com/xerj-org/xerj"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:orkas-ai/orkas</id>
-    <title>Orkas-AI/Orkas — interesting 82.3</title>
-    <link href="https://github.com/Orkas-AI/Orkas"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS &amp; Windows; built-in models or your own keys.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:nexu-io/html-anything</id>
-    <title>nexu-io/html-anything — interesting 82.3</title>
-    <link href="https://github.com/nexu-io/html-anything"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:devswha/ovis</id>
-    <title>devswha/ovis — interesting 82.2</title>
-    <link href="https://github.com/devswha/ovis"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:alexgreensh/anidoodle</id>
-    <title>alexgreensh/anidoodle — interesting 82.0</title>
-    <link href="https://github.com/alexgreensh/anidoodle"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:orama-interactive/pixelorama</id>
-    <title>Orama-Interactive/Pixelorama — interesting 81.4</title>
+    <title>Orama-Interactive/Pixelorama — interesting 81.9</title>
     <link href="https://github.com/Orama-Interactive/Pixelorama"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>Unleash your creativity with Pixelorama, a powerful and accessible open-source pixel art multitool. Whether you want to create sprites, tiles, animations, or just express yourself in the language of pixel art, this software will realize your pixel-perfect dreams with a vast toolbox of features. Available on Windows, Linux, macOS and the Web!</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:infiniflow/ragflow</id>
-    <title>infiniflow/ragflow — interesting 81.3</title>
-    <link href="https://github.com/infiniflow/ragflow"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.</summary>
+    <id>urn:github-radar:repo:lemomo-ai/lemo-opuscar</id>
+    <title>lemomo-ai/lemo-opuscar — interesting 81.7</title>
+    <link href="https://github.com/lemomo-ai/lemo-opuscar"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
+    <title>sickn33/agentic-awesome-skills — interesting 81.5</title>
+    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
+    <title>alirezarezvani/claude-skills — interesting 80.9</title>
+    <link href="https://github.com/alirezarezvani/claude-skills"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:graphify-labs/graphify</id>
+    <title>Graphify-Labs/graphify — interesting 80.8</title>
+    <link href="https://github.com/Graphify-Labs/graphify"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:asgeirtj/system_prompts_leaks</id>
+    <title>asgeirtj/system_prompts_leaks — interesting 80.7</title>
+    <link href="https://github.com/asgeirtj/system_prompts_leaks"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:alexgreensh/anidoodle</id>
+    <title>alexgreensh/anidoodle — interesting 80.7</title>
+    <link href="https://github.com/alexgreensh/anidoodle"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:deanchensj/jiangshan-map</id>
     <title>DeanChensj/jiangshan-map — interesting 80.2</title>
     <link href="https://github.com/DeanChensj/jiangshan-map"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:community-scripts/proxmoxve</id>
-    <title>community-scripts/ProxmoxVE — interesting 80.1</title>
-    <link href="https://github.com/community-scripts/ProxmoxVE"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Proxmox VE Helper-Scripts (Community Edition) </summary>
+    <id>urn:github-radar:repo:infiniflow/ragflow</id>
+    <title>infiniflow/ragflow — interesting 80.1</title>
+    <link href="https://github.com/infiniflow/ragflow"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:graphify-labs/graphify</id>
-    <title>Graphify-Labs/graphify — interesting 79.7</title>
-    <link href="https://github.com/Graphify-Labs/graphify"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:ruvnet/ruflo</id>
-    <title>ruvnet/ruflo — interesting 79.6</title>
-    <link href="https://github.com/ruvnet/ruflo"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:lemomo-ai/lemo-opuscar</id>
-    <title>lemomo-ai/lemo-opuscar — interesting 79.5</title>
-    <link href="https://github.com/lemomo-ai/lemo-opuscar"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
-    <title>alirezarezvani/claude-skills — interesting 79.5</title>
-    <link href="https://github.com/alirezarezvani/claude-skills"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:opentrap/opentrap</id>
-    <title>opentrap/opentrap — interesting 79.2</title>
-    <link href="https://github.com/opentrap/opentrap"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.</summary>
+    <id>urn:github-radar:repo:t8y2/dbx</id>
+    <title>t8y2/dbx — interesting 79.7</title>
+    <link href="https://github.com/t8y2/dbx"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
-    <title>K-Dense-AI/scientific-agent-skills — interesting 79.2</title>
+    <title>K-Dense-AI/scientific-agent-skills — interesting 79.3</title>
     <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:horizon-rust/horizon</id>
+    <title>horizon-rust/horizon — interesting 79.1</title>
+    <link href="https://github.com/horizon-rust/horizon"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:nexu-io/html-anything</id>
+    <title>nexu-io/html-anything — interesting 79.1</title>
+    <link href="https://github.com/nexu-io/html-anything"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
-    <title>opendataloader-project/opendataloader-pdf — interesting 78.8</title>
+    <title>opendataloader-project/opendataloader-pdf — interesting 78.2</title>
     <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:slothflowlabs/duckle</id>
-    <title>slothflowlabs/duckle — interesting 78.1</title>
-    <link href="https://github.com/slothflowlabs/duckle"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Open-source ETL/ELT you deploy on your own servers or cloud. Built on DuckDB: no-code/low-code visual pipelines or SQL, 385 components, dbt, CDC, data quality, reverse ETL, lineage, MCP for AI agents. No vendor cloud, no per-row billing.</summary>
+    <id>urn:github-radar:repo:tooljet/tooljet</id>
+    <title>ToolJet/ToolJet — interesting 78.0</title>
+    <link href="https://github.com/ToolJet/ToolJet"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:pingcap/tidb</id>
+    <title>pingcap/tidb — interesting 78.0</title>
+    <link href="https://github.com/pingcap/tidb"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:autonomous-ai/openharness</id>
     <title>autonomous-ai/openharness — interesting 77.8</title>
     <link href="https://github.com/autonomous-ai/openharness"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:kestra-io/kestra</id>
-    <title>kestra-io/kestra — interesting 76.9</title>
+    <title>kestra-io/kestra — interesting 76.8</title>
     <link href="https://github.com/kestra-io/kestra"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:immortal71/openoncology</id>
-    <title>immortal71/openoncology — interesting 74.9</title>
-    <link href="https://github.com/immortal71/openoncology"/>
-    <updated>2026-11-06T16:45:46Z</updated>
-    <summary>Open source tumor evidence matching for sequencing labs and hospitals without molecular tumor boards. Research prototype; oncologist review required.</summary>
+    <id>urn:github-radar:repo:swe-agent/swe-agent</id>
+    <title>SWE-agent/SWE-agent — interesting 76.1</title>
+    <link href="https://github.com/SWE-agent/SWE-agent"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] </summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:synthetic-sciences/openscience</id>
+    <title>synthetic-sciences/openscience — interesting 70.6</title>
+    <link href="https://github.com/synthetic-sciences/openscience"/>
+    <updated>2026-11-07T15:39:38Z</updated>
+    <summary>The open-source AI workbench for scientific research</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:decidim/decidim</id>
     <title>decidim/decidim — interesting 67.6</title>
     <link href="https://github.com/decidim/decidim"/>
-    <updated>2026-11-06T16:45:46Z</updated>
+    <updated>2026-11-07T15:39:38Z</updated>
     <summary>The participatory democracy framework. A generator and multiple gems made with Ruby on Rails</summary>
   </entry>
 </feed>
