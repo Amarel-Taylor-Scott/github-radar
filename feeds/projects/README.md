@@ -1,6 +1,6 @@
 # GitHub Project Radars
 
-_Generated 2026-11-13T17:12:47+00:00._
+_Generated 2026-11-14T15:48:31+00:00._
 
 One read-only engine publishes domain-specific catalogs of high-quality, confidence-aware high-momentum, novel, up-and-coming, and interesting GitHub projects.
 
@@ -8,15 +8,15 @@ One read-only engine publishes domain-specific catalogs of high-quality, confide
 
 | Catalog | Projects | Description |
 |:--------|---------:|:------------|
-| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,673 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
+| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,670 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
 | [AI Agents Radar](ai-agents.md) | 212 | Agent runtimes, coding agents, multi-agent systems, tool-using assistants, orchestration engines, and agent infrastructure. |
 | [AI Engineering Radar](ai-engineering.md) | 217 | LLM infrastructure, RAG, inference, evaluation, observability, model serving, vector systems, and production ML tooling. |
 | [Developer Tools Radar](developer-tools.md) | 181 | Editors, terminals, CLIs, debuggers, API clients, build tools, code intelligence, testing, and developer-experience projects. |
 | [Data Engineering Radar](data-engineering.md) | 160 | Data pipelines, ETL and ELT, orchestration, streaming, warehouses, lakehouses, analytics engineering, and data-quality tools. |
-| [Cybersecurity Tools Radar](cybersecurity.md) | 177 | Defensive security, AppSec, vulnerability discovery, reverse engineering, threat intelligence, privacy, and security automation. |
-| [Robotics and Embodied AI Radar](robotics.md) | 148 | Robotics frameworks, simulation, ROS, autonomy, drones, control, embodied AI, sensing, and real-world machine intelligence. |
+| [Cybersecurity Tools Radar](cybersecurity.md) | 176 | Defensive security, AppSec, vulnerability discovery, reverse engineering, threat intelligence, privacy, and security automation. |
+| [Robotics and Embodied AI Radar](robotics.md) | 147 | Robotics frameworks, simulation, ROS, autonomy, drones, control, embodied AI, sensing, and real-world machine intelligence. |
 | [Geospatial and Mapping Radar](geospatial.md) | 153 | GIS, mapping, routing, spatial databases, Earth observation, geospatial analytics, and digital-twin infrastructure. |
-| [Creative Computing Radar](creative-computing.md) | 180 | Creative coding, graphics, animation, video, audio, generative art, design tools, 3D engines, and programmable media. |
+| [Creative Computing Radar](creative-computing.md) | 179 | Creative coding, graphics, animation, video, audio, generative art, design tools, 3D engines, and programmable media. |
 | [Self-Hosted and Local-First Radar](self-hosted.md) | 184 | Self-hosted applications, personal clouds, local-first software, homelab infrastructure, privacy tools, and independent automation. |
 | [Scientific Computing Radar](scientific-computing.md) | 177 | Numerical computing, simulation, solvers, research software, reproducible science, and scientific-machine-learning infrastructure. |
 | [Databases and Storage Radar](databases.md) | 162 | SQL, NoSQL, distributed databases, vector databases, storage engines, search systems, caches, and data infrastructure. |
