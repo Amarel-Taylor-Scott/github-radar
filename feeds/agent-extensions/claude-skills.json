@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T15:18:56+00:00",
+  "generated_at": "2026-11-15T15:51:03+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
     "description": "Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components."
   },
-  "count": 20,
+  "count": 79,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "claude-skills"
@@ -14,16 +14,89 @@
   "leaderboards": {
     "high_momentum": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:damus-io/notedeck:.claude/skills/nd",
+      "skill:manakuro/asana-clone-app:.claude/skills/pr",
+      "skill:rossoctl/rossoctl:.claude/skills/ci",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:tatsh/macprefs:.claude/skills/ci",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:homebridge-plugins/homebridge-eufy:.claude/skills/qa",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:openwpm/openwpm:.claude/skills/qa",
+      "skill:xlang-ai/cua-gym:.claude/skills/os",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:eric-tramel/slop-guard:.claude/skills/qa",
+      "skill:gaia-research/gaia-skill-tree:.claude/skills/pr",
+      "skill:davidroliverba/architectkb:.claude/skills/q",
+      "skill:srid/haskell-flake:.claude/skills/do",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "skill:ai4curation/ai-gene-review:.claude/skills/pm",
+      "skill:ashaychangwani/imprint:.claude/skills/pr",
+      "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "skill:buddiesofbudgie/budgie-desktop:.claude/skills/pr"
     ],
     "rising": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:damus-io/notedeck:.claude/skills/nd",
+      "skill:manakuro/asana-clone-app:.claude/skills/pr",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:rossoctl/rossoctl:.claude/skills/ci",
+      "skill:tatsh/macprefs:.claude/skills/ci",
+      "skill:homebridge-plugins/homebridge-eufy:.claude/skills/qa",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:gaia-research/gaia-skill-tree:.claude/skills/pr",
+      "skill:xlang-ai/cua-gym:.claude/skills/os",
+      "skill:eric-tramel/slop-guard:.claude/skills/qa",
+      "skill:alamenai/terrae:.claude/skills/pr",
+      "skill:ashaychangwani/imprint:.claude/skills/pr",
+      "skill:davidroliverba/architectkb:.claude/skills/q",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:zmerlynn/manifold-csg:.claude/skills/pr",
+      "skill:egregore-labs/egregore:.claude/skills/pr",
+      "skill:openwpm/openwpm:.claude/skills/qa",
+      "skill:zeuikli/claude-code-workspace:.claude/skills/pm",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm"
     ],
     "popular": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:rossoctl/rossoctl:.claude/skills/ci",
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:tatsh/macprefs:.claude/skills/ci",
+      "skill:homebridge-plugins/homebridge-eufy:.claude/skills/qa",
+      "skill:quantumaikr/quant.cpp:.claude/skills/qa",
+      "skill:openwpm/openwpm:.claude/skills/qa",
+      "skill:buddiesofbudgie/budgie-desktop:.claude/skills/pr",
+      "skill:damus-io/notedeck:.claude/skills/nd",
+      "skill:srid/haskell-flake:.claude/skills/do",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:vinix24/vnx-orchestration:.claude/skills/pm",
+      "skill:boundless-xyz/boundless:.claude/skills/pr",
+      "skill:shugo/textbringer:.claude/skills/pr",
+      "skill:ai4curation/ai-gene-review:.claude/skills/pm",
+      "skill:egregore-labs/egregore:.claude/skills/pr",
+      "skill:adamayoung/tmdb:.claude/skills/pr",
+      "skill:mlrun/ce:.claude/skills/pr",
+      "skill:hello-qm/catgo-lrg:.claude/skills/qe",
+      "skill:manakuro/asana-clone-app:.claude/skills/pr",
+      "skill:talmolab/sleap-nn:.claude/skills/pr"
     ],
-    "new": []
+    "new": [
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:yaralahruthik/find-me-a-job:.claude/skills/fh"
+    ]
   }
 }
