@@ -1,12 +1,12 @@
 {
   "ok": true,
   "schema_version": 2,
-  "generated_at": "2026-11-14T15:48:31+00:00",
-  "source_commit": "ae7cdff0124ea45cde1b1be9521f0efd55e9d3bd",
-  "projects": 2670,
+  "generated_at": "2026-11-15T16:21:22+00:00",
+  "source_commit": "c377b533ebcb01fc511ae1e7c4ee7a0ffce41afa",
+  "projects": 2675,
   "catalogs": {
-    "interesting-projects": 2670,
-    "ai-agents": 212,
+    "interesting-projects": 2675,
+    "ai-agents": 211,
     "ai-engineering": 217,
     "developer-tools": 181,
     "data-engineering": 160,
@@ -20,9 +20,9 @@
     "cloud-native": 181,
     "bioinformatics": 166,
     "civic-tech": 127,
-    "accessibility": 172,
+    "accessibility": 173,
     "game-development": 124,
-    "business-automation": 149
+    "business-automation": 147
   },
   "source_health": {
     "total": 72,
@@ -33,11 +33,11 @@
   },
   "history_mode": "mixed-observed-and-provisional",
   "measurement": {
-    "observed_history_projects": 2594,
-    "fully_measured_projects": 2494,
-    "provisional_projects": 76,
+    "observed_history_projects": 2593,
+    "fully_measured_projects": 2500,
+    "provisional_projects": 82,
     "community_profiles": 220,
-    "review_flagged_projects": 1685
+    "review_flagged_projects": 1684
   },
   "publication_manifest": "publication-manifest.json",
   "audit": "audit.json",

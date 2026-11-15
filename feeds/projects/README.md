@@ -1,6 +1,6 @@
 # GitHub Project Radars
 
-_Generated 2026-11-14T15:48:31+00:00._
+_Generated 2026-11-15T16:21:22+00:00._
 
 One read-only engine publishes domain-specific catalogs of high-quality, confidence-aware high-momentum, novel, up-and-coming, and interesting GitHub projects.
 
@@ -8,8 +8,8 @@ One read-only engine publishes domain-specific catalogs of high-quality, confide
 
 | Catalog | Projects | Description |
 |:--------|---------:|:------------|
-| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,670 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
-| [AI Agents Radar](ai-agents.md) | 212 | Agent runtimes, coding agents, multi-agent systems, tool-using assistants, orchestration engines, and agent infrastructure. |
+| [Interesting GitHub Projects Radar](interesting-projects.md) | 2,675 | A cross-domain shortlist of unusually interesting, well-maintained, fast-growing, novel, or under-recognized open-source projects. |
+| [AI Agents Radar](ai-agents.md) | 211 | Agent runtimes, coding agents, multi-agent systems, tool-using assistants, orchestration engines, and agent infrastructure. |
 | [AI Engineering Radar](ai-engineering.md) | 217 | LLM infrastructure, RAG, inference, evaluation, observability, model serving, vector systems, and production ML tooling. |
 | [Developer Tools Radar](developer-tools.md) | 181 | Editors, terminals, CLIs, debuggers, API clients, build tools, code intelligence, testing, and developer-experience projects. |
 | [Data Engineering Radar](data-engineering.md) | 160 | Data pipelines, ETL and ELT, orchestration, streaming, warehouses, lakehouses, analytics engineering, and data-quality tools. |
@@ -23,6 +23,6 @@ One read-only engine publishes domain-specific catalogs of high-quality, confide
 | [Cloud-Native Infrastructure Radar](cloud-native.md) | 181 | Kubernetes, containers, service meshes, observability, platform engineering, deployment, and cloud-native runtime infrastructure. |
 | [Bioinformatics and Computational Biology Radar](bioinformatics.md) | 166 | Genomics, single-cell analysis, computational biology, biomedical data, sequence analysis, and reproducible life-science tooling. |
 | [Civic Technology Radar](civic-tech.md) | 127 | Open government, public-interest technology, civic participation, public data, mobility standards, and accountable institutions. |
-| [Accessibility and Assistive Technology Radar](accessibility.md) | 172 | Accessibility testing, assistive technology, inclusive interfaces, screen-reader tooling, captions, speech, and adaptive software. |
+| [Accessibility and Assistive Technology Radar](accessibility.md) | 173 | Accessibility testing, assistive technology, inclusive interfaces, screen-reader tooling, captions, speech, and adaptive software. |
 | [Game Development Radar](game-development.md) | 124 | Game engines, rendering, tooling, procedural generation, simulation, networking, asset pipelines, and open-source game development. |
-| [Business Automation Radar](business-automation.md) | 149 | Workflow automation, low-code platforms, internal tools, integration systems, process orchestration, and open-source business operations. |
+| [Business Automation Radar](business-automation.md) | 147 | Workflow automation, low-code platforms, internal tools, integration systems, process orchestration, and open-source business operations. |
