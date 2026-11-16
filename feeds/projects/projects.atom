@@ -2,182 +2,182 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:github.com,2026:Amarel-Taylor-Scott/github-radar/projects</id>
   <title>Interesting GitHub Projects Radar</title>
-  <updated>2026-11-15T16:21:22Z</updated>
+  <updated>2026-11-16T19:36:22Z</updated>
   <link href="https://github.com/Amarel-Taylor-Scott/github-radar/blob/main/feeds/projects/interesting-projects.md"/>
   <link rel="self" href="https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/feeds/projects/projects.atom"/>
   <entry>
     <id>urn:github-radar:repo:xerj-org/xerj</id>
-    <title>xerj-org/xerj — interesting 87.4</title>
+    <title>xerj-org/xerj — interesting 87.0</title>
     <link href="https://github.com/xerj-org/xerj"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>AI search engine and MCP server for bots and agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticsearch-compatible API; Corpus Hub serves hundreds of reference memory corpora.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:loopx-project/loopx</id>
-    <title>loopx-project/loopx — interesting 85.2</title>
-    <link href="https://github.com/loopx-project/loopx"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>The control plane for 24/7 always-on agents. Turn long-horizon goals into verifiable results across Codex, Claude Code, and custom runtimes—from local SQLite to team scale.</summary>
+    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
+    <title>sickn33/agentic-awesome-skills — interesting 84.9</title>
+    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:opentrap/opentrap</id>
-    <title>opentrap/opentrap — interesting 83.2</title>
-    <link href="https://github.com/opentrap/opentrap"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
-    <title>alirezarezvani/claude-skills — interesting 83.2</title>
-    <link href="https://github.com/alirezarezvani/claude-skills"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:alexsergivan/kwant</id>
-    <title>alexsergivan/kwant — interesting 83.1</title>
-    <link href="https://github.com/alexsergivan/kwant"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots. Rust + React.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:openai/codex-security</id>
-    <title>openai/codex-security — interesting 81.8</title>
-    <link href="https://github.com/openai/codex-security"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>OpenAI&#x27;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:devswha/ovis</id>
-    <title>devswha/ovis — interesting 81.7</title>
-    <link href="https://github.com/devswha/ovis"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Ovis (formerly herdr web UI): free, open-source browser and phone client for herdr. Chat and live terminal for Claude Code, Codex and every agent pane, remote PCs over SSH, web push alerts</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:thedotmack/claude-mem</id>
-    <title>thedotmack/claude-mem — interesting 81.3</title>
-    <link href="https://github.com/thedotmack/claude-mem"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</summary>
+    <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
+    <title>K-Dense-AI/scientific-agent-skills — interesting 84.4</title>
+    <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:hbai-ltd/toonflow-app</id>
-    <title>HBAI-Ltd/Toonflow-app — interesting 81.3</title>
+    <title>HBAI-Ltd/Toonflow-app — interesting 84.0</title>
     <link href="https://github.com/HBAI-Ltd/Toonflow-app"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:graphify-labs/graphify</id>
-    <title>Graphify-Labs/graphify — interesting 80.8</title>
+    <title>Graphify-Labs/graphify — interesting 83.7</title>
     <link href="https://github.com/Graphify-Labs/graphify"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:alirezarezvani/claude-skills</id>
+    <title>alirezarezvani/claude-skills — interesting 83.5</title>
+    <link href="https://github.com/alirezarezvani/claude-skills"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>410 Claude Code skills &amp; agent skills &amp; plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:loopx-project/loopx</id>
+    <title>loopx-project/loopx — interesting 82.2</title>
+    <link href="https://github.com/loopx-project/loopx"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>The control plane for 24/7 always-on agents. Turn long-horizon goals into verifiable results across Codex, Claude Code, and custom runtimes—from local SQLite to team scale.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:openai/codex-security</id>
+    <title>openai/codex-security — interesting 81.6</title>
+    <link href="https://github.com/openai/codex-security"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>OpenAI&#x27;s Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:opentrap/opentrap</id>
+    <title>opentrap/opentrap — interesting 81.3</title>
+    <link href="https://github.com/opentrap/opentrap"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>A free, open-source alternative to Burp Suite: an intercepting proxy and web app security testing suite with Repeater, Intruder, Collaborator and a built-in OWASP ZAP scanner. Linux, AGPL-3.0.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:thedotmack/claude-mem</id>
+    <title>thedotmack/claude-mem — interesting 81.2</title>
+    <link href="https://github.com/thedotmack/claude-mem"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:sloemo01/diorama</id>
+    <title>sloemo01/diorama — interesting 80.9</title>
+    <link href="https://github.com/sloemo01/diorama"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Playbook and Three.js code kit for detailed dioramas: classic pixel art, stroked toon or pixel + stroke; two intake gates for look and model sourcing; free orbit, palette snap and ink; animated toy-scale cast; per-entity frame QA.</summary>
   </entry>
   <entry>
     <id>urn:github-radar:repo:aipoch/open-science</id>
     <title>aipoch/open-science — interesting 80.5</title>
     <link href="https://github.com/aipoch/open-science"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:opengeos/geolibre</id>
-    <title>opengeos/GeoLibre — interesting 80.5</title>
-    <link href="https://github.com/opengeos/GeoLibre"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:sickn33/agentic-awesome-skills</id>
-    <title>sickn33/agentic-awesome-skills — interesting 80.1</title>
-    <link href="https://github.com/sickn33/agentic-awesome-skills"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:autonomous-ai/openharness</id>
-    <title>autonomous-ai/openharness — interesting 80.0</title>
+    <title>autonomous-ai/openharness — interesting 80.3</title>
     <link href="https://github.com/autonomous-ai/openharness"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines: CAD, circuits, robots, games and music.</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:deanchensj/jiangshan-map</id>
+    <title>DeanChensj/jiangshan-map — interesting 80.3</title>
+    <link href="https://github.com/DeanChensj/jiangshan-map"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:asgeirtj/system_prompts_leaks</id>
+    <title>asgeirtj/system_prompts_leaks — interesting 80.0</title>
+    <link href="https://github.com/asgeirtj/system_prompts_leaks"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Leaked system prompts of ChatGPT, Claude, Gemini and more. The hidden system prompt of every popular chatbot, in full, every version since May 2025. Also Anthropic Claude Code, OpenAI Codex, Google Antigravity, xAI Grok, Meta Muse, Moonshot Kimi, Alibaba Qwen, Z.ai GLM ZCode, MiniMax, Cursor, Perplexity, DeepSeek and 30+ others. Updated daily.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:opengeos/geolibre</id>
+    <title>opengeos/GeoLibre — interesting 79.5</title>
+    <link href="https://github.com/opengeos/GeoLibre"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.</summary>
+  </entry>
+  <entry>
+    <id>urn:github-radar:repo:omnigent-ai/omnigent</id>
+    <title>omnigent-ai/omnigent — interesting 79.4</title>
+    <link href="https://github.com/omnigent-ai/omnigent"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:ruvnet/ruflo</id>
-    <title>ruvnet/ruflo — interesting 79.6</title>
+    <title>ruvnet/ruflo — interesting 79.4</title>
     <link href="https://github.com/ruvnet/ruflo"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
-    <title>opendataloader-project/opendataloader-pdf — interesting 79.2</title>
-    <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:future-agi/future-agi</id>
-    <title>future-agi/future-agi — interesting 79.0</title>
-    <link href="https://github.com/future-agi/future-agi"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.</summary>
-  </entry>
-  <entry>
-    <id>urn:github-radar:repo:firsttris/haben</id>
-    <title>firsttris/haben — interesting 79.0</title>
-    <link href="https://github.com/firsttris/haben"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Selbst gehostete Buchhaltung für Freiberufler, Selbstständige, Kleinunternehmer, GmbH und UG: E-Rechnung (ZUGFeRD, XRechnung), Belege, Bankabgleich, EÜR oder Bilanz, E-Bilanz und Steuererklärungen an ELSTER. Für die GoBD gebaut, DATEV-Export. Open-Source-Alternative zu Lexware Office (lexoffice) und sevDesk. Docker-Image für den eigenen Server.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:semantica-agi/semantica</id>
-    <title>semantica-agi/semantica — interesting 78.4</title>
+    <title>semantica-agi/semantica — interesting 78.9</title>
     <link href="https://github.com/semantica-agi/semantica"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>Graph-Native Infrastructure for Context and Accountable AI Systems</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:opendataloader-project/opendataloader-pdf</id>
+    <title>opendataloader-project/opendataloader-pdf — interesting 78.6</title>
+    <link href="https://github.com/opendataloader-project/opendataloader-pdf"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:horizon-rust/horizon</id>
-    <title>horizon-rust/horizon — interesting 78.3</title>
+    <title>horizon-rust/horizon — interesting 78.5</title>
     <link href="https://github.com/horizon-rust/horizon"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:k-dense-ai/scientific-agent-skills</id>
-    <title>K-Dense-AI/scientific-agent-skills — interesting 78.0</title>
-    <link href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:milvus-io/milvus</id>
-    <title>milvus-io/milvus — interesting 77.3</title>
+    <title>milvus-io/milvus — interesting 77.7</title>
     <link href="https://github.com/milvus-io/milvus"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search</summary>
   </entry>
   <entry>
-    <id>urn:github-radar:repo:blixvip/nullmotion</id>
-    <title>blixvip/NullMotion — interesting 77.2</title>
-    <link href="https://github.com/blixvip/NullMotion"/>
-    <updated>2026-11-15T16:21:22Z</updated>
-    <summary>Play a finished motion-graphics ad in sync with the rough drafts it grew from, and export the breakdown as MP4.</summary>
-  </entry>
-  <entry>
     <id>urn:github-radar:repo:oceanbase/oceanbase</id>
-    <title>oceanbase/oceanbase — interesting 75.9</title>
+    <title>oceanbase/oceanbase — interesting 76.1</title>
     <link href="https://github.com/oceanbase/oceanbase"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.</summary>
   </entry>
   <entry>
+    <id>urn:github-radar:repo:thetahealth/mirobody</id>
+    <title>thetahealth/mirobody — interesting 73.2</title>
+    <link href="https://github.com/thetahealth/mirobody"/>
+    <updated>2026-11-16T19:36:22Z</updated>
+    <summary>Mirror your body in data. One standard, every source, one complete picture of you: a self-hosted health record built from lab reports, wearables and genetics, with every number traced to its source and a built-in MCP server. Run it with Docker and one LLM key, or keep every model local on llama.cpp.</summary>
+  </entry>
+  <entry>
     <id>urn:github-radar:repo:okfn-brasil/querido-diario</id>
-    <title>okfn-brasil/querido-diario — interesting 69.0</title>
+    <title>okfn-brasil/querido-diario — interesting 68.6</title>
     <link href="https://github.com/okfn-brasil/querido-diario"/>
-    <updated>2026-11-15T16:21:22Z</updated>
+    <updated>2026-11-16T19:36:22Z</updated>
     <summary>📰 Diários oficiais brasileiros acessíveis a todos     |     📰 Brazilian government gazettes, accessible to everyone.</summary>
   </entry>
 </feed>
