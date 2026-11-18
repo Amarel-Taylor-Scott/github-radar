@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T17:51:19+00:00",
+  "generated_at": "2026-11-18T17:30:21+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
     "description": "Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components."
   },
-  "count": 20,
+  "count": 79,
   "dataset": "latest.json",
   "filter": {
     "catalog_id": "claude-skills"
@@ -14,16 +14,91 @@
   "leaderboards": {
     "high_momentum": [
       "skill:vercel-labs/skills:skills/find-skills",
-      "skill:anthropics/skills:skills/academy-guide"
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:ryancodrai/turbovec:.claude/skills/s",
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:shift-editor/shift:.claude/skills/ui",
+      "skill:evermind-ai/everos:.claude/skills/pr",
+      "skill:maotoumao/cebian:.claude/skills/cl",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:nvlabs/enpire:.claude/skills/pr",
+      "skill:redocly/redocly-cli:.claude/skills/pr",
+      "skill:wellwelwel/lagune:.claude/skills/ui",
+      "skill:aethersdr/aethersdr:.claude/skills/fb",
+      "skill:katanemo/plano:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:finos/morphir:.claude/skills/kb",
+      "skill:wado-lang/wado:.claude/skills/cr",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:liferay/liferay-portal:.claude/skills/pr",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:gram-ax/gramax:.claude/skills/ci"
     ],
     "rising": [
       "skill:vercel-labs/skills:skills/find-skills",
-      "skill:anthropics/skills:skills/academy-guide"
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:ryancodrai/turbovec:.claude/skills/s",
+      "skill:nvlabs/enpire:.claude/skills/pr",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:maotoumao/cebian:.claude/skills/cl",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:shift-editor/shift:.claude/skills/ui",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:wellwelwel/lagune:.claude/skills/ui",
+      "skill:evermind-ai/everos:.claude/skills/pr",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:aethersdr/aethersdr:.claude/skills/fb",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:redocly/redocly-cli:.claude/skills/pr",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:katanemo/plano:.claude/skills/pr",
+      "skill:wado-lang/wado:.claude/skills/cr",
+      "skill:daaf-contribution-community/daaf:.claude/skills/gt",
+      "skill:finos/morphir:.claude/skills/kb",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:gram-ax/gramax:.claude/skills/ci"
     ],
     "popular": [
       "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:evermind-ai/everos:.claude/skills/pr",
+      "skill:ryancodrai/turbovec:.claude/skills/s",
+      "skill:homeassistant-ai/ha-mcp:.claude/skills/wt",
+      "skill:redocly/redocly-cli:.claude/skills/pr",
+      "skill:srizzon/git-city:.claude/skills/gg",
+      "skill:katanemo/plano:.claude/skills/pr",
+      "skill:aethersdr/aethersdr:.claude/skills/fb",
+      "skill:shift-editor/shift:.claude/skills/ui",
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:near/nearcore:.claude/skills/pr",
+      "skill:finos/morphir:.claude/skills/kb",
+      "skill:dexforce/embodichain:.claude/skills/pr",
+      "skill:wellwelwel/lagune:.claude/skills/ui",
+      "skill:liferay/liferay-portal:.claude/skills/pr",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa",
+      "skill:talmolab/sleap:.claude/skills/pr",
+      "skill:wado-lang/wado:.claude/skills/cr",
+      "skill:zacharyfmarion/openscad-studio:.claude/skills/pr",
+      "skill:llama-farm/llamafarm:.claude/skills/wt",
+      "skill:famstack-dev/famstack:.claude/skills/pr",
+      "skill:gram-ax/gramax:.claude/skills/ci",
+      "skill:trevoke/org-gtd.el:.claude/skills/qa",
+      "skill:maotoumao/cebian:.claude/skills/cl"
     ],
-    "new": []
+    "new": [
+      "skill:kryptamine/herdr-auto-title:.claude/skills/pr",
+      "skill:nvlabs/enpire:.claude/skills/pr",
+      "skill:wellwelwel/lagune:.claude/skills/ui",
+      "skill:theophile-wallez/lichessneo:.claude/skills/ci",
+      "skill:levy-street/world-of-claudecraft:.claude/skills/qa"
+    ]
   }
 }
