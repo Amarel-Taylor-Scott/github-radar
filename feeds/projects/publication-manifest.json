@@ -1,304 +1,304 @@
 {
   "schema_version": 2,
   "schema_url": "https://raw.githubusercontent.com/Amarel-Taylor-Scott/github-radar/main/schemas/project-radar-manifest-v2.schema.json",
-  "generated_at": "2026-11-19T18:16:15+00:00",
-  "source_commit": "77d56332764e81fb159d9c269221931a3e3241a1",
+  "generated_at": "2026-11-20T17:48:10+00:00",
+  "source_commit": "f265377089507413cf6ea40a93c0608f99964c95",
   "file_count": 76,
-  "total_bytes": 66200731,
+  "total_bytes": 66566615,
   "files": [
     {
       "scope": "feed",
       "path": "README.md",
       "bytes": 3923,
-      "sha256": "8acf3f865e553e678a299afa3c782510adc977f8c76808373ad5dd226f6e3218"
+      "sha256": "abed25c7628a53c93c7284a6847c965ed33702a240b3601b72b6697b53a50611"
     },
     {
       "scope": "feed",
       "path": "accessibility.json",
-      "bytes": 14733,
-      "sha256": "b06ed883db47027ad01b56606a2c1f85a2ad236536d616bd1e7a4d06ea95b7c2"
+      "bytes": 14694,
+      "sha256": "e25294e646d0691d4e2763a9866210b24cafbdb5e88fce22a7d942e61d13fa63"
     },
     {
       "scope": "feed",
       "path": "accessibility.md",
-      "bytes": 65342,
-      "sha256": "4b6fb4ff20562254133302134126273131b1095d3f3bbe923ba22387b9044829"
+      "bytes": 64308,
+      "sha256": "0478210ef3d352825473c1046b8b0c5315e7a14a4dadeff4a4f843355c66b522"
     },
     {
       "scope": "feed",
       "path": "ai-agents.json",
-      "bytes": 15651,
-      "sha256": "6c8c28db378336de96881769abc943887998e3e3358131682f11d207da699c5f"
+      "bytes": 15908,
+      "sha256": "84605bc13415fa2276d14e0dbf0a6db482771d1f545137759d474efbd114f55e"
     },
     {
       "scope": "feed",
       "path": "ai-agents.md",
-      "bytes": 69009,
-      "sha256": "3a239c215096225ba5cfea2873bf5a0fff22496f7946828e5c6906d8e1d22e09"
+      "bytes": 68828,
+      "sha256": "00505b7edb8a7929eaca9fa34a6c4ff7e6175f315cd49688552e5f3e83dfcab7"
     },
     {
       "scope": "feed",
       "path": "ai-engineering.json",
-      "bytes": 15424,
-      "sha256": "52f04a115c590a7fdfef044bd0d0e590fcbbf2a6b37ef770e62e1cc7685f85df"
+      "bytes": 15513,
+      "sha256": "3309e4331ea3b358b9b66476afe64240950659704551b3d1eeb915ecae43572c"
     },
     {
       "scope": "feed",
       "path": "ai-engineering.md",
-      "bytes": 68588,
-      "sha256": "ac6cfa8f36ca5e954a7c24744e76460d6ae4c6bcb4b4d98f2b068b14dd1aad1e"
+      "bytes": 68395,
+      "sha256": "2fb70c0ce511d8c330081604884bc76bec89d18a1c2c82c032d98422c828526e"
     },
     {
       "scope": "feed",
       "path": "audit.json",
-      "bytes": 13025,
-      "sha256": "bcd3c52ecb67c2ac7f2e1d050008f6ccba96058ae944bfb290a9e9f04c50b597"
+      "bytes": 13024,
+      "sha256": "70cc21a67c08703b691f8d0682a05fca042cbb2dc669cfc1922db5461805b314"
     },
     {
       "scope": "feed",
       "path": "audit.md",
-      "bytes": 2218,
-      "sha256": "e810aa363c244db9f4a04fd7a530103f69b9f9b5550f7fb16b69339567eb452d"
+      "bytes": 2216,
+      "sha256": "0160d93185299eb82f39a63243dcb81aac7968870bb2463c18c5caa5fa86f070"
     },
     {
       "scope": "feed",
       "path": "bioinformatics.json",
-      "bytes": 14272,
-      "sha256": "527b60e16d76b2744bbd6468ee1643e91ba7270e9b1aee3897c36149df2debb3"
+      "bytes": 14452,
+      "sha256": "0e575aff2c80e7282b1408440762f4f9ad4c538667e56e362b5bb0b767f81cba"
     },
     {
       "scope": "feed",
       "path": "bioinformatics.md",
-      "bytes": 62162,
-      "sha256": "bc448e8eacfeeea4ed014d3057a99fceccee4fe8321a4c8e9a01c6d33d84c57d"
+      "bytes": 62453,
+      "sha256": "326217dc27015efd541897860262975a3203dad1723278b68eab1be883dfc36e"
     },
     {
       "scope": "feed",
       "path": "business-automation.json",
-      "bytes": 12958,
-      "sha256": "642e2e85d59f8daa6aedc880cc91d70fbb89ae62f4ab72640b831892eed58094"
+      "bytes": 13093,
+      "sha256": "829b0391c679df08e58f4773f2caab41aaac6798d77fc1e082d76c69e4f623be"
     },
     {
       "scope": "feed",
       "path": "business-automation.md",
-      "bytes": 68796,
-      "sha256": "94c9ddfc1d75c40822e8c199ac48945a1df5d6957725c4a798fb6c931f3923a1"
+      "bytes": 69936,
+      "sha256": "054b3777e3416741eca16461863e21112c8b1c85043e539cd2ed51ffc75ff42b"
     },
     {
       "scope": "feed",
       "path": "changes.json",
-      "bytes": 1436423,
-      "sha256": "61a5549fdf1d8a00716c44e298d2057df1beaac9d7b9d268ca6a9f9e4c1c0391"
+      "bytes": 1415125,
+      "sha256": "cc0dad81defb4846a083cb3925fee3977faae8ebdda6edfbebf05fdb6405a92f"
     },
     {
       "scope": "feed",
       "path": "changes.md",
-      "bytes": 20851,
-      "sha256": "34951cb922b6e8b6728b2b99ed42efba49d60bc5048fb5783da9f80d8eb362be"
+      "bytes": 21353,
+      "sha256": "0d656525869a2aed0c78eb9612d1d46b1a1e126b14c0d59b4f868d64d9ef753e"
     },
     {
       "scope": "feed",
       "path": "civic-tech.json",
-      "bytes": 13564,
-      "sha256": "f822c781c8dc4fb03c2976d70201205b7751ad1086e86c8dcbccdc08b3d14029"
+      "bytes": 13652,
+      "sha256": "5f0015e8a8415a45a1bca25634ffcbcd098d9f76a3b58f3c224f2e48abfc4155"
     },
     {
       "scope": "feed",
       "path": "civic-tech.md",
-      "bytes": 64102,
-      "sha256": "132dc93f6b872d9d9d28be10e9bed1f1a753186444e134f6609fd0a43a9be458"
+      "bytes": 64047,
+      "sha256": "9f32c45a3fe878c7028a3cf817129a1419fce2ae9abe66d5cc8773c0b483eeeb"
     },
     {
       "scope": "feed",
       "path": "cloud-native.json",
-      "bytes": 13657,
-      "sha256": "75fbc92e719c8e4b592318f98f1a41c88303bf0fbb72b5c5b0f60156aa4e33a8"
+      "bytes": 13628,
+      "sha256": "af24acd8ae231b184a44756c82bdd8cf8e23efe6752a7a7fdaaa3747e665a910"
     },
     {
       "scope": "feed",
       "path": "cloud-native.md",
-      "bytes": 59978,
-      "sha256": "1b1346342c65044eaa5aa780d04d28d99099fe2989feebc747683451c7fef102"
+      "bytes": 60122,
+      "sha256": "093bad8ccaa18cdb1c8dc710b552ed9bc91583cdbc4ac340038e66e5afec15a7"
     },
     {
       "scope": "feed",
       "path": "creative-computing.json",
-      "bytes": 14775,
-      "sha256": "ad50bf1c2ae8505e03415cf6cf10c8d49ec9eb172a1011da6beaaef21494aa82"
+      "bytes": 14696,
+      "sha256": "f36ce38be983d4e28a2ae66bd601fabaaff51c94a37ebdcd7a1aa71aeee68b64"
     },
     {
       "scope": "feed",
       "path": "creative-computing.md",
-      "bytes": 66564,
-      "sha256": "31ff2b3ce33ae665f03b3a7449804ce8412cb3c53fae0efd73b28382122e50be"
+      "bytes": 65987,
+      "sha256": "6bff111ceccf6906d08f164d16a5177b7e89a42ac1534e05e8cde950e42acae6"
     },
     {
       "scope": "feed",
       "path": "cybersecurity.json",
-      "bytes": 14570,
-      "sha256": "bd588be265ba91ec8e5180bbe158225c5eb137dc5af9839a3d001ab69936fad0"
+      "bytes": 14520,
+      "sha256": "4b2d1019e9312eb7895794d65b92777ee77d5e669adac9a94efc5a6c1c5aa653"
     },
     {
       "scope": "feed",
       "path": "cybersecurity.md",
-      "bytes": 67967,
-      "sha256": "889bab4cf1d399fce1732153805efa6c9f60911a44978ad1128972d3bcd0be46"
+      "bytes": 67223,
+      "sha256": "80dbf6fc33216cfbbc045c9b6bbc04bdae9192f7ba971de054af4628c9aa228d"
     },
     {
       "scope": "feed",
       "path": "data-engineering.json",
-      "bytes": 13552,
-      "sha256": "74968949276c2595ebcf6f4f387e8e75ea4d8c7c95dc0557a8582cea1ec38cfa"
+      "bytes": 13615,
+      "sha256": "ecc7541982fdd1619f71ae3ab9bf5bc4d1821f2f25fdbe0d788cf3c169ef97bd"
     },
     {
       "scope": "feed",
       "path": "data-engineering.md",
-      "bytes": 62646,
-      "sha256": "12342895a5c7837dff794463731a0daba7487cc025623f4e0554c04de2987388"
+      "bytes": 62960,
+      "sha256": "5651c683cada2484b6ea3671c7f09242a19545d9ebfcef0534e9dfc6f23da57a"
     },
     {
       "scope": "feed",
       "path": "databases.json",
-      "bytes": 12777,
-      "sha256": "f11ba7d6b440a74c2cbc00bfd5087cba804030d0023862fac773888612ca8520"
+      "bytes": 12713,
+      "sha256": "18998da623bbdf1f8f8b7de809e28f7ca55caafce48b1ecdb670fa1b2c788448"
     },
     {
       "scope": "feed",
       "path": "databases.md",
-      "bytes": 63733,
-      "sha256": "3a0c3ba88d93356b25a425a944354045bc475a4aeac929d6b083f86053a17f44"
+      "bytes": 63964,
+      "sha256": "f76b9f8046ef153f0a345f7361aad2ddb80d61a1437f1f05c0bc7037a7027e10"
     },
     {
       "scope": "feed",
       "path": "developer-tools.json",
-      "bytes": 13876,
-      "sha256": "9b0ea330812115a430388f91b1f87f386360d4c774134ad83add250f51f7e69e"
+      "bytes": 13873,
+      "sha256": "46c4fc211e06d9b18edc0cc77b40a3a671290717d25885536e00d8f52189f54a"
     },
     {
       "scope": "feed",
       "path": "developer-tools.md",
-      "bytes": 67455,
-      "sha256": "84f3406f51a36651a1e8150757a4209d5978550919d6eab3b4fd91e819ef0655"
+      "bytes": 68490,
+      "sha256": "8c5fc39e103066d0fcf918cf127ee412fada07a2961c3938ba53b0e4b21aaed8"
     },
     {
       "scope": "feed",
       "path": "game-development.json",
-      "bytes": 12076,
-      "sha256": "908bbec9e8d3de0274f933bc92b01db47648b9d2dfc74a995dea1fadbfff8dc4"
+      "bytes": 11978,
+      "sha256": "730b50d6a0a8957e90b771501b28a85d99f235ee5087a6a44db89f7259b34f42"
     },
     {
       "scope": "feed",
       "path": "game-development.md",
-      "bytes": 62694,
-      "sha256": "984797814187633ade9c7041796bb02e6440b110fb1170508e8b801b89daa802"
+      "bytes": 61230,
+      "sha256": "b29508d7c00bff77018ed18885ed1efeec7e5b9a8fedae0d9368f0d8369decbf"
     },
     {
       "scope": "feed",
       "path": "geospatial.json",
-      "bytes": 13352,
-      "sha256": "67f3e01836cb02e980fd775dc3adfb67cd825c1b0533ff8e2465fa626c1311af"
+      "bytes": 13268,
+      "sha256": "f78d1512630add9e46e584c1539467d9992f3cbddc00ab3026b2828eacb5f155"
     },
     {
       "scope": "feed",
       "path": "geospatial.md",
-      "bytes": 64713,
-      "sha256": "6a56a8ed5ba28fec99ceed0e97a299188dea0cbc3e72663fc4ee0e096f3591d6"
+      "bytes": 64400,
+      "sha256": "ddba14c49ad228939f18318252d338af1b7a356178f7127bfd2cdd19cb0384c3"
     },
     {
       "scope": "feed",
       "path": "history.json",
-      "bytes": 32992470,
-      "sha256": "546097a139fd655836cd906cbe59b5aa1605a40d3d41489d60a38bce5ebf9fb5"
+      "bytes": 33402346,
+      "sha256": "a7cffb4ec1f0abf03559f749a550e76e3324024a21922330298579113b40a395"
     },
     {
       "scope": "feed",
       "path": "interesting-projects.json",
-      "bytes": 98976,
-      "sha256": "7b2e6e60cd183c537f7147d9738959b497300b394b1685641e5904d1b87696eb"
+      "bytes": 98986,
+      "sha256": "30f8726179948f601346c2f860a57a2b1c79a2b49faf544e3b99f48f430f5d4f"
     },
     {
       "scope": "feed",
       "path": "interesting-projects.md",
-      "bytes": 70437,
-      "sha256": "1a85c76fe230787881b0fa8cc67d16a0fba4b332f5585c4e4d66ebab08519f5f"
+      "bytes": 71510,
+      "sha256": "da85039159e4995b4c3d372032ecc45652352253eb541e63484eb9043cc2c653"
     },
     {
       "scope": "feed",
       "path": "latest.json",
-      "bytes": 10415155,
-      "sha256": "f436b000378745bb69b5ef97d6fb2cab0a004d993f384d645973779f630f3ecc"
+      "bytes": 10413872,
+      "sha256": "fa0c2db95f190a959b5d412d6b3d1136579983275fa1258bd8af06f3bab6d4cd"
     },
     {
       "scope": "feed",
       "path": "projects.atom",
-      "bytes": 12852,
-      "sha256": "bab8ab0bd8a20078e27b41b1c14669615f4e1472201d85164cd569d78e1d4905"
+      "bytes": 13071,
+      "sha256": "74f841c18682c253fb5bbd8416d92e9a085f55c37b490f69bb592655dd489bcf"
     },
     {
       "scope": "feed",
       "path": "review-queue.json",
-      "bytes": 154157,
-      "sha256": "ead05be16831f266aaea825f1aec00891a7d5d3b8ce7969441f666d04da91978"
+      "bytes": 154552,
+      "sha256": "024c40cf416045141c19a3d45de35781e5c9fb4f076973db60c1cf84dceed8c6"
     },
     {
       "scope": "feed",
       "path": "review-queue.md",
-      "bytes": 33316,
-      "sha256": "23477f472437f8a176b07f84753b7be4375b10861112455b07576d930ed285d9"
+      "bytes": 33768,
+      "sha256": "c263915f77584f7ca39e2cdb1f5147512720a65f012b468dc3feb3e37b2aa052"
     },
     {
       "scope": "feed",
       "path": "robotics.json",
-      "bytes": 13723,
-      "sha256": "ba387786563398e2bccf23fa4ec7a435d3ad77034f8e98293c474a4d4b8d431d"
+      "bytes": 13731,
+      "sha256": "00de6fd44c8c2b4ba792ea7701d4710d085d501238aa96fb01faac5759101ed3"
     },
     {
       "scope": "feed",
       "path": "robotics.md",
-      "bytes": 62504,
-      "sha256": "35d0972069e8f23ce6a482ef61238565b5d04a45429354bdb49ac9fb26de94fa"
+      "bytes": 61486,
+      "sha256": "fc2e6ad5b65510b8b465eada6fa24380135a9111260857f201e998990af467a3"
     },
     {
       "scope": "feed",
       "path": "scientific-computing.json",
-      "bytes": 14635,
-      "sha256": "453a277556ac5a8ef9e9a84e32dce355e926b4018620c17fda3274f3ecae6428"
+      "bytes": 14738,
+      "sha256": "1a6298cb72f43fb3b01824329b5195de8f06c4539b5c74ad476359d65f967d11"
     },
     {
       "scope": "feed",
       "path": "scientific-computing.md",
-      "bytes": 66033,
-      "sha256": "05a7d006525ad37d33c776cb7ffe939d5edfbc36c7b4ed71f75beab3c9b4eb3a"
+      "bytes": 65846,
+      "sha256": "4d82a05a9748ea0c5069a7bd625671b025e19c25aee0a0d567cd8f1a5d744895"
     },
     {
       "scope": "feed",
       "path": "self-hosted.json",
-      "bytes": 13945,
-      "sha256": "803e2682c2d8330681285450abefb67598d6b8ac97d9402cf0986b5687d60d2d"
+      "bytes": 13934,
+      "sha256": "8fa97cf850b83a7b02eeeeab1a1c9b2468d0652a737fa65593a1cce7eb81a041"
     },
     {
       "scope": "feed",
       "path": "self-hosted.md",
-      "bytes": 67312,
-      "sha256": "fed3c03ed1b250402f508199597ad6d5dda61b8ccb411b3fb71015b8b3c176eb"
+      "bytes": 67602,
+      "sha256": "5fec76e6b28e6f9d805b6afd69e76aacaa1bef9150c71cac80a4e9af53298d81"
     },
     {
       "scope": "feed",
       "path": "status.json",
       "bytes": 1193,
-      "sha256": "09cc4e8ce0bc6141dfd54c8aa7ef774cec392d64c7df318e2253639e1b123b39"
+      "sha256": "2067f9161e63b50ed986beded0dc111462ca52c12e967f10439654147b64aa75"
     },
     {
       "scope": "site",
       "path": "audit.json",
-      "bytes": 13025,
-      "sha256": "bcd3c52ecb67c2ac7f2e1d050008f6ccba96058ae944bfb290a9e9f04c50b597"
+      "bytes": 13024,
+      "sha256": "70cc21a67c08703b691f8d0682a05fca042cbb2dc669cfc1922db5461805b314"
     },
     {
       "scope": "site",
       "path": "audit.md",
-      "bytes": 2218,
-      "sha256": "e810aa363c244db9f4a04fd7a530103f69b9f9b5550f7fb16b69339567eb452d"
+      "bytes": 2216,
+      "sha256": "0160d93185299eb82f39a63243dcb81aac7968870bb2463c18c5caa5fa86f070"
     },
     {
       "scope": "site",
@@ -322,13 +322,13 @@
       "scope": "site",
       "path": "badges/bioinformatics.json",
       "bytes": 131,
-      "sha256": "8a236a4adbbf197d04874b54d7d0b38f72f21cc84f84252091c75ffc7a226672"
+      "sha256": "2aed7126c6377fdbd9f63e694316858966b85a37e07facc98d30de99c4a4c9e0"
     },
     {
       "scope": "site",
       "path": "badges/business-automation.json",
       "bytes": 110,
-      "sha256": "f9bbcf1bd6f08d7cdcdfc5d8d4e5b19f98ec51fd93f207d5c0d6bd1142a605f9"
+      "sha256": "18ebb12abb2cdd487957c7341371b28febecd818d8612d5d80a62f2ab19b571b"
     },
     {
       "scope": "site",
@@ -352,13 +352,13 @@
       "scope": "site",
       "path": "badges/creative-computing.json",
       "bytes": 109,
-      "sha256": "663ac33b2e335ea3824aa743b9f902c840ef958539b45af1d3f5d602a2c04bb0"
+      "sha256": "3bcb01f36587728934744867afde332288c020af5a3e931cdc2219af4572faae"
     },
     {
       "scope": "site",
       "path": "badges/cybersecurity.json",
       "bytes": 110,
-      "sha256": "482361398a591bdbd526b182436a529ceca8f1d659cf5d6e11f771742a98a8d5"
+      "sha256": "62d5331cdcdc30ec890a6bb744e39e4676e8b18c8f41a5627074ce4237cec502"
     },
     {
       "scope": "site",
@@ -382,7 +382,7 @@
       "scope": "site",
       "path": "badges/freshness.json",
       "bytes": 100,
-      "sha256": "2fb8c2939bdc09f2ac80fb102a47dea3e6a03e10aca6e532214aa51015b667de"
+      "sha256": "85ec60417290389c132a015166c91e8ad44095639cef01f9e5aadbfb0cc82739"
     },
     {
       "scope": "site",
@@ -412,55 +412,55 @@
       "scope": "site",
       "path": "badges/scientific-computing.json",
       "bytes": 111,
-      "sha256": "81cd44fe423c81fc844fa3101bb299cb09fb2db44392c0c37b787c9bbccfee36"
+      "sha256": "5e46df0d6590be5b59c8f9689e80bfbc5d50bbec3b1db0d08dad34fe651fe479"
     },
     {
       "scope": "site",
       "path": "badges/self-hosted.json",
       "bytes": 118,
-      "sha256": "397a01bb2a619399716900729c6c4cdc8311ee2d582e58de424b62cc8005c937"
+      "sha256": "b6b85f5bd47eeda4e93d90c3087179de3a463264c42436ee327ca6610b6959c6"
     },
     {
       "scope": "site",
       "path": "changes.json",
-      "bytes": 1436423,
-      "sha256": "61a5549fdf1d8a00716c44e298d2057df1beaac9d7b9d268ca6a9f9e4c1c0391"
+      "bytes": 1415125,
+      "sha256": "cc0dad81defb4846a083cb3925fee3977faae8ebdda6edfbebf05fdb6405a92f"
     },
     {
       "scope": "site",
       "path": "changes.md",
-      "bytes": 20851,
-      "sha256": "34951cb922b6e8b6728b2b99ed42efba49d60bc5048fb5783da9f80d8eb362be"
+      "bytes": 21353,
+      "sha256": "0d656525869a2aed0c78eb9612d1d46b1a1e126b14c0d59b4f868d64d9ef753e"
     },
     {
       "scope": "site",
       "path": "index.html",
-      "bytes": 7508383,
-      "sha256": "21148f0a5d18ed86d7ee5c3dcb224a015c144528de10eb45c7409be167306b9f"
+      "bytes": 7507195,
+      "sha256": "dfd3c812324ed452972cda6d5ca5ea2ed4bd4731ab2bbdf5ad572e07d474f948"
     },
     {
       "scope": "site",
       "path": "latest.json",
-      "bytes": 10415155,
-      "sha256": "f436b000378745bb69b5ef97d6fb2cab0a004d993f384d645973779f630f3ecc"
+      "bytes": 10413872,
+      "sha256": "fa0c2db95f190a959b5d412d6b3d1136579983275fa1258bd8af06f3bab6d4cd"
     },
     {
       "scope": "site",
       "path": "projects.atom",
-      "bytes": 12852,
-      "sha256": "bab8ab0bd8a20078e27b41b1c14669615f4e1472201d85164cd569d78e1d4905"
+      "bytes": 13071,
+      "sha256": "74f841c18682c253fb5bbd8416d92e9a085f55c37b490f69bb592655dd489bcf"
     },
     {
       "scope": "site",
       "path": "review-queue.json",
-      "bytes": 154157,
-      "sha256": "ead05be16831f266aaea825f1aec00891a7d5d3b8ce7969441f666d04da91978"
+      "bytes": 154552,
+      "sha256": "024c40cf416045141c19a3d45de35781e5c9fb4f076973db60c1cf84dceed8c6"
     },
     {
       "scope": "site",
       "path": "review-queue.md",
-      "bytes": 33316,
-      "sha256": "23477f472437f8a176b07f84753b7be4375b10861112455b07576d930ed285d9"
+      "bytes": 33768,
+      "sha256": "c263915f77584f7ca39e2cdb1f5147512720a65f012b468dc3feb3e37b2aa052"
     }
   ]
 }
