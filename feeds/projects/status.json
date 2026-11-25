@@ -1,28 +1,28 @@
 {
   "ok": true,
   "schema_version": 2,
-  "generated_at": "2026-11-24T20:09:29+00:00",
-  "source_commit": "6dc0cec71d4cf8c9b59fb2c3d60a74f171c3d00e",
-  "projects": 2673,
+  "generated_at": "2026-11-25T19:15:51+00:00",
+  "source_commit": "2042873e99c06177e86deb29290228771d2b1a3e",
+  "projects": 2683,
   "catalogs": {
-    "interesting-projects": 2673,
+    "interesting-projects": 2683,
     "ai-agents": 213,
     "ai-engineering": 217,
     "developer-tools": 181,
-    "data-engineering": 161,
-    "cybersecurity": 175,
+    "data-engineering": 163,
+    "cybersecurity": 177,
     "robotics": 148,
     "geospatial": 155,
     "creative-computing": 181,
     "self-hosted": 183,
-    "scientific-computing": 178,
+    "scientific-computing": 177,
     "databases": 162,
     "cloud-native": 182,
     "bioinformatics": 166,
-    "civic-tech": 127,
+    "civic-tech": 128,
     "accessibility": 171,
     "game-development": 124,
-    "business-automation": 148
+    "business-automation": 150
   },
   "source_health": {
     "total": 72,
@@ -33,11 +33,11 @@
   },
   "history_mode": "mixed-observed-and-provisional",
   "measurement": {
-    "observed_history_projects": 2585,
-    "fully_measured_projects": 2474,
-    "provisional_projects": 88,
+    "observed_history_projects": 2611,
+    "fully_measured_projects": 2482,
+    "provisional_projects": 72,
     "community_profiles": 220,
-    "review_flagged_projects": 1683
+    "review_flagged_projects": 1687
   },
   "publication_manifest": "publication-manifest.json",
   "audit": "audit.json",
