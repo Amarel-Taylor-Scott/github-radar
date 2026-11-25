@@ -2,7 +2,7 @@
 
 Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components.
 
-_Generated 2026-11-24T19:40:52+00:00. Rankings are regenerated daily._
+_Generated 2026-11-25T18:49:11+00:00. Rankings are regenerated daily._
 
 > Momentum belongs to the GitHub repository. A skill or plugin inside a monorepo inherits that repository signal; its exact path and provenance remain in the JSON record.
 
@@ -10,99 +10,99 @@ _Generated 2026-11-24T19:40:52+00:00. Rankings are regenerated daily._
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 199,865 | +3289 | 84.4 | +3289 stars/7d; pushed 8d ago; official/reviewed source |
-| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,743 | +939 | 80.9 | +939 stars/7d; pushed 7d ago; official/reviewed source |
-| 3 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 265 | +45 | 74.8 | +45 stars/7d; pushed 5d ago |
-| 4 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 417 | +19 | 74.8 | +19 stars/7d; pushed 4d ago |
-| 5 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 13,995 | +195 | 73.1 | +195 stars/7d; pushed 0d ago |
-| 6 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 70.0 | +1 stars/7d; pushed 0d ago |
-| 7 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 69.0 | +2 stars/7d; pushed 14d ago |
-| 8 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,509 | — | 68.0 | ~2.0 stars/day lifetime |
-| 9 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 67.9 | +1 stars/7d |
-| 10 | [uv](https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv) | skill | claude | 339 | +3 | 67.8 | +3 stars/7d; pushed 6d ago |
-| 11 | [qa](https://github.com/eric-tramel/slop-guard/tree/main/.claude/skills/qa) | skill | claude | 169 | +2 | 67.6 | +2 stars/7d |
-| 12 | [pr](https://github.com/bamlab/flashlight/tree/main/.claude/skills/pr) | skill | claude | 1,614 | — | 67.2 | ~1.0 stars/day lifetime; pushed 0d ago |
-| 13 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 210 | +1 | 67.2 | +1 stars/7d; pushed 7d ago |
-| 14 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | — | 66.5 | ~0.5 stars/day lifetime; pushed 0d ago |
-| 15 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 300 | +7 | 66.4 | +7 stars/7d; new (92d); pushed 0d ago |
-| 16 | [pr](https://github.com/gaia-research/gaia-skill-tree/tree/main/.claude/skills/pr) | skill | claude | 23 | +1 | 66.0 | +1 stars/7d; pushed 0d ago |
-| 17 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,001 | +27 | 65.7 | +27 stars/7d; pushed 7d ago |
-| 18 | [pr](https://github.com/alamenai/terrae/tree/main/.claude/skills/pr) | skill | claude | 252 | +1 | 65.7 | +1 stars/7d |
-| 19 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 78 | +4 | 64.8 | +4 stars/7d; new (62d); pushed 0d ago |
-| 20 | [pm](https://github.com/zeuikli/claude-code-workspace/tree/main/.claude/skills/pm) | skill | claude | 157 | +1 | 64.4 | +1 stars/7d; pushed 0d ago |
-| 21 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +3 | 64.3 | +3 stars/7d; pushed 0d ago |
-| 22 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 187 | +7 | 63.9 | +7 stars/7d; pushed 4d ago |
-| 23 | [pr](https://github.com/katanemo/plano/tree/main/.claude/skills/pr) | skill | claude | 7,119 | +6 | 63.6 | +6 stars/7d |
-| 24 | [kb](https://github.com/finos/morphir/tree/main/.claude/skills/kb) | skill | claude | 219 | +3 | 62.5 | +3 stars/7d; pushed 1d ago |
-| 25 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 62.4 | +1 stars/7d; pushed 0d ago |
+| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 200,416 | +3324 | 83.8 | +3324 stars/7d; pushed 9d ago; official/reviewed source |
+| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,872 | +926 | 80.5 | +926 stars/7d; pushed 8d ago; official/reviewed source |
+| 3 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 14,003 | +66 | 79.8 | +66 stars/7d; pushed 0d ago |
+| 4 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 266 | +46 | 73.5 | +46 stars/7d; pushed 6d ago |
+| 5 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 418 | +18 | 73.4 | +18 stars/7d; pushed 5d ago |
+| 6 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 189 | +4 | 72.1 | +4 stars/7d; pushed 0d ago |
+| 7 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 70.0 | +1 stars/7d; pushed 0d ago |
+| 8 | [kb](https://github.com/finos/morphir/tree/main/.claude/skills/kb) | skill | claude | 219 | +1 | 69.9 | +1 stars/7d; pushed 0d ago |
+| 9 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 68.9 | +1 stars/7d; pushed 1d ago |
+| 10 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 68.5 | +2 stars/7d |
+| 11 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 211 | +2 | 68.2 | +2 stars/7d; pushed 8d ago |
+| 12 | [qa](https://github.com/Trevoke/org-gtd.el/tree/main/.claude/skills/qa) | skill | claude | 489 | +2 | 67.7 | +2 stars/7d |
+| 13 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 66.9 | +1 stars/7d |
+| 14 | [qa](https://github.com/eric-tramel/slop-guard/tree/main/.claude/skills/qa) | skill | claude | 169 | +2 | 66.6 | +2 stars/7d |
+| 15 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,512 | +11 | 66.6 | +11 stars/7d |
+| 16 | [uv](https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv) | skill | claude | 339 | +3 | 66.0 | +3 stars/7d; pushed 7d ago |
+| 17 | [pr](https://github.com/alamenai/terrae/tree/main/.claude/skills/pr) | skill | claude | 252 | +1 | 65.6 | +1 stars/7d |
+| 18 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | +3 | 65.4 | +3 stars/7d; pushed 0d ago |
+| 19 | [pr](https://github.com/gaia-research/gaia-skill-tree/tree/main/.claude/skills/pr) | skill | claude | 23 | +1 | 65.3 | +1 stars/7d; pushed 0d ago |
+| 20 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 301 | +3 | 64.7 | +3 stars/7d; new (93d); pushed 0d ago |
+| 21 | [pm](https://github.com/zeuikli/claude-code-workspace/tree/main/.claude/skills/pm) | skill | claude | 157 | +1 | 63.7 | +1 stars/7d; pushed 0d ago |
+| 22 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,003 | +4 | 63.3 | +4 stars/7d; pushed 8d ago |
+| 23 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 79 | +3 | 63.1 | +3 stars/7d; new (63d); pushed 1d ago |
+| 24 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +1 | 63.0 | +1 stars/7d; pushed 0d ago |
+| 25 | [pr](https://github.com/katanemo/plano/tree/main/.claude/skills/pr) | skill | claude | 7,122 | +3 | 62.5 | +3 stars/7d |
 
 ## Up and coming
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 265 | +45 | 78.5 | +45 stars/7d; pushed 5d ago |
-| 2 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 199,865 | +3289 | 78.4 | +3289 stars/7d; pushed 8d ago; official/reviewed source |
-| 3 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,743 | +939 | 76.5 | +939 stars/7d; pushed 7d ago; official/reviewed source |
-| 4 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 417 | +19 | 72.7 | +19 stars/7d; pushed 4d ago |
-| 5 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 210 | +1 | 71.2 | +1 stars/7d; pushed 7d ago |
-| 6 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 71.0 | +1 stars/7d |
-| 7 | [pr](https://github.com/gaia-research/gaia-skill-tree/tree/main/.claude/skills/pr) | skill | claude | 23 | +1 | 70.7 | +1 stars/7d; pushed 0d ago |
-| 8 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 300 | +7 | 69.3 | +7 stars/7d; new (92d); pushed 0d ago |
-| 9 | [pm](https://github.com/zeuikli/claude-code-workspace/tree/main/.claude/skills/pm) | skill | claude | 157 | +1 | 69.2 | +1 stars/7d; pushed 0d ago |
-| 10 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 13,995 | +195 | 68.6 | +195 stars/7d; pushed 0d ago |
-| 11 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,509 | — | 68.2 | ~2.0 stars/day lifetime |
-| 12 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 78 | +4 | 68.2 | +4 stars/7d; new (62d); pushed 0d ago |
-| 13 | [qa](https://github.com/eric-tramel/slop-guard/tree/main/.claude/skills/qa) | skill | claude | 169 | +2 | 68.2 | +2 stars/7d |
-| 14 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 67.6 | +1 stars/7d; pushed 0d ago |
-| 15 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 66.7 | +2 stars/7d; pushed 14d ago |
-| 16 | [uv](https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv) | skill | claude | 339 | +3 | 66.5 | +3 stars/7d; pushed 6d ago |
-| 17 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 187 | +7 | 66.3 | +7 stars/7d; pushed 4d ago |
-| 18 | [pr](https://github.com/alamenai/terrae/tree/main/.claude/skills/pr) | skill | claude | 252 | +1 | 65.9 | +1 stars/7d |
-| 19 | [er](https://github.com/forever-healthy/AI4L/tree/main/.claude/skills/er) | skill | claude | 48 | +5 | 64.2 | +5 stars/7d |
-| 20 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,001 | +27 | 64.2 | +27 stars/7d; pushed 7d ago |
-| 21 | [pr](https://github.com/bamlab/flashlight/tree/main/.claude/skills/pr) | skill | claude | 1,614 | — | 63.4 | ~1.0 stars/day lifetime; pushed 0d ago |
-| 22 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | — | 62.6 | ~0.5 stars/day lifetime; pushed 0d ago |
-| 23 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +3 | 62.2 | +3 stars/7d; pushed 0d ago |
-| 24 | [pr](https://github.com/katanemo/plano/tree/main/.claude/skills/pr) | skill | claude | 7,119 | +6 | 60.4 | +6 stars/7d |
-| 25 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 59.5 | +1 stars/7d; pushed 0d ago |
+| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 200,416 | +3324 | 77.6 | +3324 stars/7d; pushed 9d ago; official/reviewed source |
+| 2 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 266 | +46 | 77.5 | +46 stars/7d; pushed 6d ago |
+| 3 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 14,003 | +66 | 76.0 | +66 stars/7d; pushed 0d ago |
+| 4 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,872 | +926 | 75.9 | +926 stars/7d; pushed 8d ago; official/reviewed source |
+| 5 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 189 | +4 | 75.1 | +4 stars/7d; pushed 0d ago |
+| 6 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 211 | +2 | 72.3 | +2 stars/7d; pushed 8d ago |
+| 7 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 418 | +18 | 71.2 | +18 stars/7d; pushed 5d ago |
+| 8 | [pr](https://github.com/gaia-research/gaia-skill-tree/tree/main/.claude/skills/pr) | skill | claude | 23 | +1 | 70.1 | +1 stars/7d; pushed 0d ago |
+| 9 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 70.1 | +1 stars/7d |
+| 10 | [pm](https://github.com/zeuikli/claude-code-workspace/tree/main/.claude/skills/pm) | skill | claude | 157 | +1 | 68.5 | +1 stars/7d; pushed 0d ago |
+| 11 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 301 | +3 | 67.8 | +3 stars/7d; new (93d); pushed 0d ago |
+| 12 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 67.5 | +1 stars/7d; pushed 0d ago |
+| 13 | [kb](https://github.com/finos/morphir/tree/main/.claude/skills/kb) | skill | claude | 219 | +1 | 67.3 | +1 stars/7d; pushed 0d ago |
+| 14 | [qa](https://github.com/eric-tramel/slop-guard/tree/main/.claude/skills/qa) | skill | claude | 169 | +2 | 67.2 | +2 stars/7d |
+| 15 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,512 | +11 | 67.0 | +11 stars/7d |
+| 16 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 79 | +3 | 66.8 | +3 stars/7d; new (63d); pushed 1d ago |
+| 17 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 66.7 | +1 stars/7d; pushed 1d ago |
+| 18 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 66.2 | +2 stars/7d |
+| 19 | [pr](https://github.com/alamenai/terrae/tree/main/.claude/skills/pr) | skill | claude | 252 | +1 | 65.7 | +1 stars/7d |
+| 20 | [qa](https://github.com/Trevoke/org-gtd.el/tree/main/.claude/skills/qa) | skill | claude | 489 | +2 | 65.6 | +2 stars/7d |
+| 21 | [uv](https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv) | skill | claude | 339 | +3 | 64.7 | +3 stars/7d; pushed 7d ago |
+| 22 | [er](https://github.com/forever-healthy/AI4L/tree/main/.claude/skills/er) | skill | claude | 48 | +5 | 62.9 | +5 stars/7d |
+| 23 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,003 | +4 | 61.9 | +4 stars/7d; pushed 8d ago |
+| 24 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | +3 | 61.4 | +3 stars/7d; pushed 0d ago |
+| 25 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +1 | 60.8 | +1 stars/7d; pushed 0d ago |
 
 ## Most popular
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 199,865 | +3289 | 93.0 | +3289 stars/7d; pushed 8d ago; official/reviewed source |
-| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,743 | +939 | 88.3 | +939 stars/7d; pushed 7d ago; official/reviewed source |
-| 3 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 13,995 | +195 | 87.6 | +195 stars/7d; pushed 0d ago |
-| 4 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,509 | — | 81.7 | ~2.0 stars/day lifetime |
-| 5 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | — | 75.3 | ~0.5 stars/day lifetime; pushed 0d ago |
-| 6 | [pr](https://github.com/bamlab/flashlight/tree/main/.claude/skills/pr) | skill | claude | 1,614 | — | 74.4 | ~1.0 stars/day lifetime; pushed 0d ago |
-| 7 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,001 | +27 | 72.9 | +27 stars/7d; pushed 7d ago |
-| 8 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 300 | +7 | 72.6 | +7 stars/7d; new (92d); pushed 0d ago |
-| 9 | [pr](https://github.com/katanemo/plano/tree/main/.claude/skills/pr) | skill | claude | 7,119 | +6 | 71.9 | +6 stars/7d |
-| 10 | [pr](https://github.com/near/nearcore/tree/main/.claude/skills/pr) | skill | claude | 2,623 | +0 | 71.7 | +0 stars/7d; pushed 0d ago |
-| 11 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 71.5 | +1 stars/7d; pushed 0d ago |
-| 12 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +3 | 71.1 | +3 stars/7d; pushed 0d ago |
-| 13 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 417 | +19 | 71.0 | +19 stars/7d; pushed 4d ago |
-| 14 | [kb](https://github.com/finos/morphir/tree/main/.claude/skills/kb) | skill | claude | 219 | +3 | 69.9 | +3 stars/7d; pushed 1d ago |
-| 15 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 265 | +45 | 69.9 | +45 stars/7d; pushed 5d ago |
-| 16 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 69.8 | +1 stars/7d; pushed 0d ago |
-| 17 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 187 | +7 | 69.2 | +7 stars/7d; pushed 4d ago |
-| 18 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 68.6 | +2 stars/7d; pushed 14d ago |
-| 19 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 78 | +4 | 68.4 | +4 stars/7d; new (62d); pushed 0d ago |
-| 20 | [qa](https://github.com/Trevoke/org-gtd.el/tree/main/.claude/skills/qa) | skill | claude | 489 | +3 | 66.3 | +3 stars/7d |
-| 21 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 66.1 | +1 stars/7d |
-| 22 | [pr](https://github.com/shugo/textbringer/tree/main/.claude/skills/pr) | skill | claude | 392 | +0 | 66.0 | +0 stars/7d; pushed 1d ago |
-| 23 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 210 | +1 | 65.7 | +1 stars/7d; pushed 7d ago |
-| 24 | [pm](https://github.com/Vinix24/vnx-orchestration/tree/main/.claude/skills/pm) | skill | claude | 62 | -1 | 64.4 | -1 stars/7d; pushed 0d ago |
-| 25 | [uv](https://github.com/harperreed/dotfiles/tree/main/.claude/skills/uv) | skill | claude | 339 | +3 | 64.3 | +3 stars/7d; pushed 6d ago |
+| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 200,416 | +3324 | 92.4 | +3324 stars/7d; pushed 9d ago; official/reviewed source |
+| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 40,872 | +926 | 87.8 | +926 stars/7d; pushed 8d ago; official/reviewed source |
+| 3 | [pr](https://github.com/EverMind-AI/EverOS/tree/main/.claude/skills/pr) | skill | claude | 14,003 | +66 | 87.0 | +66 stars/7d; pushed 0d ago |
+| 4 | [s](https://github.com/RyanCodrai/turbovec/tree/main/.claude/skills/s) | skill | claude | 17,512 | +11 | 80.8 | +11 stars/7d |
+| 5 | [pr](https://github.com/Redocly/redocly-cli/tree/main/.claude/skills/pr) | skill | claude | 1,564 | +3 | 73.9 | +3 stars/7d; pushed 0d ago |
+| 6 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 301 | +3 | 71.8 | +3 stars/7d; new (93d); pushed 0d ago |
+| 7 | [gg](https://github.com/srizzon/git-city/tree/main/.claude/skills/gg) | skill | claude | 6,003 | +4 | 71.4 | +4 stars/7d; pushed 8d ago |
+| 8 | [pr](https://github.com/katanemo/plano/tree/main/.claude/skills/pr) | skill | claude | 7,122 | +3 | 70.8 | +3 stars/7d |
+| 9 | [cl](https://github.com/maotoumao/Cebian/tree/main/.claude/skills/cl) | skill | claude | 189 | +4 | 70.7 | +4 stars/7d; pushed 0d ago |
+| 10 | [pr](https://github.com/near/nearcore/tree/main/.claude/skills/pr) | skill | claude | 2,623 | +0 | 70.5 | +0 stars/7d; pushed 0d ago |
+| 11 | [kb](https://github.com/finos/morphir/tree/main/.claude/skills/kb) | skill | claude | 219 | +1 | 70.2 | +1 stars/7d; pushed 0d ago |
+| 12 | [pr](https://github.com/AllYourBot/hostedgpt/tree/main/.claude/skills/pr) | skill | claude | 514 | +1 | 70.2 | +1 stars/7d; pushed 1d ago |
+| 13 | [pr](https://github.com/DexForce/EmbodiChain/tree/main/.claude/skills/pr) | skill | claude | 244 | +1 | 70.1 | +1 stars/7d; pushed 0d ago |
+| 14 | [pr](https://github.com/shift-editor/shift/tree/main/.claude/skills/pr) | skill | claude | 418 | +18 | 70.1 | +18 stars/7d; pushed 5d ago |
+| 15 | [pr](https://github.com/adamayoung/TMDb/tree/main/.claude/skills/pr) | skill | claude | 181 | +1 | 69.5 | +1 stars/7d; pushed 0d ago |
+| 16 | [pr](https://github.com/bamlab/flashlight/tree/main/.claude/skills/pr) | skill | claude | 1,614 | — | 68.6 | pushed 0d ago |
+| 17 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 266 | +46 | 68.0 | +46 stars/7d; pushed 6d ago |
+| 18 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 79 | +3 | 67.6 | +3 stars/7d; new (63d); pushed 1d ago |
+| 19 | [pr](https://github.com/talmolab/sleap/tree/main/.claude/skills/pr) | skill | claude | 625 | +2 | 67.6 | +2 stars/7d |
+| 20 | [qa](https://github.com/Trevoke/org-gtd.el/tree/main/.claude/skills/qa) | skill | claude | 489 | +2 | 65.8 | +2 stars/7d |
+| 21 | [qe](https://github.com/Hello-QM/catgo-LRG/tree/main/.claude/skills/qe) | skill | claude | 211 | +2 | 65.5 | +2 stars/7d; pushed 8d ago |
+| 22 | [pr](https://github.com/egregore-labs/egregore/tree/main/.claude/skills/pr) | skill | claude | 294 | +1 | 65.3 | +1 stars/7d |
+| 23 | [pm](https://github.com/Vinix24/vnx-orchestration/tree/main/.claude/skills/pm) | skill | claude | 62 | -1 | 64.0 | -1 stars/7d; pushed 0d ago |
+| 24 | [pr](https://github.com/shugo/textbringer/tree/main/.claude/skills/pr) | skill | claude | 392 | +0 | 63.9 | +0 stars/7d; pushed 2d ago |
+| 25 | [qa](https://github.com/eric-tramel/slop-guard/tree/main/.claude/skills/qa) | skill | claude | 169 | +2 | 63.3 | +2 stars/7d |
 
 ## New projects
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 265 | +45 | 78.5 | +45 stars/7d; pushed 5d ago |
-| 2 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 300 | +7 | 69.3 | +7 stars/7d; new (92d); pushed 0d ago |
-| 3 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 78 | +4 | 68.2 | +4 stars/7d; new (62d); pushed 0d ago |
+| 1 | [ui](https://github.com/wellwelwel/lagune/tree/main/.claude/skills/ui) | skill | claude | 266 | +46 | 77.5 | +46 stars/7d; pushed 6d ago |
+| 2 | [pr](https://github.com/kryptamine/herdr-auto-title/tree/main/.claude/skills/pr) | skill | claude | 301 | +3 | 67.8 | +3 stars/7d; new (93d); pushed 0d ago |
+| 3 | [ci](https://github.com/theophile-wallez/LichessNeo/tree/main/.claude/skills/ci) | skill | claude | 79 | +3 | 66.8 | +3 stars/7d; new (63d); pushed 1d ago |
 
 ## Ranking model
 
