@@ -2,7 +2,7 @@
 
 Claude Code and Claude Cowork plugins discovered through official, reviewed-community, and manifest-backed GitHub sources.
 
-_Generated 2026-11-25T18:49:11+00:00. Rankings are regenerated daily._
+_Generated 2026-11-26T18:36:49+00:00. Rankings are regenerated daily._
 
 > Momentum belongs to the GitHub repository. A skill or plugin inside a monorepo inherits that repository signal; its exact path and provenance remain in the JSON record.
 
@@ -10,121 +10,121 @@ _Generated 2026-11-25T18:49:11+00:00. Rankings are regenerated daily._
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 326,466 | +6598 | 99.2 | +6598 stars/7d; pushed 0d ago; official/reviewed source |
-| 2 | [cloudflare](https://github.com/cloudflare/skills) | plugin | claude | 3,456 | +3456 | 94.5 | +3456 stars/7d; pushed 1d ago; official/reviewed source |
-| 3 | [clickhouse-best-practices](https://github.com/ClickHouse/agent-skills) | plugin | claude | 576 | +576 | 92.9 | +576 stars/7d; pushed 1d ago; official/reviewed source |
-| 4 | [astronomer-data-agents](https://github.com/astronomer/agents) | plugin | claude | 464 | +464 | 92.2 | +464 stars/7d; pushed 1d ago; official/reviewed source |
-| 5 | [codspeed](https://github.com/CodSpeedHQ/codspeed) | plugin | claude | 395 | +395 | 91.5 | +395 stars/7d; pushed 2d ago; official/reviewed source |
-| 6 | [superdesign](https://github.com/superdesigndev/superdesign-skill) | plugin | claude | 1,073 | +1073 | 90.0 | +1073 stars/7d; official/reviewed source |
-| 7 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 332,764 | +5436 | 87.4 | +5436 stars/7d; pushed 0d ago; official/reviewed source |
-| 8 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | plugin | claude | 59,330 | +1145 | 87.3 | +1145 stars/7d; pushed 0d ago; official/reviewed source |
-| 9 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,715 | +1532 | 86.9 | +1532 stars/7d; pushed 0d ago; official/reviewed source |
-| 10 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,205 | +562 | 86.6 | +562 stars/7d; pushed 0d ago; official/reviewed source |
-| 11 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,830 | +2032 | 86.3 | +2032 stars/7d; new (29d); pushed 9d ago |
-| 12 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 198,612 | +4739 | 86.2 | +4739 stars/7d; pushed 3d ago; official/reviewed source |
-| 13 | [Sales](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) | plugin | claude | 36,919 | +405 | 85.0 | +405 stars/7d; pushed 0d ago; official/reviewed source |
-| 14 | [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) | plugin | claude | 30,474 | +415 | 84.9 | +415 stars/7d; pushed 0d ago; official/reviewed source |
-| 15 | [remember](https://github.com/Digital-Process-Tools/claude-remember) | plugin | claude | 215 | +215 | 84.9 | +215 stars/7d; pushed 0d ago; official/reviewed source |
-| 16 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,400 | +37 | 83.9 | +37 stars/7d; pushed 0d ago; official/reviewed source |
-| 17 | [coderabbit](https://github.com/coderabbitai/skills) | plugin | claude | 225 | +225 | 82.1 | +225 stars/7d; pushed 0d ago; official/reviewed source |
-| 18 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 84,799 | +1280 | 82.0 | +1280 stars/7d; pushed 0d ago; 2 sources |
-| 19 | [brightdata-plugin](https://github.com/brightdata/skills) | plugin | claude | 272 | +272 | 81.7 | +272 stars/7d; official/reviewed source; 2 sources |
-| 20 | [marketingskills](https://github.com/coreyhaines31/marketingskills) | plugin | claude | 62,600 | +1404 | 81.5 | +1404 stars/7d; pushed 0d ago |
-| 21 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,294 | +680 | 81.2 | +680 stars/7d; pushed 0d ago |
-| 22 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 22,980 | +1911 | 81.0 | +1911 stars/7d; new (73d); pushed 0d ago |
-| 23 | [stripe](https://github.com/stripe/ai/tree/main/providers/claude/plugin) | plugin | claude | 2,092 | +20 | 80.6 | +20 stars/7d; pushed 0d ago; official/reviewed source |
-| 24 | [exa](https://github.com/exa-labs/exa-mcp-server) | plugin | claude | 5,269 | +28 | 80.4 | +28 stars/7d; pushed 4d ago; official/reviewed source |
-| 25 | [apollo-skills](https://github.com/apollographql/skills) | plugin | claude | 137 | +137 | 79.9 | +137 stars/7d; pushed 6d ago; official/reviewed source |
+| 1 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 333,488 | +5488 | 97.9 | +5488 stars/7d; pushed 1d ago; official/reviewed source |
+| 2 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 327,302 | +5421 | 96.5 | +5421 stars/7d; pushed 0d ago; official/reviewed source |
+| 3 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,567 | +865 | 89.1 | +865 stars/7d; pushed 1d ago |
+| 4 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,943 | +1561 | 87.0 | +1561 stars/7d; pushed 0d ago; official/reviewed source |
+| 5 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,314 | +601 | 86.8 | +601 stars/7d; pushed 0d ago; official/reviewed source |
+| 6 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,934 | +1989 | 86.6 | +1989 stars/7d; new (30d); pushed 10d ago |
+| 7 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 199,257 | +4542 | 86.2 | +4542 stars/7d; pushed 4d ago; official/reviewed source |
+| 8 | [Sales](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) | plugin | claude | 37,056 | +489 | 85.4 | +489 stars/7d; pushed 0d ago; official/reviewed source |
+| 9 | [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) | plugin | claude | 30,533 | +397 | 85.0 | +397 stars/7d; pushed 0d ago; official/reviewed source |
+| 10 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,408 | +44 | 84.8 | +44 stars/7d; pushed 0d ago; official/reviewed source |
+| 11 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 85,024 | +1279 | 82.2 | +1279 stars/7d; pushed 0d ago; 2 sources |
+| 12 | [marketingskills](https://github.com/coreyhaines31/marketingskills) | plugin | claude | 62,806 | +1352 | 81.7 | +1352 stars/7d; pushed 0d ago |
+| 13 | [aws-agents](https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-agents) | plugin | claude | 3,583 | +55 | 81.3 | +55 stars/7d; pushed 0d ago; official/reviewed source |
+| 14 | [stripe](https://github.com/stripe/ai/tree/main/providers/claude/plugin) | plugin | claude | 2,096 | +22 | 80.9 | +22 stars/7d; pushed 1d ago; official/reviewed source |
+| 15 | [mcp-apps](https://github.com/modelcontextprotocol/ext-apps/tree/main/plugins/mcp-apps) | plugin | claude | 3,159 | +37 | 80.8 | +37 stars/7d; pushed 0d ago; official/reviewed source |
+| 16 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 23,187 | +1819 | 80.4 | +1819 stars/7d; new (74d); pushed 1d ago |
+| 17 | [salesforce-development](https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development) | plugin | claude | 1,189 | +17 | 79.3 | +17 stars/7d; pushed 5d ago; official/reviewed source |
+| 18 | [vercel](https://github.com/vercel/vercel-plugin) | plugin | claude | 351 | +11 | 79.0 | +11 stars/7d; pushed 0d ago; official/reviewed source |
+| 19 | [join-meeting](https://github.com/pattern-ai-labs/agentcall) | plugin | claude | 213 | +213 | 79.0 | +213 stars/7d; pushed 11d ago; official/reviewed source |
+| 20 | [langfuse](https://github.com/langfuse/skills) | plugin | claude | 349 | +6 | 78.9 | +6 stars/7d; pushed 0d ago; official/reviewed source |
+| 21 | [promptfoo-evals](https://github.com/promptfoo/promptfoo/tree/main/plugins/promptfoo-evals) | plugin | claude | 27,713 | +254 | 78.3 | +254 stars/7d; pushed 0d ago; official/reviewed source |
+| 22 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,519 | +2873 | 78.2 | +2873 stars/7d; new (61d); pushed 0d ago |
+| 23 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | plugin | claude | 4,980 | +259 | 78.0 | +259 stars/7d; pushed 1d ago |
+| 24 | [zapier](https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier) | plugin | claude | 467 | +6 | 78.0 | +6 stars/7d; pushed 6d ago; official/reviewed source |
+| 25 | [claw-hwp](https://github.com/DoHyun468/claw-hwp/tree/main/plugins/claw-hwp) | plugin | claude | 230 | +6 | 77.9 | +6 stars/7d; pushed 0d ago; official/reviewed source |
 
 ## Up and coming
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 326,466 | +6598 | 93.4 | +6598 stars/7d; pushed 0d ago; official/reviewed source |
-| 2 | [cloudflare](https://github.com/cloudflare/skills) | plugin | claude | 3,456 | +3456 | 91.1 | +3456 stars/7d; pushed 1d ago; official/reviewed source |
-| 3 | [clickhouse-best-practices](https://github.com/ClickHouse/agent-skills) | plugin | claude | 576 | +576 | 90.2 | +576 stars/7d; pushed 1d ago; official/reviewed source |
-| 4 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,830 | +2032 | 89.7 | +2032 stars/7d; new (29d); pushed 9d ago |
-| 5 | [astronomer-data-agents](https://github.com/astronomer/agents) | plugin | claude | 464 | +464 | 89.5 | +464 stars/7d; pushed 1d ago; official/reviewed source |
-| 6 | [superdesign](https://github.com/superdesigndev/superdesign-skill) | plugin | claude | 1,073 | +1073 | 88.0 | +1073 stars/7d; official/reviewed source |
-| 7 | [codspeed](https://github.com/CodSpeedHQ/codspeed) | plugin | claude | 395 | +395 | 87.6 | +395 stars/7d; pushed 2d ago; official/reviewed source |
-| 8 | [remember](https://github.com/Digital-Process-Tools/claude-remember) | plugin | claude | 215 | +215 | 86.2 | +215 stars/7d; pushed 0d ago; official/reviewed source |
-| 9 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 198,612 | +4739 | 84.9 | +4739 stars/7d; pushed 3d ago; official/reviewed source |
-| 10 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 332,764 | +5436 | 81.6 | +5436 stars/7d; pushed 0d ago; official/reviewed source |
-| 11 | [togetherai-skills](https://github.com/togethercomputer/skills) | plugin | claude | 42 | +42 | 81.5 | +42 stars/7d; pushed 0d ago; official/reviewed source |
-| 12 | [join-meeting](https://github.com/pattern-ai-labs/agentcall) | plugin | claude | 210 | +210 | 81.2 | +210 stars/7d; pushed 10d ago; official/reviewed source |
-| 13 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 22,980 | +1911 | 81.1 | +1911 stars/7d; new (73d); pushed 0d ago |
-| 14 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | plugin | claude | 4,942 | +228 | 81.0 | +228 stars/7d; pushed 0d ago |
-| 15 | [brightdata-plugin](https://github.com/brightdata/skills) | plugin | claude | 272 | +272 | 80.8 | +272 stars/7d; official/reviewed source; 2 sources |
-| 16 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,294 | +680 | 80.6 | +680 stars/7d; pushed 0d ago |
-| 17 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 84,799 | +1280 | 80.5 | +1280 stars/7d; pushed 0d ago; 2 sources |
-| 18 | [Amazon Selling Partner](https://github.com/amzn/selling-partner-agentic-toolkit) | plugin | claude | 52 | +52 | 80.4 | +52 stars/7d; new (64d); pushed 13d ago |
-| 19 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | plugin | claude | 59,330 | +1145 | 80.3 | +1145 stars/7d; pushed 0d ago; official/reviewed source |
-| 20 | [coderabbit](https://github.com/coderabbitai/skills) | plugin | claude | 225 | +225 | 80.3 | +225 stars/7d; pushed 0d ago; official/reviewed source |
-| 21 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,205 | +562 | 80.2 | +562 stars/7d; pushed 0d ago; official/reviewed source |
-| 22 | [claw-hwp](https://github.com/DoHyun468/claw-hwp/tree/main/plugins/claw-hwp) | plugin | claude | 229 | +6 | 80.0 | +6 stars/7d; pushed 0d ago; official/reviewed source |
-| 23 | [ActiveCampaign](https://github.com/ActiveCampaign/activecampaign-plugin) | plugin | claude | 6 | +6 | 80.0 | +6 stars/7d; pushed 0d ago; official/reviewed source |
-| 24 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,715 | +1532 | 79.8 | +1532 stars/7d; pushed 0d ago; official/reviewed source |
-| 25 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,400 | +37 | 79.8 | +37 stars/7d; pushed 0d ago; official/reviewed source |
+| 1 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 333,488 | +5488 | 93.4 | +5488 stars/7d; pushed 1d ago; official/reviewed source |
+| 2 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 327,302 | +5421 | 90.5 | +5421 stars/7d; pushed 0d ago; official/reviewed source |
+| 3 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,934 | +1989 | 89.9 | +1989 stars/7d; new (30d); pushed 10d ago |
+| 4 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,567 | +865 | 89.5 | +865 stars/7d; pushed 1d ago |
+| 5 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 199,257 | +4542 | 84.9 | +4542 stars/7d; pushed 4d ago; official/reviewed source |
+| 6 | [aws-agents](https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-agents) | plugin | claude | 3,583 | +55 | 82.8 | +55 stars/7d; pushed 0d ago; official/reviewed source |
+| 7 | [join-meeting](https://github.com/pattern-ai-labs/agentcall) | plugin | claude | 213 | +213 | 81.5 | +213 stars/7d; pushed 11d ago; official/reviewed source |
+| 8 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | plugin | claude | 4,980 | +259 | 81.0 | +259 stars/7d; pushed 1d ago |
+| 9 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,408 | +44 | 80.7 | +44 stars/7d; pushed 0d ago; official/reviewed source |
+| 10 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 23,187 | +1819 | 80.6 | +1819 stars/7d; new (74d); pushed 1d ago |
+| 11 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 85,024 | +1279 | 80.6 | +1279 stars/7d; pushed 0d ago; 2 sources |
+| 12 | [claw-hwp](https://github.com/DoHyun468/claw-hwp/tree/main/plugins/claw-hwp) | plugin | claude | 230 | +6 | 80.6 | +6 stars/7d; pushed 0d ago; official/reviewed source |
+| 13 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,314 | +601 | 80.4 | +601 stars/7d; pushed 0d ago; official/reviewed source |
+| 14 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,943 | +1561 | 80.0 | +1561 stars/7d; pushed 0d ago; official/reviewed source |
+| 15 | [Sales](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) | plugin | claude | 37,056 | +489 | 79.8 | +489 stars/7d; pushed 0d ago; official/reviewed source |
+| 16 | [Hostinger](https://github.com/hostinger/claude-plugin) | plugin | claude | 11 | +3 | 79.5 | +3 stars/7d; pushed 0d ago; official/reviewed source |
+| 17 | [fast-anything](https://github.com/EL4CTEO/fast-anything) | plugin | claude | 4,196 | — | 79.3 | ~294.0 stars/day lifetime; new (5d); pushed 1d ago |
+| 18 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,519 | +2873 | 79.2 | +2873 stars/7d; new (61d); pushed 0d ago |
+| 19 | [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) | plugin | claude | 30,533 | +397 | 78.7 | +397 stars/7d; pushed 0d ago; official/reviewed source |
+| 20 | [pixelfx](https://github.com/patch-gg/pixelfx) | plugin | claude | 9,395 | +1119 | 78.6 | +1119 stars/7d; new (27d); pushed 13d ago |
+| 21 | [crowdstrike-falcon-fusion](https://github.com/CrowdStrike/fusion-skills) | plugin | claude, codex | 32 | +2 | 78.5 | +2 stars/7d; pushed 5d ago; official/reviewed source |
+| 22 | [growthbook](https://github.com/growthbook/skills) | plugin | claude | 31 | +3 | 77.9 | +3 stars/7d; pushed 0d ago; official/reviewed source |
+| 23 | [mcp-apps](https://github.com/modelcontextprotocol/ext-apps/tree/main/plugins/mcp-apps) | plugin | claude | 3,159 | +37 | 77.9 | +37 stars/7d; pushed 0d ago; official/reviewed source |
+| 24 | [vercel](https://github.com/vercel/vercel-plugin) | plugin | claude | 351 | +11 | 77.9 | +11 stars/7d; pushed 0d ago; official/reviewed source |
+| 25 | [rederive](https://github.com/EricJujianZou/rederive) | plugin | claude | 1,748 | +648 | 77.6 | +648 stars/7d; new (38d); pushed 7d ago |
 
 ## Most popular
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 326,466 | +6598 | 98.9 | +6598 stars/7d; pushed 0d ago; official/reviewed source |
-| 2 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 332,764 | +5436 | 98.1 | +5436 stars/7d; pushed 0d ago; official/reviewed source |
-| 3 | [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | plugin | claude | 59,330 | +1145 | 98.0 | +1145 stars/7d; pushed 0d ago; official/reviewed source |
-| 4 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,715 | +1532 | 97.7 | +1532 stars/7d; pushed 0d ago; official/reviewed source |
-| 5 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,205 | +562 | 97.4 | +562 stars/7d; pushed 0d ago; official/reviewed source |
-| 6 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 198,612 | +4739 | 96.2 | +4739 stars/7d; pushed 3d ago; official/reviewed source |
-| 7 | [Sales](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) | plugin | claude | 36,919 | +405 | 95.4 | +405 stars/7d; pushed 0d ago; official/reviewed source |
-| 8 | [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) | plugin | claude | 30,474 | +415 | 95.2 | +415 stars/7d; pushed 0d ago; official/reviewed source |
-| 9 | [next-ai-drawio](https://github.com/DayuanJiang/next-ai-draw-io/tree/main/packages/claude-plugin) | plugin | claude | 37,181 | +128 | 93.1 | +128 stars/7d; pushed 0d ago; official/reviewed source |
-| 10 | [promptfoo-evals](https://github.com/promptfoo/promptfoo/tree/main/plugins/promptfoo-evals) | plugin | claude | 27,677 | +253 | 92.9 | +253 stars/7d; pushed 0d ago; official/reviewed source |
-| 11 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 84,799 | +1280 | 92.5 | +1280 stars/7d; pushed 0d ago; 2 sources |
-| 12 | [desktop-commander](https://github.com/wonderwhy-er/DesktopCommanderMCP/tree/main/plugins/claude) | plugin | claude | 10,417 | +65 | 92.5 | +65 stars/7d; pushed 0d ago; official/reviewed source |
-| 13 | [marketingskills](https://github.com/coreyhaines31/marketingskills) | plugin | claude | 62,600 | +1404 | 91.8 | +1404 stars/7d; pushed 0d ago |
-| 14 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,294 | +680 | 91.5 | +680 stars/7d; pushed 0d ago |
-| 15 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,400 | +37 | 91.3 | +37 stars/7d; pushed 0d ago; official/reviewed source |
-| 16 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 22,980 | +1911 | 89.6 | +1911 stars/7d; new (73d); pushed 0d ago |
-| 17 | [agents](https://github.com/wshobson/agents) | plugin | claude | 42,886 | +229 | 87.1 | +229 stars/7d; pushed 1d ago |
-| 18 | [universal-modder](https://github.com/rehan-remade/universal-modder) | plugin | claude | 9,877 | +109 | 86.1 | +109 stars/7d; new (56d); pushed 0d ago |
-| 19 | [harness](https://github.com/revfactory/harness) | plugin | claude | 9,401 | +21 | 85.2 | +21 stars/7d; official/reviewed source; 2 sources |
-| 20 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,044 | +2778 | 84.3 | +2778 stars/7d; new (60d); pushed 2d ago |
-| 21 | [cloudflare](https://github.com/cloudflare/skills) | plugin | claude | 3,456 | +3456 | 83.5 | +3456 stars/7d; pushed 1d ago; official/reviewed source |
-| 22 | [pixelfx](https://github.com/patch-gg/pixelfx) | plugin | claude | 9,237 | +1120 | 83.3 | +1120 stars/7d; new (26d); pushed 12d ago |
-| 23 | [nvidia-skills](https://github.com/NVIDIA/skills/tree/main/plugins/nvidia-skills) | plugin | claude | 4,150 | +87 | 82.7 | +87 stars/7d; pushed 0d ago; official/reviewed source |
-| 24 | [aws-agents](https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-agents) | plugin | claude | 3,573 | +47 | 81.4 | +47 stars/7d; pushed 0d ago; official/reviewed source |
-| 25 | [expo](https://github.com/expo/skills/tree/main/plugins/expo) | plugin | claude | 4,239 | +53 | 81.3 | +53 stars/7d; pushed 0d ago; official/reviewed source |
+| 1 | [superpowers](https://github.com/obra/superpowers) | plugin | claude | 327,302 | +5421 | 99.0 | +5421 stars/7d; pushed 0d ago; official/reviewed source |
+| 2 | [claude-mem](https://github.com/thedotmack/claude-mem) | plugin | claude | 119,943 | +1561 | 97.9 | +1561 stars/7d; pushed 0d ago; official/reviewed source |
+| 3 | [security-guidance](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/security-guidance) | plugin | claude | 48,314 | +601 | 97.6 | +601 stars/7d; pushed 0d ago; official/reviewed source |
+| 4 | [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | claude | 333,488 | +5488 | 97.2 | +5488 stars/7d; pushed 1d ago; official/reviewed source |
+| 5 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 199,257 | +4542 | 96.1 | +4542 stars/7d; pushed 4d ago; official/reviewed source |
+| 6 | [Sales](https://github.com/anthropics/knowledge-work-plugins/tree/main/sales) | plugin | claude | 37,056 | +489 | 95.7 | +489 stars/7d; pushed 0d ago; official/reviewed source |
+| 7 | [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) | plugin | claude | 30,533 | +397 | 95.3 | +397 stars/7d; pushed 0d ago; official/reviewed source |
+| 8 | [next-ai-drawio](https://github.com/DayuanJiang/next-ai-draw-io/tree/main/packages/claude-plugin) | plugin | claude | 37,197 | +122 | 93.4 | +122 stars/7d; pushed 0d ago; official/reviewed source |
+| 9 | [promptfoo-evals](https://github.com/promptfoo/promptfoo/tree/main/plugins/promptfoo-evals) | plugin | claude | 27,713 | +254 | 93.2 | +254 stars/7d; pushed 0d ago; official/reviewed source |
+| 10 | [career-ops](https://github.com/career-ops-hq/career-ops) | plugin | claude, gemini-cli | 85,024 | +1279 | 92.8 | +1279 stars/7d; pushed 0d ago; 2 sources |
+| 11 | [desktop-commander](https://github.com/wonderwhy-er/DesktopCommanderMCP/tree/main/plugins/claude) | plugin | claude | 10,431 | +65 | 92.7 | +65 stars/7d; pushed 0d ago; official/reviewed source |
+| 12 | [marketingskills](https://github.com/coreyhaines31/marketingskills) | plugin | claude | 62,806 | +1352 | 92.0 | +1352 stars/7d; pushed 0d ago |
+| 13 | [huggingface-skills](https://github.com/huggingface/skills) | plugin | claude | 11,408 | +44 | 91.8 | +44 stars/7d; pushed 0d ago; official/reviewed source |
+| 14 | [i-have-adhd](https://github.com/ayghri/i-have-adhd) | plugin | claude | 62,567 | +865 | 90.7 | +865 stars/7d; pushed 1d ago |
+| 15 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 23,187 | +1819 | 88.7 | +1819 stars/7d; new (74d); pushed 1d ago |
+| 16 | [agents](https://github.com/wshobson/agents) | plugin | claude | 42,922 | +221 | 87.2 | +221 stars/7d; pushed 2d ago |
+| 17 | [universal-modder](https://github.com/rehan-remade/universal-modder) | plugin | claude | 9,894 | +100 | 86.4 | +100 stars/7d; new (57d); pushed 0d ago |
+| 18 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,519 | +2873 | 86.0 | +2873 stars/7d; new (61d); pushed 0d ago |
+| 19 | [harness](https://github.com/revfactory/harness) | plugin | claude | 9,405 | +21 | 85.5 | +21 stars/7d; official/reviewed source; 2 sources |
+| 20 | [pixelfx](https://github.com/patch-gg/pixelfx) | plugin | claude | 9,395 | +1119 | 83.7 | +1119 stars/7d; new (27d); pushed 13d ago |
+| 21 | [nvidia-skills](https://github.com/NVIDIA/skills/tree/main/plugins/nvidia-skills) | plugin | claude | 4,166 | +87 | 83.2 | +87 stars/7d; pushed 0d ago; official/reviewed source |
+| 22 | [aws-agents](https://github.com/aws/agent-toolkit-for-aws/tree/main/plugins/aws-agents) | plugin | claude | 3,583 | +55 | 82.0 | +55 stars/7d; pushed 0d ago; official/reviewed source |
+| 23 | [expo](https://github.com/expo/skills/tree/main/plugins/expo) | plugin | claude | 4,247 | +55 | 81.9 | +55 stars/7d; pushed 0d ago; official/reviewed source |
+| 24 | [mcp-apps](https://github.com/modelcontextprotocol/ext-apps/tree/main/plugins/mcp-apps) | plugin | claude | 3,159 | +37 | 81.5 | +37 stars/7d; pushed 0d ago; official/reviewed source |
+| 25 | [azure](https://github.com/microsoft/azure-skills) | plugin | claude | 1,679 | +21 | 81.4 | +21 stars/7d; pushed 0d ago; official/reviewed source |
 
 ## New projects
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,830 | +2032 | 89.7 | +2032 stars/7d; new (29d); pushed 9d ago |
-| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 198,612 | +4739 | 84.9 | +4739 stars/7d; pushed 3d ago; official/reviewed source |
-| 3 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 22,980 | +1911 | 81.1 | +1911 stars/7d; new (73d); pushed 0d ago |
-| 4 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | plugin | claude | 4,942 | +228 | 81.0 | +228 stars/7d; pushed 0d ago |
-| 5 | [Amazon Selling Partner](https://github.com/amzn/selling-partner-agentic-toolkit) | plugin | claude | 52 | +52 | 80.4 | +52 stars/7d; new (64d); pushed 13d ago |
-| 6 | [ActiveCampaign](https://github.com/ActiveCampaign/activecampaign-plugin) | plugin | claude | 6 | +6 | 80.0 | +6 stars/7d; pushed 0d ago; official/reviewed source |
-| 7 | [fast-anything](https://github.com/EL4CTEO/fast-anything) | plugin | claude | 3,902 | — | 79.7 | ~346.0 stars/day lifetime; new (4d); pushed 0d ago |
-| 8 | [Hostinger](https://github.com/hostinger/claude-plugin) | plugin | claude | 11 | +3 | 78.9 | +3 stars/7d; pushed 0d ago; official/reviewed source |
-| 9 | [pixelfx](https://github.com/patch-gg/pixelfx) | plugin | claude | 9,237 | +1120 | 78.3 | +1120 stars/7d; new (26d); pushed 12d ago |
-| 10 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,044 | +2778 | 78.3 | +2778 stars/7d; new (60d); pushed 2d ago |
-| 11 | [crowdstrike-falcon-fusion](https://github.com/CrowdStrike/fusion-skills) | plugin | claude, codex | 32 | +2 | 78.1 | +2 stars/7d; pushed 4d ago; official/reviewed source |
-| 12 | [agy-staff](https://github.com/keli-wen/agy-staff) | plugin | claude, opencode | 934 | +43 | 77.5 | +43 stars/7d; new (99d); pushed 6d ago |
-| 13 | [rederive](https://github.com/EricJujianZou/rederive) | plugin | claude | 1,717 | +666 | 77.4 | +666 stars/7d; new (37d); pushed 6d ago |
-| 14 | [catalyst-by-zoho](https://github.com/catalystbyzoho/claude-plugin) | plugin | claude | 4 | +4 | 76.1 | +4 stars/7d; official/reviewed source; 2 sources |
-| 15 | [fluent-korean](https://github.com/snflkd/fluent-korean) | plugin | claude | 1,536 | +24 | 75.2 | +24 stars/7d |
-| 16 | [engram](https://github.com/nagisanzenin/engram) | plugin | claude | 1,491 | +10 | 74.3 | +10 stars/7d |
-| 17 | [Unity](https://github.com/Unity-Technologies/unity-agent-plugin) | plugin | claude | 675 | +20 | 73.7 | +20 stars/7d; new (111d); pushed 0d ago |
-| 18 | [universal-modder](https://github.com/rehan-remade/universal-modder) | plugin | claude | 9,877 | +109 | 73.0 | +109 stars/7d; new (56d); pushed 0d ago |
-| 19 | [unreal-engine-skills-for-claude-code](https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin) | plugin | claude | 2,027 | +36 | 71.5 | +36 stars/7d; official/reviewed source; 2 sources |
-| 20 | [lot-map](https://github.com/alexeyw/lot-map) | plugin | claude | 1,168 | +167 | 70.9 | +167 stars/7d; new (15d); pushed 2d ago |
-| 21 | [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | plugin | claude | 1,088 | +61 | 70.7 | +61 stars/7d; new (71d); pushed 0d ago |
-| 22 | [clay](https://github.com/clay-run/agent-plugins/tree/main/clay) | plugin | claude | 155 | +3 | 70.2 | +3 stars/7d; pushed 1d ago; official/reviewed source |
-| 23 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | plugin | claude | 5,464 | +238 | 69.2 | +238 stars/7d; new (95d) |
-| 24 | [animate](https://github.com/cth9191/animate) | plugin | claude | 2,289 | +179 | 68.9 | +179 stars/7d; new (52d) |
-| 25 | [ui-theme-designer](https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents/tree/main/plugins/ui-theme-designer) | plugin | claude | 10 | +1 | 68.8 | +1 stars/7d; pushed 1d ago; official/reviewed source |
+| 1 | [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | claude | 6,934 | +1989 | 89.9 | +1989 stars/7d; new (30d); pushed 10d ago |
+| 2 | [ponytail](https://github.com/DietrichGebert/ponytail) | plugin | claude | 199,257 | +4542 | 84.9 | +4542 stars/7d; pushed 4d ago; official/reviewed source |
+| 3 | [terminal-browser](https://github.com/zenbu-labs/terminal-browser) | plugin | claude | 4,980 | +259 | 81.0 | +259 stars/7d; pushed 1d ago |
+| 4 | [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | plugin | claude | 23,187 | +1819 | 80.6 | +1819 stars/7d; new (74d); pushed 1d ago |
+| 5 | [Hostinger](https://github.com/hostinger/claude-plugin) | plugin | claude | 11 | +3 | 79.5 | +3 stars/7d; pushed 0d ago; official/reviewed source |
+| 6 | [fast-anything](https://github.com/EL4CTEO/fast-anything) | plugin | claude | 4,196 | — | 79.3 | ~294.0 stars/day lifetime; new (5d); pushed 1d ago |
+| 7 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | plugin | claude | 21,519 | +2873 | 79.2 | +2873 stars/7d; new (61d); pushed 0d ago |
+| 8 | [pixelfx](https://github.com/patch-gg/pixelfx) | plugin | claude | 9,395 | +1119 | 78.6 | +1119 stars/7d; new (27d); pushed 13d ago |
+| 9 | [crowdstrike-falcon-fusion](https://github.com/CrowdStrike/fusion-skills) | plugin | claude, codex | 32 | +2 | 78.5 | +2 stars/7d; pushed 5d ago; official/reviewed source |
+| 10 | [rederive](https://github.com/EricJujianZou/rederive) | plugin | claude | 1,748 | +648 | 77.6 | +648 stars/7d; new (38d); pushed 7d ago |
+| 11 | [fluent-korean](https://github.com/snflkd/fluent-korean) | plugin | claude | 1,539 | +27 | 75.9 | +27 stars/7d |
+| 12 | [Unity](https://github.com/Unity-Technologies/unity-agent-plugin) | plugin | claude | 677 | +19 | 74.2 | +19 stars/7d; new (112d); pushed 0d ago |
+| 13 | [engram](https://github.com/nagisanzenin/engram) | plugin | claude | 1,491 | +7 | 74.1 | +7 stars/7d |
+| 14 | [universal-modder](https://github.com/rehan-remade/universal-modder) | plugin | claude | 9,894 | +100 | 73.4 | +100 stars/7d; new (57d); pushed 0d ago |
+| 15 | [artideck](https://github.com/Innei/artideck) | plugin | claude, gemini-cli | 959 | — | 71.3 | ~25.2 stars/day lifetime; new (38d); pushed 0d ago |
+| 16 | [lot-map](https://github.com/alexeyw/lot-map) | plugin | claude | 1,180 | +161 | 71.3 | +161 stars/7d; new (16d); pushed 3d ago |
+| 17 | [awesome-claude-code-mods](https://github.com/karanb192/awesome-claude-code-mods) | plugin | claude | 1,097 | +59 | 71.2 | +59 stars/7d; new (72d); pushed 0d ago |
+| 18 | [clay](https://github.com/clay-run/agent-plugins/tree/main/clay) | plugin | claude | 155 | +3 | 70.5 | +3 stars/7d; pushed 2d ago; official/reviewed source |
+| 19 | [openqodex](https://github.com/openqodex/openqodex) | plugin | claude | 1,220 | +23 | 70.3 | +23 stars/7d; new (55d); pushed 0d ago |
+| 20 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | plugin | claude | 5,503 | +245 | 69.6 | +245 stars/7d; new (96d) |
+| 21 | [animate](https://github.com/cth9191/animate) | plugin | claude | 2,306 | +164 | 69.3 | +164 stars/7d; new (53d) |
+| 22 | [ui-theme-designer](https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents/tree/main/plugins/ui-theme-designer) | plugin | claude | 10 | +1 | 69.0 | +1 stars/7d; pushed 2d ago; official/reviewed source |
+| 23 | [bama](https://github.com/daveebbelaar/bama) | plugin | claude | 1,985 | +78 | 69.0 | +78 stars/7d; new (33d) |
+| 24 | [claude-share](https://github.com/Paradigm-Study/claude-share) | plugin | claude | 1,226 | +104 | 68.8 | +104 stars/7d; new (54d) |
+| 25 | [vibe-wise](https://github.com/nykooi1/vibe-wise) | plugin | claude | 4,453 | +37 | 68.0 | +37 stars/7d; new (58d) |
 
 ## Ranking model
 
