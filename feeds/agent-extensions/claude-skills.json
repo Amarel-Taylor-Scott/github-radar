@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T18:36:49+00:00",
+  "generated_at": "2026-11-27T18:25:48+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
@@ -13,16 +13,16 @@
   },
   "leaderboards": {
     "high_momentum": [
-      "skill:vercel-labs/skills:skills/find-skills",
-      "skill:anthropics/skills:skills/academy-guide"
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:vercel-labs/skills:skills/find-skills"
     ],
     "rising": [
       "skill:vercel-labs/skills:skills/find-skills",
       "skill:anthropics/skills:skills/academy-guide"
     ],
     "popular": [
-      "skill:anthropics/skills:skills/academy-guide",
-      "skill:vercel-labs/skills:skills/find-skills"
+      "skill:vercel-labs/skills:skills/find-skills",
+      "skill:anthropics/skills:skills/academy-guide"
     ],
     "new": []
   }
