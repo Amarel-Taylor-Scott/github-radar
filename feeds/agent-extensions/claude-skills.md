@@ -2,7 +2,7 @@
 
 Popular, high-momentum, and newly emerging Claude skills and Agent Skills-compatible SKILL.md components.
 
-_Generated 2026-11-27T18:25:48+00:00. Rankings are regenerated daily._
+_Generated 2026-11-28T17:09:24+00:00. Rankings are regenerated daily._
 
 > Momentum belongs to the GitHub repository. A skill or plugin inside a monorepo inherits that repository signal; its exact path and provenance remain in the JSON record.
 
@@ -10,22 +10,22 @@ _Generated 2026-11-27T18:25:48+00:00. Rankings are regenerated daily._
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,389 | +3423 | 83.8 | +3423 stars/7d; pushed 11d ago; official/reviewed source |
-| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,133 | +943 | 83.5 | +943 stars/7d; pushed 0d ago; official/reviewed source |
+| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,827 | +3476 | 83.8 | +3476 stars/7d; pushed 12d ago; official/reviewed source |
+| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,247 | +932 | 82.9 | +932 stars/7d; pushed 1d ago; official/reviewed source |
 
 ## Up and coming
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,133 | +943 | 78.1 | +943 stars/7d; pushed 0d ago; official/reviewed source |
-| 2 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,389 | +3423 | 77.4 | +3423 stars/7d; pushed 11d ago; official/reviewed source |
+| 1 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,247 | +932 | 77.7 | +932 stars/7d; pushed 1d ago; official/reviewed source |
+| 2 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,827 | +3476 | 77.5 | +3476 stars/7d; pushed 12d ago; official/reviewed source |
 
 ## Most popular
 
 | # | Extension | Kind | Platforms | Stars | Δ7d | Score | Why it surfaced |
 |--:|:----------|:-----|:----------|------:|----:|------:|:-----------------|
-| 1 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,133 | +943 | 92.9 | +943 stars/7d; pushed 0d ago; official/reviewed source |
-| 2 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,389 | +3423 | 92.5 | +3423 stars/7d; pushed 11d ago; official/reviewed source |
+| 1 | [academy-guide](https://github.com/anthropics/skills/tree/main/skills/academy-guide) | skill | claude, universal-agent-skill | 201,827 | +3476 | 92.6 | +3476 stars/7d; pushed 12d ago; official/reviewed source |
+| 2 | [find-skills](https://github.com/vercel-labs/skills/tree/main/skills/find-skills) | skill | claude, codex, universal-agent-skill | 41,247 | +932 | 92.1 | +932 stars/7d; pushed 1d ago; official/reviewed source |
 
 ## New projects
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T18:25:48+00:00",
+  "generated_at": "2026-11-28T17:09:24+00:00",
   "catalog": {
     "id": "claude-skills",
     "title": "Claude Skills Radar",
@@ -21,8 +21,8 @@
       "skill:anthropics/skills:skills/academy-guide"
     ],
     "popular": [
-      "skill:vercel-labs/skills:skills/find-skills",
-      "skill:anthropics/skills:skills/academy-guide"
+      "skill:anthropics/skills:skills/academy-guide",
+      "skill:vercel-labs/skills:skills/find-skills"
     ],
     "new": []
   }
